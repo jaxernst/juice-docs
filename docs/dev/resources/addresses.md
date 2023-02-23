@@ -36,9 +36,11 @@ JBPrices: [`0x63CF55ab55ABcaD4E84335B80bbE3D2DefA09410`](https://etherscan.io/ad
 
 JBProjects: [`0xD8B4359143eda5B2d763E127Ed27c77addBc47d3`](https://etherscan.io/address/0xD8B4359143eda5B2d763E127Ed27c77addBc47d3)
 
-JB3DayReconfigurationBufferBallot: [`0x4b9f876c7Fc5f6DEF8991fDe639b2C812a85Fb12`](https://etherscan.io/address/0x4b9f876c7Fc5f6DEF8991fDe639b2C812a85Fb12)
+JB1DayReconfigurationBufferBallot: [`0xDd9303491328F899796319C2b6bD614324b86314`](https://etherscan.io/address/0xDd9303491328F899796319C2b6bD614324b86314)
 
-JB7DayReconfigurationBufferBallot: [`0x642EFF5259624FD09D021AB764a4b47d1DbD5770`](https://etherscan.io/address/0x642EFF5259624FD09D021AB764a4b47d1DbD5770)
+JB3DayReconfigurationBufferBallot: [`0x19D8C293D35EA4b2879A864A68D45a2025694929`](https://etherscan.io/address/0x19D8C293D35EA4b2879A864A68D45a2025694929)
+
+JB7DayReconfigurationBufferBallot: [`0x8E1AEc30063565e597705E71Ba14Dffc4C390Ef0`](https://etherscan.io/address/0x8E1AEc30063565e597705E71Ba14Dffc4C390Ef0)
 
 JBSingleTokenPaymentTerminalStore: [`0xdF7Ca703225c5da79A86E08E03A206c267B7470C`](https://etherscan.io/address/0xdF7Ca703225c5da79A86E08E03A206c267B7470C)
 
@@ -71,6 +73,8 @@ JBOperatorStore: [`0x99dB6b517683237dE9C494bbd17861f3608F3585`](https://goerli.e
 JBPrices: [`0x9f0eC91d28fFc54874e9fF11A316Ba2537aCD72C`](https://goerli.etherscan.io/address/0x9f0eC91d28fFc54874e9fF11A316Ba2537aCD72C)
 
 JBProjects: [`0x21263a042aFE4bAE34F08Bb318056C181bD96D3b`](https://goerli.etherscan.io/address/0x21263a042aFE4bAE34F08Bb318056C181bD96D3b)
+
+JB1DayReconfigurationBufferBallot: [`0x9d5687A9A175308773Bb289159Aa61D326E3aDB5`](https://goerli.etherscan.io/address/0x9d5687A9A175308773Bb289159Aa61D326E3aDB5)
 
 JB3DayReconfigurationBufferBallot: [`0xAa818525455C52061455a87C4Fb6F3a5E6f91090`](https://goerli.etherscan.io/address/0xAa818525455C52061455a87C4Fb6F3a5E6f91090)
 
