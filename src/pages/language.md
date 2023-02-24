@@ -48,6 +48,5 @@ These terms are all over the place, but the underlying concepts are relatively s
 | --- | --- | --- |
 | NFTs | Project NFTs | To be consistent with "Project Tokens". |
 | Discount Rate | Issuance Decay Rate | Still figuring out the word choice, but "Discount Rate" has always been confusing and there's no particular reason to use it. "Discount rate" makes people think something will get "cheaper" over time. |
-| Redemption Rate | Redemption Curve | Redemption should be a toggle (which is how 90% of projects use it). If Redemptions are on, you can set a Redemption Curve. This alludes to its underlying technical nature: that of a bonding curve. |
-| Payment Address | Project Payment Address | "Payment Address" is vague. |
+| Payment Address | Project Payer Address | "Payment Address" is vague. |
 
