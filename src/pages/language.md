@@ -47,6 +47,6 @@ These terms are all over the place, but the underlying concepts are relatively s
 | Original Phrase | Revised Phrase | Reasoning |
 | --- | --- | --- |
 | NFTs | Project NFTs | To be consistent with "Project Tokens". |
-| Discount Rate | Issuance Decay Rate | Still figuring out the word choice, but "Discount Rate" has always been confusing and there's no particular reason to use it. "Discount rate" makes people think something will get "cheaper" over time. |
+| Discount Rate | Issuance Reduction Rate | "Discount Rate" has always been confusing and there's no particular reason to use it. "Discount rate" makes people think something will get cheaper over time, when the protocol does the opposite. |
 | Payment Address | Project Payer Address | "Payment Address" is vague. |
 

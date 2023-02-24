@@ -5,10 +5,7 @@ sidebar_position: 1
 
 # Custody
 
-When you create a Juicebox project, a *Project NFT* is minted to your wallet.
-Only the holder of that NFT (i.e. the "project owner") can change how the project works.
-In other words, **you are the only person who owns your project.**
-Nobody can change your project's settings — not even JuiceboxDAO.
+When you create a Juicebox project, the *Owner NFT* is minted to your wallet. Only the holder of that NFT (the "project owner") can change your project's rules. In other words, **you are the only person who owns your project.** Nobody else can change your project's rules — not even JuiceboxDAO.
 
 You can transfer this NFT to another wallet for safe-keeping:
 
@@ -21,7 +18,7 @@ Most projects use one of three options:
 
 ## 1. EOA
 
-In other words, holding your Project NFT in a regular wallet like Metamask or Ledger.
+EOA stands for Externally Owned Account. Put more simply, this means holding your Owner NFT in a regular wallet like Metamask or Ledger.
 
 This is the most centralized option: it gives you full control over the project, and the ability to make changes whenever you want. Your community will need to trust you!
 

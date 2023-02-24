@@ -5,6 +5,10 @@ sidebar_position: 5
 
 # Analytics
 
+:::tip
+JuiceboxDAO's analytics are [public](/dao/reference/analytics/).
+:::
+
 **Where can you get information to make future decisions?** JuiceboxDAO contributors have built out several tools for you to use:
 
 ## Dune Analytics
@@ -18,5 +22,5 @@ sidebar_position: 5
 1. The [Snapshot Dashboard](https://app.flipsidecrypto.com/dashboard/snapshot-plus-data-ueqrnb) provides analytics on proposals, voters, and other trends for a Snapshot space.
 
 :::tip
-Looking for some analytics that aren't here? Ask in the [Juicebox Discord](https://discord.gg/juicebox).
+Looking for some analytics that aren't here? [Contact us](https://discord.gg/juicebox).
 :::
