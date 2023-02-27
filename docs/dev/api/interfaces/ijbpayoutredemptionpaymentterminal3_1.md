@@ -2,7 +2,7 @@
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/interfaces/IJBPayoutRedemptionPaymentTerminal3_1.sol)
 
 **Inherits:**
-[`IJBPaymentTerminal`](/dev/api/contracts/juice-contracts-v3/interfaces/IJBPaymentTerminal.md), [`IJBPayoutTerminal3_1`](/dev/api/contracts/juice-contracts-v3/interfaces/IJBPayoutTerminal3_1.md), [`IJBAllowanceTerminal3_1`](/dev/api/contracts/juice-contracts-v3/interfaces/IJBAllowanceTerminal3_1.md), [`IJBRedemptionTerminal`](/dev/api/contracts/juice-contracts-v3/interfaces/IJBRedemptionTerminal.md), [`IJBFeeHoldingTerminal`](/dev/api/contracts/juice-contracts-v3/interfaces/IJBFeeHoldingTerminal.md)
+[**`IJBPaymentTerminal`**](/dev/api/interfaces/ijbpaymentterminal/), [**`IJBPayoutTerminal3_1`**](/dev/api/interfaces/ijbpayoutterminal3_1/), [**`IJBAllowanceTerminal3_1`**](/dev/api/interfaces/ijballowanceterminal3_1/), [**`IJBRedemptionTerminal`**](/dev/api/interfaces/ijbredemptionterminal/), [**`IJBFeeHoldingTerminal`**](/dev/api/interfaces/ijbfeeholdingterminal/)
 
 
 ## Functions
