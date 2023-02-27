@@ -1,4 +1,4 @@
-# IJBPaymentTerminal
+# IJBSingleTokenPaymentTerminalStore
 
 #### Code
 
