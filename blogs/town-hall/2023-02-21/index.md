@@ -54,7 +54,7 @@ Now the `addToBalanceOf` call will not do so automatically any more. There is a 
 
 - The `distributePayoutsOf` function used to emit a memo, which is kind of pointless since it is a public transaction. So we replace `_memo` with a  `_metadata` parameter which allows callers to send their project ID in that first chunk of metadata, that way we can use events to attribute which projects are responsible for these value adding actions in the ecosystem.
 
-![the distributePayoutsOf function](distributepayoutsof.png)
+![the distributePayoutsOf function](distributepayoutsof.webp)
 
 ​     `distributePayoutsOf` is important because it's the one where fees actually get accumulated and registered.
 
@@ -62,7 +62,7 @@ Now the `addToBalanceOf` call will not do so automatically any more. There is a 
 
   Its API is also changing to include the `_metadata` parameter alongside `_memo`. As this will only be called by the project owner, so it's usefull to keep the `_memo` there.
 
-![the useAllowanceOf function](useallowanceof.png)
+![the useAllowanceOf function](useallowanceof.webp)
 
 ####  Tiered 721 delegate
 
@@ -92,7 +92,7 @@ He is very interested in terms of  how they can do some NFT drops, more in a for
 
 On one hand, they will have some high end NFTs which will cost 50ETH or 10ETH each. For example, he is going to put up a proposal in Nouns DAO to get them buy the NFT of 50 ETH in exchange for a credit in the creation of this film. But on the other hand, there will also be the open edition ones that will be more bottoms-up driving force to engage hundred of thousands of people around the project.
 
-![Ticket To Space documentary proposal in MoonDAO](ticket_to_space.png)
+![Ticket To Space documentary proposal in MoonDAO](ticket_to_space.webp)
 
 ## Drip Box Update by Mieos
 
@@ -106,4 +106,4 @@ And he has spent much time researching some best-in-class items for the mystery 
 
 Also Mieos and Jango discussed about the possibility of offering some producer NFT to give some potential sponsors a choice to put their brands on the products.
 
-![The project of Drip Box](project_dripbox.png)
+![The project of Drip Box](project_dripbox.webp)

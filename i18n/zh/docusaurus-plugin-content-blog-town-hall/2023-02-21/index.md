@@ -56,7 +56,7 @@ Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 - `distributePayoutsOf` 函数以前会发出一条备忘录，这个做法意义不大，因为这是一个公共交易。因此我们用 `_metadata` 参数代替 `_memo` 参数，允许调用者在元数据的第一块中发送他们的项目 ID，这样我们就可以使用事件来统计生态系统中哪些项目做过增值贡献。
 
-![the distributePayoutsOf function](distributepayoutsof.png)
+![the distributePayoutsOf function](distributepayoutsof.webp)
 
 ​          `distributePayoutsOf` 很重要，因为它属于累积及记录平台费用的函数。
 
@@ -64,7 +64,7 @@ Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
   它的 API 也在保留 `_memo` 参数的同时加入`_metadata `参数 ，因为只有项目所有者会进行调用，所以应该保留 `_memo` 参数。
 
-![the useAllowanceOf function](useallowanceof.png)
+![the useAllowanceOf function](useallowanceof.webp)
 
 ####  分级 721 委托
 
@@ -94,7 +94,7 @@ StudioDAO 即将启动一个 Ticket To Space 的筹款活动，Kenbot 认为这�
 
 一方面，他们将提供一些高端 NFT，每个价格为 50ETH 或 10ETH。 比如，他准备去 Nouns DAO 发起一个提案，让他们购买 50ETH 的 NFT 以获得在电影中对 Nouns 支持的致谢。 但另一方面，也会提供开放版的 NFT，它们将成为更多自下而上的驱动力，让数十万人参与到项目中。
 
-![Ticket To Space documentary proposal in MoonDAO](ticket_to_space.png)
+![Ticket To Space documentary proposal in MoonDAO](ticket_to_space.webp)
 
 ## Drip Box 工作报告 by Mieos
 
@@ -108,4 +108,4 @@ Mieos 认为他需要研究如何营销及为这个项目造势，适当地扩�
 
 Mieos 和 Jango 还讨论了投放一些制作人 NFT 的可行性，让一些潜在的赞助商来做产品的品牌赞助。
 
-![The project of Drip Box](project_dripbox.png)
+![The project of Drip Box](project_dripbox.webp)
