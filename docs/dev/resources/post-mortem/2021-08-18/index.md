@@ -1,9 +1,10 @@
 ---
-slug: juicebox-postmortem-of-low-severity-bug-discovered-8-18-2021
-title: "Juicebox postmortem: Low severity bug discovered 8/18/2021"
-authors: [jango]
-tags: [protocol, update]
+title: 2021/08/18 - Low Severity
 ---
+
+# Juicebox postmortem: Low severity bug discovered 8/18/2021
+
+*author - jango*
 
 I discovered a low severity bug in the Juicebox protocol last night that affects projects that have received payments while configured with a reserved rate of 0% who later reconfigure the reserved rate to anything greater than 0%.
 
@@ -13,7 +14,7 @@ To mitigate potential exploits before a patch is issued, an exploit breakout tea
 
 What follows is how I discovered the bug, the technical details about it, and what our next steps will be.
 
-**TLDR:****Until further notice, projects are not advised to set their reserved rate to 0% if they intend to raise their reserved rate in the near future.**
+**TLDR: Until further notice, projects are not advised to set their reserved rate to 0% if they intend to raise their reserved rate in the near future.**
 
 ---
 
