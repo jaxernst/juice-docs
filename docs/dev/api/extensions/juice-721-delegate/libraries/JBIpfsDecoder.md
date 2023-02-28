@@ -1,14 +1,12 @@
 # JBIpfsDecoder
-[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/libraries/JBIpfsDecoder.sol)
-
 
 Utilities to decode an IPFS hash.
 
-*
-This is fairly gas intensive, due to multiple nested loops, onchain
-IPFS hash decoding is therefore not advised (storing them as a string,
-in that use-case, *might* be more efficient).*
+This is fairly gas intensive, due to multiple nested loops, onchain IPFS hash decoding is therefore not advised (storing them as a string, in that use-case, *might* be more efficient).
 
+---
+
+[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/libraries/JBIpfsDecoder.sol)
 
 ## State Variables
 ### _ALPHABET

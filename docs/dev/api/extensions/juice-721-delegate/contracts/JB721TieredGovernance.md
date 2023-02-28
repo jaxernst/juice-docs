@@ -1,21 +1,20 @@
 # JB721TieredGovernance
+
+A tiered 721 delegate where each NFT can be used for on chain governance, with votes delegatable per tier.
+
+---
+
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JB721TieredGovernance.sol)
 
 **Inherits:**
 [`JBTiered721Delegate`](/dev/api/extensions/juice-721-delegate/contracts/JBTiered721Delegate.md), [`IJB721TieredGovernance`](/dev/api/extensions/juice-721-delegate/interfaces/IJB721TieredGovernance.md)
 
-
-A tiered 721 delegate where each NFT can be used for on chain governance, with votes delegatable per tier.
-
-*
 Adheres to -
-IJB721TieredGovernance: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.*
+- IJB721TieredGovernance: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
 
-*
 Inherits from -
-JBTiered721Delegate: The tiered 721 delegate.
-Votes: A helper for voting balance snapshots.*
-
+- JBTiered721Delegate: The tiered 721 delegate.
+- Votes: A helper for voting balance snapshots.
 
 ## State Variables
 ### _tierDelegation

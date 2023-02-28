@@ -1,9 +1,10 @@
 # JBBitmap
-[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/libraries/JBBitmap.sol)
-
 
 Utilities to manage bool bitmap storing the inactive tiers.
 
+---
+
+[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/libraries/JBBitmap.sol)
 
 ## Functions
 ### readId

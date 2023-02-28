@@ -1,17 +1,12 @@
 # JB721GlobalGovernance
+A tiered 721 delegate where each NFT can be used for on chain governance, with votes delegatable globally across all tiers.
+
+---
+
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JB721GlobalGovernance.sol)
 
 **Inherits:**
 [`Votes`](/dev/api/extensions/juice-721-delegate/contracts/abstract/Votes.md), [`JBTiered721Delegate`](/dev/api/extensions/juice-721-delegate/contracts/JBTiered721Delegate.md)
-
-
-A tiered 721 delegate where each NFT can be used for on chain governance, with votes delegatable globally across all tiers.
-
-*
-Inherits from -
-JBTiered721Delegate: The tiered 721 delegate.
-Votes: A helper for voting balance snapshots.*
-
 
 ## Functions
 ### _getVotingUnits

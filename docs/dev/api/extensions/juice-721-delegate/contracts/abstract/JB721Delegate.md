@@ -1,22 +1,22 @@
 # JB721Delegate
-[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/abstract/JB721Delegate.sol)
-
-**Inherits:**
-[`IJB721Delegate`](/dev/api/extensions/juice-721-delegate/interfaces/IJB721Delegate.md), IJBFundingCycleDataSource, IJBPayDelegate, IJBRedemptionDelegate, [`ERC721`](/dev/api/extensions/juice-721-delegate/contracts/abstract/ERC721.md)
-
 
 Delegate that offers project contributors NFTs upon payment and the ability to redeem NFTs for treasury assets.
 
-*
-Adheres to -
-IJB721Delegate: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
-IJBFundingCycleDataSource: Allows this contract to be attached to a funding cycle to have its methods called during regular protocol operations.
-IJBPayDelegate: Allows this contract to receive callbacks when a project receives a payment.
-IJBRedemptionDelegate: Allows this contract to receive callbacks when a token holder redeems.*
+---
 
-*
+[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/abstract/JB721Delegate.sol)
+
+**Inherits:**
+[`IJB721Delegate`](/dev/api/extensions/juice-721-delegate/interfaces/IJB721Delegate.md), [`IJBFundingCycleDataSource`](/dev/api/interfaces/ijbfundingcycledatasource/), [`IJBPayDelegate`](/dev/api/interfaces/ijbpaydelegate/), [`IJBRedemptionDelegate`](/dev/api/interfaces/ijbredemptiondelegate/), [`ERC721`](/dev/api/extensions/juice-721-delegate/contracts/abstract/ERC721.md)
+
+Adheres to -
+- IJB721Delegate: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
+- IJBFundingCycleDataSource: Allows this contract to be attached to a funding cycle to have its methods called during regular protocol operations.
+- IJBPayDelegate: Allows this contract to receive callbacks when a project receives a payment.
+IJBRedemptionDelegate: Allows this contract to receive callbacks when a token holder redeems.
+
 Inherits from -
-ERC721: A standard definition for non-fungible tokens (NFTs).*
+- ERC721: A standard definition for non-fungible tokens (NFTs).
 
 
 ## State Variables
@@ -153,8 +153,7 @@ function totalRedemptionWeight(JBRedeemParamsData calldata _data) public view vi
 
 Indicates if this contract adheres to the specified interface.
 
-*
-See {IERC165-supportsInterface}.*
+*See [`IERC165-supportsInterface`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol).*
 
 
 ```solidity
@@ -189,8 +188,7 @@ function _initialize(uint256 _projectId, IJBDirectory _directory, string memory 
 
 Part of IJBPayDelegate, this function gets called when the project receives a payment. It will mint an NFT to the contributor (_data.beneficiary) if conditions are met.
 
-*
-This function will revert if the contract calling is not one of the project's terminals.*
+*This function will revert if the contract calling is not one of the project's terminals.*
 
 
 ```solidity
@@ -208,8 +206,7 @@ function didPay(JBDidPayData calldata _data) external payable virtual override;
 
 Part of IJBRedeemDelegate, this function gets called when the token holder redeems. It will burn the specified NFTs to reclaim from the treasury to the _data.beneficiary.
 
-*
-This function will revert if the contract calling is not one of the project's terminals.*
+*This function will revert if the contract calling is not one of the project's terminals.*
 
 
 ```solidity

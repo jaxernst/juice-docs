@@ -1,20 +1,19 @@
 # JBTiered721DelegateProjectDeployer
-[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JBTiered721DelegateProjectDeployer.sol)
-
-**Inherits:**
-JBOperatable, [`IJBTiered721DelegateProjectDeployer`](/dev/api/extensions/juice-721-delegate/interfaces/IJBTiered721DelegateProjectDeployer.md)
-
 
 Deploys a project with a tiered tier delegate.
 
-*
+---
+
+[Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JBTiered721DelegateProjectDeployer.sol)
+
+**Inherits:**
+[`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`IJBTiered721DelegateProjectDeployer`](/dev/api/extensions/juice-721-delegate/interfaces/IJBTiered721DelegateProjectDeployer.md)
+
 Adheres to -
-IJBTiered721DelegateProjectDeployer: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.*
+- IJBTiered721DelegateProjectDeployer: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.*
 
-*
 Inherits from -
-JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfigured to be an operator of the project.*
-
+- JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfigured to be an operator of the project.*
 
 ## State Variables
 ### directory

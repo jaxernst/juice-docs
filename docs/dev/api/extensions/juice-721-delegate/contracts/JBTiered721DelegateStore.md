@@ -1,16 +1,16 @@
 # JBTiered721DelegateStore
+
+The contract that stores and manages the NFT's data.
+
+---
+
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JBTiered721DelegateStore.sol)
 
 **Inherits:**
 [`IJBTiered721DelegateStore`](/dev/api/extensions/juice-721-delegate/interfaces/IJBTiered721DelegateStore.md)
 
-
-The contract that stores and manages the NFT's data.
-
-*
 Adheres to -
-IJBTiered721DelegateStore: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.*
-
+- IJBTiered721DelegateStore: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.*
 
 ## State Variables
 ### MAX_ROYALTY_RATE

@@ -64,6 +64,6 @@ do
 done
 
 # Add backticks to inheritance
-find -type f -name "*.md" -exec sed -i "/\*\*Inherits:\*\*/{ n; s/\[\(\w*\)\]/[\`\1\`]/g ; s/^\([A-Za-z0-9]*\)$/**\`\1\`**/g }" {} +;
+find -type f -name "*.md" -exec sed -i "/\*\*Inherits:\*\*/{ n; s/\[\(\w*\)\]/[\`\1\`]/g ; s/^\([A-Za-z0-9]*\)$/\`\1\`/g }" {} +;
 
 # find -type f -name "*.md" -exec sed -n "/\*\*Inherits:\*\*/{ n ; s/, \([A-Za-z0-9]*\),/\, \`\1\`,/gp }" {} +;
