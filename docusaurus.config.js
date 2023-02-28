@@ -189,20 +189,16 @@ const config = {
               to: "https://github.com/jbx-protocol",
             },
             {
+              label: "Governance",
+              to: "https://jbdao.org",
+            },
+            {
               label: "Notion",
               to: "https://juicebox.notion.site/Juicebox-Notion-7b2436cec0c145c88b3efa0376c6dba3",
             },
             {
-              label: "Dune Analytics",
+              label: "Analytics",
               to: "https://dune.com/juicebox",
-            },
-            {
-              label: "Proposals",
-              to: "https://juicetool.xyz/nance/juicebox",
-            },
-            {
-              label: "Voting",
-              to: "https://juicetool.xyz/snapshot/jbdao.eth",
             },
           ],
         },
@@ -220,6 +216,10 @@ const config = {
               to: "https://twitter.com/juiceboxETH",
             },
             {
+              label: "YouTube",
+              to: "https://www.youtube.com/c/JuiceboxDAO/",
+            },
+            {
               label: "Newsletter",
               to: "https://juicenews.beehiiv.com/",
             },
@@ -228,12 +228,8 @@ const config = {
               to: "https://anchor.fm/thejuicecast",
             },
             {
-              label: "Metaverse Juicebar",
+              label: "Metaverse",
               to: "https://www.cryptovoxels.com/parcels/6188",
-            },
-            {
-              label: "YouTube",
-              to: "https://www.youtube.com/c/JuiceboxDAO/",
             },
           ],
         },
