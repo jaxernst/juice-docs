@@ -1,4 +1,7 @@
 # JBController3_0_1
+This Controller manages a project's reserved tokens explicitly instead of through a passive tracker property.
+It is backwards compatible with the original IJBController, and exposes convenience view methods as part of IJBController3_1 for clearer queries.
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBController3_0_1.sol)
 
 Mainnet: [`0xA139D37275d1fF7275e6F33821898934Bc8Cb7B6`](https://etherscan.io/address/0xA139D37275d1fF7275e6F33821898934Bc8Cb7B6)
@@ -11,56 +14,45 @@ Goerli: [`0x696f8175E114C5C89248Fb254185Df3Df4cD03f3`](https://goerli.etherscan.
 
 Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
 
-*
 Adheres to -
-IJBController3_1: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
-IJBMigratable: Allows migrating to this contract, with a hook called to prepare for the migration.*
+- IJBController3_1: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
+- IJBMigratable: Allows migrating to this contract, with a hook called to prepare for the migration.
 
-*
 Inherits from -
-JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
-ERC165: Introspection on interface adherance.*
-
-*
-This Controller manages a project's reserved tokens explicitly instead of through a passive tracker property.
-It is backwards compatible with the original IJBController, and exposes convenience view methods as part of IJBController3_1 for clearer queries.*
-
+- JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
+- ERC165: Introspection on interface adherance.
 
 ## State Variables
 ### _packedDistributionLimitDataOf
 
 Data regarding the distribution limit of a project during a configuration.
 
-*
-bits 0-231: The amount of token that a project can distribute per funding cycle.*
+bits 0-231: The amount of token that a project can distribute per funding cycle.
 
-*
 bits 232-255: The currency of amount that a project can distribute.
-_projectId The ID of the project to get the packed distribution limit data of.
-_configuration The configuration during which the packed distribution limit data applies.
-_terminal The terminal from which distributions are being limited.
-_token The token for which distributions are being limited.*
 
+- _projectId The ID of the project to get the packed distribution limit data of.
+- _configuration The configuration during which the packed distribution limit data applies.
+- _terminal The terminal from which distributions are being limited.
+- _token The token for which distributions are being limited.
 
 ```solidity
 mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(address => uint256)))) internal
     _packedDistributionLimitDataOf;
 ```
 
-
 ### _packedOverflowAllowanceDataOf
 
 Data regarding the overflow allowance of a project during a configuration.
 
-*
-bits 0-231: The amount of overflow that a project is allowed to tap into on-demand throughout the configuration.*
+bits 0-231: The amount of overflow that a project is allowed to tap into on-demand throughout the configuration.
 
-*
 bits 232-255: The currency of the amount of overflow that a project is allowed to tap.
-_projectId The ID of the project to get the packed overflow allowance data of.
-_configuration The configuration during which the packed overflow allowance data applies.
-_terminal The terminal managing the overflow.
-_token The token for which overflow is being allowed.*
+
+- _projectId The ID of the project to get the packed overflow allowance data of.
+- _configuration The configuration during which the packed overflow allowance data applies.
+- _terminal The terminal managing the overflow.
+- _token The token for which overflow is being allowed.
 
 
 ```solidity
@@ -72,7 +64,8 @@ mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(addr
 ### _reservedTokenBalanceOf
 
 The current undistributed reserved token balance of.
-_projectId The ID of the project to get a reserved token balance of.
+
+- _projectId The ID of the project to get a reserved token balance of.
 
 
 ```solidity
@@ -136,8 +129,7 @@ IJBDirectory public immutable override directory;
 
 The amount of token that a project can distribute per funding cycle, and the currency it's in terms of.
 
-*
-The number of decimals in the returned fixed point amount is the same as that of the specified terminal.*
+The number of decimals in the returned fixed point amount is the same as that of the specified terminal.
 
 
 ```solidity
@@ -169,8 +161,7 @@ function distributionLimitOf(uint256 _projectId, uint256 _configuration, IJBPaym
 
 The amount of overflow that a project is allowed to tap into on-demand throughout a configuration, and the currency it's in terms of.
 
-*
-The number of decimals in the returned fixed point amount is the same as that of the specified terminal.*
+The number of decimals in the returned fixed point amount is the same as that of the specified terminal.
 
 
 ```solidity
@@ -334,8 +325,7 @@ function reservedTokenBalanceOf(uint256 _projectId) external view override retur
 
 Gets the amount of reserved tokens that a project has available to distribute.
 
-*
-This is just for IJBController backwards compatibility.*
+This is just for IJBController backwards compatibility.
 
 
 ```solidity
@@ -360,8 +350,7 @@ function reservedTokenBalanceOf(uint256 _projectId, uint256 _reservedRate) exter
 
 Gets the current total amount of outstanding tokens for a project, given a reserved rate.
 
-*
-This is just for IJBController backwards compatibility.*
+This is just for IJBController backwards compatibility.
 
 
 ```solidity
@@ -408,8 +397,7 @@ function totalOutstandingTokensOf(uint256 _projectId) public view override retur
 
 Indicates if this contract adheres to the specified interface.
 
-*
-See {IERC165-supportsInterface}.*
+See {IERC165-supportsInterface}.
 
 
 ```solidity
@@ -452,11 +440,9 @@ constructor(
 
 Creates a project. This will mint an ERC-721 into the specified owner's account, configure a first funding cycle, and set up any splits.
 
-*
-Each operation within this transaction can be done in sequence separately.*
+Each operation within this transaction can be done in sequence separately.
 
-*
-Anyone can deploy a project on an owner's behalf.*
+Anyone can deploy a project on an owner's behalf.
 
 
 ```solidity
@@ -498,11 +484,9 @@ function launchProjectFor(
 
 Creates a funding cycle for an already existing project ERC-721.
 
-*
-Each operation within this transaction can be done in sequence separately.*
+Each operation within this transaction can be done in sequence separately.
 
-*
-Only a project owner or operator can launch its funding cycles.*
+Only a project owner or operator can launch its funding cycles.
 
 
 ```solidity
@@ -547,8 +531,7 @@ function launchFundingCyclesFor(
 
 Proposes a configuration of a subsequent funding cycle that will take effect once the current one expires if it is approved by the current funding cycle's ballot.
 
-*
-Only a project's owner or a designated operator can configure its funding cycles.*
+Only a project's owner or a designated operator can configure its funding cycles.
 
 
 ```solidity
@@ -591,8 +574,7 @@ function reconfigureFundingCyclesOf(
 
 Mint new token supply into an account, and optionally reserve a supply to be distributed according to the project's current funding cycle configuration.
 
-*
-Only a project's owner, a designated operator, one of its terminals, or the current data source can mint its tokens.*
+Only a project's owner, a designated operator, one of its terminals, or the current data source can mint its tokens.
 
 
 ```solidity
@@ -628,8 +610,7 @@ function mintTokensOf(
 
 Burns a token holder's supply.
 
-*
-Only a token's holder, a designated operator, or a project's terminal can burn it.*
+Only a token's holder, a designated operator, or a project's terminal can burn it.
 
 
 ```solidity
@@ -693,8 +674,7 @@ function distributeReservedTokensOf(uint256 _projectId, string calldata _memo)
 
 Allows other controllers to signal to this one that a migration is expected for the specified project.
 
-*
-This controller should not yet be the project's controller.*
+This controller should not yet be the project's controller.
 
 
 ```solidity
@@ -713,8 +693,7 @@ function prepForMigrationOf(uint256 _projectId, address _from) external virtual 
 
 Allows a project to migrate from this controller to another.
 
-*
-Only a project's owner or a designated operator can migrate it.*
+Only a project's owner or a designated operator can migrate it.
 
 
 ```solidity
