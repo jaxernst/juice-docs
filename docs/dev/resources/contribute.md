@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 import {Redirect} from '@docusaurus/router';

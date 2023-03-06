@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.png) 
+![Town Hall banner by Sage Kellyn](townhall.webp) 
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -56,7 +56,7 @@ Aeolian 还提醒我们可以关注一下创建流程的改良，我们按照新
 
 Jango 这周一直在试用这个模板。 他想用它来做一个 Defifa NFT 的自动生成终端，这样任何人都可以使用和创建自己的 Defifa 游戏。 我们可以尝试在 NFT 上显示数据并使用 Peri 的链上字体来个性化定制。 他认为这是一个非常酷且有用的工具，尤其是在像 Juicebox 这样的数据繁重的协议上，快速可视化 NFT 上的数据将成为许多项目的默认选择。
 
-![svg template examples by jango](svg_template.png)
+![svg template examples by jango](svg_template.webp)
 
 Nicholas 补充说，对于 NFT 项目而言，直接从区块链提读取代币元数据也非常酷，这样即使 Juicebox.money 或其他协议终止 IPFS 的固定服务，NFT 也不会消失掉。 对于想要更加自主的项目或想要保持匿名的创始人来说，这个功能也非常实用。
 
@@ -66,7 +66,7 @@ Nicholas 补充说，对于 NFT 项目而言，直接从区块链提读取代币
 
 除了有部分贡献者同时在两个实体工作，以及 MovementDAO 分叉了 Juicebox 的一些开源代码之外，JuiceboxDAO 与 MovementDAO 之间没有任何关系。
 
-![announcement about tankbottoms](announcement_tank.png)
+![announcement about tankbottoms](announcement_tank.webp)
 
 以这个特定的事件为契机，反思作为一名 DAO 成员如何看待我们目前习以为常的提案节奏和贡献者步调，Jango 希望能反思事件始末以及它的原因，然后反思一下我们怎样以此为鉴，避免类似事件再次发生，并对那些进展顺利的方面给予肯定。
 
@@ -116,11 +116,11 @@ Jango 在[他的个人 ENS 地址](https://jango.eth.limo/905FFC14-1A87-4FBA-B81
 
 0xBA5ED 在周会上展示如果不用支付 gas 费用或者自己发起交易来 mint 一个 Juicebox 项目的 NFT。这是他在 Goerli 测试网上用于试验和[演示的地址](https://demo.ba5ed.com/) 。
 
-![opengsn demo by 0xba5ed](opengsn_mint.png)
+![opengsn demo by 0xba5ed](opengsn_mint.webp)
 
 如果大家用自己的钱包签名交易会觉得担心，0xBA5ED 还增加了一个 “用一次钱钱包 Mint” 的选项，点击之后会自动在浏览器创建一个一次性钱包，并用这个钱包来执行这个交易。这种情况就不用用户来签名。
 
-![opengsn demo by 0xba5ed with burner wallet](opengsn_mint_burnerwallet.png)
+![opengsn demo by 0xba5ed with burner wallet](opengsn_mint_burnerwallet.webp)
 
 Juicebox 项目里的 `分配` 功能就是一个很好的例子。目前 Juicebox 项目分发支出需要由某个人点击 `分配` 按钮来触发交易，而且这个人还需要支付这个交易的 gas 费用，还未必能得到项目的报销。如果用这个 “用一次钱钱包 Mint” 的办法，理论上来说谁都可以点击 `分配` 按钮，并在浏览器内生成一个一次性钱包签署交易并发送到中继网络提交上链，gas 费用则由项目金库来支付。
 
@@ -134,7 +134,7 @@ Lexicon Devils 将于 2 月 17 日与 Emanate 合作举办最新的一期 Formin
 
 在 [Forming 的 Juicebox项目](https://juicebox.money/@forming)上，Lexicon Devils 公布了他们计划了一段时间的 NFT 方案。从本期活动开始，他们每个月会按参与演出的表演者来提供他们个人化的 NFT。跟以往一样，这些表演者会被设为项目当前的分配受益人，活动结束后，Forming 项目金库内的资金会自动分发给他们。
 
-![Forming project record store NFT](forming_emanate_NFT.png)
+![Forming project record store NFT](forming_emanate_NFT.webp)
 
 ## Banny 情人节项目 Matthew 与 Brileigh
 
@@ -142,9 +142,9 @@ Matthew 和 Brileigh 与 Sage 合作，创建了一个 [Banny 情人节项目](h
 
 如果有人想购买一个 NFT 并赠送给另一个人，他们可以在付款弹窗内打开 “指定代币受益人” 选项，填入受益人的 ENS 地址或钱包地址。付款完成之后，这个 NFT 就会去到指定的受益人手上。
 
-![custom tone beneficiary](custom_token_beneficiary.png)
+![custom tone beneficiary](custom_token_beneficiary.webp)
 
 同时我们的前端也刚刚实现了一个新的功能。如果付款时打开了指定代币受益人选项的话，交易的发起人和代币受益人都会在项目的活动列表上显示出来。
 
-![activity feed of custom token beneficiary](activityfeed_caller_recipient.png)
+![activity feed of custom token beneficiary](activityfeed_caller_recipient.webp)
 ```

@@ -5,18 +5,19 @@
 # Run from root directory of extension which you wish to document.
 
 JUICE_DOCS_DIR="/home/filipv/Workspace/juice-docs/"
+API_DIR="extensions"
 CURRENT_DIR=$(basename $(pwd))
 
 # Generate forge docs
 forge doc
 
 # Make output directory, move forge docs into it
-mkdir -p "$JUICE_DOCS_DIR"/docs/dev/api/extensions/"$CURRENT_DIR"
-mv docs/src/* "$JUICE_DOCS_DIR"/docs/dev/api/extensions/"$CURRENT_DIR"
+mkdir -p "$JUICE_DOCS_DIR"/docs/dev/api/"$API_DIR"/"$CURRENT_DIR"
+mv docs/src/* "$JUICE_DOCS_DIR"/docs/dev/api/"$API_DIR"/"$CURRENT_DIR"
 
 # Add new filepath relative to docs root directory
-cd "$JUICE_DOCS_DIR"/docs/dev/api/extensions/"$CURRENT_DIR"
-grep -rl '](/' | xargs sed -i "s/](\//](\/dev\/api\/extensions\/$CURRENT_DIR\//g"
+cd "$JUICE_DOCS_DIR"/docs/dev/api/"$API_DIR"/"$CURRENT_DIR"
+grep -rl '](/' | xargs sed -i "s/](\//](\/dev\/api\/"$API_DIR"\/$CURRENT_DIR\//g"
 
 # Remove undesired files from forge docs
 rm -rf SUMMARY.md contracts/forge-test contracts/scripts
@@ -33,7 +34,7 @@ do
   mv contracts/$DIR .
   echo -e "{\n  \"label\": \"${DIR^}\"\n}" > $DIR/_category_.json
 	echo -e "---\ntitle: ${DIR^}\n---\n\nimport DocCardList from '@theme/DocCardList';\n\n<DocCardList/>" > $DIR/README.md
-  grep -rl "contracts/$DIR" | xargs sed -i "s/](\/dev\/api\/extensions\/$CURRENT_DIR\/contracts\/$DIR/](\/dev\/api\/extensions\/$CURRENT_DIR\/$DIR/g"
+  grep -rl "contracts/$DIR" | xargs sed -i "s/](\/dev\/api\/$API_DIR\/$CURRENT_DIR\/contracts\/$DIR/](\/dev\/api\/$API_DIR\/$CURRENT_DIR\/$DIR/g"
 done
 
 # Create Docusaurus category files and READMEs for contracts and abstract.
@@ -49,7 +50,7 @@ do
   mv ./* ..
   rm -rf $SOL
 done
-cd "$JUICE_DOCS_DIR"/docs/dev/api/extensions/"$CURRENT_DIR"
+cd "$JUICE_DOCS_DIR"/docs/dev/api/"$API_DIR"/"$CURRENT_DIR"
 grep -rl '/\w*.sol/' | xargs sed -i 's/\/\w*\.sol\//\//g'
 
 # Remove forge filetype prefixes and update links

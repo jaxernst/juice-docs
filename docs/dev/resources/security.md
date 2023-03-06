@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Security & Audits
@@ -25,9 +25,6 @@ The protocol runs entirely on public smart contracts explained in detail through
 * [Code4rena NFT Delegate audit](https://code4rena.com/reports/2022-10-juicebox/)
 * [Audit Report - Juice V3 Migration](https://hackmd.io/@berndartmueller/2023-01-juice-v3-migration)
 
-## Postmortems
+## Post Mortems
 
-* [Low severity bug discovered 8/18/2021](/updates/juicebox-postmortem-of-low-severity-bug-discovered-8-18-2021)
-* [Postmortem for medium severity bug identified on May 24, 2022](https://github.com/jbx-protocol/juice-contracts-v2/blob/main/security/postmortem/5.24.2022.md)
-* [V3 JBX Deployment Bug Postmortem](/updates/v3-jbx-postmortem/)
-
+See [Post Mortems](../post-mortem).
