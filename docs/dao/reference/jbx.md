@@ -13,20 +13,20 @@ JuiceboxDAO's project has project ID #1 on each version of the Juicebox protocol
 
 The DAO is funded through a combination of direct contributions and [protocol fees](#about-fees). When people pay JuiceboxDAO, either directly or through fees, JBX tokens are minted. JBX tokens work in the exact same way as other Juicebox project tokens: by default, they are internally managed by the protocol (in order to save on gas fees), but they can be claimed as an [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token if desired.
 
-JBX can be issued at any time, according to the configuration of the DAO's projects. It can also be redeemed at any time to reclaim some of the ETH in the treasuries, again according to the configuration of the DAO's projects.
+JBX can be issued at any time, according to the rules of JuiceboxDAO's projects. It can also be redeemed at any time to reclaim some of the ETH in the treasuries, again according to the rules of the DAO's projects.
 
-These configurations are determined by JBX token voting on [Snapshot](https://snapshot.org/#/jbdao.eth/). Approved proposals are then implemented by the DAO's 9/14 [Safe Multisig](https://app.safe.global/eth:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e/), which has signers who are elected through DAO governance. You can see the our full Governance Process [here](https://docs.juicebox.money/dao/process/) — this process is also decided upon and ratified by JBX voters.
+These rules are decided by JBX token voting on [Snapshot](https://snapshot.org/#/jbdao.eth/). Approved proposals are then implemented by the DAO's 9/14 [Gnosis Safe Multisig](https://app.safe.global/eth:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e/), which has signers who are elected through DAO governance. You can see the our full Governance Process [here](https://docs.juicebox.money/dao/process/) — this process is also decided upon and ratified by JBX voters.
 
 ## About JBX
 
-As explained above, the JBX token is JuiceboxDAO's project token. This means its issuance, redemption, and distribution are all subject to the rules of the Juicebox protocol. As of 2023-02-08, the DAO's v3 project has the following configurations:
+As explained above, the JBX token is JuiceboxDAO's project token. This means its issuance, redemption, and distribution are all subject to the rules of the Juicebox protocol. As of 2023-02-24, the DAO's v3 project has the following rules:
 
 | Configuration | What it Means |
 | --- | --- |
-| **Funding Cycle:** 14 days | The DAO can only update the project's configuration every 14 days. It also distributes payouts on this cadence. |
-| **Mint Rate:** 60,078 JBX/ETH | For every ETH paid into the treasury, 60,078 JBX are issued. |
-| **Reserved Rate:** 50% | Half of the JBX issued is reserved for the DAO's reserved list. This means 30,039 JBX will be issued to the payer, and the other 30,039 JBX will be split between DAO contributors and a DAO JBX reserve. |
-| **Discount Rate:** 0.5% | The Mint Rate will get 0.5% more expensive each funding cycle (compared to ETH). |
+| **Cycle:** 14 days | The DAO can only update the project's rules every 14 days. It also makes payouts along this cadence. |
+| **Token Issuance Rate:** 59,777 JBX/ETH | For every ETH paid into the treasury, 59,777 JBX are issued. |
+| **Reserved Rate:** 50% | Half of the JBX being issued is reserved for the DAO's reserved list. This means 29,888.5 JBX will be issued to the payer, and the other 29,888.5 JBX will be split between DAO contributors and the DAO's JBX reserve. |
+| **Issuance Reduction Rate:** 0.5% | The token issuance rate will decrease by 0.5% each cycle. |
 | **Redemption Rate:** 0% | JBX cannot be redeemed for ETH from the treasury right now. |
 
 The [v1 project](https://juicebox.money/p/juicebox) has a similar configuration, but with redemptions turned on. This information may be out of date — to see the current configuration, visit the [JuiceboxDAO project page](https://juicebox.money/@juicebox).
