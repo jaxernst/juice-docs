@@ -5,7 +5,7 @@ slug: /tos
 
 # Juicebox Terms of Service
 
-*Last Updated: August 20, 2022*
+*Last Updated: March 6, 2023*
 
 ### Introduction
 
@@ -187,4 +187,4 @@ These Terms and the documents referred to in them set out the entire agreement b
 
 ### Contacting Us
 
-Should you have any question about these Terms or wish to contact us for any reason whatsoever, please do so by sending a message to the DAO's public Discord channels or by sending a message via https://chat.blockscan.com/ to the Notice Address `0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e`, provided for your convenience.
+Should you have any question about these Terms or wish to contact us for any reason whatsoever, please do so by sending a message to the DAO's public Discord channels or by filling out the [contact form](https://juicebox.money/contact)
