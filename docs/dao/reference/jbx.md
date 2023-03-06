@@ -23,10 +23,10 @@ As explained above, the JBX token is JuiceboxDAO's project token. This means its
 
 | Configuration | What it Means |
 | --- | --- |
-| **Locked Cycle:** 14 days | The DAO can only update the project's configuration every 14 days. It also makes payouts along this cadence. |
+| **Cycle:** 14 days | The DAO can only update the project's rules every 14 days. It also makes payouts along this cadence. |
 | **Token Issuance Rate:** 59,777 JBX/ETH | For every ETH paid into the treasury, 59,777 JBX are issued. |
-| **Reserved Rate:** 50% | Half of the JBX issued is reserved for the DAO's reserved list. This means 29,888.5 JBX will be issued to the payer, and the other 29,888.5 JBX will be split between DAO contributors and the DAO's JBX reserve. |
-| **Issuance Reduction Rate:** 0.5% | The Mint Rate will get 0.5% more expensive each funding cycle (compared to ETH). |
+| **Reserved Rate:** 50% | Half of the JBX being issued is reserved for the DAO's reserved list. This means 29,888.5 JBX will be issued to the payer, and the other 29,888.5 JBX will be split between DAO contributors and the DAO's JBX reserve. |
+| **Issuance Reduction Rate:** 0.5% | The token issuance rate will decrease by 0.5% each cycle. |
 | **Redemption Rate:** 0% | JBX cannot be redeemed for ETH from the treasury right now. |
 
 The [v1 project](https://juicebox.money/p/juicebox) has a similar configuration, but with redemptions turned on. This information may be out of date — to see the current configuration, visit the [JuiceboxDAO project page](https://juicebox.money/@juicebox).
