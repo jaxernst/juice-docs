@@ -7,9 +7,9 @@ sidebar_position: 2
 We also have a [video tutorial](https://www.youtube.com/watch?v=2s2OyxG_rvo). If you need help, [contact onboarding](https://juicebox.money/contact).
 :::
 
-What to know before:
+What to know beforehand:
 
-- You can edit all of your project's rules over time — this allows your project to grow as your community does.
+- You can edit all of your project's rules over time — this allows your project to evolve as your community does.
 - When you create a Juicebox project, an *Owner NFT* is minted to your wallet. Only the holder of that NFT (you, the "project owner") can edit the project's rules. Nobody else can edit your project's rules — not even JuiceboxDAO.
 - This guide is based on [juicebox.money](https://juicebox.money). If you're setting up your project somewhere else, the steps might be different.
 
@@ -27,6 +27,8 @@ With locked cycles, you can lock your project's rules for a period of time (like
 
 If you try to edit your rules in the middle of a locked cycle, the edits get *queued* for the next cycle. In other words: instead of going into effect immediately, they go into effect when your next cycle starts. If your don't queue a new cycle, Juicebox copies your current rules over.
 
+*How to choose:* If you **need** the flexibility, you can use unlocked cycles — otherwise, locked cycles are the better option for building confidence with your supporters.
+
 #### Payouts
 
 The amount of ETH which can be paid out from your project during the cycle. Payouts reset each cycle.
@@ -40,6 +42,8 @@ The ETH not needed for a cycle's payouts will:
 
 1. Serve as a runway. Your payouts reset every cycle, so leaving ETH in the project gives you a head-start for next cycle.
 2. Allow your supporters to redeem their tokens to receive some ETH back from the project. You can choose the amount of ETH they receive by setting up a [redemption rate](#redemption-rate).
+
+*How to choose:* The lower you set your payouts, the more ETH will be available for redemptions, making supporters more likely to trust your project — and if you start with **no** payouts, you can offer your supporters a full refund. Keep in mind that payouts are the only way for you to access funds. If you need more flexibility, set this to a higher amount.
 
 #### Payout Recipients
 
@@ -57,6 +61,8 @@ Edits must be made before this deadline. This gives token holders time to verify
 
 For example: with a 3-day edit deadline, edits must be made at least 3 days before a cycle starts. Otherwise, those edits won't take effect until the cycle *after* the next one.
 
+*How to choose:* The longer your edit deadline, the easier it will be for supporters to check your edits, but the harder it will be to move quickly. A 3-day deadline is a good starting point for most projects.
+
 ## Token
 
 :::tip
@@ -67,13 +73,19 @@ Project tokens are not ERC-20 tokens by default. Once you deploy your project, y
 
 The total number of tokens issued when this project is paid 1 ETH. Some of these tokens may be reserved by the project, and the rest are sent to the payer.
 
+*How to choose:* The protocol calculates everything proportionately, so this number doesn't matter too much. 1,000,000 is a good starting point for most projects.
+
 #### Reserved rate
 
 As tokens are issued, you can set aside a percentage of them for the wallets and Juicebox projects of your choosing. With a reserved rate of 20%, 20% of tokens are redirected towards whoever is on your list.
 
+*How to choose:* If you need to offer full refunds, set this to 0%. Reserved rates can vary widely — projects set this anywhere from 0% to 50%.
+
 #### Issuance reduction rate
 
 This makes your token more expensive over time. With an issuance reduction rate of 5%, your tokens will get 5% more expensive each cycle, even if you don't edit the cycle.
+
+*How to choose:* The issuance reduction rate can have a dramatic effect: the higher you set it, the more you reward earlier supporters over later ones. Most projects will keep this disabled, or use a rate from 1-3%.
 
 #### Redemption rate
 
@@ -83,9 +95,13 @@ At 100%, redemptions are 1:1 — somebody redeeming 10% of all project tokens wi
 
 The lower this rate is, the less of an incentive there is to redeem tokens before others.
 
+*How to choose:* To start, you should keep this rate at 100% (redemptions on) or 0% (redemptions off), and then adjust from there.
+
 #### Owner token minting
 
-If this is enabled, you (the project owner) can issue tokens on demand. This will appear risky to supporters, so keep this off unless you're sure you need to enable it.
+If this is enabled, you (the project owner) can issue tokens on demand.
+
+*How to choose:* This will appear risky to supporters, so keep this off unless you're completely sure you need to enable it.
 
 ## NFTs
 
@@ -116,7 +132,7 @@ You need to have at least one tier for your project to have NFTs. To add a tier,
 You can also set advanced options:
 
 - **Reserved NFTs.** For every `N` NFTs minted, mint an extra one to the address of your choosing. This can be a helpful way to reward your collaborators.
-- **Voting weight.** Give each tier a custom voting weight, which can be used for offchain governance (with a tool like [Snapshot](/user/resources/snapshot/), or for onchain governance.
+- **Voting weight.** Give each tier a custom voting weight, which can be used for off-chain governance (with a tool like [Snapshot](/user/resources/snapshot/), or for on-chain governance.
 - **External link.** Link minters to your project's website, Discord, or somewhere else.
 
 #### Collection Settings
@@ -124,7 +140,7 @@ You can also set advanced options:
 These settings apply to all of your NFTs:
 
 - "Collection Name", "Collection Symbol", and "Collection Description" are each a different piece of collection metadata which will be displayed in wallets and on websites like [Zora](https://zora.co/) and [OpenSea](https://opensea.io/).
-- The **Payment Success Popup** is an optional popup shown when people mint an NFT. You can use this to direct contributors to your project's website, Discord, or somewhere else.
+- The **Payment Success Pop-up** is an optional pop-up shown when people mint an NFT. You can use this to direct contributors to your project's website, Discord, or somewhere else.
 
 #### On-chain Governance
 
