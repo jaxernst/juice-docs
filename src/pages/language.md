@@ -27,6 +27,7 @@ A summary of the changes:
 | Discount Rate                                        | Issuance Reduction Rate |
 | Token Minting                                        | Owner Token Minting     |
 | Payment Address                                      | Project Payer Address   |
+| Deploy/Launch/Issue                                  | Create                  |
 
 To see the terms in context, read the updated [project guide](/user/project/). **We should consistently use the updated terms in content we make and messages we send.**
 
