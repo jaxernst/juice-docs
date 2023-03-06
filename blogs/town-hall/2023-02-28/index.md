@@ -22,7 +22,7 @@ According to this roadmap, which is supposed to be with a trickle-down effect, w
 
 We are on a **mission**, there are some of the numbers we're looking to work towards. Even if we only achieve 10% of those, that will an absolute win for us.
 
-![Road map product mission](peel_product_mission.png)
+![Road map product mission](peel_product_mission.webp)
 
 Some of the **product goals**:
 
@@ -66,7 +66,7 @@ Some **values** we're working towards are trust, transparency, reliability, fun 
   
 - Phase 7: Expansion of large-scale experiments
 
-![Roadmap of Peel](peel_roadmap.png)
+![Roadmap of Peel](peel_roadmap.webp)
 
 The items in this graph are pretty much categorized into the above phases, with some milestones in between.  We have given these objective quite conservative estimations, so very likely these will be happening a lot sooner.
 
@@ -95,7 +95,7 @@ They came to agreement and essentially approved [the branding brief](https://gra
 
 1. Cover image. Projects can now add a cover image on the top of their project page.
 
-![cover image of project Banny Valentines](coverimage_bannyvalentines.png) 
+![cover image of project Banny Valentines](coverimage_bannyvalentines.webp) 
 
   A tutorial of adding cover image made by Matthew and Brileigh:
 
@@ -106,7 +106,7 @@ They came to agreement and essentially approved [the branding brief](https://gra
 3. ENS avatars. We will show ENS avatars next to the addresses in the activity feed of the project.
 4. Personal profile page. Every user will have a profile page of their own, showing the Juicebox projects that they contributed or created, and the activity feed of this particular address is yet to come later.
 
-![Juicebox user profile page](user_profile.png)
+![Juicebox user profile page](user_profile.webp)
 
 5. MP4 NFTs. Now Juicebox will support using video files to deploy NFTs.
 
@@ -140,7 +140,7 @@ ComicsDAO is going to publish a printed comic book for Nouns DAO, and they are o
 
 With the efforts of Sage and Nicholas, we've come up with a page which Nicholas shared on the town hall to see if folks have any feedback on it.
 
-![ComicsDAO Nouns comic book Ad page for Juicebox](pool-party.png)
+![ComicsDAO Nouns comic book Ad page for Juicebox](pool-party.webp)
 
 The QR code on the image will link to a Juicebox project, where limited edition NFTs with this same artwork will be available for minting.
 

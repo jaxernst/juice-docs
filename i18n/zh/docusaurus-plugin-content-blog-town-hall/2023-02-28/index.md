@@ -22,7 +22,7 @@ Tjl 在周会上做了一个路线图的介绍，这是 Peel 最近拟定的一�
 
 我们肩负一个使命来努力实现以下这些数字的目标。即使我们只实现这些目标的 10%，也将是一个巨大的胜利。
 
-![Road map product mission](peel_product_mission.png)
+![Road map product mission](peel_product_mission.webp)
 
 部分产品目标：
 
@@ -66,7 +66,7 @@ Tjl 在周会上做了一个路线图的介绍，这是 Peel 最近拟定的一�
 
 - 第 7 阶段：扩大规模化实验
 
-![Roadmap of Peel](peel_roadmap.png)
+![Roadmap of Peel](peel_roadmap.webp)
 
 以上图表中的各项基本与上面的各个阶段相契合，中间设置了一个时间里程碑。我们对这些目标的估计偏保守，因此很有可能这些目标会更早实现。
 
@@ -95,7 +95,7 @@ Tjl 在周会上做了一个路线图的介绍，这是 Peel 最近拟定的一�
 
 1. 封面图。项目目前可以在他们的项目页面顶端加入一个封面图片，如下图。
 
-![cover image of project Banny Valentines](coverimage_bannyvalentines.png) 
+![cover image of project Banny Valentines](coverimage_bannyvalentines.webp) 
 
    这是一个 Matthew 和 Brileigh 做的添加页面封面图片的教程：
 
@@ -105,7 +105,7 @@ Tjl 在周会上做了一个路线图的介绍，这是 Peel 最近拟定的一�
 3. ENS 头像。我们将在项目活动记录区域中，在钱包地址的旁边展示这个地址设置的 ENS 头像。
 4. 个人页面。我们将会为每个用户设置一个自己的信息页面，展示他们所捐献过或创建过的项目，晚一些更会加上这个用户钱包地址的在 juicebox 生态内的所有活动记录。
 
-![Juicebox user profile page](user_profile.png)
+![Juicebox user profile page](user_profile.webp)
 
 5. 目前 Juicebox 已支持使用视频文件来部署 NFT。
 
@@ -139,7 +139,7 @@ ComicsDAO 即将为 Nouns DAO 发行一本实体漫画书，为表示对 Juicebo
 
 经过 Sage 和 Nicholas 的共同努力，我们现在已经完成这个页面的制作，Nicholas 在周会上分享出来，希望得到大家的一些意见反馈。
 
-![ComicsDAO Nouns comic book Ad page for Juicebox](pool-party.png)
+![ComicsDAO Nouns comic book Ad page for Juicebox](pool-party.webp)
 
 扫描图像上的二维码将会跳转一个 Juicebox 项目，该项目将会推出用同一个图片制作的限量版 NFT 供大家购买。
 

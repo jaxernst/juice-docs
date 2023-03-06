@@ -44,13 +44,13 @@ See [this proposal](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xb7b3ccd6
     - `function addToBalanceOf(uint256 _projectId, uint256 _amount, address _token, bool _shouldRefundHeldFees, string calldata _memo, bytes calldata _metadata) public payable virtual`
 6. New event signatures:
     
-    ![](Untitled.png)
+    ![](Untitled.webp)
     
-    ![](Untitled-1.png)
+    ![](Untitled-1.webp)
     
-    ![](Untitled-2.png)
+    ![](Untitled-2.webp)
     
-    ![](Untitled-3.png)
+    ![](Untitled-3.webp)
     
 
 ### Spec changes from `JBTiered721Delegate` ⇒ `JBTiered721Delegate3.1`
