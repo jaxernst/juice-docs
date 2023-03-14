@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Juicebox Docs",
+  title: "Juice Docs",
   tagline: "Fund your thing.",
   url: "https://docs.juicebox.money",
   baseUrl: "/",
@@ -91,7 +91,7 @@ const config = {
       {
         name: "keywords",
         content:
-          "juicebox, crypto, cryptocurrency, eth, ethereum, fundraising, treasury, JuiceboxDAO, dao, daos, funding, web3",
+          "juicebox, docs, documentation, crypto, cryptocurrency, eth, ethereum, fundraising, treasury, JuiceboxDAO, dao, daos, funding, web3",
       },
       {
         name: "google-site-verification",
@@ -122,7 +122,7 @@ const config = {
     navbar: {
       logo: {
         alt: "Juicebox Logo",
-        src: "img/logo/icon-logo-black.svg",
+        src: "img/logo/main-logo-black.svg",
       },
       items: [
         {
@@ -177,11 +177,11 @@ const config = {
           position: "right",
           items: [
             {
-              label: "juicebox.money",
+              label: "Juicebox",
               to: "https://juicebox.money",
             },
             {
-              label: "Contact us",
+              label: "Contact",
               to: "https://juicebox.money/contact",
             },
             {

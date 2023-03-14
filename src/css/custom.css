@@ -1,10 +1,14 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* Docusuaurus uses Infima. Reference https://infima.dev when updating this CSS. */
 
-/* You can override the default Infima variables here. */
+@font-face {
+  font-family: "Beatrice";
+  src: url("/static/fonts/Beatrice.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Agrandir";
+  src: url("/static/fonts/PPAgrandir.woff") format("woff");
+}
 
 :root {
   --ifm-link-color: #5777eb;
@@ -17,10 +21,7 @@
   --ifm-color-primary-light: #748eed;
   --ifm-color-primary-lighter: #9aaef5;
   --ifm-color-primary-lightest: #bbc8f6;
-  --ifm-code-font-size: 95%;
-  --ifm-color-info-contrast-background: transparent !important;
-  --ifm-h1-font-size: 2.5rem;
-  --ifm-h4-font-size: 1.05rem;
+  --ifm-font-family-base: "Beatrice", "Helvetica Neue", "Arial", sans-serif;
 
   scroll-behavior: smooth;
 }
@@ -37,6 +38,19 @@
   --ifm-color-primary-light: #ffd27a;
   --ifm-color-primary-lighter: #ffe1a6;
   --ifm-color-primary-lightest: #ffeecc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  --ifm-font-family-base: "Agrandir", "Helvetica Neue", "Arial", sans-serif;
+}
+
+h4,
+h5 {
+  color: var(--ifm-color-primary);
 }
 
 article img,
@@ -67,11 +81,6 @@ article iframe {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-h4,
-h5 {
-  color: var(--ifm-color-primary);
-}
-
 .menu__link {
   overflow: auto;
 }
@@ -86,6 +95,6 @@ h5 {
   border-bottom: 1px solid rgba(254, 186, 174, 0.3);
 }
 
-/* html[data-theme="dark"] .navbar .navbar__logo {
-  content: url(img/logo/main-logo-white.svg);
-} */
+[data-theme="dark"] .navbar__logo {
+  content: url(/static/img/logo/main-logo-white.svg);
+}
