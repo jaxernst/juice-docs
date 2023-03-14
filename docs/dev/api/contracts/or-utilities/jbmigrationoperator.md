@@ -1,0 +1,78 @@
+# JBMigrationOperator
+
+Allows projects to migrate their controller & terminal to 3.1 version
+
+*The project owner needs to give the migration permission to this contract for carrying out the migrations for both controller & terminal.*
+
+*The current funding cycle needs to be a reconfigured one before migration, so metadata flags allowControllerMigration, allowTerminalMigration & global.allowSetTerminals need to be set true.*
+
+---
+
+[Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/538df2514294743901858017818a50a2eedd084b/contracts/JBMigrationOperator.sol)
+
+## State Variables
+### directory
+
+directory instance which keeps a track of which controller is linked to which project.
+
+
+```solidity
+IJBDirectory public immutable directory;
+```
+
+
+### projects
+
+The NFT granting ownership to a Juicebox project
+
+
+```solidity
+IJBProjects public immutable projects;
+```
+
+
+## Functions
+### constructor
+
+
+```solidity
+constructor(IJBDirectory _directory);
+```
+**Parameters**
+
+|Name|Type|Description|
+|----|----|-----------|
+|`_directory`|`IJBDirectory`|A contract storing directories of terminals and controllers for each project.|
+
+
+### migrate
+
+
+Allows project owners to migrate the controller & terminal linked to their project to the latest version
+
+
+```solidity
+function migrate(
+    uint256 _projectId,
+    IJBMigratable _newController,
+    IJBPaymentTerminal _newJbTerminal,
+    IJBPayoutRedemptionPaymentTerminal _oldJbTerminal
+) external;
+```
+**Parameters**
+
+|Name|Type|Description|
+|----|----|-----------|
+|`_projectId`|`uint256`|The project id whose controller & terminal are to be migrated|
+|`_newController`|`IJBMigratable`|Controller 3.1 address to migrate to.|
+|`_newJbTerminal`|`IJBPaymentTerminal`|Terminal 3.1 address to migrate to.|
+|`_oldJbTerminal`|`IJBPayoutRedemptionPaymentTerminal`|Old terminal address to migrate from.|
+
+
+## Errors
+### UNAUTHORIZED
+
+```solidity
+error UNAUTHORIZED();
+```
+
