@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo.svg",
+  favicon: "img/logo/icon-logo-black.svg",
   trailingSlash: true,
   organizationName: "Juicebox", // Usually your GitHub org/user name.
   projectName: "juice-docs", // Usually your repo name.
@@ -122,7 +122,7 @@ const config = {
     navbar: {
       logo: {
         alt: "Juicebox Logo",
-        src: "img/logo.webp",
+        src: "img/logo/icon-logo-black.svg",
       },
       items: [
         {

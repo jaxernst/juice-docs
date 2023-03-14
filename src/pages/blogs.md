@@ -11,7 +11,7 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/projectcreators.webp"
+            src="/img/blog/projectcreators.webp"
             alt="Nerdy Juicebox apple project creator"
           />
         </div>
@@ -30,7 +30,7 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/updates.webp"
+            src="/img/blog/updates.webp"
             alt="Juicebox Banny looking through binoculars"
           />
         </div>
@@ -49,7 +49,7 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/townhall.webp"
+            src="/img/blog/townhall.webp"
             alt="Two Juicebox Characters Discussing Townhall"
           />
         </div>
@@ -68,7 +68,7 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/miscellaneous.webp"
+            src="/img/blog/miscellaneous.webp"
             alt="Miscellaneous objects, including a conical flask and a microphone."
           />
         </div>
