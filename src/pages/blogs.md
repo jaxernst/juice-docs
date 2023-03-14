@@ -37,7 +37,7 @@ hide_table_of_contents: true
         <div class="card__body">
           <h4>Updates & Observations</h4>
           <small>
-            Updates, observations, and announcements about Juicebox.
+            Updates, observations, announcements, and more.
           </small>
         </div>
         <div class="card__footer">
@@ -56,7 +56,7 @@ hide_table_of_contents: true
         <div class="card__body">
           <h4>Town Hall</h4>
           <small>
-            Weekly summaries of JuiceboxDAO Town Halls, by Zhape.
+            Weekly summaries of JuiceboxDAO Town Halls.
           </small>
         </div>
         <div class="card__footer">
@@ -85,4 +85,3 @@ hide_table_of_contents: true
     </div>
   </div>
 </div>
-

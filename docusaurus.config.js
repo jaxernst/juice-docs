@@ -86,7 +86,7 @@ const config = {
     locales: ["en", "zh"],
   },
   themeConfig: {
-    image: "img/juicedocs.webp",
+    image: "img/site/juicedocs.webp",
     metadata: [
       {
         name: "keywords",
@@ -141,7 +141,7 @@ const config = {
           type: "docSidebar",
           position: "left",
           sidebarId: "dao",
-          label: "Juicebox DAO",
+          label: "JuiceboxDAO",
         },
         {
           type: "dropdown",
@@ -173,7 +173,7 @@ const config = {
         },
         {
           type: "dropdown",
-          label: "Resources",
+          label: "Links",
           position: "right",
           items: [
             {
