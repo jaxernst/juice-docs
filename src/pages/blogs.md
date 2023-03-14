@@ -11,7 +11,7 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/projectcreators.webp"
+            src="/img/blog/projectcreators.webp"
             alt="Nerdy Juicebox apple project creator"
           />
         </div>
@@ -30,14 +30,14 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/updates.webp"
+            src="/img/blog/updates.webp"
             alt="Juicebox Banny looking through binoculars"
           />
         </div>
         <div class="card__body">
           <h4>Updates & Observations</h4>
           <small>
-            Updates, observations, and announcements about Juicebox.
+            Updates, observations, announcements, and more.
           </small>
         </div>
         <div class="card__footer">
@@ -49,14 +49,14 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/townhall.webp"
+            src="/img/blog/townhall.webp"
             alt="Two Juicebox Characters Discussing Townhall"
           />
         </div>
         <div class="card__body">
           <h4>Town Hall</h4>
           <small>
-            Weekly summaries of JuiceboxDAO Town Halls, by Zhape.
+            Weekly summaries of JuiceboxDAO Town Halls.
           </small>
         </div>
         <div class="card__footer">
@@ -68,7 +68,7 @@ hide_table_of_contents: true
       <div class="card">
         <div class="card__image">
           <img
-            src="/img/miscellaneous.webp"
+            src="/img/blog/miscellaneous.webp"
             alt="Miscellaneous objects, including a conical flask and a microphone."
           />
         </div>
@@ -85,4 +85,3 @@ hide_table_of_contents: true
     </div>
   </div>
 </div>
-

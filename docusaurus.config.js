@@ -6,13 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Juicebox Docs",
+  title: "Juice Docs",
   tagline: "Fund your thing.",
   url: "https://docs.juicebox.money",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo.svg",
+  favicon: "img/logo/icon-logo-black.svg",
   trailingSlash: true,
   organizationName: "Juicebox", // Usually your GitHub org/user name.
   projectName: "juice-docs", // Usually your repo name.
@@ -86,12 +86,12 @@ const config = {
     locales: ["en", "zh"],
   },
   themeConfig: {
-    image: "img/juicedocs.webp",
+    image: "img/site/juicedocs.webp",
     metadata: [
       {
         name: "keywords",
         content:
-          "juicebox, crypto, cryptocurrency, eth, ethereum, fundraising, treasury, JuiceboxDAO, dao, daos, funding, web3",
+          "juicebox, docs, documentation, crypto, cryptocurrency, eth, ethereum, fundraising, treasury, JuiceboxDAO, dao, daos, funding, web3",
       },
       {
         name: "google-site-verification",
@@ -122,7 +122,7 @@ const config = {
     navbar: {
       logo: {
         alt: "Juicebox Logo",
-        src: "img/logo.webp",
+        src: "img/logo/main-logo-black.svg",
       },
       items: [
         {
@@ -141,7 +141,7 @@ const config = {
           type: "docSidebar",
           position: "left",
           sidebarId: "dao",
-          label: "Juicebox DAO",
+          label: "JuiceboxDAO",
         },
         {
           type: "dropdown",
@@ -173,15 +173,15 @@ const config = {
         },
         {
           type: "dropdown",
-          label: "Resources",
+          label: "Links",
           position: "right",
           items: [
             {
-              label: "juicebox.money",
+              label: "Juicebox",
               to: "https://juicebox.money",
             },
             {
-              label: "Contact us",
+              label: "Contact",
               to: "https://juicebox.money/contact",
             },
             {

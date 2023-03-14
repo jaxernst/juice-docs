@@ -7,12 +7,12 @@ hide_table_of_contents: true
   <div class="container">
     <div class="row" style={{maxWidth: "800px", margin: "auto"}}>
       <div class="col col--6">
-        <img src="/img/apple.svg" className="apple"/>
+        <img src="/img/site/banny.png" className="apple"/>
       </div>
       <div class="col col--6">
         <h1 style={{fontSize: "3rem"}}>Juicebox Docs</h1>
         <p style={{fontSize: "2rem"}}>Fund your thing.</p>
-        <a class="button button--primary" href="/user/" style={{marginBottom: "5px"}}>Learn the basics</a>
+        <a class="button button--primary" href="/user/" style={{marginBottom: "5px"}}>Start learning</a>
         <a class="button button--link" href="https://juicebox.money/contact" style={{marginBottom: "5px"}}>Contact onboarding →</a>
       </div>
     </div>
@@ -35,11 +35,11 @@ hide_table_of_contents: true
     <div class="col col--4">
       <div class="card" style={{marginBottom: "30px"}}>
         <div class="card__header">
-          <h3>Technical Docs</h3>
+          <h3>For Developers</h3>
         </div>
         <div class="card__body">
           <p>
-            Learn about the Juicebox protocol with high level overviews and contract deep dives.
+            Learn about the smart contracts that power the Juicebox protocol.
           </p>
         </div>
         <div class="card__footer">
@@ -50,11 +50,11 @@ hide_table_of_contents: true
     <div class="col col--4">
       <div class="card" style={{marginBottom: "30px"}}>
         <div class="card__header">
-          <h3>Project Creator Hub</h3>
+          <h3>For Project Creators</h3>
         </div>
         <div class="card__body">
           <p>
-            How Juicebox works and how to use it. Join 
+            How to fund your thing with Juicebox. Join 
             the <a href="https://discord.gg/juicebox">Discord</a> for more help!
           </p>
         </div>
@@ -66,16 +66,16 @@ hide_table_of_contents: true
     <div class="col col--4">
       <div class="card" style={{marginBottom: "30px"}}>
         <div class="card__header">
-          <h3>About Juicebox DAO</h3>
+          <h3>About JuiceboxDAO</h3>
         </div>
         <div class="card__body">
           <p>
             Learn about the DAO building
-            Juicebox and the ecosystem around it.
+            Juicebox and its ecosystem.
           </p>
         </div>
         <div class="card__footer">
-          <a class="button button--primary button--block" href="/dao">Juicebox DAO →</a>
+          <a class="button button--primary button--block" href="/dao">JuiceboxDAO →</a>
         </div>
       </div>
     </div>
@@ -97,6 +97,6 @@ hide_table_of_contents: true
       <span class="footer__link-separator">&middot;</span>
       <a class="footer__link-item" href="/tos/">Terms of Service</a>
     </div>
-    <div>Made by <a href="https://juicebox.money/p/juicebox">Juicebox DAO</a>.</div>
+    <div>Made by <a href="https://juicebox.money/p/juicebox">JuiceboxDAO</a></div>
   </div>
 </footer>
