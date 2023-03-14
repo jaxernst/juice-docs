@@ -1,4 +1,9 @@
 # JBController3_1
+
+Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
+
+---
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBController3_1.sol)
 
 Mainnet: [`0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b`](https://etherscan.io/address/0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b)
@@ -6,23 +11,17 @@ Mainnet: [`0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b`](https://etherscan.io/add
 Goerli: [`0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6`](https://goerli.etherscan.io/address/0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6)
 
 **Inherits:**
-[**`JBOperatable`**](/dev/api/contracts/or-abstract/jboperatable/), [**`ERC165`**](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [**`IJBController3_1`**](/dev/api/interfaces/ijbcontroller3_1/), [**`IJBMigratable`**](/dev/api/interfaces/ijbmigratable/)
+[`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/), [`IJBMigratable`](/dev/api/interfaces/ijbmigratable/)
 
+Adheres to:
+- IJBController3_1: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
+- IJBMigratable: Allows migrating to this contract, with a hook called to prepare for the migration.*
 
-Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
+Inherits from:
+- JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
+- ERC165: Introspection on interface adherance.
 
-*
-Adheres to -
-IJBController3_1: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
-IJBMigratable: Allows migrating to this contract, with a hook called to prepare for the migration.*
-
-*
-Inherits from -
-JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
-ERC165: Introspection on interface adherance.*
-
-*
-This Controller has the same functionality as JBController3_1, except it is not backwards compatible with the original IJBController view methods.*
+This Controller has the same functionality as JBController3_1, except it is not backwards compatible with the original IJBController view methods.
 
 
 ## State Variables
@@ -30,43 +29,40 @@ This Controller has the same functionality as JBController3_1, except it is not 
 
 Data regarding the distribution limit of a project during a configuration.
 
-*
-bits 0-231: The amount of token that a project can distribute per funding cycle.*
+- bits 0-231: The amount of token that a project can distribute per funding cycle.
+- bits 232-255: The currency of amount that a project can distribute.
 
-*
-bits 232-255: The currency of amount that a project can distribute.
-_projectId The ID of the project to get the packed distribution limit data of.
-_configuration The configuration during which the packed distribution limit data applies.
-_terminal The terminal from which distributions are being limited.
-_token The token for which distributions are being limited.*
+Params:
 
+- _projectId The ID of the project to get the packed distribution limit data of.
+- _configuration The configuration during which the packed distribution limit data applies.
+- _terminal The terminal from which distributions are being limited.
+- _token The token for which distributions are being limited.
 
 ```solidity
 mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(address => uint256)))) internal
     _packedDistributionLimitDataOf;
 ```
 
-
 ### _packedOverflowAllowanceDataOf
 
 Data regarding the overflow allowance of a project during a configuration.
 
-*
-bits 0-231: The amount of overflow that a project is allowed to tap into on-demand throughout the configuration.*
 
-*
-bits 232-255: The currency of the amount of overflow that a project is allowed to tap.
-_projectId The ID of the project to get the packed overflow allowance data of.
-_configuration The configuration during which the packed overflow allowance data applies.
-_terminal The terminal managing the overflow.
-_token The token for which overflow is being allowed.*
+- bits 0-231: The amount of overflow that a project is allowed to tap into on-demand throughout the configuration.
+- bits 232-255: The currency of the amount of overflow that a project is allowed to tap.
 
+Params:
+
+- _projectId The ID of the project to get the packed overflow allowance data of.
+- _configuration The configuration during which the packed overflow allowance data applies.
+- _terminal The terminal managing the overflow.
+- _token The token for which overflow is being allowed.
 
 ```solidity
 mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(address => uint256)))) internal
     _packedOverflowAllowanceDataOf;
 ```
-
 
 ### projects
 
@@ -271,15 +267,11 @@ function totalOutstandingTokensOf(uint256 _projectId) public view override retur
 |----|----|-----------|
 |`<none>`|`uint256`|The current total amount of outstanding tokens for the project.|
 
-
 ### supportsInterface
-
 
 Indicates if this contract adheres to the specified interface.
 
-*
-See {IERC165-supportsInterface}.*
-
+See [`IERC165` - `supportsInterface`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol).
 
 ```solidity
 function supportsInterface(bytes4 _interfaceId) public view virtual override(ERC165, IERC165) returns (bool);
@@ -290,9 +282,7 @@ function supportsInterface(bytes4 _interfaceId) public view virtual override(ERC
 |----|----|-----------|
 |`_interfaceId`|`bytes4`|The ID of the interface to check for adherance to.|
 
-
 ### constructor
-
 
 ```solidity
 constructor(
@@ -323,12 +313,9 @@ constructor(
 
 Creates a project. This will mint an ERC-721 into the specified owner's account, configure a first funding cycle, and set up any splits.
 
-*
-Each operation within this transaction can be done in sequence separately.*
+Each operation within this transaction can be done in sequence separately.
 
-*
-Anyone can deploy a project on an owner's behalf.*
-
+Anyone can deploy a project on an owner's behalf.
 
 ```solidity
 function launchProjectFor(
@@ -369,11 +356,9 @@ function launchProjectFor(
 
 Creates a funding cycle for an already existing project ERC-721.
 
-*
-Each operation within this transaction can be done in sequence separately.*
+Each operation within this transaction can be done in sequence separately.
 
-*
-Only a project owner or operator can launch its funding cycles.*
+Only a project owner or operator can launch its funding cycles.
 
 
 ```solidity
@@ -418,9 +403,7 @@ function launchFundingCyclesFor(
 
 Proposes a configuration of a subsequent funding cycle that will take effect once the current one expires if it is approved by the current funding cycle's ballot.
 
-*
-Only a project's owner or a designated operator can configure its funding cycles.*
-
+Only a project's owner or a designated operator can configure its funding cycles.
 
 ```solidity
 function reconfigureFundingCyclesOf(
@@ -462,8 +445,7 @@ function reconfigureFundingCyclesOf(
 
 Mint new token supply into an account, and optionally reserve a supply to be distributed according to the project's current funding cycle configuration.
 
-*
-Only a project's owner, a designated operator, one of its terminals, or the current data source can mint its tokens.*
+Only a project's owner, a designated operator, one of its terminals, or the current data source can mint its tokens.
 
 
 ```solidity
@@ -499,8 +481,7 @@ function mintTokensOf(
 
 Burns a token holder's supply.
 
-*
-Only a token's holder, a designated operator, or a project's terminal can burn it.*
+Only a token's holder, a designated operator, or a project's terminal can burn it.
 
 
 ```solidity
@@ -564,8 +545,7 @@ function distributeReservedTokensOf(uint256 _projectId, string calldata _memo)
 
 Allows other controllers to signal to this one that a migration is expected for the specified project.
 
-*
-This controller should not yet be the project's controller.*
+This controller should not yet be the project's controller.
 
 
 ```solidity
@@ -584,8 +564,7 @@ function prepForMigrationOf(uint256 _projectId, address _from) external virtual 
 
 Allows a project to migrate from this controller to another.
 
-*
-Only a project's owner or a designated operator can migrate it.*
+Only a project's owner or a designated operator can migrate it.
 
 
 ```solidity

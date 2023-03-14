@@ -8,6 +8,10 @@ Allows projects to migrate their controller & terminal to 3.1 version
 
 ---
 
+Mainnet: [`0x004d50E8552f7E811E7DF913A3205ABf48E47b52`](https://etherscan.io/address/0x004d50E8552f7E811E7DF913A3205ABf48E47b52)
+
+Goerli: [`0x0Da2f87c14EA33686E0fFAAF56EE1f1f82cA59A9`](https://goerli.etherscan.io/address/0x0Da2f87c14EA33686E0fFAAF56EE1f1f82cA59A9)
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/538df2514294743901858017818a50a2eedd084b/contracts/JBMigrationOperator.sol)
 
 ## State Variables
