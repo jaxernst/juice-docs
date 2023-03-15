@@ -7,7 +7,7 @@ hide_table_of_contents: true
   <div class="container">
     <div class="row" style={{maxWidth: "800px", margin: "auto"}}>
       <div class="col col--5">
-        <img src="/img/site/banny.png" className="hero-img"/>
+        <img src="/img/site/hero-banny.svg" className="hero-img"/>
       </div>
       <div class="col col--7">
         <h1 style={{fontSize: "3.7rem", color: "var(--ifm-heading-color)"}}>Juice Docs</h1>
