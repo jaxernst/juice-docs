@@ -13,7 +13,7 @@ hide_table_of_contents: true
         <h1 style={{fontSize: "3.7rem", color: "var(--ifm-heading-color)"}}>Juice Docs</h1>
         <p style={{fontSize: "2rem"}}>Fund your thing.</p>
         <a class="button button--primary" href="/user/" style={{marginBottom: "5px"}}>Start learning</a>
-        <a class="button button--link" href="https://juicebox.money/contact" style={{marginBottom: "5px"}}>Contact onboarding →</a>
+        <a class="button button--link" href="https://juicebox.money/contact" style={{marginBottom: "5px", paddingLeft: "calc(var(--ifm-button-padding-horizontal) * var(--ifm-button-size-multiplier) * 0.5)"}}>Contact onboarding →</a>
       </div>
     </div>
   </div>
