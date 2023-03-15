@@ -86,7 +86,7 @@ const config = {
     locales: ["en", "zh"],
   },
   themeConfig: {
-    image: "img/site/unfurl.jpg",
+    image: "img/site/unfurl.png",
     metadata: [
       {
         name: "keywords",
