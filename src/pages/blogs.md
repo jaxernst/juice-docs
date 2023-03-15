@@ -4,7 +4,26 @@ slug: /blogs
 hide_table_of_contents: true
 ---
 
-<style>{`.card {border: solid 1px var(--ifm-color-primary)} img { width: 100%; } @media screen and (max-width: 996px) and (min-width: 505px) { img { display: none !important; } } `}</style>
+<style>{`
+.card {
+  border: solid 1px var(--ifm-color-primary);
+} 
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 996px) and (min-width: 505px) {
+  img { 
+    display: none !important;
+  }
+}
+
+h4 { 
+  color: var(--ifm-font-color-base);
+}
+`}</style>
+<h1 style={{fontSize: "3rem", textAlign: "center", color: "var(--ifm-heading-color)"}}>Juicebox Blogs</h1>
 <div class="container" style={{marginTop: "30px"}}>
   <div class="row">
     <div class="col col--3" style={{marginBottom: "30px"}}>
