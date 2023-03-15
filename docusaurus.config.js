@@ -185,6 +185,10 @@ const config = {
               to: "https://juicebox.money/contact",
             },
             {
+              label: "Discord",
+              to: "https://discord.gg/juicebox",
+            },
+            {
               label: "GitHub",
               to: "https://github.com/jbx-protocol",
             },
@@ -193,23 +197,8 @@ const config = {
               to: "https://jbdao.org",
             },
             {
-              label: "Notion",
-              to: "https://juicebox.notion.site/Juicebox-Notion-7b2436cec0c145c88b3efa0376c6dba3",
-            },
-            {
               label: "Analytics",
               to: "https://dune.com/juicebox",
-            },
-          ],
-        },
-        {
-          type: "dropdown",
-          label: "Media",
-          position: "right",
-          items: [
-            {
-              label: "Discord",
-              to: "https://discord.gg/juicebox",
             },
             {
               label: "Twitter",
@@ -226,10 +215,6 @@ const config = {
             {
               label: "Podcast",
               to: "https://anchor.fm/thejuicecast",
-            },
-            {
-              label: "Metaverse",
-              to: "https://www.cryptovoxels.com/parcels/6188",
             },
           ],
         },

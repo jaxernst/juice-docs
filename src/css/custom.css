@@ -85,3 +85,13 @@ article iframe {
 [data-theme="dark"] .navbar__logo {
   content: url(/static/img/logo/main-logo-white.svg);
 }
+
+@media (max-width: 1058px) and (min-width: 996px) {
+  .navbar__logo {
+    content: url(/static/img/logo/icon-logo-black.svg);
+  }
+
+  [data-theme="dark"] .navbar__logo {
+    content: url(/static/img/logo/icon-logo-white.svg);
+  }
+}
