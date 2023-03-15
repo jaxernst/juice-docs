@@ -86,7 +86,7 @@ const config = {
     locales: ["en", "zh"],
   },
   themeConfig: {
-    image: "img/site/juicedocs.webp",
+    image: "img/site/unfurl.jpg",
     metadata: [
       {
         name: "keywords",
