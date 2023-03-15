@@ -198,7 +198,7 @@ const config = {
             },
             {
               label: "Analytics",
-              to: "https://dune.com/juicebox",
+              to: "/dao/reference/analytics/",
             },
             {
               label: "Twitter",

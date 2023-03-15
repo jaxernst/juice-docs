@@ -5,10 +5,6 @@ sidebar_position: 4
 
 # JuiceboxDAO Multisig Process
 
-:::info
-This is a proposed process which has not yet been ratified by JBX holders.
-:::
-
 The JuiceboxDAO Multisig, [`0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e`](https://etherscan.io/address/0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e), is responsible for interpreting and executing the outcomes of the [Governance Process](https://docs.juicebox.money/dao/process/).
 
 ## Rules

@@ -33,13 +33,13 @@ JuiceboxDAO contributors build in the open — to participate, read the [contrib
 #### Resources
 
 [Github](https://github.com/jbx-protocol)<br/>
-[Notion](https://juicebox.notion.site/Juicebox-Notion-7b2436cec0c145c88b3efa0376c6dba3)<br/>
-[Dune Analytics](https://dune.com/projects/juicebox)<br/>
+[Governance](https://jbdao.org)<br/>
+[Analytics](reference/analytics)<br/>
 [JuiceTool](https://juicetool.xyz/)<br/>
-[Juicebox](https://app.usefathom.com/share/eryrrjsv/juicebox.money) and [Juice Docs](https://app.usefathom.com/share/umyovgdg/docs.juicebox.money) Analytics
+[Notion](https://juicebox.notion.site/Juicebox-Notion-7b2436cec0c145c88b3efa0376c6dba3)<br/>
+[Brand Kit](/user/brand-kit/)
 
 </details>
-
 
 <details>
 
@@ -49,13 +49,14 @@ Juicebox governance runs on a [14 day cycle](process). Discord temperature check
 
 #### Vote Here
 
-[Juicebox Snapshot](https://juicetool.xyz/snapshot/jbdao.eth)<br/>
+[Governance Portal](https://jbdao.org)<br/>
+[Juicebox Snapshot](https://snapshot.org/#/jbdao.eth)<br/>
 [Snapshot Delegation](https://vote.juicebox.money/#/delegate/jbdao.eth)
 
 #### DAO Documents and Resources
 
 [How to Make a Governance Proposal](proposals)<br/>
-[Governance Process](process)
+[Governance Process](process)<br/>
 [Juicebox DAO Foundation](foundation)
 
 </details>

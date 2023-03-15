@@ -3,11 +3,13 @@ title: Our Analytics
 sidebar_position: 3
 ---
 
-JuiceboxDAO analytics. Can't find what you're looking for? [Contact us](https://juicebox.money/contact)!
+:::info
+Can't find what you're looking for? [Contact us](https://juicebox.money/contact).
+:::
 
 | Name & Link | Notes |
 | --- | --- |
-| [Juicebox on Dune](https://dune.com/juicebox) | A collection of dashboards summarizing all kinds of on-chain Juicebox protocol data. |
+| [Juicebox on Dune](https://dune.com/juicebox) | Dashboards and queries summarizing on-chain Juicebox protocol data. |
 | [juicebox.money on Fathom](https://app.usefathom.com/share/eryrrjsv/juicebox.money) | [Fathom](https://usefathom.com/) is a privacy-respecting alternative to services like Google Analytics. It misses out on a good deal of traffic for this reason, but can be useful for analyzing general trends. |
 | [Juice Docs on Fathom](https://app.usefathom.com/share/umyovgdg/docs.juicebox.money) | See information above. |
 | [Discord server insights](https://discord.gg/juicebox) | Join the server, click "🧃 Juicebox DAO" in the upper left-hand corner, and click "Server Insights". |

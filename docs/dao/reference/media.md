@@ -36,7 +36,7 @@ sidebar_position: 2
 - Blog posts are written in [markdown](https://www.markdownguide.org/) and added to the [juice-docs repo](https://github.com/jbx-protocol/juice-docs).
 - Your post should either go in `/blog`, or into one of the subdirectories under `/blogs`.
 - Read [this page](https://docusaurus.io/docs/blog) to learn about you should name your file and format your frontmatter.
-- Make a PR.
+- Make a pull request.
 
 #### YouTube
 
