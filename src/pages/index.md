@@ -1,4 +1,4 @@
---- 
+---
 title: Home
 hide_table_of_contents: true
 ---
@@ -6,11 +6,11 @@ hide_table_of_contents: true
 <div class="hero hero--secondary" >
   <div class="container">
     <div class="row" style={{maxWidth: "800px", margin: "auto"}}>
-      <div class="col col--6">
-        <img src="/img/site/banny.png" className="apple"/>
+      <div class="col col--5">
+        <img src="/img/site/banny.png" className="hero-img"/>
       </div>
-      <div class="col col--6">
-        <h1 style={{fontSize: "3rem"}}>Juicebox Docs</h1>
+      <div class="col col--7">
+        <h1 style={{fontSize: "3.7rem", color: "var(--ifm-heading-color)"}}>Juice Docs</h1>
         <p style={{fontSize: "2rem"}}>Fund your thing.</p>
         <a class="button button--primary" href="/user/" style={{marginBottom: "5px"}}>Start learning</a>
         <a class="button button--link" href="https://juicebox.money/contact" style={{marginBottom: "5px"}}>Contact onboarding →</a>
@@ -19,16 +19,20 @@ hide_table_of_contents: true
   </div>
 </div>
 
-<style>{"\
-  .apple{\
-    max-height: 250px;\
-  }\
-  @media screen and (max-width: 997px) {\
-    .apple{\
-      display: none;\
-    }\
-  }\
-"}</style>
+<style>{`
+  .hero-img{
+    max-height: 250px;
+  }
+  @media screen and (max-width: 997px) {
+    .hero-img{
+      display: none;
+    }
+  }
+
+  h3 {
+	color: var(--ifm-font-color-base)
+  }
+`}</style>
 
 <div class="container" style={{marginTop: "30px"}}>
   <div class="row">
