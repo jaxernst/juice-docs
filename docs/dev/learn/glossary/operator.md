@@ -11,7 +11,7 @@
 #### What you'll want to know if you're building
 
 * All permission indexes can be found in [`JBOperations`](/dev/api/libraries/jboperations.md).
-* Any address can give an operator permissions to take one or more actions on its behalf by sending a transaction to [`JBOperatorStore.setOperator(...)`](/dev/api/contracts/jboperatorstore/events/setoperator.md). To set multiple operators in the same transaction, use [`JBOperatorStore.setOperators(...)`](/dev/api/contracts/jboperatorstore/write/setoperators.md).
+* Any address can give an operator permissions to take one or more actions on its behalf by sending a transaction to [`JBOperatorStore.setOperator(...)`](/dev/api/contracts/jboperatorstore/write/setoperator.md). To set multiple operators in the same transaction, use [`JBOperatorStore.setOperators(...)`](/dev/api/contracts/jboperatorstore/write/setoperators.md).
 * Access can be revoked from an operator through the same operations as above by sending  an array of permissions that does not include those you wish to revoke.
 * Permission for each operation is stored in a bit within an `uint256`. If the bit is 1, the permission is enabled for the particular operator within the particular domain. Otherwise it is disabled.
 * [`JBOperatorStore.hasPermission(...)`](/dev/api/contracts/jboperatorstore/read/haspermission.md) and [`JBOperatorStore.hasPermissions(...)`](/dev/api/contracts/jboperatorstore/read/haspermissions.md) can be used to check if an operator has a particular permission.
