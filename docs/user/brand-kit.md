@@ -16,3 +16,4 @@ If you're looking for something else, ask us on [Discord](https://discord.gg/jui
 | [Style Guide](https://www.figma.com/file/jHNCnyxgB0DVLPTwmbOohq/JBM-Brand-Refresh-Website-2023?node-id=41%3A12214&t=EQbu5gdTfNTJSjvr-1) | Our updated style guide. |
 | [WAGMI Studios Google Drive](https://drive.google.com/drive/folders/1-06MIi6xI9PjM3ENoUsxe2R-aQe4-uL0) | Juicebox artwork created by [WAGMI Studios](https://juicebox.money/@wagmi-studios). |
 | [Contact Us](https://juicebox.money/contact) | Have questions or inquiries? Get in touch with us. |
+| [Our PFP](/img/site/jb-pfp.png) | Our profile picture on Discord and other platforms. |
