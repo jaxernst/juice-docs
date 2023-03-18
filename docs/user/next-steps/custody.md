@@ -47,6 +47,6 @@ JuiceboxDAO contributors have also built:
 
 A Juicebox project can also be owned by a smart contract to facilitate on-chain governance. See:
 
-- [`juice-kickstart-governance`](https://github.com/xBA5ED/juice-kickstart-governance). A helper to launch a (or reconfigure an existing) project on Juicebox preconfigured to use on-chain governance.
-- [blunt.finance](https://blunt.finance/). This is still a work in progress!
-- ... more coming soon
+- [blunt.finance](https://blunt.finance/), a tool for Juicebox projects to launch trustless funding rounds where contributors can get refunds if the fundraising target isn't reached.
+- [Defifa](https://defifa.net), an onchain sports prediction game built with Juicebox. If you're interested in running a similar competition, inquire in their [Discord](https://discord.gg/hrZnvs65Nh).
+- [juice-kickstart-governance](https://github.com/xBA5ED/juice-kickstart-governance). A helper to launch a (or reconfigure an existing) project on Juicebox preconfigured to use on-chain governance. If you're interested in using this, get in touch with `0xBA5ED#9353` in the [JuiceboxDAO Discord](https://discord.gg/juicebox)
