@@ -1,6 +1,6 @@
 ---
 slug: 23-03-14
-title: March 14th, 2023
+title: JuiceboxDAO 周会概要 2023 年 3 月 15 日
 authors: [zhape]
 image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
