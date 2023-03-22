@@ -28,13 +28,13 @@ sidebar_position: 3
 
 ## EU
 
-Svetlin from [wrappr.wtf](https://www.wrappr.wtf/) has provided several legal templates for Juicebox project creators within the EU:
+Svetlin (`svetlink#0129` on Discord) from [wrappr.wtf](https://www.wrappr.wtf/) and [LexDAO](https://www.lexdao.coop/)/LexClinic has provided several legal templates for Juicebox project creators within the EU:
 
 1. [EU Privacy Policy](/document/privacy-policy.rtf)
 2. [Website Terms of Service [Lite Version]](/document/lite-tos.docx)
 3. [DAO Terms of Service [Extended Version]](/document/extended-tos.docx)
 
-Project creators can use [wrappr.wtf](https://www.wrappr.wtf/) to launch and mint legal NFTs, such as limited liability "legal wrappers" for DAOs and wallets. Wrappr supports Delaware and Wyoming entities.
+Project creators can use [wrappr.wtf](https://www.wrappr.wtf/) to launch and mint Delaware/Wyoming jurisdiction legal NFTs, such as limited liability "legal wrappers" for DAOs and wallets.
 
 :::danger
 None of the information, services, or materials offered on our Site constitute, or are intended to constitute, legal, financial, tax, investment, or other advice, and you should not act or refrain from acting based on any information, services, or materials provided on the Site. All content on our Site is information of a general nature and does not address the unique circumstances of any particular user. You are strongly urged to consult with your own legal, financial, tax, investment, and other advisors regarding all legal, financial, tax, and investment-related questions or concerns you have.
