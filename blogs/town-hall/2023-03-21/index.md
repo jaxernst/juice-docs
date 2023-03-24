@@ -1,8 +1,10 @@
+---
 slug: 23-03-21
 title: March 21st, 2023
 authors: [zhape]
 image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
+---
 
 ![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
 
