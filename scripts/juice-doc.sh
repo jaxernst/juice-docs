@@ -4,7 +4,7 @@
 # Update JUICE_DOCS_DIR before running.
 # Run from root directory of extension which you wish to document.
 
-JUICE_DOCS_DIR="/home/filipv/Workspace/juice-docs/"
+JUICE_DOCS_DIR="/home/f/work/juice-docs/"
 API_DIR="extensions"
 CURRENT_DIR=$(basename $(pwd))
 
