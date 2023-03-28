@@ -32,6 +32,8 @@ JBETHPaymentTerminal: [`0x594Cb208b5BB48db1bcbC9354d1694998864ec63`](https://eth
 
 JBETHPaymentTerminal3_1: [`0xFA391De95Fcbcd3157268B91d8c7af083E607A5C`](https://etherscan.io/address/0xFA391De95Fcbcd3157268B91d8c7af083E607A5C)
 
+JBFundAccessConstraintsStore: [`0xA4425A1E5b7B28Cb689719B1428e3088C1F89E30`](https://etherscan.io/address/0xA4425A1E5b7B28Cb689719B1428e3088C1F89E30)
+
 JBFundingCycleStore: [`0x6f18cF9173136c0B5A6eBF45f19D58d3ff2E17e6`](https://etherscan.io/address/0x6f18cF9173136c0B5A6eBF45f19D58d3ff2E17e6)
 
 JBOperatorStore: [`0x6F3C5afCa0c9eDf3926eF2dDF17c8ae6391afEfb`](https://etherscan.io/address/0x6F3C5afCa0c9eDf3926eF2dDF17c8ae6391afEfb)
@@ -77,6 +79,8 @@ JBETHERC20SplitsPayerDeployer: [`0xE05605882C3F34B4Ef3586D70dE294f3f9654Ee8`](ht
 JBETHPaymentTerminal: [`0x55d4dfb578daA4d60380995ffF7a706471d7c719`](https://goerli.etherscan.io/address/0x55d4dfb578daA4d60380995ffF7a706471d7c719)
 
 JBETHPaymentTerminal3_1: [`0x0baCb87Cf7DbDdde2299D92673A938E067a9eb29`](https://goerli.etherscan.io/address/0x0baCb87Cf7DbDdde2299D92673A938E067a9eb29)
+
+JBFundAccessConstraintsStore: [`0xbF8b5ea02e50073348767fd9418beDEd30C835D4`](https://goerli.etherscan.io/address/0xbF8b5ea02e50073348767fd9418beDEd30C835D4)
 
 JBFundingCycleStore: [`0xB9Ee9d8203467f6EC0eAC81163d210bd1a7d3b55`](https://goerli.etherscan.io/address/0xB9Ee9d8203467f6EC0eAC81163d210bd1a7d3b55)
 
