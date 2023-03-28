@@ -12,9 +12,9 @@
 #### What you'll want to know if you're building
 
 * A data source must adhere to the [`IJBFundingCycleDataSource`](/dev/api/interfaces/ijbfundingcycledatasource.md) interface.
-* A data source contract can be specified in a funding cycle, along with flags that indicate if the funding cycle should `useDataSourceForPay` and/or `useDataSourceForRedeem`. These are set either in [`JBController.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) or [`JBController.reconfigureFundingCyclesOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/reconfigurefundingcyclesof.md).
-* A funding cycle's data source is called upon in [`JBSingleTokenPaymentTerminalStore.recordPaymentFrom(...)`](/dev/api/contracts/jbsingletokenpaymentterminalstore/write/recordpaymentfrom.md) and in [`JBSingleTokenPaymentTerminalStore.recordRedemptionFor(...)`](/dev/api/contracts/jbsingletokenpaymentterminalstore/write/recordredemptionfor.md).
-* A data source has implicit permisions to [`JBController.mintTokensFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/minttokensof.md) on a project's behalf. 
+* A data source contract can be specified in a funding cycle, along with flags that indicate if the funding cycle should `useDataSourceForPay` and/or `useDataSourceForRedeem`. These are set either in [`JBController3_1.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) or [`JBController3_1.reconfigureFundingCyclesOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#reconfigurefundingcyclesof).
+* A funding cycle's data source is called upon in [`JBSingleTokenPaymentTerminalStore3_1.recordPaymentFrom(...)`](/dev/api/contracts/jbsingletokenpaymentterminalstore3_1/#recordpaymentfrom) and in [`JBSingleTokenPaymentTerminalStore3_1.recordRedemptionFor(...)`](/dev/api/contracts/jbsingletokenpaymentterminalstore3_1/#recordredemptionfor).
+* A data source has implicit permisions to [`JBController3_1.mintTokensFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#minttokensof) on a project's behalf. 
 * If a data source is not specified in a funding cycle, or if flags aren't explicitly set, default protocol data will be used.
 
 [Get started building data sources](/dev/build/treasury-extensions/data-source.md).

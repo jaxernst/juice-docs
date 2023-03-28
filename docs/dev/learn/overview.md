@@ -252,7 +252,7 @@ The protocol charges a <a href="#jbx-membership-fee">JBX membership fee</a> on f
 
 #### Forkability and migratability
 <p>
-  A project can migrate its treasury's controller to any other contract that adheres to <a href="/dev/api/interfaces/ijbcontroller"><code>IJBController</code></a>. This allows a project to evolve into updated or custom treasury dynamics over time as it wishes.
+  A project can migrate its treasury's controller to any other contract that adheres to <a href="/dev/api/interfaces/ijbcontroller3_1"><code>IJBController3_1</code></a>. This allows a project to evolve into updated or custom treasury dynamics over time as it wishes.
 </p>
 
 #### Operators

@@ -8,7 +8,7 @@ Anyone can build on the [`JBProjects`](/dev/api/contracts/jbprojects) NFT contra
 
 #### Create a project
 
-Instead of calling [`JBController.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) to create a project, configure its first funding cycle, and attach payment terminals and a juicebox controller contract to it in the same transaction, `JBProjects` can be minted independently to represent ownership over projects with subsequent capabilities attached later on.
+Instead of calling [`JBController3_1.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) to create a project, configure its first funding cycle, and attach payment terminals and a juicebox controller contract to it in the same transaction, `JBProjects` can be minted independently to represent ownership over projects with subsequent capabilities attached later on.
 
 To create a project, call [`JBProjects.createFor(...)`](/dev/api/contracts/jbprojects/write/createfor.md). The [`JBProjectMetadata`](/dev/api/data-structures/jbprojectmetadata.md) structure allows arbitrary metadata to be mapped to any namespace domain. [juicebox.money](https://juicebox.money) metadata uses a domain of 0 to store its formatted metadata.
 
@@ -64,7 +64,7 @@ function setTokenUriResolver(IJBTokenUriResolver _newResolver) external override
 
 #### Attaching application-specific functionality
 
-Project owners can configure their first funding cycle for their `JBProject`, attach payment terminals, and set all other standard juicebox project properties by calling [`JBController.launchFundingCyclesFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchfundingcyclesfor.md). 
+Project owners can configure their first funding cycle for their `JBProject`, attach payment terminals, and set all other standard juicebox project properties by calling [`JBController3_1.launchFundingCyclesFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchfundingcyclesfor). 
 
 Most Juicebox protocol contracts are generic utilities for any `JBProject` owner, meaning stored data tends to me mapped from project IDs, and functionality that affects a project tends to be exposed only to the project's owner or a operator address specified by the project's owner.
 

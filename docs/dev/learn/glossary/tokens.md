@@ -12,5 +12,5 @@
 
 #### What you'll want to know if you're building
 
-* Tokens can be minted on-demand by project owners or their operators by calling [`JBController.mintTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/minttokensof.md). The ability to do so must be explicitly turned on via a funding cycle configuration metadata parameter.
-* Tokens can be burned on-demand by holders by calling [`JBController.burnTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/burntokensof.md). The ability to do so can be turned off via a funding cycle configuration metadata parameter.
+* Tokens can be minted on-demand by project owners or their operators by calling [`JBController3_1.mintTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#minttokensof). The ability to do so must be explicitly turned on via a funding cycle configuration metadata parameter.
+* Tokens can be burned on-demand by holders by calling [`JBController3_1.burnTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#burntokensof). The ability to do so can be turned off via a funding cycle configuration metadata parameter.

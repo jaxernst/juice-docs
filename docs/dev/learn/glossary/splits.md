@@ -8,4 +8,4 @@
 
 #### What you'll want to know if you're building
 
-* Splits can be set for a funding cycle configuration during the [`JBController.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) or [`JBController.reconfigureFundingCyclesOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/reconfigurefundingcyclesof.md) transactions, or separately using [`JBSplitStore.set(...)`](/dev/api/contracts/jbsplitsstore/write/set.md).
+* Splits can be set for a funding cycle configuration during the [`JBController3_1.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) or [`JBController3_1.reconfigureFundingCyclesOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#reconfigurefundingcyclesof) transactions, or separately using [`JBSplitStore.set(...)`](/dev/api/contracts/jbsplitsstore/write/set.md).

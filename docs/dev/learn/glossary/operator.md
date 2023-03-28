@@ -22,12 +22,12 @@ For each project, the following functions can only be accessed by either the add
 
 An address can set operators for its project with [`JBOperatorStore.setOperator(...)`](/dev/api/contracts/jboperatorstore/write/setoperator.md), using the indexes from the [`JBOperations`](/dev/api/libraries/jboperations.md) library. An Operator's permissions depend on the specific parameters the admin allows them. Each of the following functions can be called by the admin, and also by any operator that has been granted permission to call the function by the admin.
 
-* [`JBController.launchFundingCyclesFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchfundingcyclesfor.md)
-* [`JBController.reconfigureFundingCyclesOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/reconfigurefundingcyclesof.md)
-* [`JBController.mintTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/minttokensof.md)
+* [`JBController3_1.launchFundingCyclesFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchfundingcyclesfor)
+* [`JBController3_1.reconfigureFundingCyclesOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#reconfigurefundingcyclesof)
+* [`JBController3_1.mintTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#minttokensof)
 * [`JBTokenStore.issueFor(...)`](/dev/api/contracts/jbtokenstore/write/issuefor.md)
-* [`JBController.setFor(...)`](/dev/api/contracts/jbtokenstore/write/setfor.md)
-* [`JBController.migrate(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/migrate.md)
+* [`JBController3_1.setFor(...)`](/dev/api/contracts/jbtokenstore/write/setfor.md)
+* [`JBController3_1.migrate(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#migrate)
 * [`JBPayoutRedemptionPaymentTerminal.useAllowanceOf(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/useallowanceof.md)
 * [`JBPayoutRedemptionPaymentTerminal.migrate(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/migrate.md)
 * [`JBPayoutRedemptionPaymentTerminal.processFees(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/processfees.md)
@@ -39,7 +39,7 @@ An address can set operators for its project with [`JBOperatorStore.setOperator(
 
 The following transactions can be used by token holders or operator addresses explicitly allowed by the address that owns the tokens. If the tokens change hands, the operators must be set again by the new holder.
 
-* [`JBController.burnTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/burntokensof.md)
+* [`JBController3_1.burnTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#burntokensof)
 * [`JBPayoutRedemptionPaymentTerminal.redeemTokensOf(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/redeemtokensof.md)
 * [`JBTokenStore.claimFor(...)`](/dev/api/contracts/jbtokenstore/write/claimfor.md)
 * [`JBTokenStore.transferFrom(...)`](/dev/api/contracts/jbtokenstore/write/transferfrom.md)

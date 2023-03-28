@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Programmable treasury
 
-In order to understand what Juicebox can do for your project, all you have to do is understand how one transaction works: [`JBController.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md), which creates a project, configures its first funding cycle, and specifies where it can begin receiving and managing funds from.
+In order to understand what Juicebox can do for your project, all you have to do is understand how one transaction works: [`JBController3_1.launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor), which creates a project, configures its first funding cycle, and specifies where it can begin receiving and managing funds from.
 
 ```
 function launchProjectFor(
@@ -23,11 +23,11 @@ function launchProjectFor(
 This transaction launches a project. It does so by:
 
 * Minting a project in the [`JBProjects`](/dev/api/contracts/jbprojects/README.md) ERC-721 contract by calling [`JBProjects.createFor(...)`](/dev/api/contracts/jbprojects/write/createfor.md).
-* Then giving the [`JBController`](/dev/api/contracts/or-controllers/jbcontroller/README.md) contract that is currently handling the [`launchProjectFor`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) transaction authority to write to the [`JBFundingCycleStore`](/dev/api/contracts/jbfundingcyclestore/README.md) and the [`JBTokenStore`](/dev/api/contracts/jbtokenstore/README.md) on the project's behalf by calling [`JBDirectory.setControllerOf(...)`](/dev/api/contracts/jbdirectory/write/setcontrollerof.md).
+* Then giving the [`JBController3_1`](/dev/api/contracts/or-controllers/jbcontroller3_1/) contract that is currently handling the [`launchProjectFor`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) transaction authority to write to the [`JBFundingCycleStore`](/dev/api/contracts/jbfundingcyclestore/README.md) and the [`JBTokenStore`](/dev/api/contracts/jbtokenstore/README.md) on the project's behalf by calling [`JBDirectory.setControllerOf(...)`](/dev/api/contracts/jbdirectory/write/setcontrollerof.md).
 * Then creating the project's first funding cycle using the provided `_data`, `_metadata`, and `_mustStartAtOrAfter` parameters by calling [`JBFundingCycleStore.configureFor(...)`](/dev/api/contracts/jbfundingcyclestore/write/configurefor.md).
 * Then storing splits for any provided split groups by calling [`JBSplitStore.set(...)`](/dev/api/contracts/jbsplitsstore/write/set.md).
-* Then storing any provided constraints on how the project will be able to access funds within any specified payment terminals by storing values in [`JBController._packedDistributionLimitDataOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/properties/-_packeddistributionlimitdataof.md), [`JBController._packedOverflowAllowanceDataOf(...)`](/dev/api/contracts/or-controllers/jbcontroller/properties/-_packedoverflowallowancedataof.md).
-* Then giving the provided `_terminals` access to the [`JBController`](/dev/api/contracts/or-controllers/jbcontroller/README.md) contract that is handling the [`launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) transaction that is currently being executed, and also allowing anyone or any other contract in Web3 to know that the project is currently accepting funds through them by calling [`JBDirectory.setTerminalsOf(...)`](/dev/api/contracts/jbdirectory/write/setterminalsof.md).
+* Then storing any provided constraints on how the project will be able to access funds within any specified payment terminals by storing values in [`JBController3_1._packedDistributionLimitDataOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#_packeddistributionlimitdataof), [`JBController3_1._packedOverflowAllowanceDataOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#_packedoverflowallowancedataof).
+* Then giving the provided `_terminals` access to the [`JBController3_1`](/dev/api/contracts/or-controllers/jbcontroller3_1/) contract that is handling the [`launchProjectFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) transaction that is currently being executed, and also allowing anyone or any other contract in Web3 to know that the project is currently accepting funds through them by calling [`JBDirectory.setTerminalsOf(...)`](/dev/api/contracts/jbdirectory/write/setterminalsof.md).
 
 #### Basics
 
@@ -82,13 +82,13 @@ Here are some examples, starting with the simplest version:
 * For `_mustStartAtOrAfter` send current timestamp.
 * For `_groupedSplits` send an empty array.
 * For `_fundAccessConstraints` send an empty array.
-* For `_terminals` send an array only including the contract address of the [`JBETHPaymentTerminal`](/dev/api/contracts/or-terminals/jbethpaymentterminal).
+* For `_terminals` send an array only including the contract address of the [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-terminals/jbethpaymentterminal3_1).
 
 This is the most vanilla project you can launch, which also makes it cheapest to launch gas-wise. Relatively little needs to get saved into storage.
 
 Under these conditions:
 
-* Your project can begin receiving funds through the [`JBETHPaymentTerminal`](/dev/api/contracts/or-terminals/jbethpaymentterminal).
+* Your project can begin receiving funds through the [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-terminals/jbethpaymentterminal3_1).
 * 1,000,000 of your project's tokens will be minted per ETH received since the configured `_data.weight` is `1000000000000000000000000`. (The raw value sent has 18 decimal places).
 * All tokens minted as a result of received ETH will go to the beneficiary address specified by the payer of the ETH since the configured `_metadata.reservedRate` is 0.
 * Nothing fancy will happen outside of the default token minting behavior since the configured `_metadata.useDataSourceForPay` is `false`.
@@ -104,7 +104,7 @@ Here's what happens when basic `_fundAccessConstraints` are specified by sending
 ```javascript
 [
   {
-    terminal: <address of JBETHPaymentTerminal>,
+    terminal: <address of JBETHPaymentTerminal3_1>,
     token: 0x000000000000000000000000000000000000EEEe, // Address representing ETH in JBTokens.
     distributionLimit: 4200000000000000000,
     overflowAllowance: 0,
@@ -114,7 +114,7 @@ Here's what happens when basic `_fundAccessConstraints` are specified by sending
 ]
 ```
 
-* During each funding cycle with this configuration, the project can receive up to 4.2 ETH worth of tokens from the [`JBETHPaymentTerminal`](/dev/api/contracts/or-terminals/jbethpaymentterminal), since the configured `distributionLimitCurrency` is 1 ([which represents ETH](/dev/api/libraries/jbcurrencies.md)) and the `distributionLimit` is `4200000000000000000`. (The raw value sent has 18 decimal places).
+* During each funding cycle with this configuration, the project can receive up to 4.2 ETH worth of tokens from the [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-terminals/jbethpaymentterminal3_1), since the configured `distributionLimitCurrency` is 1 ([which represents ETH](/dev/api/libraries/jbcurrencies.md)) and the `distributionLimit` is `4200000000000000000`. (The raw value sent has 18 decimal places).
 * Anyone can call the [`JBPayoutRedemptionPaymentTerminal.distributePayoutsOf(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/distributepayoutsof.md) transaction to send up to 4.2 ETH per funding cycle to the preconfigured splits. Since no splits were specified, all distributed funds go to the project owner.
 * With each new funding cycle, another 4.2 ETH can be distributed.
 * The project cannot distribute any funds in excess of the distribution limit since there is no `overflowAllowance`.
@@ -124,7 +124,7 @@ Here's what happens when using an overflow allowance instead:
 ```
 [
   {
-    terminal: <address of JBETHPaymentTerminal>,
+    terminal: <address of JBETHPaymentTerminal3_1>,
     token: 0x000000000000000000000000000000000000EEEe, // Address representing ETH in JBTokens.
     distributionLimit: 0,
     overflowAllowance: 690000000000000000000,
@@ -134,7 +134,7 @@ Here's what happens when using an overflow allowance instead:
 ]
 ```
 
-* Until a new reconfiguration transaction is sent, the project owner can send up to 690 USD worth of ETH tokens from the [`JBETHPaymentTerminal`](/dev/api/contracts/or-terminals/jbethpaymentterminal) to any address it chooses since the configured `overflowAllowanceCurrency` is 2 ([which represents USD](/dev/api/libraries/jbcurrencies.md)) and the `overflowAllowance` is `690000000000000000000` (the raw value sent has 18 decimal places).
+* Until a new reconfiguration transaction is sent, the project owner can send up to 690 USD worth of ETH tokens from the [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-terminals/jbethpaymentterminal3_1) to any address it chooses since the configured `overflowAllowanceCurrency` is 2 ([which represents USD](/dev/api/libraries/jbcurrencies.md)) and the `overflowAllowance` is `690000000000000000000` (the raw value sent has 18 decimal places).
 * Meanwhile, all of the project's funds in the [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md) are considered overflow since there is no distribution limit.
 * Rolled-over funding cycles (i.e. cycles with the same configuration) do not refresh the allowance.
 * An overflow allowance is a free allowance the project can use without additional pre-programmed stipulations.
@@ -143,7 +143,7 @@ The `_distributionLimit` and `_overflowAllowance` parameters must fit in a `uint
 
 #### Grouped splits
 
-If you wish to automatically split treasury payouts or reserved token distributions between various destinations (addresses, other Juicebox projects, or split allocator contracts), add some grouped splits to the [`launchProjectFor`](/dev/api/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) transaction.
+If you wish to automatically split treasury payouts or reserved token distributions between various destinations (addresses, other Juicebox projects, or split allocator contracts), add some grouped splits to the [`launchProjectFor`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) transaction.
 
 ```
 {
