@@ -1,10 +1,10 @@
 # IJBFeeHoldingTerminal
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/interfaces/IJBFeeHoldingTerminal.sol)
 
-
 ## Functions
-### addToBalanceOf
 
+### addToBalanceOf
 
 ```solidity
 function addToBalanceOf(
@@ -16,4 +16,3 @@ function addToBalanceOf(
     bytes calldata _metadata
 ) external payable;
 ```
-

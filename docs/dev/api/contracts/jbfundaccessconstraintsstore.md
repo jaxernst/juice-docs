@@ -11,7 +11,7 @@ Mainnet: [`0xA4425A1E5b7B28Cb689719B1428e3088C1F89E30`](https://etherscan.io/add
 
 Goerli: [`0xbF8b5ea02e50073348767fd9418beDEd30C835D4`](https://goerli.etherscan.io/address/0xbF8b5ea02e50073348767fd9418beDEd30C835D4)
 
-Inherits: [`JBControllerUtility`](/contracts/abstract/JBControllerUtility.sol/abstract.JBControllerUtility.md), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBFundAccessConstraintsStore`](/contracts/interfaces/IJBFundAccessConstraintsStore.sol/interface.IJBFundAccessConstraintsStore.md)
+Inherits: [`JBControllerUtility`](/dev/api/contracts/or-abstract/jbcontrollerutility/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBFundAccessConstraintsStore`](/dev/api/interfaces/ijbfundaccessconstraintsstore/)
 
 ---
 

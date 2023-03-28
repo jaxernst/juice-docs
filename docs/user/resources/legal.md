@@ -30,7 +30,7 @@ sidebar_position: 3
 
 Svetlin (`svetlink#0129` on Discord) from [wrappr.wtf](https://www.wrappr.wtf/) and [LexDAO](https://www.lexdao.coop/)/LexClinic has provided several legal templates for Juicebox project creators within the EU:
 
-1. [EU Privacy Policy](/document/privacy-policy.md)
+1. [EU Privacy Policy](https://docs.juicebox.money/document/privacy-policy.md)
 2. [Website Terms of Service [Lite Version]](/document/lite-tos.docx)
 3. [DAO Terms of Service [Extended Version]](/document/extended-tos.docx)
 
