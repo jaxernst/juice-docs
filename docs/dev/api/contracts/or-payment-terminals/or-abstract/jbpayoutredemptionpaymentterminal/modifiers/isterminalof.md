@@ -46,8 +46,8 @@ modifier isTerminalOf(uint256 _projectId) { ... }
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   A modifier that verifies this terminal is a terminal of provided project ID.
 */
 modifier isTerminalOf(uint256 _projectId) {

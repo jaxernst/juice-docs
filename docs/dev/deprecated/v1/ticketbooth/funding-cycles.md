@@ -3,7 +3,7 @@
 ### Constructor
 
 ```javascript
-/** 
+/**
   @param _terminalDirectory A directory of a project's current Juicebox terminal to receive payments in.
 */
 constructor(ITerminalDirectory _terminalDirectory)
@@ -14,7 +14,7 @@ constructor(ITerminalDirectory _terminalDirectory)
 
 ```javascript
 /**
-    @notice 
+    @notice
     Get the funding cycle with the given ID.
 
     @param _fundingCycleId The ID of the funding cycle to get.
@@ -30,10 +30,10 @@ function get(uint256 _fundingCycleId)
 
 ```javascript
 /**
-    @notice 
+    @notice
     The funding cycle that's next up for a project, and therefor not currently accepting payments.
 
-    @dev 
+    @dev
     This runs roughly similar logic to `_configurable`.
 
     @param _projectId The ID of the project being looked through.
@@ -49,10 +49,10 @@ function queuedOf(uint256 _projectId)
 
 ```javascript
 /**
-    @notice 
+    @notice
     The funding cycle that is currently active for the specified project.
 
-    @dev 
+    @dev
     This runs very similar logic to `_tappable`.
 
     @param _projectId The ID of the project being looked through.
@@ -67,8 +67,8 @@ function currentOf(uint256 _projectId)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   The current ballot state of the project.
 
   @param _projectId The ID of the project to check for a pending reconfiguration.
@@ -86,7 +86,7 @@ function currentBallotStateOf(uint256 _projectId)
 
 ```javascript
 /**
-    @notice 
+    @notice
     Configures the next eligible funding cycle for the specified project.
 
     @dev
@@ -96,7 +96,7 @@ function currentBallotStateOf(uint256 _projectId)
     @param _properties The funding cycle configuration.
       @dev _properties.target The amount that the project wants to receive in each funding cycle. 18 decimals.
       @dev _properties.currency The currency of the `_target`. Send 0 for ETH or 1 for USD.
-      @dev _properties.duration The duration of the funding cycle for which the `_target` amount is needed. Measured in days. 
+      @dev _properties.duration The duration of the funding cycle for which the `_target` amount is needed. Measured in days.
         Set to 0 for no expiry and to be able to reconfigure anytime.
       @dev _cycleLimit The number of cycles that this configuration should last for before going back to the last permanent. This does nothing for a project's first funding cycle.
       @dev _properties.discountRate A number from 0-200 indicating how valuable a contribution to this funding cycle is compared to previous funding cycles.
@@ -125,8 +125,8 @@ function configure(
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Tap funds from a project's currently tappable funding cycle.
 
   @dev

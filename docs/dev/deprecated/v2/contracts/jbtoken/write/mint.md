@@ -49,7 +49,7 @@ function mint(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Mints more of the token.
 

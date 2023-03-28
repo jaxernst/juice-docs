@@ -97,7 +97,7 @@ function _distributeToPayoutSplitsOf(
           * `.mulDiv(...)`
         * [`JBConstants`](/dev/api/libraries/jbconstants.md)
           * `.SPLITS_TOTAL_PERCENT`
-    
+
     3.  Decrement the leftover percentage.
 
         ```

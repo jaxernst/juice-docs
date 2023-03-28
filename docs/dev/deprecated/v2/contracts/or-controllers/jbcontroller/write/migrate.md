@@ -31,7 +31,7 @@ function migrate(uint256 _projectId, IJBMigratable _to)
 
 #### Body
 
-1.  Make sure this controller is the project's current controller. 
+1.  Make sure this controller is the project's current controller.
 
     ```
     // This controller must be the project's current controller.

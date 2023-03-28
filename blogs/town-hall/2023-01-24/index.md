@@ -7,13 +7,13 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## JBX: January 2023 by Jango
 
-Jango posted an article on his [personal ENS address](https://jango.eth.limo/E202254A-5CB0-4213-9486-C63615B26E52/), where he goes through some observations and ideas that we've collectively been talking about passively and loosely through proposals or other forms for a while. 
+Jango posted an article on his [personal ENS address](https://jango.eth.limo/E202254A-5CB0-4213-9486-C63615B26E52/), where he goes through some observations and ideas that we've collectively been talking about passively and loosely through proposals or other forms for a while.
 
 Jango put up [a proposal to update and re-ratify the foundation of JuiceboxDAO](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0x32764c1e75e71fffcd6b3b048cea1ae2eeac23fa8d22ce99de720973970102c7) last week, encouraging how we might create a sturdier DAO ecosystem so that we can tend away from more day-to-day responsibilities. This proposal has been approved by the DAO lately.
 
@@ -63,7 +63,7 @@ Jango thought it a great point to reflect more big picture about what's been wor
 
   Currently there are relatively few holders with over 10m JBX who participate in governance, and proposals often require explicit support by a subset of these members to pass a voting quorum.
 
-We're at a good place but these fragilities still have risk and they hold us back from our maximum productivity. 
+We're at a good place but these fragilities still have risk and they hold us back from our maximum productivity.
 
 So we should probably consider this upcoming time budgeting some time and resources to create a less fragile and more catalyzing JBX foundation.
 
@@ -75,7 +75,7 @@ This means that JBX should control the treasury directly and it should also be b
 
 There's still some questions around the specifics of the ve mechanism with regard to voting weight and time periods, etc, there's still more research to do.
 
-- How it works: 
+- How it works:
 
   - You would lock JBX for certain amount of time to mint an NFT that represents that locked JBX. So JBX is taken off of your wallets, off of the market, off of where is used to be and lock into the contract, instead you have this NFT. As prototyped, we have an incredible Banny collection to visualized these NFTs.
 
@@ -93,9 +93,9 @@ There's still some questions around the specifics of the ve mechanism with regar
   - Despite being liquid, transferable NFTs don't contribute to a price-chart meme, and instead you can have value correlated to other cultural phenomenon such as provenance, voting history and art. Non-transferable NFTs would have too big of tradeoffs, so Jango has not found a good reason to start the conversation in earnest.
   - It allows proposals to begin leveraging these staked positions to distribute, while reducing the risk of JBX distribution being dumped on the market, and actually incentivizing participation and the culture.
   - We can ship it in parts, so we can do the veNFT and still use Snapshot governance with it. We don't have to go to on-chain right away.
-  - The artwork is really interesting. Just reflecting on how Nouns has benn working, there's a massive potential to make governance more engaging and give it more character. If JBX holders get to choose their character, their artwork to participate in governance, there's a lot we can do and that will just happen automatically without any necessary product intervention. 
+  - The artwork is really interesting. Just reflecting on how Nouns has benn working, there's a massive potential to make governance more engaging and give it more character. If JBX holders get to choose their character, their artwork to participate in governance, there's a lot we can do and that will just happen automatically without any necessary product intervention.
   - Most day-to-day activities in smaller scoped experimental projects will move to cheaper execution layers, while main net JuiceboxDAO will manage less frequent and more consequential decision, making the on-chain transaction fees more worth it.(Not ve specific)
-  - On-chain operations will likely broaden the interest in the JBX mechanisms and its governance. It will be way more interesting to get involved in the community that has its rules, opportunities and decision baked in to the chain. 
+  - On-chain operations will likely broaden the interest in the JBX mechanisms and its governance. It will be way more interesting to get involved in the community that has its rules, opportunities and decision baked in to the chain.
 
 - Tradeoffs
 
@@ -144,7 +144,7 @@ The idea here will be more proportional to amount of JBX staked than duration st
 
     A JBX payment terminal would really help here so that we can budget, schedule and automate distributions on a per-funding-cycle basis, just as we do ETH. We can imagine having an ETH and JBX funding cycle distributions to pre-configured addresses.
 
-  - There's massive opportunity in fee-distribution modules to encourage new proudctive behavior while rewarding loyalty, participation and risk taking. 
+  - There's massive opportunity in fee-distribution modules to encourage new proudctive behavior while rewarding loyalty, participation and risk taking.
 
 Obiviously these will make their way into proposal form in the upcoming governance cycles over time and we will talk about it. If we're going to tend towards smaller operations so that we can each focus on subsequent experiments built on Juicebox, we need to create a stronger, more automated foundation that is self catalyzing and less fragile.
 
@@ -188,11 +188,11 @@ Also they're going to make use case videos, such as Juicebox for open source sof
 
 ## Office Hours Update by Nicholas
 
-They've moved the Office Hours from its prior time to 4:20pm EST on Wednesdays. 
+They've moved the Office Hours from its prior time to 4:20pm EST on Wednesdays.
 
 ![NFT Tokenomics Office Hours with Nicholas and Jango #3](office_hour_3.jpg)
 
-This week will be the #3 episode of this Office Hours, to talk about NFT tokenomics and smart ways to launch Juicebox projects. 
+This week will be the #3 episode of this Office Hours, to talk about NFT tokenomics and smart ways to launch Juicebox projects.
 
 The prior episodes of #1 and #2 can be found on the [Juicecast page](http://podcast.juicebox.money).
 

@@ -53,7 +53,7 @@ function supportsInterface(bytes4 _interfaceId)
   @notice
   Indicates if this contract adheres to the specified interface.
 
-  @dev 
+  @dev
   See {IERC165-supportsInterface}.
 
   @param _interfaceId The ID of the interface to check for adherance to.

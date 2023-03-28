@@ -36,9 +36,9 @@ struct JBTokenAmount {
 }
 ```
 
-The `msg.sender` to the delegate will be the payment terminal that facilitated the redemption. 
+The `msg.sender` to the delegate will be the payment terminal that facilitated the redemption.
 
-In payment terminals based on the [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal), such as [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/jbethpaymentterminal3_1/)'s and [`JBERC20PaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/jberc20paymentterminal3_1/)'s, the redemption delegate hook gets called *before* the reclaimed amount is sent to the redemption beneficiary, but after all internal accounting has been updated.  [View the docs](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/redeemtokensof.md). 
+In payment terminals based on the [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal), such as [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/jbethpaymentterminal3_1/)'s and [`JBERC20PaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/jberc20paymentterminal3_1/)'s, the redemption delegate hook gets called *before* the reclaimed amount is sent to the redemption beneficiary, but after all internal accounting has been updated.  [View the docs](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/redeemtokensof.md).
 
 Make sure to only allow trusted contracts to access the `didPay(...)` transaction.
 

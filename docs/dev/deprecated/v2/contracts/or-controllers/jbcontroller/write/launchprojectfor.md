@@ -102,7 +102,7 @@ function launchProjectFor(
     _Internal references:_
 
     * [`directory`](/dev/deprecated/v2/contracts/or-controllers/jbcontroller/properties/directory.md)
-    
+
     _External references:_
 
     * [`setTerminalsOf`](/dev/deprecated/v2/contracts/jbdirectory/write/setterminalsof.md)

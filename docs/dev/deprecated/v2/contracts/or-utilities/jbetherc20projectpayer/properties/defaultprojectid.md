@@ -9,8 +9,8 @@ Interface: [`IJBProjectPayer`](/dev/deprecated/v2/interfaces/ijbprojectpayer.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The ID of the project that should be used to forward this contract's received payments.
 */
 uint256 public override defaultProjectId;

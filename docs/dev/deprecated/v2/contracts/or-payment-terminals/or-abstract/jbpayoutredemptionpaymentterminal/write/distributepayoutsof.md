@@ -16,7 +16,7 @@ _Payouts are sent to the preprogrammed splits. Any leftover is sent to the proje
 
 _Anyone can distribute payouts on a project's behalf. The project can preconfigure a wildcard split that is used to send funds to msg.sender. This can be used to incentivize calling this function._
 
-_All funds distributed outside of this contract or any feeless terminals incure the protocol fee._ 
+_All funds distributed outside of this contract or any feeless terminals incure the protocol fee._
 
 #### Definition
 

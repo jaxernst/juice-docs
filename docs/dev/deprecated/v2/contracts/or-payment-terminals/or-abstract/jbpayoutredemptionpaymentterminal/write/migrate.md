@@ -21,7 +21,7 @@ function migrate(uint256 _projectId, IJBPaymentTerminal _to)
   external
   virtual
   override
-  requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.MIGRATE_TERMINAL) 
+  requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.MIGRATE_TERMINAL)
   returns (uint256 balance) { ... }
 ```
 
@@ -63,7 +63,7 @@ function migrate(uint256 _projectId, IJBPaymentTerminal _to)
     _External references:_
 
     * [`recordMigration`](/dev/deprecated/v2/contracts/jbsingletokenpaymentterminalstore/write/recordmigration.md)
-3.  If there's a balance to migrate, move the funds over to the new terminal. Send ETH along with the transaction if this terminal is an ETH terminal. Make sure any inherited pre-transfer logic is called before transferring. 
+3.  If there's a balance to migrate, move the funds over to the new terminal. Send ETH along with the transaction if this terminal is an ETH terminal. Make sure any inherited pre-transfer logic is called before transferring.
 
     ```
     // Transfer the balance if needed.

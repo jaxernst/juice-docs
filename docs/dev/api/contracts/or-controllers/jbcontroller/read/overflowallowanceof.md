@@ -66,7 +66,7 @@ function overflowAllowanceOf(
   The amount of overflow that a project is allowed to tap into on-demand throughout a configuration, and the currency it's in terms of.
 
   @dev
-  The number of decimals in the returned fixed point amount is the same as that of the specified terminal. 
+  The number of decimals in the returned fixed point amount is the same as that of the specified terminal.
 
   @param _projectId The ID of the project to get the overflow allowance of.
   @param _configuration The configuration of the during which the allowance applies.

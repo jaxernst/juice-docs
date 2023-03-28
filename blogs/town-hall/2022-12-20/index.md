@@ -6,18 +6,18 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
 
 ## Reserved Rate Discussion Callout by Nicholas
 
-This conversation started around the beginning of Dec, when Jango had thoughts on the ways to redistribute some JBX to contributors on the reserved token list.  
+This conversation started around the beginning of Dec, when Jango had thoughts on the ways to redistribute some JBX to contributors on the reserved token list.
 
-And Nicholas put up a proposal, [Distribute 15M JBX to Reserved List addresses](https://juicetool.xyz/nance/juicebox/proposal/0562102b96224ba1b7fb820d2ca5e4ec), in a hope to suggest a way to distribute some amount of JBX to JuiceboxDAO contributors. This proposal came under [very heated discussion](https://discord.com/channels/775859454780244028/1052301913879744552) in the temperature check stage of JuiceboxDAO's #38 Governance Cycle. Commuinity members expressed their different ideas on this topic. The discussions evolved from whether or not it would make sense to distribute JBX tokens to contributors on the reserved list uniformly, to if we should even reconsider the meaning or purpose of a reserved rate. 
+And Nicholas put up a proposal, [Distribute 15M JBX to Reserved List addresses](https://juicetool.xyz/nance/juicebox/proposal/0562102b96224ba1b7fb820d2ca5e4ec), in a hope to suggest a way to distribute some amount of JBX to JuiceboxDAO contributors. This proposal came under [very heated discussion](https://discord.com/channels/775859454780244028/1052301913879744552) in the temperature check stage of JuiceboxDAO's #38 Governance Cycle. Commuinity members expressed their different ideas on this topic. The discussions evolved from whether or not it would make sense to distribute JBX tokens to contributors on the reserved list uniformly, to if we should even reconsider the meaning or purpose of a reserved rate.
 
-Nicholas called on community members to join the discussion that will be expected to follow after the New Year, when we are looking at having a proper discussion about how we want to think about the reserve rate. 
+Nicholas called on community members to join the discussion that will be expected to follow after the New Year, when we are looking at having a proper discussion about how we want to think about the reserve rate.
 
 Jango said this discussio of how to get JBX outward to both incoming members or folks who have been contributing, is somewhat a macro question which is solved well by reserve rate at least in the beginning of the treasury operations. But at a certain time, we also do have to be reflective over the tools we're using, not only for ourselves, but also for the broader Juicebox ecosystem, because we are offering these tools to others, to both solve their community initialization process, and their scalability as well.
 
@@ -63,7 +63,7 @@ World Cup is over and the Defifa tournament turned out pretty fun and encouragin
 
 Meanwhile, we're wrapping up the current instance of Defifa. From now until December 25th, folks can start submitting scorecards of what happened. Then from Dec. 25th, people who are holding the NFTs can vote and attest a correct scorecard. After the attestation, the treasury will unlock and folks can burn their NFTs to get their portion of the winnings depending on how their team did over the tournament and how many folks have the same NFTs.
 
-There's a lot of stuff that we can make up for it to iterate on  for experience in this upcoming year. We can basically play any points distribution game between mint and attestation of the scorecard. 
+There's a lot of stuff that we can make up for it to iterate on  for experience in this upcoming year. We can basically play any points distribution game between mint and attestation of the scorecard.
 
 We will try one for NFL playoffs, which starts mid January of next year, to iterate on a few parameters. And we also are sketching out 5 or 6 tournaments next year across domains, like League of Legends, March Madness or Women's World Cup, etc.
 
@@ -71,7 +71,7 @@ It will be cool to start digging ahead for some of these. We can really try expe
 
 Another cool callout for Defifa this time around is that the ball kids minted one of every 10 NFTs for the ball kids treasury. Give the amount of tokens minted and the fact that the tokens are redeemable in the treasury, it ended up being a pretty successful experiment even monetarily for actually being able to support this next wave of development.
 
-We need to reassess the model for continuing the sustainability of the project and make sure that we keep things tight. But this has a chance of being very scalable and can be applied as a fundraiser for other arbitrary projects. 
+We need to reassess the model for continuing the sustainability of the project and make sure that we keep things tight. But this has a chance of being very scalable and can be applied as a fundraiser for other arbitrary projects.
 
 There're all kinds of ideas we can iterate on. We should definitely dream big, but it's also exciting to stand on some solid ground and be able to iterate one thing at a time from here on out.
 

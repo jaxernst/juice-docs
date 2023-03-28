@@ -89,7 +89,7 @@ function _getStructFor(uint256 _projectId, uint256 _configuration)
 
 ```
 /**
-  @notice 
+  @notice
   Unpack a funding cycle's packed stored values into an easy-to-work-with funding cycle struct.
 
   @param _projectId The ID of the project to which the funding cycle belongs.

@@ -68,9 +68,9 @@ function _includesLocked(JBSplit[] memory _splits, JBSplit memory _lockedSplit)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
-  A flag indiciating if the provided splits array includes the locked split. 
+  A flag indiciating if the provided splits array includes the locked split.
 
   @param _splits The array of splits to check within.
   @param _lockedSplit The locked split.

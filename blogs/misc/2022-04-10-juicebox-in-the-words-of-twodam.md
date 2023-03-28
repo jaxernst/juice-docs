@@ -1,6 +1,6 @@
 ---
 slug: juicebox-in-the-words-of-twodam
-title: Juicebox in the Words of twodam 
+title: Juicebox in the Words of twodam
 authors: [felixander]
 tags: [interview]
 ---
@@ -13,7 +13,7 @@ tags: [interview]
 
 ### How did you get started with JB, and how has it changed since you’ve been here?
 
-When researching ConstitutionDAO, I discovered the platform Juicebox, and joined Discord. During that time I read through the documentation and code base, because I saw a lot of people asking questions, so I spontaneously went to help answer them. It so happened that because of the popularity of ConstitutionDAO, many people joined Discord, and that number of people reached several thousand. Zeugh recognized and recommended me to be the Discord mod. After that I also made several data panels according to the needs, to better show the trends in different aspects of JB. 
+When researching ConstitutionDAO, I discovered the platform Juicebox, and joined Discord. During that time I read through the documentation and code base, because I saw a lot of people asking questions, so I spontaneously went to help answer them. It so happened that because of the popularity of ConstitutionDAO, many people joined Discord, and that number of people reached several thousand. Zeugh recognized and recommended me to be the Discord mod. After that I also made several data panels according to the needs, to better show the trends in different aspects of JB.
 
 Since I’ve joined, JB started to have multi-language support, the governance process got better, the number of contributors increased to a dozen, a lot of things were moving forward, and everyone was smart about it.
 

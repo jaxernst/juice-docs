@@ -59,7 +59,7 @@ function addToBalanceOf(
 
     * [`JBTokens`](/dev/deprecated/v2/libraries/jbtokens.md)
       * `.ETH`
-      
+
     _External references:_
 
     * [`transferFrom`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-transferFrom-address-address-uint256-)
@@ -131,7 +131,7 @@ function addToBalanceOf(
     _External references:_
 
     * [`transfer`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-Transfer-address-address-uint256-)
-    
+
 4.  Emit a `AddToBalance` event with the relevant parameters.
 
     ```
@@ -150,21 +150,21 @@ function addToBalanceOf(
     _Event references:_
 
     * [`AddToBalance`](/dev/deprecated/v2/contracts/or-utilities/jbetherc20splitspayer/events/addtobalance.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Add to the balance of the specified project after first splitting the amount among the stored default splits.
 
   @param _projectId The ID of the project that is being paid after.
   @param _token The token being paid in.
   @param _amount The amount of tokens being paid, as a fixed point number. If the token is ETH, this is ignored and msg.value is used in its place.
   @param _decimals The number of decimals in the `_amount` fixed point number. If the token is ETH, this is ignored and 18 is used in its place, which corresponds to the amount of decimals expected in msg.value.
-  @param _memo A memo to pass along to the emitted event.  
+  @param _memo A memo to pass along to the emitted event.
   @param _metadata Extra data to pass along to the terminal.
 */
 function addToBalanceOf(

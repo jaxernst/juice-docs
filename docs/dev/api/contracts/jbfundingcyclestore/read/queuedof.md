@@ -78,7 +78,7 @@ function queuedOf(uint256 _projectId)
     else {
       // Resolve the funding cycle for the latest configured funding cycle.
       fundingCycle = _getStructFor(_projectId, latestConfigurationOf[_projectId]);
-      
+
       // If the latest funding cycle starts in the future, it must start in the distant future
       // since its not in standby. In this case base the queued cycles on the base cycle.
       if (fundingCycle.start > block.timestamp)
@@ -118,7 +118,7 @@ function queuedOf(uint256 _projectId)
     // Get the funding cycle of its base funding cycle, which carries the last approved configuration.
     fundingCycle = _getStructFor(_projectId, fundingCycle.basedOn);
     ```
-    
+
     _Internal references:_
 
     * [`_getStructFor`](/dev/api/contracts/jbfundingcyclestore/read/-_getstructfor.md)
@@ -151,7 +151,7 @@ function queuedOf(uint256 _projectId)
 
 ```
 /**
-  @notice 
+  @notice
   The funding cycle that's next up for the specified project.
 
   @dev

@@ -49,7 +49,7 @@ function isTerminalOf(uint256 _projectId, IJBPaymentTerminal _terminal)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Whether or not a specified terminal is a terminal of the specified project.
 

@@ -38,7 +38,7 @@ function decimalsForToken(address _token) external view override returns (uint25
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   The decimals that should be used in fixed number accounting for the specified token.
 

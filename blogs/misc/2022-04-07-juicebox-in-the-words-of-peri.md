@@ -1,6 +1,6 @@
 ---
 slug: juicebox-in-the-words-of-peri
-title: Juicebox in the Words of peri 
+title: Juicebox in the Words of peri
 authors: [felixander]
 tags: [interview]
 ---

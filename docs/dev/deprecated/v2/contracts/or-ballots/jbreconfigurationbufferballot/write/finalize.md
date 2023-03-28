@@ -91,7 +91,7 @@ function finalize(uint256 _projectId, uint256 _configured)
 
 ```
 /**
-  @notice 
+  @notice
   Finalizes a configuration state if the current state has settled.
 
   @param _projectId The ID of the project to which the funding cycle being checked belongs.

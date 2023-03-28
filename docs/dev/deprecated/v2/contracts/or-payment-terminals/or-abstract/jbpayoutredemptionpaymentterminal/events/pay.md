@@ -24,7 +24,7 @@ event Pay(
 * `fundingCycleConfiguration` is the funding cycle configuration during which the payment was made.
 * `fundingCycleNumber` is the number of the funding cycle during which the payment was made.
 * `projectId` is the ID of the project that was paid.
-* `payer` is the address that paid. 
+* `payer` is the address that paid.
 * `beneficiary` is the address that was specified to receive benefits from the payment, such as the project's tokens.
 * `amount` is the amount of tokens that was paid.
 * `beneficiaryTokenCount` is the amount of the project's tokens that were issued to the beneficiary as a result of the payment made.

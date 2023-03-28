@@ -168,14 +168,14 @@ function pay(
     _Event references:_
 
     * [`Pay`](/dev/deprecated/v2/contracts/or-utilities/jbetherc20splitspayer/events/pay.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Make a payment to the specified project after first splitting the amount among the stored default splits.
 
   @param _projectId The ID of the project that is being paid after.

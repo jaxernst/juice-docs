@@ -71,8 +71,8 @@ function _deriveStartFrom(JBFundingCycle memory _baseFundingCycle, uint256 _must
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The date that is the nearest multiple of the specified funding cycle's duration from its end.
 
   @param _baseFundingCycle The funding cycle to base the calculation on.

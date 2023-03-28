@@ -11,7 +11,7 @@ Interface: [`IJBSplitsPayer`](/dev/deprecated/v2/interfaces/ijbsplitspayer.md)
 ```
 /**
   @notice
-  The ID of project for which the default splits are stored. 
+  The ID of project for which the default splits are stored.
 */
 uint256 public override defaultSplitsProjectId;
 ```

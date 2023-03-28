@@ -17,7 +17,7 @@ modifier onlyController(uint256 _projectId) { ... }
 ```
 
 * Arguments:
-  * `_projectId` is the ID of the project. 
+  * `_projectId` is the ID of the project.
 * The modifier function can be used by any internal function.
 
 #### Body
@@ -47,11 +47,11 @@ modifier onlyController(uint256 _projectId) { ... }
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
-  Only allows the controller of the specified project to proceed. 
+  Only allows the controller of the specified project to proceed.
 
-  @param _projectId The ID of the project. 
+  @param _projectId The ID of the project.
 */
 modifier onlyController(uint256 _projectId) {
   if (address(directory.controllerOf(_projectId)) != msg.sender) revert CONTROLLER_UNAUTHORIZED();

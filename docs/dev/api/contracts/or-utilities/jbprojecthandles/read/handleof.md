@@ -87,17 +87,17 @@ function handleOf(uint256 _projectId) external view override returns (string mem
     _Internal references:_
 
     * [`_formatHandle`](/dev/api/contracts/or-utilities/jbprojecthandles/read/-_formathandle.md)
-      
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Returns the handle for a project.
 
-  @dev 
+  @dev
   Requires a TXT record for the `TEXT_KEY` that matches the `_projectId`.
 
   @param _projectId The ID of the project to get the handle of.

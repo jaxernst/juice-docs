@@ -1,7 +1,7 @@
 ---
 slug: juicebox-benefits-program-update
 title: Juicebox Benefits Program Update
-authors: 
+authors:
   - name: Kale
     title: ARCx Contributor
     url: https://twitter.com/CryptoKale_
@@ -42,7 +42,7 @@ Next, we consider this same retention rate over time broken down across the 3 di
 
 ![](juicebox_retention_by_cohort.webp)
 
-Finally, we looked at how quickly each cohort claimed their JBX. Interestingly, the 53-200 tier fared better than the 201-300 tier in this metric as well. 
+Finally, we looked at how quickly each cohort claimed their JBX. Interestingly, the 53-200 tier fared better than the 201-300 tier in this metric as well.
 
 ![](juicebox_claims.webp)
 

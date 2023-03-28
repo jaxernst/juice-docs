@@ -9,8 +9,8 @@ Interface: [`IJBProjects`](/dev/deprecated/v2/interfaces/ijbprojects.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The metadata for each project, which can be used across several domains.
 
   _projectId The ID of the project to which the metadata belongs.

@@ -2,7 +2,7 @@
 
 Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md)​‌
 
-**The fee beneficiary project ID is 1, as it should be the first project launched during the deployment process.** 
+**The fee beneficiary project ID is 1, as it should be the first project launched during the deployment process.**
 
 #### Definition
 

@@ -1,6 +1,6 @@
 ---
 slug: juicebox-in-the-words-of-tankbottoms
-title: Juicebox in the Words of tankbottoms 
+title: Juicebox in the Words of tankbottoms
 authors: [felixander]
 tags: [interview]
 ---
@@ -17,11 +17,11 @@ I wanted to draw attention that there are other articles of clothing that may no
 
 ### How'd you get started with JB, and what attracted you to the platform?
 
-I’ve been around six weeks or so. I’ve been in software development for a minute, and I met some anons who wanted to do this public good DAO, which is now called MovementDAO. It’s part seeding start-ups, part non-profit, part social movements.  In researching platforms to work with I found two which I liked the most, OpenLaw’s TributeDAO Framework and Juicebox. 
+I’ve been around six weeks or so. I’ve been in software development for a minute, and I met some anons who wanted to do this public good DAO, which is now called MovementDAO. It’s part seeding start-ups, part non-profit, part social movements.  In researching platforms to work with I found two which I liked the most, OpenLaw’s TributeDAO Framework and Juicebox.
 
-TributeDAO we updated all the tooling and added DeFi, and at the end felt it was not as accessible as we would have liked. We also took Juicebox forked it and launched it on Polygon (where Matic is used), which was more what we were looking for.  However, we are not the kind of cats to fork and do stuff, its open source and its fair game, but we contribute, add value and divide up the work, so it seemed right to contribute to helping through v2.  
+TributeDAO we updated all the tooling and added DeFi, and at the end felt it was not as accessible as we would have liked. We also took Juicebox forked it and launched it on Polygon (where Matic is used), which was more what we were looking for.  However, we are not the kind of cats to fork and do stuff, its open source and its fair game, but we contribute, add value and divide up the work, so it seemed right to contribute to helping through v2.
 
-One place it was mentioned where we could help was figure out the BannyVerse situation. I pinged Wagmi’s Mieos and started collaborating with constructing Banny to be mintable, worked on the TokenUriResolver how the veBannys were going to be selected, and planning on the BannyVerse would unfold NFT-wise. 
+One place it was mentioned where we could help was figure out the BannyVerse situation. I pinged Wagmi’s Mieos and started collaborating with constructing Banny to be mintable, worked on the TokenUriResolver how the veBannys were going to be selected, and planning on the BannyVerse would unfold NFT-wise.
 
 ### **That’s fascinating, you seem to be well-versed on the technical side of this stuff. In your opinion, how do DAO’s protect themselves from bad actors/sabotage?**
 
@@ -33,7 +33,7 @@ That’s the dichotomy– you can make a decentralized protocol that’s idealis
 
 ### I always think of DAO/Crypto time similar to dog-years and aging: like one month of time in a DAO has gotta be at least 6 months or a year at a regular IRL company. You and I of course both help as contributors to Wagmi productions. How would you describe your role at JB and Wagmi after this first 6 weeks or so?
 
-I like to think if there is code which expands the reach of the Banny, I am enabling this. I wrote the Juicebox TokenURI Resolver for the veBanny and make sure the composite Banny and appropriate metadata are deployed on IPFS. Additionally and more importantly, when Juicebox token holders go to stake their Banny and enter the Bannyverse, I aim to enable the experience to mint a unique Banny with anything from Hattori Hanzo to AK-47. A banana has got to defend himself. 
+I like to think if there is code which expands the reach of the Banny, I am enabling this. I wrote the Juicebox TokenURI Resolver for the veBanny and make sure the composite Banny and appropriate metadata are deployed on IPFS. Additionally and more importantly, when Juicebox token holders go to stake their Banny and enter the Bannyverse, I aim to enable the experience to mint a unique Banny with anything from Hattori Hanzo to AK-47. A banana has got to defend himself.
 
 ### **I always ask about where all the assholes are, it seems like so many talented people working together should bring a clash of egos. Where are the assholes?**
 
@@ -45,7 +45,7 @@ I think WAGMI makes it clear you can add a lot of value even if it’s not code.
 
 ### What’s a project (within or outside of JB) that you’re really looking forward to in the future?
 
-MovementDAO, and the future of Juicebox v2 are both things that I am working on and that I am looking forward to enabling. We are all learning every day how things work and willing to change it up, but I want to understand some fundamental parts of what makes Juicebox successful not for just raising funds but to getting people to operate treasuries transparently. We (both JB v2 and MovementDAO) want to enable this with endowments, NFT businesses, start-ups, liquidity pools into a well orchestrated decentralized protocol. 
+MovementDAO, and the future of Juicebox v2 are both things that I am working on and that I am looking forward to enabling. We are all learning every day how things work and willing to change it up, but I want to understand some fundamental parts of what makes Juicebox successful not for just raising funds but to getting people to operate treasuries transparently. We (both JB v2 and MovementDAO) want to enable this with endowments, NFT businesses, start-ups, liquidity pools into a well orchestrated decentralized protocol.
 
 ### What’s something people would be surprised to learn about you?
 

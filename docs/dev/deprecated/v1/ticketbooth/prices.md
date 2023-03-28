@@ -3,8 +3,8 @@
 ### Read
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Gets the current price of ETH for the provided currency.
 
   @param _currency The currency to get a price for.
@@ -21,8 +21,8 @@ function getETHPriceFor(uint256 _currency)
 ### Write
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Add a price feed for the price of ETH.
 
   @dev

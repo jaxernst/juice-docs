@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -25,7 +25,7 @@ Jango also said that we had been wtinessing treasuries that are more fundrasing 
 
 Also Nicholas had launched a Juicebox project [Web3 Galzxy Brain](https://juicebox.money/@web3galaxybrain) for his Twitter Space and podcast, selling 5 seconds worth of advertising on his show for 1 NFT minted on this project. This is also one the experiments to hopefully find something interesting that people can make use of in the future.
 
-![Web3 Galaxy Brain](web3_galaxy_brain.webp) 
+![Web3 Galaxy Brain](web3_galaxy_brain.webp)
 
 ## Merch Demo with STVG
 
@@ -35,7 +35,7 @@ The way he managed to achieve this is to set up a slice on [Slice.so](https://sl
 
 STVG was also working on another option of making the purchase same as minting an NFT on ordinary Juicebox projects, where  a pop-up window will come up after the purchasing for buyer to put in their information, so that seller can pick up the information and put order in Printful.
 
-Filipv suggested that he put together a guide for the project creators to do this themselves. 
+Filipv suggested that he put together a guide for the project creators to do this themselves.
 
 STVG said he was working on that right now. And he was also working with SharkDAO and Bankless project management guild on how they can make use of this model.
 

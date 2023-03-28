@@ -28,7 +28,7 @@ Goerli testnet: [`0xB9Ee9d8203467f6EC0eAC81163d210bd1a7d3b55`](https://goerli.et
 #### Constructor
 
 ```
-/** 
+/**
   @param _directory A contract storing directories of terminals and controllers for each project.
 */
 constructor(IJBDirectory _directory) JBControllerUtility(_directory) {}

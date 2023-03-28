@@ -33,7 +33,7 @@ function stateOf(
 
 #### Body
 
-1.  The ballot is failed if the start time of the funding cycle is  
+1.  The ballot is failed if the start time of the funding cycle is
 
     ```
     // If the provided configured timestamp is after the start timestamp, the ballot is Failed.
@@ -45,7 +45,7 @@ function stateOf(
     * [`JBBallotState`](/dev/api/enums/jbballotstate.md)
       * `.Failed`
 
-2.  If the configuration took place before the funding cycle's start with sufficient time to cover this ballot's duration, it is approved. Otherwise, it is failed. 
+2.  If the configuration took place before the funding cycle's start with sufficient time to cover this ballot's duration, it is approved. Otherwise, it is failed.
 
     ```
     unchecked {
@@ -66,7 +66,7 @@ function stateOf(
 
 ```
 /**
-  @notice 
+  @notice
   The approval state of a particular funding cycle.
 
   @param _projectId The ID of the project to which the funding cycle being checked belongs.

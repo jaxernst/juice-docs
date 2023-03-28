@@ -68,14 +68,14 @@ function configureFor(
     ```
 
 5.  Make sure the soonest time the queued funding cycle can start still fits in a `uint56`.
-    
+
     ```
     // Make sure the min start date fits in a uint56, and that the start date of an upcoming cycle also starts within the max.
     if (_mustStartAtOrAfter + _data.duration > type(uint56).max) revert INVALID_TIMEFRAME();
     ```
 
 6.  Make sure the provided ballot is valid.
-    
+
     ```
     // Ballot should be a valid contract, supporting the correct interface
     if (_data.ballot != IJBFundingCycleBallot(address(0))) {
@@ -185,7 +185,7 @@ function configureFor(
 
 ```
 /**
-  @notice 
+  @notice
   Configures the next eligible funding cycle for the specified project.
 
   @dev

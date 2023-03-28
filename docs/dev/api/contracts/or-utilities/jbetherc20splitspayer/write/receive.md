@@ -99,7 +99,7 @@ receive() external payable virtual override { ... }
       * `.sendValue(...)`
     * [`JBTokens`](/dev/api/libraries/jbtokens.md)
       * `.ETH`
-      
+
     _Internal references:_
 
 
@@ -116,7 +116,7 @@ receive() external payable virtual override { ... }
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Received funds are paid to the default split group using the stored default properties.
 

@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/** 
+/**
   @member terminal The terminal that is facilitating the payment.
   @member payer The address from which the payment originated.
   @member amount The amount of the payment. Includes the token being paid, the value, the number of decimals included, and the currency of the amount.

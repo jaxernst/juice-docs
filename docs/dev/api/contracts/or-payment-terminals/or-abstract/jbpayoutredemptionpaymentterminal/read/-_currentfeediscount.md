@@ -74,12 +74,12 @@ function _currentFeeDiscount(uint256 _projectId) private view returns (uint256) 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Get the fee discount from the fee gauge for the specified project.
 
   @param _projectId The ID of the project to get a fee discount for.
-  
+
   @return feeDiscount The fee discount, which should be interpreted as a percentage out MAX_FEE_DISCOUNT.
 */
 function _currentFeeDiscount(uint256 _projectId) internal view returns (uint256) {
@@ -116,4 +116,4 @@ function _currentFeeDiscount(uint256 _projectId) internal view returns (uint256)
 </TabItem>
 
 </Tabs>
- 
+

@@ -57,13 +57,13 @@ function getFundingCycleOf(uint256 _projectId, uint256 _configuration)
 
     * [`JBFundingCycleMetadataResolver`](/dev/deprecated/v2/libraries/jbfundingcyclemetadataresolver.md)<br/>
       * `.expandMetadata(...)`
-      
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   A project's funding cycle for the specified configuration along with its metadata.
 

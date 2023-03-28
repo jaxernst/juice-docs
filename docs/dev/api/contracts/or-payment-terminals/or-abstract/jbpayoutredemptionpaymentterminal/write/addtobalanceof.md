@@ -90,7 +90,7 @@ function addToBalanceOf(
 
   @param _projectId The ID of the project to which the funds received belong.
   @param _amount The amount of tokens to add, as a fixed point number with the same number of decimals as this terminal. If this is an ETH terminal, this is ignored and msg.value is used instead.
-  @param _token The token being paid. This terminal ignores this property since it only manages one token. 
+  @param _token The token being paid. This terminal ignores this property since it only manages one token.
   @param _memo A memo to pass along to the emitted event.
   @param _metadata Metadata to pass along to the emitted event.
 */

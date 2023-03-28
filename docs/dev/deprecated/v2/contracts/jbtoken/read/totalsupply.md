@@ -42,10 +42,10 @@ function totalSupply(uint256) external view override returns (uint256) { ... }
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   The total supply of this ERC20.
-  
+
   @param _projectId the ID of the project to which the token belongs. This is ignored.
 
   @return The total supply of this ERC20, as a fixed point number with 18 decimals.

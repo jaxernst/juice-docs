@@ -78,7 +78,7 @@ function _currentTotalOverflowOf(
     _External references:_
 
     * [`priceFor`](/dev/deprecated/v2/contracts/jbprices/read/pricefor.md)
-5.  If the fixed point overflow is to be returned with a number of decimals other than 18, adjust the number accordingly. 
+5.  If the fixed point overflow is to be returned with a number of decimals other than 18, adjust the number accordingly.
 
     ```
     // Adjust the decimals of the fixed point number if needed to match the target decimals.
@@ -102,7 +102,7 @@ function _currentTotalOverflowOf(
 ```
 /**
   @notice
-  Gets the amount that is currently overflowing across all of a project's terminals. 
+  Gets the amount that is currently overflowing across all of a project's terminals.
 
   @dev
   This amount changes as the value of the balances changes in relation to the currency being used to measure the project's distribution limits.

@@ -98,13 +98,13 @@ Here are the interface definitions:
 
 ```solidity
 /**
-      @notice 
+      @notice
       Configures the properties of the current funding cycle if the project hasn't distributed tickets yet, or
       sets the properties of the proposed funding cycle that will take effect once the current one expires
       if it is approved by the current funding cycle's ballot.
       @dev
       Only a project's owner or a designated operator can configure its funding cycles.
-      @param _projectId The ID of the project being reconfigured. 
+      @param _projectId The ID of the project being reconfigured.
       @param _properties The funding cycle configuration.
         @dev _properties.target The amount that the project wants to receive in this funding stage. Sent as a wad.
         @dev _properties.currency The currency of the `target`. Send 0 for ETH or 1 for USD.

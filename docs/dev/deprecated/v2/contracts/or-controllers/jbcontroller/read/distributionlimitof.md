@@ -66,7 +66,7 @@ function distributionLimitOf(
   The amount of token that a project can distribute per funding cycle, and the currency it's in terms of.
 
   @dev
-  The number of decimals in the returned fixed point amount is the same as that of the specified terminal. 
+  The number of decimals in the returned fixed point amount is the same as that of the specified terminal.
 
   @param _projectId The ID of the project to get the distribution limit of.
   @param _configuration The configuration during which the distribution limit applies.

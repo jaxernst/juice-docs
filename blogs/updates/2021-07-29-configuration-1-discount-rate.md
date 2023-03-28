@@ -11,7 +11,7 @@ This means that a contribution made to the JuiceboxDAO project during this fundi
 
 The Juicebox protocol supports discount rates from 0%-20%. The rates are compounded over time, meaning a constant rate of 10% over two funding cycles would make the relative discount between contributions on either end 81% (10% of 100 is 90. 10% of 90 is 9. 100 - 10 - 9 = 81).
 
-The discount rate is mega powerful and has lasting effects. It should not be used arbitrarily. 
+The discount rate is mega powerful and has lasting effects. It should not be used arbitrarily.
 
 Our reasoning for going with the max of 20% is that there's inherently much more risk to funding the project at its onset – the protocol is raw and untested in the wild, there are no trends to latch on to for financial speculation, and there are lots of unanswered questions still floating around. Any contributions made during this funding cycle are risky. We wanted to reward them as much as possible.
 

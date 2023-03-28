@@ -102,7 +102,7 @@ function _processFee(uint256 _amount, address _beneficiary) { ... }
         _Internal references:_
 
         * [`_PROTOCOL_PROJECT_ID`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/properties/-_protocol_project_id.md)
-        
+
         _External references:_
 
         * [`pay`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/pay.md)
@@ -170,4 +170,4 @@ function _processFee(uint256 _amount, address _beneficiary) private {
 </TabItem>
 
 </Tabs>
-  
+

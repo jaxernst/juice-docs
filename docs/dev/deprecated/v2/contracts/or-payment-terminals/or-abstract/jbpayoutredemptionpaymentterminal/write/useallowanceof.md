@@ -39,7 +39,7 @@ function useAllowanceOf(
   * `_projectId` is the ID of the project to use the allowance of.
   * `_amount` is the amount of terminal tokens to use from this project's current allowance, as a fixed point number with the same amount of decimals as this terminal.
   * `_currency` is the expected currency of the amount being distributed. Must match the project's current funding cycle's overflow allowance currency.
-  * `_token` is the token being distributed. This terminal ignores this property since it only manages one token. 
+  * `_token` is the token being distributed. This terminal ignores this property since it only manages one token.
   * `_minReturnedTokens` is the minimum number of tokens that the `_amount` should be valued at in terms of this terminal's currency, as a fixed point number with the same amount of decimals as this terminal.
   * `_beneficiary` is the address to send the funds to.
 * Through the [`requirePermission`](/dev/deprecated/v2/contracts/or-abstract/jboperatable/modifiers/requirepermission.md) modifier, the function is only accessible by the project's owner, or from an operator that has been given the [`JBOperations.USE_ALLOWANCE`](/dev/deprecated/v2/libraries/jboperations.md) permission by the project owner for the provided `_projectId`.
@@ -71,14 +71,14 @@ function useAllowanceOf(
 
   @dev
   Only a project's owner or a designated operator can use its allowance.
-  
+
   @dev
   Incurs the protocol fee.
 
   @param _projectId The ID of the project to use the allowance of.
   @param _amount The amount of terminal tokens to use from this project's current allowance, as a fixed point number with the same amount of decimals as this terminal.
   @param _currency The expected currency of the amount being distributed. Must match the project's current funding cycle's overflow allowance currency.
-  @param _token The token being distributed. This terminal ignores this property since it only manages one token. 
+  @param _token The token being distributed. This terminal ignores this property since it only manages one token.
   @param _minReturnedTokens The minimum number of tokens that the `_amount` should be valued at in terms of this terminal's currency, as a fixed point number with the same amount of decimals as this terminal.
   @param _beneficiary The address to send the funds to.
   @param _memo A memo to pass along to the emitted event.
@@ -89,7 +89,7 @@ function useAllowanceOf(
   uint256 _projectId,
   uint256 _amount,
   uint256 _currency,
-  address _token, 
+  address _token,
   uint256 _minReturnedTokens,
   address payable _beneficiary,
   string memory _memo
@@ -101,7 +101,7 @@ function useAllowanceOf(
   returns (uint256 netDistributedAmount)
 {
   _token; // Prevents unused var compiler and natspec complaints.
-  
+
   return _useAllowanceOf(_projectId, _amount, _currency, _minReturnedTokens, _beneficiary, _memo);
 }
 ```

@@ -8,7 +8,7 @@ image: https://docs.juicebox.money/img/physical-goods-NFT-tutorial.jpg
 
 Selling physical goods as NFTs on Juicebox is a powerful way for creators to expand their revenue streams and offer unique experiences to supporters of their project. Whether you're selling merch, physical artworks, or other IRL goods, you can create NFTs on Juicebox to token gate an [AddressForm](https://addressform.io/) with the shipping details needed to ship the items to supporters of your project.
 
-In this tutorial, JuiceboxDAO contributor [STVG](https://twitter.com/0xSTVG) pairs an NFT from a Juicebox project with a physical item in 5 simple steps and no coding required. 
+In this tutorial, JuiceboxDAO contributor [STVG](https://twitter.com/0xSTVG) pairs an NFT from a Juicebox project with a physical item in 5 simple steps and no coding required.
 
 You can follow along in the video tutorial on JuiceboxDAO YouTube or the step-by-step guide in this article.
 
@@ -18,7 +18,7 @@ You can follow along in the video tutorial on JuiceboxDAO YouTube or the step-by
 
 ![AddressForm, web3 form builder](address-form-banner.webp)
 
-*Address Form is a web3 form builder built by [pbrianandj](https://twitter.com/pbrianandj), a software engineer at [NounsDAO](https://twitter.com/nounsdao). You can create token gated forms, distribute POAPs, sign with wallet addresses, and more.* 
+*Address Form is a web3 form builder built by [pbrianandj](https://twitter.com/pbrianandj), a software engineer at [NounsDAO](https://twitter.com/nounsdao). You can create token gated forms, distribute POAPs, sign with wallet addresses, and more.*
 
 Go to [addressform.io](http://addressform.io) and create a form. You can edit the form details later to include all of the information needed from buyers but first you'll need to grab the form's URL to connect it to your Juicebox NFT.
 
@@ -38,15 +38,15 @@ Next, click on the dropdown for `Payment Success Popup`. This is where you can d
 
 ### Step 4: Deploy Project and Copy Contract Address
 
-Now you can deploy your Juicebox project and copy the `Contract Address` which can be found on your Project Page under `Funding Cycle > Cycle x > Data Source` at the bottom. You can hover over the address and click to copy it to your clipboard. 
+Now you can deploy your Juicebox project and copy the `Contract Address` which can be found on your Project Page under `Funding Cycle > Cycle x > Data Source` at the bottom. You can hover over the address and click to copy it to your clipboard.
 
 ![Juicebox NFT contract address](data-source-sq.webp)
 
 ### Step 5: Token Gate the AddressForm using the Contract Address
 
-Go back to AddressForm and edit the form to include whatever information you need (e.g. shipping address, phone number, email) to send the item to whoever purchases the NFT. Save your changes. 
+Go back to AddressForm and edit the form to include whatever information you need (e.g. shipping address, phone number, email) to send the item to whoever purchases the NFT. Save your changes.
 
-Under `Workflows` you'll see a toggle at the bottom for `ERC 721 Token Gating Workflow`. Turn this on and paste in the contract address that you copied from your Juicebox project. Save the changes and voila! 
+Under `Workflows` you'll see a toggle at the bottom for `ERC 721 Token Gating Workflow`. Turn this on and paste in the contract address that you copied from your Juicebox project. Save the changes and voila!
 
 ![Token Gating on AddressForm](gating-contract-address-5x4.webp)
 
@@ -54,7 +54,7 @@ Under `Workflows` you'll see a toggle at the bottom for `ERC 721 Token Gating Wo
 By token gating the form with the contract address, only people that hold NFTs from your Juicebox project will be able to access the form.
 :::
 
-Now when a supporter purchases an NFT from your Juicebox project, they'll be prompted to fill out your AddressForm so that you can send the item to their address. 
+Now when a supporter purchases an NFT from your Juicebox project, they'll be prompted to fill out your AddressForm so that you can send the item to their address.
 
 ![Selling physical goods with NFTs on Juicebox](selling-goods.gif)
 

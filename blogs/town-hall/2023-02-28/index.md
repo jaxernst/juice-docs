@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 ## Roadmap Presentation by Tjl
 
@@ -18,7 +18,7 @@ The full version of this document can be found [here](https://grand-popcorn-c81.
 
 As a very high level context, this product framework by tjl has been pulled together through a series of workshops, some front end analytics, on-chain and  off-chain analytics, as well as the user testing and interviews by Strath. Thanks for all the efforts by everybody involved, which has been the premise of building all of this.
 
-According to this roadmap, which is supposed to be with a trickle-down effect, we will start from the top of the **vision** to enable creators of tomorrow to launch, fund and manage the boldest projects on the internet. 
+According to this roadmap, which is supposed to be with a trickle-down effect, we will start from the top of the **vision** to enable creators of tomorrow to launch, fund and manage the boldest projects on the internet.
 
 We are on a **mission**, there are some of the numbers we're looking to work towards. Even if we only achieve 10% of those, that will an absolute win for us.
 
@@ -42,9 +42,9 @@ Some **values** we're working towards are trust, transparency, reliability, fun 
 
    Refreshing the brand to commuicate to a wider audience.
 
-- Phase 2: Engaging users. 
+- Phase 2: Engaging users.
 
-  There are a couple of different features here, such as introducing profiles and linked email communication. 
+  There are a couple of different features here, such as introducing profiles and linked email communication.
 
   Shoult out to Filipv, Mathew and Brileigh for their previous effort in the area of product marketing.
 
@@ -63,7 +63,7 @@ Some **values** we're working towards are trust, transparency, reliability, fun 
 - Phase 6: Supporting and serving
 
   Trying to introduce new support services.
-  
+
 - Phase 7: Expansion of large-scale experiments
 
 ![Roadmap of Peel](peel_roadmap.webp)
@@ -72,8 +72,8 @@ The items in this graph are pretty much categorized into the above phases, with 
 
 1. Firstly there will be the brand refresh, launching a beta program, making some updates to the website, and including case studies on the website.
 2. We're going to jump into project page, make a small refresh on the project page, get into the user profile setup.
-3. Then we will be moving back in the create flow and expanding the capabilities, 
-4. Next will be some features around project discoverability: 
+3. Then we will be moving back in the create flow and expanding the capabilities,
+4. Next will be some features around project discoverability:
    - giving project updates, making it possible to discuss on project pages;
    - ability to message project owners;
    - activity reactions;
@@ -95,7 +95,7 @@ They came to agreement and essentially approved [the branding brief](https://gra
 
 1. Cover image. Projects can now add a cover image on the top of their project page.
 
-![cover image of project Banny Valentines](coverimage_bannyvalentines.webp) 
+![cover image of project Banny Valentines](coverimage_bannyvalentines.webp)
 
   A tutorial of adding cover image made by Matthew and Brileigh:
 

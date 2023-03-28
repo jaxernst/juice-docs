@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/** 
+/**
   @member token The token being sent to the split allocator.
   @member amount The amount being sent to the split allocator, as a fixed point number.
   @member decimals The number of decimals in the amount.

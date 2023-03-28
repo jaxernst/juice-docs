@@ -29,7 +29,7 @@ function isTerminalOf(uint256 _projectId, IJBPaymentTerminal _terminal)
 #### Body
 
 1.  Keep a reference to the number of terminal's the project has.
-    
+
     ```
     // Keep a reference to the number of terminals the project has.
     uint256 _numberOfTerminals = _terminalsOf[_projectId].length;
@@ -63,7 +63,7 @@ function isTerminalOf(uint256 _projectId, IJBPaymentTerminal _terminal)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Whether or not a specified terminal is a terminal of the specified project.
 

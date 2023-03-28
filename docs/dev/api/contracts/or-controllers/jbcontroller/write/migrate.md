@@ -42,7 +42,7 @@ function migrate(uint256 _projectId, IJBMigratable _to)
 
     * [`directory`](/dev/api/contracts/or-controllers/jbcontroller/properties/directory.md)
 
-2.  Make sure this controller is the project's current controller. 
+2.  Make sure this controller is the project's current controller.
 
     ```
     // This controller must be the project's current controller.

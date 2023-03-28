@@ -23,9 +23,9 @@ modifier requirePermissionAllowingOverride(
 
 * Arguments:
   * `_account` is the account to check for.
-  * `_domain` is the domain namespace to look for an operator within. 
-  * `_permissionIndex` is the index of the permission to check for. 
-  * `_override` is a condition to force allowance for. 
+  * `_domain` is the domain namespace to look for an operator within.
+  * `_permissionIndex` is the index of the permission to check for.
+  * `_override` is a condition to force allowance for.
 * The modifier function can be used by any internal function.
 
 #### Body
@@ -51,13 +51,13 @@ modifier requirePermissionAllowingOverride(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
-  Only allows the speficied account, an operator of the account to proceed, or a truthy override flag. 
+  Only allows the speficied account, an operator of the account to proceed, or a truthy override flag.
 
   @param _account The account to check for.
-  @param _domain The domain namespace to look for an operator within. 
-  @param _permissionIndex The index of the permission to check for. 
+  @param _domain The domain namespace to look for an operator within.
+  @param _permissionIndex The index of the permission to check for.
   @param _override A condition to force allowance for.
 */
 modifier requirePermissionAllowingOverride(

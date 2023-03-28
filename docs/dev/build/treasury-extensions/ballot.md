@@ -21,8 +21,8 @@ There are two functions that must be implemented: `duration(...)` and `stateOf(.
 
 When extending the pay functionality with a delegate, the protocol will pass a `projectId`, a `configuration`, and a `start` to the `stateOf(...)` function. `configuration` is the identifier of the funding cycle being evaluated, and also the unix timestamp in seconds of when the reconfiguration was proposed. `start` is the unix timestamp the reconfiguration is scheduled to start at if that reconfiguration is approved.
 
-Once the `duration(...)` has expired, the returned value of `stateOf(...)` should no longer change. 
+Once the `duration(...)` has expired, the returned value of `stateOf(...)` should no longer change.
 
 #### Attaching
 
-New ballot contracts should be deployed independently. Once deployed, its address can be configured into a project's funding cycle. The ballot will take effect while that funding cycle is active, and will be used for evaluating subsequent reconfigurations. 
+New ballot contracts should be deployed independently. Once deployed, its address can be configured into a project's funding cycle. The ballot will take effect while that funding cycle is active, and will be used for evaluating subsequent reconfigurations.

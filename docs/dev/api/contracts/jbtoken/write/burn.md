@@ -35,7 +35,7 @@ function burn(
 #### Body
 
 1.  Make sure the project IDs match, or this contract's project ID is 0.
-    
+
     ```
     // Can't burn for a wrong project.
     if (projectId != 0 && _projectId != projectId) revert BAD_PROJECT();
@@ -60,13 +60,13 @@ function burn(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Burn some outstanding tokens.
 
   @dev
   Only the owner of this contract cant burn some of its supply.
-  
+
   @param _projectId The ID of the project to which the token belongs. This is ignored.
   @param _account The account to burn tokens from.
   @param _amount The amount of tokens to burn, as a fixed point number with 18 decimals.

@@ -5,7 +5,7 @@ authors: [jango]
 tags: [protocol, guide]
 ---
 
-Communities using Juicebox can leverage their reserved rate decisively when they want to make it more difficult for new members to join. Funds can still be received, but more of the newly minted tokens will be owned by the project itself. The current project members can use this to decide how they will manage their subsequent growth on a per-funding cycle basis. 
+Communities using Juicebox can leverage their reserved rate decisively when they want to make it more difficult for new members to join. Funds can still be received, but more of the newly minted tokens will be owned by the project itself. The current project members can use this to decide how they will manage their subsequent growth on a per-funding cycle basis.
 
 When the project wishes to make membership more accessible again, members can do so by lowering the reserved rate.
 

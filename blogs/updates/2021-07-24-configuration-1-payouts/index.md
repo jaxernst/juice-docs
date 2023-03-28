@@ -5,7 +5,7 @@ authors: [jango]
 tags: [dao, update]
 ---
 
-The first Juicebox configuration for the JuiceboxDAO lasts 30 days, and includes preprogrammed payouts. They are as follows: 
+The first Juicebox configuration for the JuiceboxDAO lasts 30 days, and includes preprogrammed payouts. They are as follows:
 
 ### Staff
 
@@ -14,12 +14,12 @@ The first Juicebox configuration for the JuiceboxDAO lasts 30 days, and includes
 - **AtomicMieos** gets **$1k** for experimenting with content, and helping shape ideas.
 - **Sage** gets **$1**k for design and illustration work.
 
-### Ops 
+### Ops
 
 (These funds all get paid-out to the JuiceboxDAO governance to be allocated)
 
-- **$6.8K** to pay back Jango for pre-purchasing juicebox.eth, jbx.eth, and jbox.eth. These ENS names will be transferred to JuiceboxDAOs governance. 
-- **$1k** will be allocated for content / art supplies, managed by Futurenate and Sage. 
+- **$6.8K** to pay back Jango for pre-purchasing juicebox.eth, jbx.eth, and jbox.eth. These ENS names will be transferred to JuiceboxDAOs governance.
+- **$1k** will be allocated for content / art supplies, managed by Futurenate and Sage.
 - Figma costs **$75** monthly.
 - Infura costs **$50** monthly.
 - Gitbook costs **$32** monthly.
@@ -28,6 +28,6 @@ The first Juicebox configuration for the JuiceboxDAO lasts 30 days, and includes
 The total is **$19,967**.
 ![](image-7.webp)
 
-The staff payout sums are small compared to market rates for these skills. We decided to start off with a small budget during the first funding cycle to encourage a longer runway, and to be able to re-evaluate needs as the first funding cycle plays out. 
+The staff payout sums are small compared to market rates for these skills. We decided to start off with a small budget during the first funding cycle to encourage a longer runway, and to be able to re-evaluate needs as the first funding cycle plays out.
 
 Stay tuned for a report on the first funding cycle's spending, and a proposal for the next funding cycle's payouts.

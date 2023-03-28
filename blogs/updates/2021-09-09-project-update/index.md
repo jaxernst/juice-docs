@@ -29,7 +29,7 @@ Co-authored: jango, peri, exekias, nati, nicholas, zeugh
 
 **Updates:**
 
-- No new bugs/problems discovered in the contracts. 
+- No new bugs/problems discovered in the contracts.
 - New repo where security issues are documented [here](https://github.com/jbx-protocol/juice-security).
 - Wallet connection issues in the front end solved. One remaining bug where connecting wallet from the projects page sometimes causes the `beneficiary` field of payments.
 - DefiYield auditors seems to have dropped off. Need to follow up again.
@@ -52,7 +52,7 @@ Co-authored: jango, peri, exekias, nati, nicholas, zeugh
 ![](image-4.webp)
 - New wallet connection integration. Can now connect with many other wallets with BlockNative integration.
 - Progress on Github issues backlog.
-- Wording in the interface being reconsidered:  "staking" vs "claiming". 
+- Wording in the interface being reconsidered:  "staking" vs "claiming".
 - Researching different UIs for different treasury types.
 
 **Help wanted:**
@@ -67,7 +67,7 @@ Co-authored: jango, peri, exekias, nati, nicholas, zeugh
 
 **Updates:**
 
-- Gitbook updates underway. Walkthrough, explanation of processes. 
+- Gitbook updates underway. Walkthrough, explanation of processes.
 - Working with Whiteboard crypto, UltraDao, BeatsDao.
 - Focusing on established DAOs. Might refocus to newer DAOs later.
 - People should forward questions from #support and from other JB projects to Nati to aggregate into docs.
@@ -121,7 +121,7 @@ Updates:
 
 - Big demand from SharkDAO (and others?).
 - Draft of contract looking good.
-- Plan for V1 is no UI on juicebox.money, make bare bones JS SDK/library with/for Shark to build a NFT MKT into their forthcoming website. 
+- Plan for V1 is no UI on juicebox.money, make bare bones JS SDK/library with/for Shark to build a NFT MKT into their forthcoming website.
 - Need to finalize what will be included in v1, and what won't.
 - [Specification draft](https://hackmd.io/QIzjphTdQjKpb-JYOS_Viw)
 - [Github repo](https://github.com/jbx-protocol/juice-NFTMKT) (private for now)
@@ -145,7 +145,7 @@ Updates:
 
 **Updates:**
 
-- Trying coordinape to test a reputation system. The epoch system feels good, didn't give us the easy integration to voting that we needed after the epoch. 
+- Trying coordinape to test a reputation system. The epoch system feels good, didn't give us the easy integration to voting that we needed after the epoch.
 - We're still wroking on our basic model for how to make decisions. Need to balance governance power between token holders and reputation/contributions but we haven't got a way to test it yet.
 - We can, at the moment, take the csv of reputation distributed after the Epoch, but are still looking on how to import those in a strategy to snapshot.
 Need help from more dev oriented folks to communicate coordinape results onto snapshot.

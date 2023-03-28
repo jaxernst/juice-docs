@@ -7,8 +7,8 @@ Contract: [`JBDirectory`](/dev/api/contracts/jbdirectory/README.md)‌
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The project's primary terminal for a token.
 
   _projectId The ID of the project to get the primary terminal of.

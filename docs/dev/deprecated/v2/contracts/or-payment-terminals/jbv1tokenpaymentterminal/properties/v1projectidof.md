@@ -9,11 +9,11 @@ Interface: [`IJBV1TokenPaymentTerminal`](/dev/deprecated/v2/interfaces/ijbv1toke
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The v1 project ID for a v2 project.
 
-  _projectId The ID of the v2 project to exchange tokens for. 
+  _projectId The ID of the v2 project to exchange tokens for.
 */
 mapping(uint256 => uint256) public override v1ProjectIdOf;
 ```

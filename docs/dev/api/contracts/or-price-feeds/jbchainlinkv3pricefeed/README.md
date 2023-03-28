@@ -21,7 +21,7 @@ Goerli testnet: [`0x47C6072ccDb899C016ED07ae8aEb7b2cfFe3C82e`](https://goerli.et
 #### Constructor
 
 ```
-/** 
+/**
   @param _feed The feed to report prices from.
 */
 constructor(AggregatorV3Interface _feed) {

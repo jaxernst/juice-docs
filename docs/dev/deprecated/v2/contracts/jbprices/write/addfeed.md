@@ -69,8 +69,8 @@ function addFeedFor(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Add a price feed for a currency in terms of the provided base currency.
 
   @dev

@@ -23,9 +23,9 @@ function setDefaultSplits(
 ```
 
 * Arguments:
-  * `_projectId` is the ID of project for which the default splits are stored. 
-  * `_domain` is the domain within which the default splits are stored. 
-  * `_group` is the group within which the default splits are stored. 
+  * `_projectId` is the ID of project for which the default splits are stored.
+  * `_domain` is the domain within which the default splits are stored.
+  * `_group` is the group within which the default splits are stored.
 * Through the [`onlyOwner`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable-onlyOwner--) modifier, this function can only be accessed by the address that owns this contract.
 * The function can be overriden by inheriting contracts.
 * The function overrides a function definition from the [`IJBSplitsPayer`](/dev/api/interfaces/ijbsplitspayer.md) interface.
@@ -78,13 +78,13 @@ function setDefaultSplits(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Sets the location of the splits that payments this contract receives will be split between.
 
-  @param _projectId The ID of project for which the default splits are stored. 
-  @param _domain The domain within which the default splits are stored. 
-  @param _group The group within which the default splits are stored. 
+  @param _projectId The ID of project for which the default splits are stored.
+  @param _domain The domain within which the default splits are stored.
+  @param _group The group within which the default splits are stored.
 */
 function setDefaultSplits(
   uint256 _projectId,

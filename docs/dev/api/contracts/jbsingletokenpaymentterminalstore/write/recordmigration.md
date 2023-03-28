@@ -83,7 +83,7 @@ function recordMigration(uint256 _projectId)
   Records the migration of funds from this store.
 
   @dev
-  The msg.sender must be an IJBSingleTokenPaymentTerminal. 
+  The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
   @param _projectId The ID of the project being migrated.
 

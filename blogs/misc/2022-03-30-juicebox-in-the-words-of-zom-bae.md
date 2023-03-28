@@ -13,12 +13,12 @@ tags: [interview]
 
 ### How'd you get started with JB, and how has it changed since you've been here?
 
-Oh wow...great question! 
-I initially started quietly lurking in JB honestly because I know and admire the team who created it.  I have zero technical background so as you can probably imagine...I had no clue what any of them were talking about.  I can't remember exactly when I joined, but probably around October '21.  The discord was still pretty small, I think we there were max 5-6 people on town hall calls so it was very close knit but very welcoming to normies like myself (which to be honest, it's still a pretty tight group of contributors who are also still very welcoming imo even though the membership has grown quite a lot)!  I started slowly but surely participating, asking questions (even "dumb" ones),  then ultimately took on a pm role to help keep people moving in a forward direction and tasks from slipping through cracks.  Since I joined, JB has definitely matured.  Processes have been dialed in, incredible work teams have come together, grown and transitioned into their own DOAs  (amazing!), and the synergy in how, so many people, from all over the world is nothing less than awe inspiring! 
+Oh wow...great question!
+I initially started quietly lurking in JB honestly because I know and admire the team who created it.  I have zero technical background so as you can probably imagine...I had no clue what any of them were talking about.  I can't remember exactly when I joined, but probably around October '21.  The discord was still pretty small, I think we there were max 5-6 people on town hall calls so it was very close knit but very welcoming to normies like myself (which to be honest, it's still a pretty tight group of contributors who are also still very welcoming imo even though the membership has grown quite a lot)!  I started slowly but surely participating, asking questions (even "dumb" ones),  then ultimately took on a pm role to help keep people moving in a forward direction and tasks from slipping through cracks.  Since I joined, JB has definitely matured.  Processes have been dialed in, incredible work teams have come together, grown and transitioned into their own DOAs  (amazing!), and the synergy in how, so many people, from all over the world is nothing less than awe inspiring!
 
 ### That is some awesome background, really interesting stuff. It sounds like you have a pretty wide perspective, having been here so long compared to many. So for your role here, how would you call yourself? It sounds like you're kind of a fixer, somebody who comes and makes things run smoothly, patches up cracks that arise, etc.
 
-So, I like that observation- but certainly not a fixer technically speaking-I guess more along the lines if something isn't getting done, I give soft nudges for reminders.  I also like to think I'm a connector.  If new folks come in, looking for something in particular, whether an answer to a protocol question or how to get started with picking up tasks, I do a decent job pointing them in the right direction, then following up when necessary.  I'm like one of those old phone operators...just connecting dots! 
+So, I like that observation- but certainly not a fixer technically speaking-I guess more along the lines if something isn't getting done, I give soft nudges for reminders.  I also like to think I'm a connector.  If new folks come in, looking for something in particular, whether an answer to a protocol question or how to get started with picking up tasks, I do a decent job pointing them in the right direction, then following up when necessary.  I'm like one of those old phone operators...just connecting dots!
 
 ### Between you and me and the rest of the internet, who is your favorite contributor, and why is it jango?
 
@@ -26,11 +26,11 @@ favorite contributor...hard question. I'm going with the pc answer here: they're
 
 ### That's a fair and diplomatic response, I expected nothing less. I'll notate that Dr. Gorilla is your favorite.
 
-lol he's *one of* my favs. 
+lol he's *one of* my favs.
 
 ### Are there any projects on JB that you've been really stoked about, or what would you say is a moment of great excitement you've experienced at JB?
 
-I think Movement Dao is something to keep an eye on. It feels special in a way that none of the other projects to date have.  They're really trying to find ways to create "movements" to make the world a better place without it feeling hokey or like a canned answer in a beauty pageant (are they even called that anymore- don't get me cancelled!).  One thing I heard in a recent town hall was "community can solve our biggest problems" and that stuck with me!  IMO, they're doin' it right! go check 'em out! 
+I think Movement Dao is something to keep an eye on. It feels special in a way that none of the other projects to date have.  They're really trying to find ways to create "movements" to make the world a better place without it feeling hokey or like a canned answer in a beauty pageant (are they even called that anymore- don't get me cancelled!).  One thing I heard in a recent town hall was "community can solve our biggest problems" and that stuck with me!  IMO, they're doin' it right! go check 'em out!
 
 As far as a moment of great excitement at JB would have to include when constitution DAO popped off...that. was. wild.   I believe it was around Thanksgiving- I went to bed knowing one, peaceful, calm version up JB and woke up to a whirlwind of new members, wen moon, and tons of questions!  Zeugh and Nicolas took the brunt of that, definitely get their versions-great stories- but man, it was intense!
 
@@ -44,7 +44,7 @@ hmmm.... I'm in my college's hall of fame for volleyball
 
 ### That’s awesome! Do you still play at all?
 
-eh, not really- occasionally if I feel like makin' bitches cry. 
+eh, not really- occasionally if I feel like makin' bitches cry.
 
 jk jk jk jk
 

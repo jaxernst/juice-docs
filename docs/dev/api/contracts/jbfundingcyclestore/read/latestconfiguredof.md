@@ -19,7 +19,7 @@ function latestConfiguredOf(uint256 _projectId)
   external
   view
   override
-  returns (JBFundingCycle memory fundingCycle, JBBallotState ballotState) { ... } 
+  returns (JBFundingCycle memory fundingCycle, JBBallotState ballotState) { ... }
 ```
 
 * Arguments:
@@ -75,7 +75,7 @@ function latestConfiguredOf(uint256 _projectId)
 
 ```
 /**
-  @notice 
+  @notice
   The latest funding cycle to be configured for the specified project, and its current ballot state.
 
   @param _projectId The ID of the project to get the latest configured funding cycle of.

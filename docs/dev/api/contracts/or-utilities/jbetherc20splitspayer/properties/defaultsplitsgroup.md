@@ -11,7 +11,7 @@ Interface: [`IJBSplitsPayer`](/dev/api/interfaces/ijbsplitspayer.md)
 ```
 /**
   @notice
-  The group within which the default splits are stored. 
+  The group within which the default splits are stored.
 */
 uint256 public override defaultSplitsGroup;
 ```

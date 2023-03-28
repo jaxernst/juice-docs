@@ -10,7 +10,7 @@ Interface: [`IJBFundingCycleBallot`](/dev/deprecated/v2/interfaces/ijbfundingcyc
 
 ```
 /**
-  @notice 
+  @notice
   The number of seconds that must pass for a funding cycle reconfiguration to become either `Approved` or `Failed`.
 */
 uint256 public immutable override duration;

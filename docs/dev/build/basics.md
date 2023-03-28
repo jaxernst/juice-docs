@@ -111,7 +111,7 @@ function queuedFundingCycleOf(uint256 _projectId)
 
 The project's latest configured funding cycle can be found using [`JBFundingCycleStore.latestConfiguredOf(...)`](/dev/api/contracts/jbfundingcyclestore/read/latestconfiguredof.md), or using [`JBController3_1.latestConfiguredFundingCycleOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#latestconfiguredfundingcycleof) if the funding cycle's metadata is needed alongside. These calls also return the current ballot status for the configuration.
 
-If the latest configured funding cycle's ballot is `Approved`, the configuration should also be queued or current. 
+If the latest configured funding cycle's ballot is `Approved`, the configuration should also be queued or current.
 
 ```
 function latestConfiguredOf(uint256 _projectId)
@@ -166,7 +166,7 @@ function distributionLimitOf(
 ) external view override returns (uint256, uint256);
 ```
 
-The overflow allowance from any payment terminal during any funding cycle configuration can be found using [`JBFundAccessConstraintsStore.overflowAllowanceOf`](/dev/api/contracts/jbfundaccessconstraintsstore/#overflowallowanceof). The currency being used for this overflow allowance is returned alongside. 
+The overflow allowance from any payment terminal during any funding cycle configuration can be found using [`JBFundAccessConstraintsStore.overflowAllowanceOf`](/dev/api/contracts/jbfundaccessconstraintsstore/#overflowallowanceof). The currency being used for this overflow allowance is returned alongside.
 
 ```
 function overflowAllowanceOf(
@@ -289,7 +289,7 @@ function reservedTokenBalanceOf(uint256 _projectId, uint256 _reservedRate)
   returns (uint256) { ... }
 ```
 
-For projects using [`JBController3_1`](/dev/api/contracts/or-controller/jbcontroller3_1), the project token's total supply including any allocated reserved tokens that have yet to be distributed can be found in using [`JBController3_1.totalOutstandingTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#totaloutstandingtokensof). 
+For projects using [`JBController3_1`](/dev/api/contracts/or-controller/jbcontroller3_1), the project token's total supply including any allocated reserved tokens that have yet to be distributed can be found in using [`JBController3_1.totalOutstandingTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#totaloutstandingtokensof).
 
 ```
 function totalOutstandingTokensOf(uint256 _projectId, uint256 _reservedRate)
@@ -328,7 +328,7 @@ function usedDistributionLimitOf(
 
 </details>
 
-A project's owner can distribute additional funds from its treasury's overflow for each of its terminals up until its preconfigured allowance. For example, if the project has added the [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/jbethpaymentterminal3_1), funds can be distributed by calling its [`JBETHPaymentTerminal3_1.useAllowanceOf(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/useallowanceof.md) transaction. 
+A project's owner can distribute additional funds from its treasury's overflow for each of its terminals up until its preconfigured allowance. For example, if the project has added the [`JBETHPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/jbethpaymentterminal3_1), funds can be distributed by calling its [`JBETHPaymentTerminal3_1.useAllowanceOf(...)`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/useallowanceof.md) transaction.
 
 ```
 function useAllowanceOf(
@@ -476,7 +476,7 @@ function reconfigureFundingCyclesOf(
 Reconfigurations are subject to the approval of the ballot contract included in the current funding cycle. The current ballot state can be found using [`JBFundingCycleStore.ballotStateOf(...)`](/dev/api/contracts/jbfundingcyclestore/read/currentballotstateof.md).
 
 ```
-function currentBallotStateOf(uint256 _projectId) external view override returns (JBBallotState) { ... } 
+function currentBallotStateOf(uint256 _projectId) external view override returns (JBBallotState) { ... }
 ```
 
 </details>
@@ -523,7 +523,7 @@ function setFor(
 
 <summary>View the project's token</summary>
 
-The token currently being used by a project can be found in the [`JBTokensStore`](/dev/api/contracts/jbtokenstore/README.md) contract by using [`JBTokenStore.tokenOf(...)`](/dev/api/contracts/jbtokenstore/properties/tokenof.md). This will return a zero address if the project hasn't yet issued tokens or changed into a custom token. 
+The token currently being used by a project can be found in the [`JBTokensStore`](/dev/api/contracts/jbtokenstore/README.md) contract by using [`JBTokenStore.tokenOf(...)`](/dev/api/contracts/jbtokenstore/properties/tokenof.md). This will return a zero address if the project hasn't yet issued tokens or changed into a custom token.
 
 ```
 function tokenOf(uint256 _projectId) external view override returns (IJBToken) { ... }

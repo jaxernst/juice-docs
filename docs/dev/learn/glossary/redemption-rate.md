@@ -7,7 +7,7 @@
 * A project's redemption rate and extensions can be reconfigured each funding cycle.
 * A redemption rate of 100% is linear, meaning a holder with 1% of the token supply can redeem all of their tokens for 1% of available treasury assets.
 * A redemption rate of `x`% where `x` < 100% will leave some assets in the treasury to share between those who wait longer to redeem. The smaller the `x`, the fewer assets can be reclaimed.
-* A project can set a different redemption rate that takes effect only when the project's current funding cycle has an active [ballot](ballot.md). 
+* A project can set a different redemption rate that takes effect only when the project's current funding cycle has an active [ballot](ballot.md).
 
 #### What you'll want to know if you're building
 

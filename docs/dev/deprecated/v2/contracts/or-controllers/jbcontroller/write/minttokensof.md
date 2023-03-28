@@ -47,7 +47,7 @@ function mintTokensOf(
     // There should be tokens to mint.
     if (_tokenCount == 0) revert ZERO_TOKENS_TO_MINT();
     ```
-2.  Make sure the message sender has appropriate permissions and that the project currently allows directly minting tokens by checking that it isn't paused when being called by any contract other than one of the project's terminals or current data sources. If the request is coming from a terminal or current data source, allow minting regardless of the pause state because it could be a sub-routine of another operation such as receiving payments. If minting is allowed, get a reference to the reserved rate that should be used. 
+2.  Make sure the message sender has appropriate permissions and that the project currently allows directly minting tokens by checking that it isn't paused when being called by any contract other than one of the project's terminals or current data sources. If the request is coming from a terminal or current data source, allow minting regardless of the pause state because it could be a sub-routine of another operation such as receiving payments. If minting is allowed, get a reference to the reserved rate that should be used.
 
     ```
     // Define variables that will be needed outside scoped section below.

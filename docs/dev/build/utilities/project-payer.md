@@ -1,6 +1,6 @@
 # Project payer
 
-[`JBETHERC20ProjectPayer`](/dev/api/contracts/or-utilities/jbetherc20projectpayer/README.md) contracts make it easy to route funds to projects' treasuries from other contracts or within inheriting contracts. This is useful for routing funds to a Juicebox treasury within other contracts such as an NFT's minting function, or creating contracts that will automatically route any received funds to a project's treasury with preconfigured parameters to send along with the payment.  
+[`JBETHERC20ProjectPayer`](/dev/api/contracts/or-utilities/jbetherc20projectpayer/README.md) contracts make it easy to route funds to projects' treasuries from other contracts or within inheriting contracts. This is useful for routing funds to a Juicebox treasury within other contracts such as an NFT's minting function, or creating contracts that will automatically route any received funds to a project's treasury with preconfigured parameters to send along with the payment.
 
 The [`JBETHERC20ProjectPayer`](/dev/api/contracts/or-utilities/jbetherc20projectpayer/README.md) can be inherited from any contract to facilitate internal transactions to Juicebox treasuries in ETH or any ERC-20, assuming the project is using a payment terminal that accepts the tokens. They can also be deployed as standalone project payer copies using [`JBProjectPayerDeployer`](/dev/api/contracts/or-utilities/jbetherc20projectpayerdeployer).
 
@@ -91,7 +91,7 @@ contract NFTProjectPayer is ERC721, JBETHERC20ProjectPayer {
   constructor(uint256 _projectId, IJBDirectory _directory, address _owner) JBETHERC20ProjectPayer(0, address(0), false, "", bytes(0), false, _directory, _owner) {
     projectId = _projectId;
   },
-  
+
   // Minting an NFT routes funds to the juicebox treasury and mints project tokens for msg.sender. Use addToBalance if you don't want tokens minted.
   function mint(uint256 _tokenId) external payable override {
     _mint(msg.sender, _tokenId);

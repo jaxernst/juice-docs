@@ -7,17 +7,17 @@ tags: [observations, dao]
 
 JBX membership is currently represented by **602,065,173** tokens:
 
-**Jango** has **118,891,959** (19.74%)       
-**Peri** has **100,255,206** (16.65%)   
-**DragonFly Capital** has **48,048,000** (7.98%)   
-**SharkDAO** has **30,063,667** (4.99%)   
-**JuiceboxDAO** has **27,827,807** (4.62%)   
-**4** addresses each have around **18,500,000** (3%)   
-**13** addresses have between **5,000,000 - 15,000,000** (1-3%)   
-**7** addresses have between **2,500,000 - 5,000,000** (0.5-1%)    
-**28** addresses have between **500,000 - 5,000,000** (0.1-0.5%)   
-**64** addresses have between **100,000 - 500,000** (0.01-0.1%)    
-**56** addresses have less than 0.01%   
+**Jango** has **118,891,959** (19.74%)
+**Peri** has **100,255,206** (16.65%)
+**DragonFly Capital** has **48,048,000** (7.98%)
+**SharkDAO** has **30,063,667** (4.99%)
+**JuiceboxDAO** has **27,827,807** (4.62%)
+**4** addresses each have around **18,500,000** (3%)
+**13** addresses have between **5,000,000 - 15,000,000** (1-3%)
+**7** addresses have between **2,500,000 - 5,000,000** (0.5-1%)
+**28** addresses have between **500,000 - 5,000,000** (0.1-0.5%)
+**64** addresses have between **100,000 - 500,000** (0.01-0.1%)
+**56** addresses have less than 0.01%
 
 Membership has been given to those who have helped build the protocol and the DAO, and to those who have supported the efforts by sending ETH to the treasury, with a preference for those who helped in any capacity in earlier funding cycles. Membership has been open to all since the protocol was deployed.
 
@@ -25,13 +25,13 @@ Currently in Funding Cycle #8, each 10 ETH contributed to the treasury by new or
 
 **2,579,260** for the contributing member
 
-**416,649** for **JuiceboxDAO**   
-**333,319** for **Peri**   
-**333,319** for **Jango**   
-**97,218** for **Nicholas**    
-**97,218** for **Exekias**   
-**55,553** for **WAGMI Studios**   
-**55,553** for **CanuDAO**   
+**416,649** for **JuiceboxDAO**
+**333,319** for **Peri**
+**333,319** for **Jango**
+**97,218** for **Nicholas**
+**97,218** for **Exekias**
+**55,553** for **WAGMI Studios**
+**55,553** for **CanuDAO**
 
 Today, it would take a contribution of **278** ETH for the contributing member to get 10% of the total membership tokens.
 
@@ -42,9 +42,9 @@ The total amount of JBX issued to members per ETH accepted is decreasing by 10% 
 ### Observations
 
 - Builders and contributors don't know what they're getting when they contribute ETH or are receivers of reserved tokens.
-- Membership is getting expensive. 
+- Membership is getting expensive.
 - JBDAOs strategy thus far has been to focus on building in the open, while making clear upfront the resources it needs to be able to build effectively.
-- No one in JBDAO has produced much work proposing how we might make membership more accessible to people or distribute it more widely, or why that might be worth prioritizing. Most of what is discussed is about how to solve problems for juicebox projects and for builders who want to come in and improve/grow the ecosystem. 
+- No one in JBDAO has produced much work proposing how we might make membership more accessible to people or distribute it more widely, or why that might be worth prioritizing. Most of what is discussed is about how to solve problems for juicebox projects and for builders who want to come in and improve/grow the ecosystem.
 - The way JBDAO is using its 35% reserved rate ensures about 25% of any membership expansion the DAO makes goes to builders who are currently stewarding projects. If the DAO isn't growing its treasury, committed builders don't become substantial members. The remaining 10% go to JBDAO itself, which it hasn't done anything with yet.
 - The DAO's casual builders and helpers currently don't have a way to become members other than to make a contribution to the DAO of any amount.
 - It might be interesting for the DAO to tapper off its discount rate so that over time, members who consider joining are represented and feel welcome.

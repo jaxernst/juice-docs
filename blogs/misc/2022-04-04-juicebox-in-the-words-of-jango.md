@@ -39,7 +39,7 @@ A lot of the things I learned come from taking risk, and I’m not a risk averse
 
 ### JB seems so inclusive and friendly, so I’m wondering: where are all the assholes?
 
-I’m kind of a proponent of assholery, if it’s needed. 
+I’m kind of a proponent of assholery, if it’s needed.
 
 ### So wait, JB doesn’t need it now? Did it ever?
 
@@ -49,7 +49,7 @@ At JB, we’re doing a thing and everyone has a mode of operation– when you ta
 
 Zeugh is a complex, charming character. I’m a sucker for really complex, charming characters. I don’t care for yea-sayers or nay-sayers, and people like Zeugh are their own person. Love him for it.
 
-Without question peri is my favorite for many reasons, Zeugh for many reasons, Mieos for many reasons. Twodam is a fucking legend, he’s subtle and sometimes goes unnoticed but holy moly, anytime I talk to anyone about some of our contributors twodam comes up and oh my goodness, what an incredible incredible person. 
+Without question peri is my favorite for many reasons, Zeugh for many reasons, Mieos for many reasons. Twodam is a fucking legend, he’s subtle and sometimes goes unnoticed but holy moly, anytime I talk to anyone about some of our contributors twodam comes up and oh my goodness, what an incredible incredible person.
 Not a fair question.
 
 Folks who have a strong belief or mindset or some part about them that isn’t looking to step aside (or who just want to be there by association), but rather people who want to be there because of who they are, that tends to be the ones that stick out to me. People who, given a good enough idea, argument or situation, will 100% get behind something and contribute to its success, even if they at first have a hard time with it, are the kinds of people that stick out to me. It’s not stubbornness per se; it’s productive arguments and debates and vibes and fun.

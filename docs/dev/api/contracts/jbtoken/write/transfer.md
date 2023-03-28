@@ -32,7 +32,7 @@ function transfer(
 #### Body
 
 1.  Make sure the project IDs match, or this contract's project ID is 0.
-    
+
     ```
     // Can't transfer for a wrong project.
     if (projectId != 0 && _projectId != projectId) revert BAD_PROJECT();
@@ -57,7 +57,7 @@ function transfer(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Transfer tokens to an account.
 

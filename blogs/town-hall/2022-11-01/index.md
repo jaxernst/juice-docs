@@ -6,14 +6,14 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
 
 ## Reconfiguration Helper Updates with Jigglyjams
 
-This [reconfiguration helper](https://juicetool.xyz/juicebox) tool was developed under the collaboration of Twodam and Jigglyjams. 
+This [reconfiguration helper](https://juicetool.xyz/juicebox) tool was developed under the collaboration of Twodam and Jigglyjams.
 
 ### Context reading:
 
@@ -51,7 +51,7 @@ The step after that is to make it possible for projects without NFTs now to reco
 
 ## Juice RSS by Filipv
 
-Filipv made a Deno script that provides an RSS feed for Juicebox projects. When new Juicebox projects are created, the information can be retrieved with a RSS reader. 
+Filipv made a Deno script that provides an RSS feed for Juicebox projects. When new Juicebox projects are created, the information can be retrieved with a RSS reader.
 
 If people are interested in getting the most up-to-date info about new projects on Juicebox, they can add this link to their RSS reader: https://juice-rss.deno.dev/.
 
@@ -65,7 +65,7 @@ In visibility, he was trying to establish some kind of baseline of the situation
 
 And he created a Juicebox project called [JB Eyeball Collection Fund](https://juicebox.money/v2/p/293) to raise funds for the marketing budget, which stemmed from the discussion we had about the possibility of some different forms of marketing. The initiatives that Felixander was currently looking at putting the marketing budget would be:
 
-- To hold some kind of press release for projects like Defifa, 
+- To hold some kind of press release for projects like Defifa,
 - To run art contests or Banny meme contests, collaborating with other Web3 artists
 - To hold a treasure hunt related to Bannyverse culture.
 

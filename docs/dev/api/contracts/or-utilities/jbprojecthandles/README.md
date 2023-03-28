@@ -27,7 +27,7 @@ Goerli testnet: [`0xAD6F7c8052F806F83AD5F51b33cE4E547CC00f3d`](https://goerli.et
 #### Constructor
 
 ```
-/** 
+/**
   @param _projects A contract which mints ERC-721's that represent project ownership and transfers.
   @param _operatorStore A contract storing operator assignments.
   @param _textResolver The ENS text resolver contract address.

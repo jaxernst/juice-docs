@@ -60,17 +60,17 @@ function setMetadataOf(uint256 _projectId, JBProjectMetadata calldata _metadata)
 
 ```
 /**
-  @notice 
-  Allows a project owner to set the project's metadata content for a particular domain namespace. 
+  @notice
+  Allows a project owner to set the project's metadata content for a particular domain namespace.
 
-  @dev 
+  @dev
   Only a project's owner or operator can set its metadata.
 
-  @dev 
+  @dev
   Applications can use the domain namespace as they wish.
 
   @param _projectId The ID of the project who's metadata is being changed.
-  @param _metadata A struct containing metadata content, and domain within which the metadata applies. 
+  @param _metadata A struct containing metadata content, and domain within which the metadata applies.
 */
 function setMetadataOf(uint256 _projectId, JBProjectMetadata calldata _metadata)
   external

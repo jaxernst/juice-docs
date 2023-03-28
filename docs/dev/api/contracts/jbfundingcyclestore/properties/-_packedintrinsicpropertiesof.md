@@ -7,10 +7,10 @@ Contract: [`JBFundingCycleStore`](/dev/api/contracts/jbfundingcyclestore/README.
 #### Definition
 
 ```
-/** 
+/**
   @notice
   Stores the properties added by the mechanism to manage and schedule each funding cycle, packed into one storage slot.
-  
+
   _projectId The ID of the project to get instrinsic properties of.
   _configuration The funding cycle configuration to get properties of.
 */

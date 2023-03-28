@@ -9,10 +9,10 @@ Interface: [`IJBController`](/dev/deprecated/v2/interfaces/ijbcontroller.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The directory of terminals and controllers for projects.
-*/ 
+*/
 IJBDirectory public immutable override directory;
 ```
 

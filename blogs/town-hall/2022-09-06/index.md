@@ -19,7 +19,7 @@ The next step is to run another Code4rena contest on the updated repo. Jango is 
 
 The Juicebox projects contract won't be changed. This version won't be a requirement for all existing projects, which mostly won't ever run into some of the inefficiencies discovered. But new projects going to be build will use this new version.
 
-Frontend has deployed a new settings page, a revamped and powerful settings page for Juicebox projects in the juicebox.money site last week, we'll leverage that to give project owners some confidence over how they're managing their treasuries across versions.  
+Frontend has deployed a new settings page, a revamped and powerful settings page for Juicebox projects in the juicebox.money site last week, we'll leverage that to give project owners some confidence over how they're managing their treasuries across versions.
 
 ![New settings menu on juicebox.money](jbm-settings.webp)
 
@@ -49,9 +49,9 @@ Last week, @jango talked with @bruxa, @Zom_Bae and a few other folks about how w
 
 Oct. 10th, during the Devcon week (Oct.7-16) in Bogota, will be the indigeous people's day of the Thirsty Thirsty community, @jango and @bruxa are having the idea of creating an event that's Dev focused and bringing people together in an open-ended forum just similar to how JuiceboxDAO did on NFT NYC where people can come together and share ideas and be inspired by whatever happens. Also projects running on Juicebox or leveraging Juicebox can use this space to create a space for their own community to come together, while the JuiceboxDAO can partner with Thirsty Thirsty to provide food and dirnks to accompany this event.
 
-### Thirsty Thirsty NFT membership  
+### Thirsty Thirsty NFT membership
 
-![Thirsty Thirsty Membership NFT](thirsty-thirsty.jpg)  
+![Thirsty Thirsty Membership NFT](thirsty-thirsty.jpg)
 
 The Thirsty Thirsty is a 501(c)(3) entity that can accpet crypto donations.
 
@@ -63,17 +63,17 @@ They're also very excited to play with some smaller limited edition airdrops thr
 
 ## K.Group DAO with @Jermaine.A
 
-[K.Group DAO](https://kgroupdao.finance/) is an affordable housing DAO, they have a unique solution to solving a housing shortage and trying to combat the affordable housing crisis in the U.S.  
+[K.Group DAO](https://kgroupdao.finance/) is an affordable housing DAO, they have a unique solution to solving a housing shortage and trying to combat the affordable housing crisis in the U.S.
 
 ![K.Group DAO](kgroup-dao.jpg)
 
 ### Solutions to housing for low-income
 
-The house below is an actual one in Houston, Texas, which was 4 bedroom house origially (left), and they converted it into a 12 bedroom one and added another bathroom. By this moment, there are 12 people staying there already.  
+The house below is an actual one in Houston, Texas, which was 4 bedroom house origially (left), and they converted it into a 12 bedroom one and added another bathroom. By this moment, there are 12 people staying there already.
 
 ![12-bedroom floorplan in Houston, Texas](floorplan.jpg)
 
-You can also take a look at what the house is and its renovation by scrolling down to the bottom of their homepage and explore their first home.  
+You can also take a look at what the house is and its renovation by scrolling down to the bottom of their homepage and explore their first home.
 
 ![Virtual tour of K.Group DAO's first home](virtual-tour.jpg)
 
@@ -106,16 +106,16 @@ Eventually they want to create an online platform to where those rooms are liste
 
 Their ultimate goal is to house at least 10,000 migrant families within 2 years, and be the first DAO to sign a government contract as a contractor for Department of Homeland Security to help and house people.
 
-## Two truths and a lie with @Felixander  
+## Two truths and a lie with @Felixander
 
 ![Two truths and a lie](twotruths.webp)
 
 The correct answer is @gulan
 
 
-## Defifa with @jango  
+## Defifa with @jango
 
-![Defifa](defifa.webp)  
+![Defifa](defifa.webp)
 
 With the World Cup Qatar 2022 upcoming in November this year, and being one of the first global events after Covid, @jango thinks this could be a meme shilling point in some way. And he landed on a mechanism, a self-governed game system, facilitating the incoming NFT Rewards and the NFT voting system. (If you are interested in this project, you can read the Defifa specs [here](https://www.notion.so/juicebox/Defifa-8644f449958e4d9bb632cb5a46708fb6), and join the discussion in this [Discord thread](https://discord.com/channels/775859454780244028/1012501341626699896))
 

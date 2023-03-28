@@ -27,7 +27,7 @@ Goerli testnet: [`0x9f0eC91d28fFc54874e9fF11A316Ba2537aCD72C`](https://goerli.et
 #### Constructor
 
 ```
-/** 
+/**
   @param _owner The address that will own the contract.
 */
 constructor(address _owner) {

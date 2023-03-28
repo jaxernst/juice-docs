@@ -79,10 +79,10 @@ function createFor(address _owner, JBProjectMetadata calldata _metadata)
 
 ```
 /**
-  @notice 
+  @notice
   Create a new project for the specified owner, which mints an NFT (ERC-721) into their wallet.
 
-  @dev 
+  @dev
   Anyone can create a project on an owner's behalf.
 
   @param _owner The address that will be the owner of the project.

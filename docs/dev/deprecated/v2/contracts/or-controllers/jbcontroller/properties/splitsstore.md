@@ -9,8 +9,8 @@ Interface: [`IJBController`](/dev/deprecated/v2/interfaces/ijbcontroller.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The contract that stores splits for each project.
 */
 IJBSplitsStore public immutable splitsStore;

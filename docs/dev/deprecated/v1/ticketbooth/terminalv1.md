@@ -134,7 +134,7 @@ event Migrate(
 ### Constructor
 
 ```
-/** 
+/**
   @param _projects A Projects contract which mints ERC-721's that represent project ownership and transfers.
   @param _fundingCycles A funding cycle configuration store.
   @param _ticketBooth A contract that manages Ticket printing and redeeming.
@@ -205,8 +205,8 @@ function migrationIsAllowed(ITerminal _terminal)
 ```
 
 ```javascript
-   /** 
-      @notice 
+   /**
+      @notice
       Gets the current overflowed amount for a specified project.
 
       @param _projectId The ID of the project to get overflow for.
@@ -221,8 +221,8 @@ function migrationIsAllowed(ITerminal _terminal)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Gets the amount of reserved tickets that a project has.
 
   @param _projectId The ID of the project to get overflow for.
@@ -239,7 +239,7 @@ function reservedTicketBalanceOf(uint256 _projectId, uint256 _reservedRate)
 
 ```javascript
 /**
-  @notice 
+  @notice
   The amount of tokens that can be claimed by the given address.
 
   @dev The _account must have at least _count tickets for the specified project.
@@ -278,7 +278,7 @@ function canPrintPreminedTickets(uint256 _projectId)
 
 ```javascript
 /**
-  @notice 
+  @notice
   Deploys a project. This will mint an ERC-721 into the `_owner`'s account, configure a first funding cycle, and set up any mods.
 
   @dev
@@ -322,7 +322,7 @@ function deploy(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Configures the properties of the current funding cycle if the project hasn't distributed tickets yet, or
   sets the properties of the proposed funding cycle that will take effect once the current one expires
   if it is approved by the current funding cycle's ballot.
@@ -330,7 +330,7 @@ function deploy(
   @dev
   Only a project's owner or a designated operator can configure its funding cycles.
 
-  @param _projectId The ID of the project being reconfigured. 
+  @param _projectId The ID of the project being reconfigured.
   @param _properties The funding cycle configuration.
     @dev _properties.target The amount that the project wants to receive in this funding stage. Sent as a wad.
     @dev _properties.currency The currency of the `target`. Send 0 for ETH or 1 for USD.
@@ -368,11 +368,11 @@ function configure(
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Allows a project to print tickets for a specified beneficiary before payments have been received.
 
-  @dev 
+  @dev
   This can only be done if the project hasn't yet received a payment after configuring a funding cycle.
 
   @dev
@@ -380,7 +380,7 @@ function configure(
 
   @param _projectId The ID of the project to premine tickets for.
   @param _amount The amount to base the ticket premine off of.
-  @param _currency The currency of the amount to base the ticket premine off of. 
+  @param _currency The currency of the amount to base the ticket premine off of.
   @param _beneficiary The address to send the printed tickets to.
   @param _memo A memo to leave with the printing.
   @param _preferUnstakedTickets If there is a preference to unstake the printed tickets.
@@ -397,17 +397,17 @@ function printPreminedTickets(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Contribute ETH to a project.
 
-  @dev 
+  @dev
   Print's the project's tickets proportional to the amount of the contribution.
 
-  @dev 
+  @dev
   The msg.value is the amount of the contribution in wei.
 
   @param _projectId The ID of the project being contribute to.
-  @param _beneficiary The address to print Tickets for. 
+  @param _beneficiary The address to print Tickets for.
   @param _memo A memo that will be included in the published event.
   @param _preferUnstakedTickets Whether ERC20's should be unstaked automatically if they have been issued.
 
@@ -423,7 +423,7 @@ function pay(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Tap into funds that have been contributed to a project's current funding cycle.
 
   @dev
@@ -446,7 +446,7 @@ function tap(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Addresses can redeem their Tickets to claim the project's overflowed ETH.
 
   @dev
@@ -482,7 +482,7 @@ function redeem(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Allows a project owner to migrate its funds and operations to a new contract.
 
   @dev
@@ -503,8 +503,8 @@ function migrate(uint256 _projectId, ITerminal _to)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Receives and allocates funds belonging to the specified project.
 
   @param _projectId The ID of the project to which the funds received belong.
@@ -514,7 +514,7 @@ function addToBalance(uint256 _projectId) external payable override
 
 ```javascript
 /**
-  @notice 
+  @notice
   Adds to the contract addresses that projects can migrate their Tickets to.
 
   @dev
@@ -526,9 +526,9 @@ function allowMigration(ITerminal _contract) external override onlyGov
 ```
 
 ```javascript
-/** 
-  @notice 
-  Allow the admin to change the fee. 
+/**
+  @notice
+  Allow the admin to change the fee.
 
   @dev
   Only funding cycle reconfigurations after the new fee is set will use the new fee.
@@ -543,14 +543,14 @@ function setFee(uint256 _fee) external override onlyGov
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Allows governance to transfer its privileges to another contract.
 
   @dev
   Only the currency governance can appoint a new governance.
 
-  @param _pendingGovernance The governance to transition power to. 
+  @param _pendingGovernance The governance to transition power to.
     @dev This address will have to accept the responsibility in a subsequent transaction.
 */
 function appointGovernance(address payable _pendingGovernance)
@@ -560,8 +560,8 @@ function appointGovernance(address payable _pendingGovernance)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Allows contract to accept its appointment as the new governance.
 */
 function acceptGovernance() external override
@@ -569,7 +569,7 @@ function acceptGovernance() external override
 
 ```javascript
 /**
-  @notice 
+  @notice
   Prints all reserved tickets for a project.
 
   @param _projectId The ID of the project to which the reserved tickets belong.

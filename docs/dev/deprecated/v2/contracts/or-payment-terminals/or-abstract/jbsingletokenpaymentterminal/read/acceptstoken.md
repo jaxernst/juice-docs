@@ -39,7 +39,7 @@ function acceptsToken(address _token, uint256 _projectId) external view override
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   A flag indicating if this terminal accepts the specified token.
 

@@ -46,7 +46,7 @@ function _transferFrom(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Transfers tokens.
 

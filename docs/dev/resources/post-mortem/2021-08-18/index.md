@@ -28,10 +28,10 @@ To even the playing field, I had the idea to raise SharkDAO's reserved rate to 1
 
 After running this plan by SharkDAO at a Sharktank town hall meeting, we decided to move forward with it. We would allocate any SHARK minted during this paused period to the multi-sig, which could later be burned if needed.
 
-A few details to note: 
+A few details to note:
 
-- SharkDAO's reserved rate has been set to 0% since its start. 
-- SharkDAO does not use funding cycles with preset durations, meaning changes can be executed on-demand. 
+- SharkDAO's reserved rate has been set to 0% since its start.
+- SharkDAO does not use funding cycles with preset durations, meaning changes can be executed on-demand.
 - SharkDAO's Juicebox project is owned by a Gnosis multi-sig requiring 3/5 signatures. I'm one of the signatories.
 
 Right after the call, I got together with multi-sig holders to execute the plan. After one transaction to TerminalV1's `configure` function, the reserved rate was successfully updated. I immediately checked the UI to see if things were in order – thats when I noticed that after having set the reserved rate to 100%, it was now possible to mint and distribute 100% of the current token supply to the preconfigured destination (the multi-sig). Since this distribute transaction is public, anyone who triggered this would effectively double the SHARK supply, and would leave us with unnecessary work after the fact to burn this unintended supply from the multi-sig and communicate the issue to the community.
@@ -75,7 +75,7 @@ We got all of this done in about 2.5 hours.
 
 Despite having written extensive unit, integration, and load tests, this condition fell through the cracks. I will keep stressing to the community that Juicebox is still experimental software with high risks. I'm confident in the way it's built and am committed to its improvement, but I'm not going to pretend that it is perfect.
 
-The good news is that TerminalV1 has a built in mechanism to allow projects to choose to migrate to new terminal contracts that have been approved by JuiceboxDAO's governance, so bugs like this can be fixed. 
+The good news is that TerminalV1 has a built in mechanism to allow projects to choose to migrate to new terminal contracts that have been approved by JuiceboxDAO's governance, so bugs like this can be fixed.
 
 We are now working around the clock to get a TerminalV1_1 safely set up for migration, and extensively tested.
 

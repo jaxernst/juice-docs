@@ -25,7 +25,7 @@ function _distributeToReservedTokenSplitsOf(
   * `_domain` is the domain of the splits to distribute the reserved tokens between.
   * `_group` is the group of the splits to distribute the reserved tokens between.
   * `_amount` is the total amount of tokens to mint.
-* The resulting function is internal to this contract and its inheriters. 
+* The resulting function is internal to this contract and its inheriters.
 * The function returns the leftover amount after all splits have been distributed.
 
 #### Body
@@ -154,7 +154,7 @@ function _distributeToReservedTokenSplitsOf(
         _Event references:_
 
         * [`DistributeToReservedTokenSplit`](/dev/api/contracts/or-controllers/jbcontroller/events/distributetoreservedtokensplit.md)
-    
+
     8.  Increment the loop counter.
 
         ```

@@ -9,8 +9,8 @@ Interface: [`IJBV1TokenPaymentTerminal`](/dev/deprecated/v2/interfaces/ijbv1toke
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   A flag indicating if a project's migration has finished.
 
   _projectId The ID of the project to check the migration status.

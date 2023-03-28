@@ -56,7 +56,7 @@ function mintFor(
 3.  If claimed tokens should be minted, mint the project's token into the holders wallet. Otherwise increment the holder's balance or the unclaimed tokens for the project, and the total supply of unclaimed tokens for the project.
 
     ```
-    if (_shouldClaimTokens) 
+    if (_shouldClaimTokens)
       // If tokens should be claimed, mint tokens into the holder's wallet.
       _token.mint(_projectId, _holder, _amount);
     else {
@@ -125,7 +125,7 @@ function mintFor(
   // Save a reference to whether there exists a token and the caller prefers these claimed tokens.
   bool _shouldClaimTokens = _preferClaimedTokens && _token != IJBToken(address(0));
 
-  if (_shouldClaimTokens) 
+  if (_shouldClaimTokens)
     // If tokens should be claimed, mint tokens into the holder's wallet.
     _token.mint(_projectId, _holder, _amount);
   else {

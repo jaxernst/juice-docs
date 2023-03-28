@@ -10,7 +10,7 @@ Interface: [`IJBProjectPayer`](/dev/deprecated/v2/interfaces/ijbprojectpayer.md)
 
 ```
 /**
-  @notice 
+  @notice
   A contract storing directories of terminals and controllers for each project.
 */
 IJBDirectory public immutable override directory;

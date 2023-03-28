@@ -56,7 +56,7 @@ function _getStructsFor(
       // Get a reference to the fist packed data.
       uint256 _packedSplitPart1 = _packedSplitParts1Of[_projectId][_domain][_group][_i];
 
-      // Store the first spit part. 
+      // Store the first spit part.
       JBSplit memory _split;
 
       // prefer claimed in bit 0.
@@ -107,7 +107,7 @@ function _getStructsFor(
 
 ```
 /**
-  @notice 
+  @notice
   Unpack splits' packed stored values into easy-to-work-with split structs.
 
   @param _projectId The ID of the project to which the split belongs.

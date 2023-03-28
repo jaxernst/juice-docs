@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/** 
+/**
   @member terminal The terminal that is facilitating the redemption.
   @member holder The holder of the tokens being redeemed.
   @member projectId The ID of the project whos tokens are being redeemed.

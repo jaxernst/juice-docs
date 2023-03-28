@@ -86,7 +86,7 @@ function setPrimaryTerminalOf(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Project's can set which terminal should be their primary for a particular token.
   This is useful in case a project has several terminals connected for a particular token.

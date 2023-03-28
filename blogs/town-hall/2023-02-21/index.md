@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -42,7 +42,7 @@ You can think about the payment terminal as where funds are stored. It accepts n
 
 #### Specifics
 
-Payment terminal is changing very slightly but meaningfully. As we had to publish a new terminal to be compatible with the new controller, in so doing we are also fixing the problem that we noticed a few funding cycle ago, when we tried to pay a grant to Defifa project which had its payment terminal paused, the entire transaction of distribution got reverted. 
+Payment terminal is changing very slightly but meaningfully. As we had to publish a new terminal to be compatible with the new controller, in so doing we are also fixing the problem that we noticed a few funding cycle ago, when we tried to pay a grant to Defifa project which had its payment terminal paused, the entire transaction of distribution got reverted.
 
 What we did was to wrap a functionality to catch that error coming back from trying to pay a project or an allocator and dump the funds back into the paying project's terminal, so that other payouts in that transaction still go out and any reverted ones will be negated. Then we emit events so that subgraphs can check if there is any reversion happening.
 
@@ -88,7 +88,7 @@ Ticket To Space is a documentary that StudioDAO will be partnering with MoonDAO 
 
 StudioDAO is about to launch a funding process for Ticket To Space, which Kenbot thinks a big win for MoonDAO, for Juicebox and for StudioDAO. He also thinks with a lot of creative energy that can be deployed through this effort from people such as Matthew and Brilleigh, Jango, Mieos and Aeolian etc., we will be in a good moment where some of the big corporate companies are working that well.
 
-He is very interested in terms of  how they can do some NFT drops, more in a form of open editions and potentially with some burn capabilities. He is going to make use of the functionalities of Juicebox V3 protocol and offer different tiers of NFTs to supporters. 
+He is very interested in terms of  how they can do some NFT drops, more in a form of open editions and potentially with some burn capabilities. He is going to make use of the functionalities of Juicebox V3 protocol and offer different tiers of NFTs to supporters.
 
 On one hand, they will have some high end NFTs which will cost 50ETH or 10ETH each. For example, he is going to put up a proposal in Nouns DAO to get them buy the NFT of 50 ETH in exchange for a credit in the creation of this film. But on the other hand, there will also be the open edition ones that will be more bottoms-up driving force to engage hundred of thousands of people around the project.
 
@@ -96,7 +96,7 @@ On one hand, they will have some high end NFTs which will cost 50ETH or 10ETH ea
 
 ## Drip Box Update by Mieos
 
-[Drip Box](https://juicebox.money/@dripbox) is a project that Mieos launched to try to sell some NFTs and comes with them some mystery boxes of merchandise. 
+[Drip Box](https://juicebox.money/@dripbox) is a project that Mieos launched to try to sell some NFTs and comes with them some mystery boxes of merchandise.
 
 People can mint the NFTs and go to another website and have their holdings verified so that they can leave their physical addresses to have the mystery boxes sent to them later. After the selling phase, with all the cost and proceeds deducted, the project treasury will be open to NFT holders to redeem their share, in a sense giving buyers some discount or refund. The logic is, more people buy the NFTs, the more the purchasing cost of merchandise and operational overhead will be spread out and lowered, and in turnthe leftover funds to be redeemed gets bigger.
 

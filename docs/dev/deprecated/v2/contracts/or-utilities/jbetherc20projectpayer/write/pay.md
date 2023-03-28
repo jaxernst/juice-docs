@@ -87,14 +87,14 @@ function pay(
     _Internal references:_
 
     * [`_pay`](/dev/deprecated/v2/contracts/or-utilities/jbetherc20projectpayer/write/-_pay.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Make a payment to the specified project.
 
   @param _projectId The ID of the project that is being paid.

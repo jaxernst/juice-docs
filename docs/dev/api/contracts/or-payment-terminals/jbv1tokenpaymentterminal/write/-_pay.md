@@ -32,7 +32,7 @@ function _pay(
   * `_beneficiary` is the address to mint v2 project tokens for.
   * `_minReturnedTokens` is the minimum number of v2 project tokens expected in return, as a fixed point number with 18 decimals.
   * `_preferClaimedTokens` is a flag indicating whether the request prefers to mint v2 project tokens into the beneficiaries wallet rather than leaving them unclaimed. This is only possible if the project has an attached token contract. Leaving them unclaimed saves gas.
-  * `_memo` is memo to pass along to the emitted event. 
+  * `_memo` is memo to pass along to the emitted event.
   * `_metadata` are bytes to send along to the data source, delegate, and emitted event, if provided. This terminal ignores this property because there's no data source.
 * The function is private to this contract.
 * The function returns the number of v2 tokens minted for the beneficiary, as a fixed point number with 18 decimals.
@@ -69,7 +69,7 @@ function _pay(
     * [`ticketBooth`](/dev/api/contracts/or-payment-terminals/jbv1tokenpaymentterminal/properties/ticketbooth.md)
 
     _External references:_
-    
+
     * [`ticketsOf`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L69)
 
 
@@ -96,10 +96,10 @@ function _pay(
         * [`ticketBooth`](/dev/api/contracts/or-payment-terminals/jbv1tokenpaymentterminal/properties/ticketbooth.md)
 
         _External references:_
-      
+
         * [`stakedBalanceOf`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L84)
 
-    2.  Get a reference to the amount of ERC20 v1 tokens the message sender has. If there's no ERC20, the balance is 0. 
+    2.  Get a reference to the amount of ERC20 v1 tokens the message sender has. If there's no ERC20, the balance is 0.
 
         ```
         // Get a reference to the migrator's ERC20 balance.
@@ -107,17 +107,17 @@ function _pay(
         ```
 
         _External references:_
-      
+
         * [`balanceOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-balanceOf-address-)
 
-    3.  Make sure the message sender has enough of a balance between their v1 unclaimed tokens and v1 ERC20 tokens to cover the amount being exchanged for v2 tokens. 
+    3.  Make sure the message sender has enough of a balance between their v1 unclaimed tokens and v1 ERC20 tokens to cover the amount being exchanged for v2 tokens.
 
         ```
         // There must be enough v1 tokens to migrate.
         if (_amount > _erc20Balance + _unclaimedBalance) revert INSUFFICIENT_FUNDS();
         ```
 
-    4.  Calculate how many v1 project ERC20s will be exchanged for v2 tokens. If a project owner has both unclaimed tokens and ERC20 tokens, adhere to the claimed token preference to determine whether to prioritize exchanging one over the other. 
+    4.  Calculate how many v1 project ERC20s will be exchanged for v2 tokens. If a project owner has both unclaimed tokens and ERC20 tokens, adhere to the claimed token preference to determine whether to prioritize exchanging one over the other.
 
         ```
         // If there's no ERC20 balance, theres no tokens to mint as a result of the ERC20 balance.
@@ -170,7 +170,7 @@ function _pay(
 
     * [`transfer`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L145)
 
-7.  Mint v2 tokens for the specified beneficiary. 
+7.  Mint v2 tokens for the specified beneficiary.
 
     ```
     // Mint the v2 tokens for the beneficary.
@@ -224,8 +224,8 @@ function _pay(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Allows a v1 project token holder to pay into this terminal to get commensurate about of its v2 token.
 
   @param _projectId The ID of the v2 project to pay towards.
@@ -233,7 +233,7 @@ function _pay(
   @param _beneficiary The address to mint tokens for.
   @param _minReturnedTokens The minimum number of v2 project tokens expected in return, as a fixed point number with the same amount of decimals as this terminal.
   @param _preferClaimedTokens A flag indicating whether the request prefers to mint v2 project tokens into the beneficiaries wallet rather than leaving them unclaimed. This is only possible if the project has an attached token contract. Leaving them unclaimed saves gas.
-  @param _memo A memo to pass along to the emitted event. 
+  @param _memo A memo to pass along to the emitted event.
 
   @return beneficiaryTokenCount The number of v2 tokens minted for the beneficiary, as a fixed point number with 18 decimals.
 */

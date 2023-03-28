@@ -32,7 +32,7 @@ _Empty_
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Logic to be triggered before transferring tokens from this terminal.
 

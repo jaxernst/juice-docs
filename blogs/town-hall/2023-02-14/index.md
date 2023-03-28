@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -28,7 +28,7 @@ Next few weeks hopfully we'll see new versions. There's very little risks in the
 
 It has been a while since last time Peel gave an update on Nov. 15, 2022.
 
-Aeolian started by acknowledging some of the growing pains we've had recently, when we had a few reasonably critical bugs pop up over the last few weeks. Although these bug got squashed quickly, we've recognized the need to definitely improve on this font. 
+Aeolian started by acknowledging some of the growing pains we've had recently, when we had a few reasonably critical bugs pop up over the last few weeks. Although these bug got squashed quickly, we've recognized the need to definitely improve on this font.
 
 A lot of versioning stuff is being worked, as certain parts of the App were revealed to be in need of improvement, which is a good segue into versioning. As a lot of stuff goes into versioning, there are also a lot of different parts of the UI that need to evolve to support multiple versions of these particular contracts.
 
@@ -50,17 +50,17 @@ Recently Nicholas has been cleaning up some stuff for the token resolver, and Ja
 
 On the town hall, Nicholas did a demo of using this template to generate an SVG. Other users can make changes in the `SVG.sol` to write their own SVGs. People can use this template to make their own on-chain SVG metadata for NFT rewards, project, or whatever they are interested in, and it comes with the Juicebox contracts built-in.
 
-And then in the `project-handle` branch of this repository, people can call a slightly more complicated test to load Juicebox project handles in the SVGs. 
+And then in the `project-handle` branch of this repository, people can call a slightly more complicated test to load Juicebox project handles in the SVGs.
 
 Jango had been playing with this template this week. He wanted to make it an auto generating terminal for Defifa NFTs, so that anyone can use and create their own tournament. We can start showing data on the NFTs and customizing it with Peri's on-chain fonts. He thought that it is a very cool and useful tool, especially on a data heavy protocol as Juicebox, quickly visualizing data on the NFTs will be a great default for many projects.
 
 ![svg template examples by jango](svg_template.webp)
 
-Nicholas added that it will be also really cool for NFT projects to be able to have their token metadata directly served from blockchains, so that if Juicebox.money or whatever stops pinning their IPFS, the NFTs won't disappear. It will also be super cool for projects that want to be more autonomous or founders that want to keep their anonymity. 
+Nicholas added that it will be also really cool for NFT projects to be able to have their token metadata directly served from blockchains, so that if Juicebox.money or whatever stops pinning their IPFS, the NFTs won't disappear. It will also be super cool for projects that want to be more autonomous or founders that want to keep their anonymity.
 
 ## Reflection as a DAO contributor by Jango
 
-Last week Filipv reported and shared some things in our announcements channel, about a former JuiceboxDAO contributor, tankbottoms. Last week some people on the MovementDAO multisig contacted Filipv to say that they had discovered that Tankbottoms was convicted of fraud in 2010 with a number of PDFs proving it. And he also exfiltrated millions of dollars from the MovementDAO multisig. 
+Last week Filipv reported and shared some things in our announcements channel, about a former JuiceboxDAO contributor, tankbottoms. Last week some people on the MovementDAO multisig contacted Filipv to say that they had discovered that Tankbottoms was convicted of fraud in 2010 with a number of PDFs proving it. And he also exfiltrated millions of dollars from the MovementDAO multisig.
 
 JuiceboxDAO has no connection with MovementDAO aside from some contributors work at both entities and MovementDAO forked some of open source code of Juicebox.
 
@@ -108,7 +108,7 @@ It's okay to express our opinions and hopefully we can come towards the right an
 
 There are a few reasons why this would be useful.
 
-- To improve the UX for projects. When projects want to onboard new users, those new users need to create a wallet and maybe go through KYC procedures, before they can fill the wallet with ETH through onramp. Then they have to perform the actual transaction when they get confronted with the need to pick a gas price and go through the rest of the entire flow. 
+- To improve the UX for projects. When projects want to onboard new users, those new users need to create a wallet and maybe go through KYC procedures, before they can fill the wallet with ETH through onramp. Then they have to perform the actual transaction when they get confronted with the need to pick a gas price and go through the rest of the entire flow.
 - To incentivize users to perform certain actions, by projects paying the gas for them if they do this or that.
 - It's also useful to automate tasks that need to happen, so that contributors don't need to do it manually.
 
@@ -120,7 +120,7 @@ For people who may find this a bit scary, 0xBA5ED also added and option of "Mint
 
 ![opengsn demo by 0xba5ed with burner wallet](opengsn_mint_burnerwallet.webp)
 
-This is a good example of how the `distribute` function on Juicebox could work. Currently the distribution of payouts on Juicebox projects need to be triggered by someone clicking the `distribute` button, and this person will have to pay the gas of this transaction and may or may not get refunded from the project treasury later on. By this "Mint with burner wallet", in theory someone can just click `distribute`, the browser will make a burner wallet, sign the transaction and send it to a relayer to put it on-chain, at the expense of the project treasury. 
+This is a good example of how the `distribute` function on Juicebox could work. Currently the distribution of payouts on Juicebox projects need to be triggered by someone clicking the `distribute` button, and this person will have to pay the gas of this transaction and may or may not get refunded from the project treasury later on. By this "Mint with burner wallet", in theory someone can just click `distribute`, the browser will make a burner wallet, sign the transaction and send it to a relayer to put it on-chain, at the expense of the project treasury.
 
 0xBA5ED wrote a pay master which allows owner to set which addresses are allowed, which contracts are allowed to be called, which methods allowed to be called, and also to deploy system contract to verify the calldata.
 

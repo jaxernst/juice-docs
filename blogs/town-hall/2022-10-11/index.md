@@ -11,20 +11,20 @@ Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## Tech update with Jango
 
-- Code4rena audit contest for NFT Rewards contracts is scheduled for next week. 
-- NFT Rewards contracts will be finished and deployed on Goerli testnet this Friday. 
-- After that, attention will be turned to v1=>v3 and v2=>v3 token migration paths. Hoping to get this done and shipped with full frontend support by December. 
+- Code4rena audit contest for NFT Rewards contracts is scheduled for next week.
+- NFT Rewards contracts will be finished and deployed on Goerli testnet this Friday.
+- After that, attention will be turned to v1=>v3 and v2=>v3 token migration paths. Hoping to get this done and shipped with full frontend support by December.
 - At the end of the year, there will be some cleanup efforts and supporting the finalization of any loose ends, prepping to make JBX moves in January with publishing the Fee Module and veBanny collection.
 
 ## L'art pour 'lart with Felixander
 
-Felixander and Burtula made the [Banny graphic novel](https://drive.google.com/file/d/1dvpGwf5Yh4aasmhq97fJc1nXMrbQJb-h/view), which he thinks to be a fun little testament to art for its own sake and we should really highlight the artistic endeavors in our community. 
+Felixander and Burtula made the [Banny graphic novel](https://drive.google.com/file/d/1dvpGwf5Yh4aasmhq97fJc1nXMrbQJb-h/view), which he thinks to be a fun little testament to art for its own sake and we should really highlight the artistic endeavors in our community.
 ![](IxbUFap.jpeg)
 
 
 ## Nouns comics Ad page by Gogo
 
-ComicsDAO is going to publish Nouns comics these days, which will be distributed off-chain and be available in bookstores around the U.S. 
+ComicsDAO is going to publish Nouns comics these days, which will be distributed off-chain and be available in bookstores around the U.S.
 
 They have 8 pages in this comic book that going to be used as Ad pages for DAOs or projects related to the Nouns community, and now they want to give 1 page to JuiceboxDAO so that we can promote ourselves by graphic story telling like Felixander just did.
 ![](kaHDm5i.webp)
@@ -33,7 +33,7 @@ Gogo said ComicsDAO want to do this for gratitude of the supports that JuiceboxD
 
 ## NFT Rewards Audit Fund by Nicholas
 
-As our upcoming NFT Rewards contract is pretty complex and full featured, we want it to go through a Code4rena audit contest just like our V2 protocol did couple months ago. We're fundraising for this audit on [the Audit Fund project](https://juicebox.money/@auditfund) so that people interested in it can pitch in some funds to support. 
+As our upcoming NFT Rewards contract is pretty complex and full featured, we want it to go through a Code4rena audit contest just like our V2 protocol did couple months ago. We're fundraising for this audit on [the Audit Fund project](https://juicebox.money/@auditfund) so that people interested in it can pitch in some funds to support.
 
 We are now looking at starting the audit contest on Oct. 18th, in order to do that, we'll need $73,800(Juicebox fees included) in the Audit Fund project by Oct. 17th. Nicholas has submitted a proposal currently for the JuiceboxDAO to fully support the expenses of this audit. If this proposal gets approved, $73,800 will be added to the balance of the Audit Fund project without minting any tokens, which means all the contributors to that project can basically get their full refund minus gas fees.
 
@@ -86,7 +86,7 @@ In the course of creating the Audit Fund project, Nicholas came up with a cool m
 
 ## FORMING updates by Wackozacco and darbytrash from Lexicon Devils
 
-Their next FORMING event will be on the Saturday leading up to Halloween, i.e. Oct. 29th, and the theme for this event will be a little spooky. 
+Their next FORMING event will be on the Saturday leading up to Halloween, i.e. Oct. 29th, and the theme for this event will be a little spooky.
 ![](https://i.imgur.com/oMDz6r8.webp)
 
 Submissions are open at the moment, if anybody wants to do a 10 - 15 mins recording of some live performances, feel free to submit in the [Forming webisite](http://forming.lexicondevils.xyz/). Submission will be closed on Oct. 25th.

@@ -2,7 +2,7 @@
 
 Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md)​‌
 
-**Fees that are being held to be processed later.** 
+**Fees that are being held to be processed later.**
 
 #### Definition
 

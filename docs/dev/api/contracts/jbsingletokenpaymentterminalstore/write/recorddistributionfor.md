@@ -115,7 +115,7 @@ function recordDistributionFor(
     uint256 _balanceCurrency = IJBSingleTokenPaymentTerminal(msg.sender).currency();
     ```
 
-8.  Calculate how much of the balance will be used. If the currency of the distribution limit and the balance are the same, no price conversion is necessary. Otherwise, convert the distribution limit currency to that of the balance. 
+8.  Calculate how much of the balance will be used. If the currency of the distribution limit and the balance are the same, no price conversion is necessary. Otherwise, convert the distribution limit currency to that of the balance.
 
     ```
     // Convert the amount to the balance's currency.
@@ -187,7 +187,7 @@ function recordDistributionFor(
   Records newly distributed funds for a project.
 
   @dev
-  The msg.sender must be an IJBSingleTokenPaymentTerminal. 
+  The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
   @param _projectId The ID of the project that is having funds distributed.
   @param _amount The amount to use from the distribution limit, as a fixed point number.

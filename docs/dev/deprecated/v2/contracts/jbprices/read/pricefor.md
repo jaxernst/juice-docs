@@ -97,14 +97,14 @@ function priceFor(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Gets the number of `_currency` units that can be converted to 1 `_base` unit.
-  
+
   @param _currency The currency units the feed's resulting price is in terms of.
   @param _base The base currency unit being priced by the feed.
   @param _decimals The number of decimals the returned fixed point price should include.
-  
+
   @return The price of the currency in terms of the base, as a fixed point number with the specified number of decimals.
 */
 function priceFor(

@@ -42,7 +42,7 @@ function terminalsOf(uint256 _projectId)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   For each project ID, the terminals that are currently managing its funds.
 

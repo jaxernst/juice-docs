@@ -9,8 +9,8 @@ Interface: [`IJBController`](/dev/api/interfaces/ijbcontroller.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The contract that manages token minting and burning.
 */
 IJBTokenStore public immutable tokenStore;

@@ -27,7 +27,7 @@ Ethereum rinkeby: [`0xFF1D73AB28140b574Bb7A90e9fBCeD1eDAFce5c1`](https://rinkeby
 #### Constructor
 
 ```
-/** 
+/**
   @param _owner The address that will own the contract.
 */
 constructor(address _owner) {

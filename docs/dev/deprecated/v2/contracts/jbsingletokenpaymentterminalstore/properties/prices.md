@@ -9,8 +9,8 @@ Interface: [`IJBSingleTokenPaymentTerminalStore`](/dev/deprecated/v2/interfaces/
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The contract that exposes price feeds.
 */
 IJBPrices public immutable override prices;

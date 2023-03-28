@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/* 
+/*
   @member token The token the payment was made in.
   @member value The amount of tokens that was paid, as a fixed point number.
   @member decimals The number of decimals included in the value fixed point number.

@@ -56,7 +56,7 @@ function issueFor(
     _External references:_
 
     * [`issueFor`](/dev/deprecated/v2/contracts/jbtokenstore/write/issuefor.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">

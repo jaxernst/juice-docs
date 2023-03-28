@@ -14,7 +14,7 @@ _Payouts are sent to the preprogrammed splits. Any leftover is sent to the proje
 
 _Anyone can distribute payouts on a project's behalf. The project can preconfigure a wildcard split that is used to send funds to msg.sender. This can be used to incentivize calling this function._
 
-_All funds distributed outside of this contract or any feeless terminals incure the protocol fee._ 
+_All funds distributed outside of this contract or any feeless terminals incure the protocol fee._
 
 #### Definition
 
@@ -39,7 +39,7 @@ function _distributePayoutsOf(
 
 #### Body
 
-1.  Record the distribution. 
+1.  Record the distribution.
 
     ```
     // Record the distribution.
@@ -86,7 +86,7 @@ function _distributePayoutsOf(
     { ... }
     ```
 
-    1.  Get a reference to the discount that'll be used when applying the fee. If the fee is 0, set the discount to be 100% to simplify subsequent calculations. No fee is the same as a full discount. 
+    1.  Get a reference to the discount that'll be used when applying the fee. If the fee is 0, set the discount to be 100% to simplify subsequent calculations. No fee is the same as a full discount.
 
         ```
         // Get the amount of discount that should be applied to any fees taken.

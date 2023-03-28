@@ -65,7 +65,7 @@ function changeFor(
 
     ```
     // Can't change to a token that doesn't use 18 decimals.
-    if (_token != IJBToken(address(0)) && _token.decimals() != 18) 
+    if (_token != IJBToken(address(0)) && _token.decimals() != 18)
       revert TOKENS_MUST_HAVE_18_DECIMALS();
     ```
 
@@ -172,7 +172,7 @@ function changeFor(
   if (projectOf[_token] != 0) revert TOKEN_ALREADY_IN_USE();
 
   // Can't change to a token that doesn't use 18 decimals.
-  if (_token != IJBToken(address(0)) && _token.decimals() != 18) 
+  if (_token != IJBToken(address(0)) && _token.decimals() != 18)
     revert TOKENS_MUST_HAVE_18_DECIMALS();
 
   // Get a reference to the current token for the project.

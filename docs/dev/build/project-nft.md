@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Project NFT
 
-Anyone can build on the [`JBProjects`](/dev/api/contracts/jbprojects) NFT contract. This allows developers to write new contracts which use `JBProjects` NFTs to manage permissions in a standardized way, and allows any project using Juicebox payment terminals to access your contracts, and vice versa. 
+Anyone can build on the [`JBProjects`](/dev/api/contracts/jbprojects) NFT contract. This allows developers to write new contracts which use `JBProjects` NFTs to manage permissions in a standardized way, and allows any project using Juicebox payment terminals to access your contracts, and vice versa.
 
 #### Create a project
 
@@ -64,7 +64,7 @@ function setTokenUriResolver(IJBTokenUriResolver _newResolver) external override
 
 #### Attaching application-specific functionality
 
-Project owners can configure their first funding cycle for their `JBProject`, attach payment terminals, and set all other standard juicebox project properties by calling [`JBController3_1.launchFundingCyclesFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchfundingcyclesfor). 
+Project owners can configure their first funding cycle for their `JBProject`, attach payment terminals, and set all other standard juicebox project properties by calling [`JBController3_1.launchFundingCyclesFor(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#launchfundingcyclesfor).
 
 Most Juicebox protocol contracts are generic utilities for any `JBProject` owner, meaning stored data tends to me mapped from project IDs, and functionality that affects a project tends to be exposed only to the project's owner or a operator address specified by the project's owner.
 

@@ -73,13 +73,13 @@ function recordRedemptionFor(
 
     * [`JBFundingCycleMetadataResolver`](/dev/api/libraries/jbfundingcyclemetadataresolver.md)
       * `.redeemPaused(...)`
-3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error. 
+3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error.
 
     ```
     // Scoped section prevents stack too deep. `_reclaimedTokenAmount`, `_currentOverflow`, and `_totalSupply` only used within scope.
     { ... }
     ```
-    
+
     1.  Keep a reference to the reclaimed token amount, current overflow amount, and total supply variables to use outside of the subsequent scoped block.
 
         ```
@@ -89,7 +89,7 @@ function recordRedemptionFor(
         uint256 _totalSupply;
         ```
 
-    2.  The following other scoped block uses the same hack to prevent a "Stack too deep" error. 
+    2.  The following other scoped block uses the same hack to prevent a "Stack too deep" error.
 
         ```
         // Another scoped section prevents stack too deep. `_token`, `_decimals`, and `_currency` only used within scope.
@@ -115,7 +115,7 @@ function recordRedemptionFor(
             * [`decimals`](/dev/api/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/properties/decimals.md)
             * [`currency`](/dev/api/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/properties/currency.md)
 
-        2.  Get a reference to the amount of overflow the project has. Either the project's total overflow or the overflow local to the msg.sender's balance will be used depending on how the project's funding cycle is configured. 
+        2.  Get a reference to the amount of overflow the project has. Either the project's total overflow or the overflow local to the msg.sender's balance will be used depending on how the project's funding cycle is configured.
 
             ```
             // Get the amount of current overflow.
@@ -169,7 +169,7 @@ function recordRedemptionFor(
             if (_tokenCount > _totalSupply) revert INSUFFICIENT_TOKENS();
             ```
 
-        5.  Get a reference to the reclaimable overflow if there is overflow. 
+        5.  Get a reference to the reclaimable overflow if there is overflow.
 
             ```
             if (_currentOverflow != 0)
@@ -237,14 +237,14 @@ function recordRedemptionFor(
           * `.ballotRedemptionRate(...)`
           * `.useTotalOverflowForRedemptions(...)`
 
-4.  Keep a reference the amount difference to apply to the balance. Initially this is the full reclaim value. 
+4.  Keep a reference the amount difference to apply to the balance. Initially this is the full reclaim value.
 
     ```
     // Keep a reference to the amount that should be subtracted from the project's balance.
     uint256 _balanceDiff = reclaimAmount;
     ```
 
-5.  If delegate allocations were returned by the data source, increment the amount that will get subtracted from the project's balance by each delegated allocation.    
+5.  If delegate allocations were returned by the data source, increment the amount that will get subtracted from the project's balance by each delegated allocation.
 
     ```
     if (delegateAllocations.length != 0) {

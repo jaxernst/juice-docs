@@ -9,8 +9,8 @@ Interface: [`IJBProjectPayer`](/dev/deprecated/v2/interfaces/ijbprojectpayer.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The metadata that should be used in the payment made when this contract receives payments.
 */
 bytes public override defaultMetadata;

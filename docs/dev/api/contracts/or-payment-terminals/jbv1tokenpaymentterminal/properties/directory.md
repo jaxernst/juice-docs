@@ -9,7 +9,7 @@ Interface: [`IJBV1TokenPaymentTerminal`](/dev/api/interfaces/ijbv1tokenpaymentte
 #### Definition
 
 ```
-/** 
+/**
   @notice
   The directory of terminals and controllers for projects.
 */

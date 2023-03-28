@@ -5,11 +5,11 @@ authors: [jango]
 tags: [update, dao]
 ---
 
-The Juicebox protocol was launched with a governance contract controlled by a multisig wallet. There are 4 EOAs on the multisig, and 2 of the 4 must approve a transaction for it to be submitted to the Ethereum blockchain. I am a signer, along with @peripheralist, @nervetrip, and @NMieos. 
+The Juicebox protocol was launched with a governance contract controlled by a multisig wallet. There are 4 EOAs on the multisig, and 2 of the 4 must approve a transaction for it to be submitted to the Ethereum blockchain. I am a signer, along with @peripheralist, @nervetrip, and @NMieos.
 
 This multisig wallet has the power to propose reconfigurations to the JuiceboxDAO's Juicebox project.
 
-The multisig vows to make decisions honoring the community's intent, but it is still ambiguous how the community's intent will be captured going forward. For the next few weeks, expect reconfigurations discussions to be lead by the founding contributors and take community discussion into account. 
+The multisig vows to make decisions honoring the community's intent, but it is still ambiguous how the community's intent will be captured going forward. For the next few weeks, expect reconfigurations discussions to be lead by the founding contributors and take community discussion into account.
 
 Decisions made by this multisig wallet can only affect the JuiceboxDAO's treasury, not of projects built using the Juicebox protocol.
 

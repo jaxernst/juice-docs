@@ -10,7 +10,7 @@ Interface: [`IJBProjectPayer`](/dev/deprecated/v2/interfaces/ijbprojectpayer.md)
 
 ```
 /**
-  @notice 
+  @notice
   A flag indicating if received payments should call the `pay` function or the `addToBalance` function of a project.
 */
 bool public override defaultPreferAddToBalance;

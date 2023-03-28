@@ -1,13 +1,13 @@
 ---
 slug: studiodao-highlight
-title: StudioDAO, A Decentralized Movie Studio Flipping the Script on Funding Films  
+title: StudioDAO, A Decentralized Movie Studio Flipping the Script on Funding Films
 description: How StudioDAO is building the first million person green-light committee on Juicebox.
 authors: [matthew, brileigh]
 tags: [highlight]
 image: https://docs.juicebox.money/assets/images/studiodao-25a8b3e8c725cf93b5d15ef9c9830c86.jpeg
 ---
 
-# 🎬 StudioDAO: A Decentralized Movie Studio Flipping the Script on Funding Films  
+# 🎬 StudioDAO: A Decentralized Movie Studio Flipping the Script on Funding Films
 
 ***How StudioDAO is building the first million person green-light committee on Juicebox.***
 
@@ -15,7 +15,7 @@ image: https://docs.juicebox.money/assets/images/studiodao-25a8b3e8c725cf93b5d15
 To learn more about how StudioDAO and its sub-projects are configured on Juicebox, read this [companion article](https://docs.juicebox.money/blog/2022-09-20-studiodao-config/).
 :::
 
-### 🥱 Prequels, sequels, reboots  
+### 🥱 Prequels, sequels, reboots
 
 If you’ve streamed movies recently, you might have noticed that everything is starting to become homogenized. Superhero mix and match, cinderella with the latest celebrity, maybe an apocalypse or two. It’s becoming increasingly clear that we are no longer paving new roads but rather returning to the same old well-trodden paths. The traditional studio model behind film production is, at least, partly to blame for this. And StudioDAO is trying to fix it.
 
@@ -27,7 +27,7 @@ These constant reboots are often favoured over new ideas that seem like too much
 
 Other than the exorbitant take rates (50%? hmmm…), the problem is that financiers are assuming the risk of the success of the film. In other words, they are not incentivized to invest in new films without a proven track record and are much more amenable to franchises with successful past releases. This has lead to the franchise overload that we are currently experiencing where every movie in theaters or on streaming platforms seems to be a prequel, sequel, or reboot.
 
-### 🟢 Enter StudioDAO, stage left  
+### 🟢 Enter StudioDAO, stage left
 
 ![StudioDAO](studiodao.jpeg)
 

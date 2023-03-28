@@ -4,7 +4,7 @@ _Sends ETH or ERC20's to a group of splits as it receives direct payments or has
 
 _Inherit from this contract or borrow from its logic to forward ETH or ERC20's to a group of splits from within other contracts._
 
-#### Code 
+#### Code
 
 https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBETHERC20SplitsPayer.sol
 
@@ -29,14 +29,14 @@ _There can be several instances of this contract deployed._
 #### Constructor
 
 ```
-/** 
+/**
   @param _defaultSplitsProjectId The ID of project for which the default splits are stored.
   @param _defaultSplitsDomain The splits domain to payout when this contract receives direct payments.
   @param _defaultSplitsGroup The splits group to payout when this contract receives direct payments.
   @param _splitsStore A contract that stores splits for each project.
   @param _defaultProjectId The ID of the project whose treasury should be forwarded the splits payer contract's received payment leftovers after distributing to the default splits group.
-  @param _defaultBeneficiary The address that'll receive the project's tokens. 
-  @param _defaultPreferClaimedTokens A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet. 
+  @param _defaultBeneficiary The address that'll receive the project's tokens.
+  @param _defaultPreferClaimedTokens A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet.
   @param _defaultMemo A memo to pass along to the emitted event, and passed along the the funding cycle's data source and delegate.  A data source can alter the memo before emitting in the event and forwarding to the delegate.
   @param _defaultMetadata Bytes to send along to the project's data source and delegate, if provided.
   @param _preferAddToBalance  A flag indicating if received payments should call the `pay` function or the `addToBalance` function of a project.
@@ -78,8 +78,8 @@ constructor(
 * `_defaultSplitsGroup` is the splits group to payout when this contract receives direct payments.
 * `_splitsStore` is a contract that stores splits for each project.
 * `_defaultProjectId` is the ID of the project whose treasury should be forwarded the splits payer contract's received payment leftovers after distributing to the default splits group.
-* `_defaultBeneficiary` is the address that'll receive the project's tokens. 
-* `_defaultPreferClaimedTokens` is a flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet. 
+* `_defaultBeneficiary` is the address that'll receive the project's tokens.
+* `_defaultPreferClaimedTokens` is a flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet.
 * `_defaultMemo` is a memo to pass along to the emitted event, and passed along the the funding cycle's data source and delegate.  A data source can alter the memo before emitting in the event and forwarding to the delegate.
 * `_defaultMetadata` are bytes to send along to the project's data source and delegate, if provided.
 * `_defaultPreferAddToBalance` is a flag indicating if received payments should call the `pay` function or the `addToBalance` function of a project.

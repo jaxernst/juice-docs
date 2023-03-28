@@ -9,7 +9,7 @@ _This packed data is often 0._
 #### Definition
 
 ```
-/** 
+/**
   @notice
   More packed data of splits for each project ID's configurations.
 

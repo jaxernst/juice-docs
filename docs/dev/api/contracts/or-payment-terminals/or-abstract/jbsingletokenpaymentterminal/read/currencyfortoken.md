@@ -38,7 +38,7 @@ function currencyForToken(address _token) external view override returns (uint25
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   The currency that should be used for the specified token.
 

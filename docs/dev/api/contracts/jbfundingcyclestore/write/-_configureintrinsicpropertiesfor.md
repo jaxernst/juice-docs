@@ -91,7 +91,7 @@ function _configureIntrinsicPropertiesFor(
 
     * [`_isApproved`](/dev/api/contracts/jbfundingcyclestore/read/-_isapproved.md)
     * [`_getStructFor`](/dev/api/contracts/jbfundingcyclestore/read/-_getstructfor.md)
-6. Make sure the configuration isn't the same as the base configuration. Only one configuration can be made to a project's funding cycles per block. 
+6. Make sure the configuration isn't the same as the base configuration. Only one configuration can be made to a project's funding cycles per block.
 
     ```
     // The configuration can't be the same as the base configuration.
@@ -134,7 +134,7 @@ function _configureIntrinsicPropertiesFor(
 
 ```
 /**
-  @notice 
+  @notice
   Updates the configurable funding cycle for this project if it exists, otherwise creates one.
 
   @param _projectId The ID of the project to find a configurable funding cycle for.

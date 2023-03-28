@@ -9,8 +9,8 @@ Interface: [`IJBSingleTokenPaymentTerminalStore`](/dev/api/interfaces/ijbsinglet
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The contract storing all funding cycle configurations.
 */
 IJBFundingCycleStore public immutable override fundingCycleStore;

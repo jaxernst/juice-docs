@@ -9,10 +9,10 @@ Interface: [`IJBSplitsStore`](/dev/deprecated/v2/interfaces/ijbsplitsstore.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The directory of terminals and controllers for projects.
-*/ 
+*/
 IJBDirectory public immutable override directory;
 ```
 

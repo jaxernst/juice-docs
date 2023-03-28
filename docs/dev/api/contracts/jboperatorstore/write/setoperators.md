@@ -68,9 +68,9 @@ function setOperators(JBOperatorData[] calldata _operatorData) external override
         _Event references:_
 
         * [`SetOperator`](../events/setoperator.md)
-    
+
     4.  Increment the loop counter.
-        
+
         ```
         unchecked {
           ++_i;

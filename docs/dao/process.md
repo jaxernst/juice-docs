@@ -5,10 +5,10 @@ sidebar_position: 3
 
 # JuiceboxDAO Governance Process
 
-*JuiceboxDAO governance runs on a 14 day cycle.* 
+*JuiceboxDAO governance runs on a 14 day cycle.*
 
 ![](/img/gov-calendar.webp)
-    
+
 #### Governance Schedule
 
 Day 1 -  Temperature Check - Saturday (00:00 UTC) <br/>
@@ -31,7 +31,7 @@ A **Discord temperature check poll** will be created for each proposal submitted
 
 **Proposals which receive at least 10 affirmative votes amounting to at least 30% of total votes will proceed to Snapshot.**
 
-#### Step 2 - Offchain Voting 
+#### Step 2 - Offchain Voting
 
 `Begins on Day 4 of the Governance Cycle - Tuesday 00:00 UTC`
 

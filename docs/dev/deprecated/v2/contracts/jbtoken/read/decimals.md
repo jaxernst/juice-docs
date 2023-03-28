@@ -40,7 +40,7 @@ function decimals() public view override(ERC20, IJBToken) returns (uint8) { ... 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   The number of decimals included in the fixed point accounting of this token.
 

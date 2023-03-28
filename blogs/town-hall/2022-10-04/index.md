@@ -6,14 +6,14 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp)  
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
 ## NFT Rewards Strategy with jango
 
 
-We've been in touch with Code4rena this past week to schedule the review for NFT Rewards contracts. 
+We've been in touch with Code4rena this past week to schedule the review for NFT Rewards contracts.
 
 Since our next governance cycles will only be able to put out funds in two and a half weeks, Nicholas launched a Juicebox project, [NFT Rewards Audit Fund](https://juicebox.money/@auditfund) to help crowdfunding so that maybe we can get the review started earlier.
 
@@ -29,7 +29,7 @@ But there might be another approach to handle this Code4rena audit contest a bit
 - Once NFT Rewards contracts are out, we'll be working with a new piece of infrastructure which at its core is very crafty in its potential and has pretty compelling customization features, we might want to start to put weight on this one step at a time.
 
 
-If we take the more prudent approach, we're probably aiming for the Code4rena audit contest starting mid of Oct, and a pretty fixed launch date for contract deployment synchronized with the frontend deploy since there're some Subgraph dependencies. It will be a matter of plugging in the contract addresses and shipping it for the frontend experience also, around Nov. 1st. 
+If we take the more prudent approach, we're probably aiming for the Code4rena audit contest starting mid of Oct, and a pretty fixed launch date for contract deployment synchronized with the frontend deploy since there're some Subgraph dependencies. It will be a matter of plugging in the contract addresses and shipping it for the frontend experience also, around Nov. 1st.
 
 No decisions have been made on these time frames yet, but Jango is leaning towards taking the more patient approach. We've been sprinting a lot in the past month and frontend has been doing a lot of stuff with subgraph and frontend versioing. Maybe we should take it easy this month in a sense that everyone feels very good and all the moving pieces are very much in place. We will have all loose ends tied and ready to go by the time we launch.
 
@@ -40,10 +40,10 @@ The versioning work in frontend seems to follow along and might be available soo
 
 ## NFT Reward Audit Fund by Nicholas and Jango
 
-The [NFT Rewards Audit Fund](https://juicebox.money/@auditfund) is a Juicebox project that Nicholas created to help funding a Code4rena audit contest for the NFT Rewards contracts. Folks can decide to contribute to it so as to speed things up, even before the DAO decides to support. 
+The [NFT Rewards Audit Fund](https://juicebox.money/@auditfund) is a Juicebox project that Nicholas created to help funding a Code4rena audit contest for the NFT Rewards contracts. Folks can decide to contribute to it so as to speed things up, even before the DAO decides to support.
 ![](e6b3wgP.webp)
 
-Also Nicholas submitted a [proposal](https://juicetool.xyz/nance/juicebox/proposal/6bb92c83571245949ecf1e495793e66b) for JuiceboxDAO to support and fund this audit contest. Once approved, funds will be distributed into the treasury of the Audit Fund project, to be paid to Code4rena later on. 
+Also Nicholas submitted a [proposal](https://juicetool.xyz/nance/juicebox/proposal/6bb92c83571245949ecf1e495793e66b) for JuiceboxDAO to support and fund this audit contest. Once approved, funds will be distributed into the treasury of the Audit Fund project, to be paid to Code4rena later on.
 ![](vds1VsU.webp)
 
 If JuiceboxDAO does decide to fully support the expense of this Code4rena audit, folks who donated to this project before could possibly get their full refund through redemption. This proposal will serve on both edges:
@@ -58,7 +58,7 @@ jango thought that it would be more ideal for the audit contest to start on Oct.
 
 For context, recently Code4rena is interested in creating some Juicebox projects for any smart contracts or protocols so that anybody can crowdfund and start the audits for them. Hopefully, this Audit Fund project and proposal can help to push forward the JuiceboxDAO X Code4rena integration partnership by discovering a typical JuiceboxDAO dogfooding solution first.
 
-Dr.Gorilla is working on an allocator which would allow projects including this NFT Rewards Audit Fund project to pay out funds in DAI, for the sake of convenience so that projects don't need to distribute ETH to multisig or any other address and then swap on exchanges for DAI. Instead, this allocator will take in the ETH from the treasury, check a few exchanges for the best price, and then swap the ETH into DAI before sending to the beneficiaries. 
+Dr.Gorilla is working on an allocator which would allow projects including this NFT Rewards Audit Fund project to pay out funds in DAI, for the sake of convenience so that projects don't need to distribute ETH to multisig or any other address and then swap on exchanges for DAI. Instead, this allocator will take in the ETH from the treasury, check a few exchanges for the best price, and then swap the ETH into DAI before sending to the beneficiaries.
 
 Concerning the question whether or not early donors of the Audit Fund project can get their 100% refund, Jango thought that it will be very probable, as long as JuiceboxDAO fill ETH in the Audit Fund treasury without minting tokens for itself and the redemption rate is set at 100%, as well as that the Juicebox fees are compensated by JBDAO. Jango also express his interest in seeing if the DAO is willing to put some JBX behind it as well, so that folks contributing and taking on the marginal risk can have a little bit of upside in so doing. Also from a membership perspective, it's another initiative to spread the JBX around from the treasury.
 
@@ -76,29 +76,29 @@ That's part of the longer term JBX strategy. Jango hoped that we can find some s
 
 ## Defifa project by Jango
 
-A few governance cycles ago, we got some support to start building this really sick game that is gonna accompany the World Cup that's kicking off on Nov. 20th, and leveraging the NFT Rewards contract and scoping it down to a very narrow specific use case. 
+A few governance cycles ago, we got some support to start building this really sick game that is gonna accompany the World Cup that's kicking off on Nov. 20th, and leveraging the NFT Rewards contract and scoping it down to a very narrow specific use case.
 
 Essentially this game is a Juicebox project that's divided into 4 funding cycles enumerated as phases for the game's sake. ![](uOAUL97.jpeg)
 
 ### Phase I: Mint
-There's going to be 32 NFTs which are each different tiers in the NFT tiered reward contract. In the two weeks leading up to the tournament, anyone can mint any team for the same price (currently saying 0.022 ETH). As the mints increase, so does the game's treasury. The NFTs are in turn a claim on the treasury. During these first 2 weeks, you can burn your NFT to get your funds back, with 1:1 redemption. 
+There's going to be 32 NFTs which are each different tiers in the NFT tiered reward contract. In the two weeks leading up to the tournament, anyone can mint any team for the same price (currently saying 0.022 ETH). As the mints increase, so does the game's treasury. The NFTs are in turn a claim on the treasury. During these first 2 weeks, you can burn your NFT to get your funds back, with 1:1 redemption.
 
 *So you can basically mint at will and then along the way if you no longer like the token distribution, let's say you minted England and then a ton of people also did, you can burn your England NFT and get your funds back.*
 
 At the end of the day, we're playing the game by taking the competitions outcome and trying to reflect the results onto this game and then recalibrate what each NFT is backed by, given the IRL outcome.
 
 ### Phase II: Start
-Once the games starts, the treasury is locked and minting ends. There's no more new NFTs, and you can't redeem or refund, the distribution of all tokens are set. 
+Once the games starts, the treasury is locked and minting ends. There's no more new NFTs, and you can't redeem or refund, the distribution of all tokens are set.
 
 What happens in between the game is open-ended, we can bring whatever rules we want. We can say it's a winner-takes-all situation where the whole treasury will belong to the NFTs of the winner of the last game; or we can do something more interactive, let's say there's a preset amount of the treasury allocated to one specific stage game and the winner of the prediction ends up with those funds or at least has their NFTs backed by those funds.
 
 We're probably going to lean towards doing it in a simpler way at first. Each game of the tournament will have a preset portion of the total treasury:
 
-- 0.416% for each of the 48 group stage games. 
-- 2.5% for each of the 8 first knockout round games. 
-- 5% for each quarterfinal game. 
-- 10% for each semifinal game. 
-- 20% for the final game. 
+- 0.416% for each of the 48 group stage games.
+- 2.5% for each of the 8 first knockout round games.
+- 5% for each quarterfinal game.
+- 10% for each semifinal game.
+- 20% for the final game.
 
 For example, if England beats the U.S., then whoever holds the England NFTs will get 0.416% of the treasury during that group stage game, so on and so forth.
 
@@ -157,7 +157,7 @@ By clicking the `New Proposal`, you can have this proposal template:
 ![](XPeoKdJ.webp)
 This template allows you to select a payout that goes to an address or a project, and specify the amount and number of cycles. And also it will resolve ENS name in the `Receiver address`.
 
-Once you finish filling the fields and hit `Submit`, we get a proposal created. When you submit a new proposal, we'll still push it to Notion at this point. 
+Once you finish filling the fields and hit `Submit`, we get a proposal created. When you submit a new proposal, we'll still push it to Notion at this point.
 
 Longer term roadmap for Nance:
 
@@ -178,7 +178,7 @@ MCSA(Marin County Swim Association) is a nonprofit providing opportunities for p
 ![](UaOrEP0.jpeg)
 
 
-OxSTVG would like to thank all the people who have donated and support the [MCSA Juiceobx project](https://juicebox.money/@mcsa) and want them to know that the funds are being used in a positive way. A lot of people who would not have exposure to this type of high-level talent coaching can get their oppoutuity through the help of MCSA. 
+OxSTVG would like to thank all the people who have donated and support the [MCSA Juiceobx project](https://juicebox.money/@mcsa) and want them to know that the funds are being used in a positive way. A lot of people who would not have exposure to this type of high-level talent coaching can get their oppoutuity through the help of MCSA.
 
 ## Bonus: Juicy Treasure with Nicholas
 

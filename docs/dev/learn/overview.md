@@ -13,7 +13,7 @@ The Juicebox protocol is a framework for funding and operating projects openly o
 <p>
   <a href="/dev/learn/glossary/project">Learn more about projects</a>
   </p>
-  
+
 
 #### Configure funding cycles for a project
 <p>
@@ -60,23 +60,23 @@ The Juicebox protocol is a framework for funding and operating projects openly o
 The protocol charges a <a href="#jbx-membership-fee">JBX membership fee</a> on funds withdrawn from the network. There are no fees for distributions to other Juicebox projects.
 </p>
 <p>
-  Distribution limits can be specified in any currency that the <a href="/dev/api/contracts/jbprices"><code>JBPrices</code></a> contract has a price feed for.  
+  Distribution limits can be specified in any currency that the <a href="/dev/api/contracts/jbprices"><code>JBPrices</code></a> contract has a price feed for.
 </p>
 
 <!---->
 
 ##### Overflow allowance
 <p>
-  The amount of treasury funds that the project owner can distribute on-demand. 
+  The amount of treasury funds that the project owner can distribute on-demand.
 </p>
 <p>
   This allowance does not reset per-funding cycle. Instead, it lasts until the project owner explicitly proposes a reconfiguration with a new allowance.
 </p>
 <p>
-The protocol charges a <a href="#jbx-membership-fee">JBX membership fee</a> on funds withdrawn from the network. 
+The protocol charges a <a href="#jbx-membership-fee">JBX membership fee</a> on funds withdrawn from the network.
 </p>
 <p>
-  Overflow allowances can be specified in any currency that the <a href="/dev/api/contracts/jbprices"><code>JBPrices</code></a> contract has a price feed for.  
+  Overflow allowances can be specified in any currency that the <a href="/dev/api/contracts/jbprices"><code>JBPrices</code></a> contract has a price feed for.
 </p>
 
 <!---->
@@ -210,7 +210,7 @@ The protocol charges a <a href="#jbx-membership-fee">JBX membership fee</a> on f
   A project can change its token during any of its funding cycles that are explicitly configured to allow changes.<br/>
 </p>
 <p>
-  By default, the protocol provides a transaction for projects to deploy <a href="/dev/api/contracts/jbtoken"><code>JBToken</code></a> ERC-20 tokens. 
+  By default, the protocol provides a transaction for projects to deploy <a href="/dev/api/contracts/jbtoken"><code>JBToken</code></a> ERC-20 tokens.
 </p>
 
 #### Splits

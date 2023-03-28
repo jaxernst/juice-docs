@@ -2,7 +2,7 @@
 
 _Deploys [`JBETHERC20ProjectPayer`](/dev/deprecated/v2/contracts/or-utilities/jbetherc20projectpayer) contracts._
 
-#### Code 
+#### Code
 
 https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBETHERC20ProjectPayerDeployer.sol
 

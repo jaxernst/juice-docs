@@ -22,7 +22,7 @@ Please note that all projects mentioned in this article are currently running on
 - [Colossi Research Academy](https://rinkeby.juicebox.money/v2/p/4523): test project with art by Michael French
 - [Dickson Greeting](https://rinkeby.juicebox.money/v2/p/4631): test project, experimental historical short film
 
-![StudioDAO Project Map](studiodao-project-map.webp)  
+![StudioDAO Project Map](studiodao-project-map.webp)
 
 <p class="subtitle">StudioDAO sub-project map</p>
 
@@ -30,7 +30,7 @@ Please note that all projects mentioned in this article are currently running on
 
 StudioDAO’s first film fundraise is [Unlikely Love Stories](https://rinkeby.juicebox.money/v2/p/4633), a dark comedy anthology by Rosa Tran and Derek Smith that explores finding unexpected love in the most unexpected places. In the screenshot below, you can see that ~ 13 ETH has gone into the treasury, and 10% of those funds will be distributed to “Project 4630” also known as [StudioDAO Backlot](https://rinkeby.juicebox.money/v2/p/4630), the Juicebox project that supports all StudioDAO films through production-related services. The other 90% is distributed to the filmmakers ([unlikelylovestories.eth](https://rinkeby.etherscan.io/address/0xb3c92c75621e513c3882f6a98a0121319c4e0664)) along with the Backlot tokens minted from the 10% payout.
 
-![StudioDAO Funding Distribution](studiodao-distribution.webp)  
+![StudioDAO Funding Distribution](studiodao-distribution.webp)
 
 <p class="subtitle">Funding distribution for <a href="https://rinkeby.juicebox.money/v2/p/4633">Unlikely Love Stories on Rinkeby</a></p>
 
@@ -44,9 +44,9 @@ Digging further into the project’s config, we can see that the following choic
 - `Redemption Rate is set to 100%` which means that they can be redeemed against the overflow of the treasury at any time. In other words, there is no added value for redeeming earlier vs. later.
 - `Mint Rate is 840,000 tokens per 1 ETH`, with half for project contributors (420,000) and half for addresses on the reserved token list (420,000) 🚬
 - `Owner token minting is disabled`, so the project owners cannot mint tokens at any time. Only project contributions will mint new tokens.
-- `No reconfiguration strategy was set`, meaning that a project can be reconfigured at any time without notifying contributors. Again, this is a very flexible approach for project creators but carries risk for project contributors.  
+- `No reconfiguration strategy was set`, meaning that a project can be reconfigured at any time without notifying contributors. Again, this is a very flexible approach for project creators but carries risk for project contributors.
 
-![StudioDAO Funding cycle configuration](studiodao-config.webp)  
+![StudioDAO Funding cycle configuration](studiodao-config.webp)
 
 <p class="subtitle">Funding cycle configuration for <a href="https://rinkeby.juicebox.money/v2/p/4633">Unlikely Love Stories on Rinkeby</a></p>
 
@@ -60,7 +60,7 @@ We can also take a look at how the [Reserved Tokens](https://docs.juicebox.money
 
 This cross-pollination of tokens allows each member of the StudioDAO ecosystem to have a stake in one another, creating incentive alignment and building community in the process.
 
-![StudioDAO Reserved Token Allocation](studiodao-reserved.webp)  
+![StudioDAO Reserved Token Allocation](studiodao-reserved.webp)
 
 <p class="subtitle">Reserved token allocation for <a href="https://rinkeby.juicebox.money/v2/p/4633">Unlikely Love Stories on Rinkeby</a></p>
 

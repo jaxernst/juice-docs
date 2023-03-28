@@ -9,9 +9,9 @@ Interface: [`IJBToken`](/dev/api/interfaces/ijbtoken.md)
 #### Definition
 
 ```
-/** 
+/**
   @notice
-  The ID of the project that this token should be exclusively used for. Send 0 to support any project. 
+  The ID of the project that this token should be exclusively used for. Send 0 to support any project.
 */
 uint256 public immutable override projectId;
 ```

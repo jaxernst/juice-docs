@@ -45,9 +45,9 @@ function _packedPermissions(uint256[] calldata _indexes) private pure returns (u
         // Turn the bit at the index on.
         packed |= 1 << _index;
         ```
-    
+
     4. Increment the loop counter.
-       
+
        ```
        unchecked {
         ++_i;
@@ -59,8 +59,8 @@ function _packedPermissions(uint256[] calldata _indexes) private pure returns (u
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Converts an array of permission indexes to a packed `uint256`.
 
   @param _indexes The indexes of the permissions to pack.

@@ -33,7 +33,7 @@ function stateOf(
 
 #### Body
 
-1.  Return the final state if there is one. 
+1.  Return the final state if there is one.
 
     ```
     // If there is a finalized state, return it.
@@ -50,7 +50,7 @@ function stateOf(
 
     * [`finalState`](/dev/deprecated/v2/contracts/or-ballots/jbreconfigurationbufferballot/properties/finalstate.md)
 
-2.  If the ballot's duration has not yet passed since the reconfiguration was proposed, the state is failed if the funding cycle is supposed to have already started. Otherwise it is still active.  
+2.  If the ballot's duration has not yet passed since the reconfiguration was proposed, the state is failed if the funding cycle is supposed to have already started. Otherwise it is still active.
 
     ```
     // If the delay hasn't yet passed, the ballot is either failed or active.
@@ -65,7 +65,7 @@ function stateOf(
       * `.Failed`
       * `.Active`
 
-3. The ballot is otherwise approved. 
+3. The ballot is otherwise approved.
 
     ```
     // The ballot is otherwise approved.
@@ -83,7 +83,7 @@ function stateOf(
 
 ```
 /**
-  @notice 
+  @notice
   The approval state of a particular funding cycle.
 
   @param _projectId The ID of the project to which the funding cycle being checked belongs.

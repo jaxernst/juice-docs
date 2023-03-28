@@ -57,13 +57,13 @@ function currentFundingCycleOf(uint256 _projectId)
 
     * [`JBFundingCycleMetadataResolver`](/dev/deprecated/v2/libraries/jbfundingcyclemetadataresolver.md)<br/>
       * `.expandMetadata(...)`
-      
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   A project's current funding cycle along with its metadata.
 

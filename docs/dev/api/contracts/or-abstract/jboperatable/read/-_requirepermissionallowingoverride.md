@@ -31,7 +31,7 @@ function _requirePermissionAllowingOverride(
 
 #### Body
 
-1.  Make sure the override flag is on, or the message sender is the specified account, an operator of the account within the specified domain, or an operator of the account within the wildcard domain. 
+1.  Make sure the override flag is on, or the message sender is the specified account, an operator of the account within the specified domain, or an operator of the account within the wildcard domain.
 
     ```
     if (
@@ -55,7 +55,7 @@ function _requirePermissionAllowingOverride(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Require the message sender is either the account, has the specified permission, or the override condition is true.
 

@@ -99,7 +99,7 @@ function setFor(uint256 _projectId, IJBToken _token)
   Only a project's owner or operator can set its token.
 
   @param _projectId The ID of the project to which the set token belongs.
-  @param _token The new token. 
+  @param _token The new token.
 */
 function setFor(uint256 _projectId, IJBToken _token)
   external

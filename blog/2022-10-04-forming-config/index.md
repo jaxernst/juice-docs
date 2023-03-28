@@ -71,7 +71,7 @@ In addition to hilarious skits performed by [Darby](https://twitter.com/darbytra
 
 ![Live view of funds being distributed to artists at the end of FORMING vol. 3](FORMING-vol3-2.webp)
 
-<p class="subtitle">Live view of funds being distributed to artists at the end of FORMING vol. 3</p>  
+<p class="subtitle">Live view of funds being distributed to artists at the end of FORMING vol. 3</p>
 
 ### Relevant links
 

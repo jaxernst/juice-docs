@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 ## Peel Update by Tjl
 
@@ -45,7 +45,7 @@ Essentially in the next stage, we will try to run a new treasury on a L2 network
 
 Over the past while, we have noticed the tax that it takes to do versioning and migration work on the core treasury. Even if expansion in other L2s is something that JuiceboxDAO might want to adopt in the near future, it makes sense to de-risk by running a separate treasury with its own incentive structures which is related to JuiceboxDAO through the regular Juicebox treasury components.
 
-Jango wrote a [blog post](https://jango.eth.limo/03EDF541-0137-45F7-834B-B346DD0CEBD5/) to summarize his string of thoughts about this matter derived from the recent discussions. There's not much specifics at the moment, but he hopes that he will be able to share them on a more regular basis, when they are available in the near future. 
+Jango wrote a [blog post](https://jango.eth.limo/03EDF541-0137-45F7-834B-B346DD0CEBD5/) to summarize his string of thoughts about this matter derived from the recent discussions. There's not much specifics at the moment, but he hopes that he will be able to share them on a more regular basis, when they are available in the near future.
 
 
 

@@ -35,7 +35,7 @@ function mint(
 #### Body
 
 1.  Make sure the project IDs match, or this contract's project ID is 0.
-    
+
     ```
     // Can't mint for a wrong project.
     if (projectId != 0 && _projectId != projectId) revert BAD_PROJECT();
@@ -60,7 +60,7 @@ function mint(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Mints more of the token.
 

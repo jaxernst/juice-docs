@@ -64,12 +64,12 @@ function _feeAmount(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Returns the fee amount based on the provided amount for the specified project.
 
   @param _amount The amount that the fee is based on, as a fixed point number with the same amount of decimals as this terminal.
-  @param _fee The percentage of the fee, out of MAX_FEE. 
+  @param _fee The percentage of the fee, out of MAX_FEE.
   @param _feeDiscount The percentage discount that should be applied out of the max amount, out of MAX_FEE_DISCOUNT.
 
   @return The amount of the fee, as a fixed point number with the same amount of decimals as this terminal.

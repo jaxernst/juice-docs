@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## Juicebox Analytics Update with Nicholas
@@ -76,13 +76,13 @@ And the one lie is No. 3.
 ## End of Year Thoughts and Reflections
 
 **Jango:**
-I think a lot of new amazing contributors lingered throughout the year, and that's a long time to be contributing to something and figuring out new ways to participate as things that were messy continued to become a mess only maybe with a little bit more organization over time. That's certainly worth celebrating. 
+I think a lot of new amazing contributors lingered throughout the year, and that's a long time to be contributing to something and figuring out new ways to participate as things that were messy continued to become a mess only maybe with a little bit more organization over time. That's certainly worth celebrating.
 
 I am looking forward to finding out how the community exists in the  next year. It's been a cool year and I've had a lot of fun and been very grateful. I am stoked for so many things that might fall into place in the next year.
 
-Also shoutout to Jigglyjams for making the Nance in this year, which will be super exciting for the next year especially to really stabilize it and make it the governance backend that will be tied to a lot of Juicebox processes. 
+Also shoutout to Jigglyjams for making the Nance in this year, which will be super exciting for the next year especially to really stabilize it and make it the governance backend that will be tied to a lot of Juicebox processes.
 
-The podcasts made by Matthew and Brileigh gets better and better in quality, too. It's cool to have this cadence of publishing, while tweaking the style and gear as it's moving forward. 
+The podcasts made by Matthew and Brileigh gets better and better in quality, too. It's cool to have this cadence of publishing, while tweaking the style and gear as it's moving forward.
 
 **Nicholas:**
 Also Matthew and Brileigh have been doing a great work in Juicenews which is a great resource for keeping people up to date about the Juicebox ecosystem.

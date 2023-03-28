@@ -75,7 +75,7 @@ function currentOf(uint256 _projectId)
       // If it hasn't been approved, set the funding cycle configuration to be the configuration of the funding cycle that it's based on,
       // which carries the last approved configuration.
       _fundingCycleConfiguration = _fundingCycle.basedOn;
-    } 
+    }
     ```
 
     _Internal references:_
@@ -107,7 +107,7 @@ function currentOf(uint256 _projectId)
 6.  If the current referenced configuration is 0, there must not be a current cycle so return an empty one.
 
     ```
-    // If there is not funding cycle to base the current one on, there can't be a current one. 
+    // If there is not funding cycle to base the current one on, there can't be a current one.
     if (_fundingCycleConfiguration == 0) return _getStructFor(0, 0);
     ```
 
@@ -149,12 +149,12 @@ function currentOf(uint256 _projectId)
 
 ```
 /**
-  @notice 
+  @notice
   The funding cycle that is currently active for the specified project.
 
   @dev
   If a current funding cycle of the project is not found, returns an empty funding cycle with all properties set to 0.
-  
+
   @param _projectId The ID of the project to get the current funding cycle of.
 
   @return fundingCycle The project's current funding cycle.
@@ -199,7 +199,7 @@ function currentOf(uint256 _projectId)
       _fundingCycleConfiguration = _fundingCycle.basedOn;
   }
 
-  // If there is not funding cycle to base the current one on, there can't be a current one. 
+  // If there is not funding cycle to base the current one on, there can't be a current one.
   if (_fundingCycleConfiguration == 0) return _getStructFor(0, 0);
 
   // The funding cycle to base a current one on.

@@ -57,8 +57,8 @@ function _formatHandle(string[] memory _ensNameParts)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Formats ENS name parts into a handle.
 
   @param _ensNameParts The ENS name parts to format into a handle.

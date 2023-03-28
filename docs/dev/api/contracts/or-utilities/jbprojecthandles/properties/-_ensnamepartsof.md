@@ -9,7 +9,7 @@ _["jbx", "dao", "foo"] represents foo.dao.jbx.eth._
 #### Definition
 
 ```
-/** 
+/**
   @notice
   Mapping of project ID to an array of strings that make up an ENS name and its subdomains.
 
@@ -23,4 +23,4 @@ mapping(uint256 => string[]) internal _ensNamePartsOf;
 
 * Arguments:
   * `_projectId` is the ID of the project to get an ENS name for.
-* The resulting function is internal to this contract and its inheriters. 
+* The resulting function is internal to this contract and its inheriters.

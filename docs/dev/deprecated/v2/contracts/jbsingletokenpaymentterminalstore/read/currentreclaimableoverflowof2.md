@@ -52,7 +52,7 @@ function currentReclaimableOverflowOf(
     ```
 
 3.  Get a reference to the project's current funding cycle.
-    
+
     ```
     // Get a reference to the project's current funding cycle.
     JBFundingCycle memory _fundingCycle = fundingCycleStore.currentOf(_projectId);
@@ -62,7 +62,7 @@ function currentReclaimableOverflowOf(
 
     * [`currentOf`](/dev/deprecated/v2/contracts/jbfundingcyclestore/read/currentof.md)
 
-4.  Return the reclaimable overflow using the project's current funding cycle and the provided parameters. 
+4.  Return the reclaimable overflow using the project's current funding cycle and the provided parameters.
 
     ```
     // If there is no overflow, nothing is reclaimable.
@@ -84,7 +84,7 @@ function currentReclaimableOverflowOf(
   @notice
   The current amount of overflowed tokens from a terminal that can be reclaimed by the specified number of tokens, using the specified total token supply and overflow amounts.
 
-  @dev 
+  @dev
   If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.
 
   @param _projectId The ID of the project to get the reclaimable overflow amount for.

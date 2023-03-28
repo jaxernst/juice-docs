@@ -27,7 +27,7 @@ Ethereum rinkeby: [`0xd0b970348dfc7ae57e81b4f069ed0e06127be85d`](https://rinkeby
 #### Constructor
 
 ```
-/** 
+/**
   @param _projects A contract which mints ERC-721's that represent project ownership and transfers.
   @param _operatorStore A contract storing operator assignments.
   @param _textResolver The ENS text resolver contract address.

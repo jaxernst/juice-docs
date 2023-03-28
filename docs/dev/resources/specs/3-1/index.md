@@ -24,7 +24,7 @@ See [this proposal](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xb7b3ccd6
 4. New availability of the following function signatures:
 	- `function reservedTokenBalanceOf(uint256 _projectId) external view returns (uint256)`
 	- `function totalOutstandingTokensOf(uint256 _projectId) public view returns (uint256)`
-    
+
 
 ### Spec changes from `JBPayoutRedemptionPaymentTerminal` ⇒ `JBPayoutRedemptionPaymentTerminal3.1`
 
@@ -34,24 +34,24 @@ See [this proposal](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xb7b3ccd6
 2. The standard `addToBalanceOf` call no longer refunds held fees. A new overloaded function signature with an added explicit parameter has been added for adding to balance with refunding held fees. See the new event signatures below.
 3. Payouts from one project to other projects or allocators that revert will be caught and funds will be returned to the paying project, instead of reverting the entire distribution altogether. This include fees paid down to the protocol project.
 4. No more availability of the following function signatures:
-    - `function distributePayoutsOf(uint256 _projectId, uint256 _amount, uint256 _currency, address _token, uint256 _minReturnedTokens, string calldata _memo) external virtual returns (uint256 netLeftoverDistributionAmount)` 
+    - `function distributePayoutsOf(uint256 _projectId, uint256 _amount, uint256 _currency, address _token, uint256 _minReturnedTokens, string calldata _memo) external virtual returns (uint256 netLeftoverDistributionAmount)`
         - new one replaces `_memo` with `_metadata`
-    - `function useAllowanceOf(uint256 _projectId, uint256 _amount, uint256 _currency, address _token, uint256 _minReturnedTokens, address payable _beneficiary, string memory memo) external virtual returns (uint256 netDistributedAmount)` 
+    - `function useAllowanceOf(uint256 _projectId, uint256 _amount, uint256 _currency, address _token, uint256 _minReturnedTokens, address payable _beneficiary, string memory memo) external virtual returns (uint256 netDistributedAmount)`
         - new one adds `metadata`
 5. New availability of the following function signatures:
     - `function distributePayoutsOf(uint256 _projectId, uint256 _amount, uint256 _currency, address _token, uint256 _minReturnedTokens, bytes calldata _metadata) external virtual returns (uint256 netLeftoverDistributionAmount)`
     - `function useAllowanceOf(uint256 _projectId, uint256 _amount, uint256 _currency, address _token, uint256 _minReturnedTokens, address payable _beneficiary, string memory _memo, bytes calldata _metadata) external virtual returns (uint256 netDistributedAmount)`
     - `function addToBalanceOf(uint256 _projectId, uint256 _amount, address _token, bool _shouldRefundHeldFees, string calldata _memo, bytes calldata _metadata) public payable virtual`
 6. New event signatures:
-    
+
     ![](Untitled.webp)
-    
+
     ![](Untitled-1.webp)
-    
+
     ![](Untitled-2.webp)
-    
+
     ![](Untitled-3.webp)
-    
+
 
 ### Spec changes from `JBTiered721Delegate` ⇒ `JBTiered721Delegate3.1`
 

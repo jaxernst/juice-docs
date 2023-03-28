@@ -15,7 +15,7 @@ Interface: [`IJBFundingCycleStore`](/dev/api/interfaces/ijbfundingcyclestore.md)
 #### Definition
 
 ```
-function currentBallotStateOf(uint256 _projectId) external view override returns (JBBallotState) { ... } 
+function currentBallotStateOf(uint256 _projectId) external view override returns (JBBallotState) { ... }
 ```
 
 * Arguments:
@@ -68,8 +68,8 @@ function currentBallotStateOf(uint256 _projectId) external view override returns
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The current ballot state of the project.
 
   @param _projectId The ID of the project to check the ballot state of.

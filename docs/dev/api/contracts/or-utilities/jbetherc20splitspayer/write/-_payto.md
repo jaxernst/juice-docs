@@ -26,7 +26,7 @@ function _payTo(
   * `_splits` are the splits.
   * `_token` is the token the amonut being split is in.
   * `_amount` is the amount of tokens being split, as a fixed point number. If the `_token` is ETH, this is ignored and msg.value is used in its place.
-  * `_decimals` is the number of decimals in the `_amount` fixed point number. 
+  * `_decimals` is the number of decimals in the `_amount` fixed point number.
   * `_defaultBeneficiary` is the address that will benefit from any non-specified beneficiaries in splits.
 * The function is private to this contract.
 * The function returns the amount leftover after all splits were paid.
@@ -161,20 +161,20 @@ function _payTo(
     _Event references:_
 
     * [`DistributeToSplit`](/dev/api/contracts/or-utilities/jbetherc20splitspayer/events/distributetosplit.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Split an amount between all splits.
 
   @param _splits The splits.
   @param _token The token the amonut being split is in.
   @param _amount The amount of tokens being split, as a fixed point number. If the `_token` is ETH, this is ignored and msg.value is used in its place.
-  @param _decimals The number of decimals in the `_amount` fixed point number. 
+  @param _decimals The number of decimals in the `_amount` fixed point number.
   @param _defaultBeneficiary The address that will benefit from any non-specified beneficiaries in splits.
 
   @return leftoverAmount The amount leftover after all splits were paid.

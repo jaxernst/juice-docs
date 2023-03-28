@@ -6,9 +6,9 @@ sidebar_position: 6
 
 ### A Permeable DAO
 
-JuiceboxDAO strives to maintain an open contribution policy. Anyone may pitch in and help with any of the Focus Areas defined in the [DAO Foundation](../foundation), such as protocol and frontend development, community alignment, or governance. 
+JuiceboxDAO strives to maintain an open contribution policy. Anyone may pitch in and help with any of the Focus Areas defined in the [DAO Foundation](../foundation), such as protocol and frontend development, community alignment, or governance.
 
-Unlike traditional workplaces, the DAO is open to pseudonymous contributors ("anons"). New contributors are not expected to present a resumé or any other identifying material. The DAOs permeability to new contributors with no substantial reputation informs its contributor onboarding structure. 
+Unlike traditional workplaces, the DAO is open to pseudonymous contributors ("anons"). New contributors are not expected to present a resumé or any other identifying material. The DAOs permeability to new contributors with no substantial reputation informs its contributor onboarding structure.
 
 To welcome new contributors, many of whom have little to no reputation online, the DAO suggests that contributors consider the following process to successfully onboard as a paid contributor
 
@@ -29,7 +29,7 @@ Contributors who have completed one or more trial payouts are advised to propose
 1. Join [the Discord](https://www.discord.gg/juicebox).
 2. Join the weekly [Discord Town Halls](../town-hall) (Tuesday 22:00 UTC).
 3. Read recent [governance proposals](https://juicetool.xyz/nance/juicebox).
-4. Read recent message history in relevant Discord channels to familiarize yourself with the high level ongoing projects in the DAO, and details of the areas you wish to contribute to. 
+4. Read recent message history in relevant Discord channels to familiarize yourself with the high level ongoing projects in the DAO, and details of the areas you wish to contribute to.
 5. Reach out to active contributors in channels related to areas you would like to contribute to. Ask what you can help with or propose new objectives for the DAO.
 6. Participate in the DAO for 1-2 weeks before asking for a payout.
 

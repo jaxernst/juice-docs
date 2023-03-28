@@ -46,7 +46,7 @@ function transfer(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Transfer tokens to an account.
 

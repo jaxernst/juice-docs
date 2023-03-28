@@ -2,7 +2,7 @@
 
 Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md)​‌
 
-**Maximum fee that can be set for a funding cycle configuration.** 
+**Maximum fee that can be set for a funding cycle configuration.**
 
 _Out of MAX_FEE (50_000_000 / 1_000_000_000)._
 

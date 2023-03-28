@@ -7,7 +7,7 @@ Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-te
 #### Definition
 
 ```
-/** 
+/**
   @notice
   Checks the balance of tokens in this contract.
 

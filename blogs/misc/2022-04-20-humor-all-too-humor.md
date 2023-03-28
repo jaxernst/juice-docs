@@ -1,11 +1,11 @@
 ---
 slug: humor-all-too-humor
-title: Humor, all too humor 
+title: Humor, all too humor
 authors: [felixander]
 tags: [observations]
 ---
 
-# Humor, all too humor 
+# Humor, all too humor
 ## *Predictions of Past and Present*
 
 Once in a while it may be nice to let loose with a little silliness. So enjoy this short article on 18th century critical theory and the folly of technological prophesies.

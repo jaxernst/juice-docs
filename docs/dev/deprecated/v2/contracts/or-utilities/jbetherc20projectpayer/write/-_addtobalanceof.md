@@ -35,7 +35,7 @@ function _addToBalanceOf(
 
 #### Body
 
-1.  Get a reference to the terminal that should be sent the payment by checking for the project's stored primary terminal for the token being paid.  
+1.  Get a reference to the terminal that should be sent the payment by checking for the project's stored primary terminal for the token being paid.
 
     ```
     // Find the terminal for the specified project.
@@ -83,7 +83,7 @@ function _addToBalanceOf(
 
     * [`approve`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-approve-address-uint256-)
 
-5.  Keep a reference to the amount to send in the transaction. If the token being paid is ETH, send the value along with the tx.   
+5.  Keep a reference to the amount to send in the transaction. If the token being paid is ETH, send the value along with the tx.
 
     ```solidity
     // If the token is ETH, send it in msg.value.
@@ -95,7 +95,7 @@ function _addToBalanceOf(
     * [`JBTokens`](/dev/deprecated/v2/libraries/jbtokens.md)
       * `.ETH`
 
-5.  Add to the project's balance with the provided properties. 
+5.  Add to the project's balance with the provided properties.
 
     ```
     // Add to balance so tokens don't get issued.
@@ -105,14 +105,14 @@ function _addToBalanceOf(
     _External references:_
 
     * [`addToBalanceOf`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/addtobalanceof.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Add to the balance of the specified project.
 
   @param _projectId The ID of the project that is being paid.

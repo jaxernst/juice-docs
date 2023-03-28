@@ -92,8 +92,8 @@ function _addTerminalIfNeeded(uint256 _projectId, IJBPaymentTerminal _terminal) 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Add a terminal to a project's list of terminals if it hasn't been already.
 
   @param _projectId The ID of the project having a terminal added.

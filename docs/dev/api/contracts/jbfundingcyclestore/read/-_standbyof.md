@@ -86,7 +86,7 @@ function _standbyOf(uint256 _projectId) private view returns (uint256 configurat
 
 ```
 /**
-  @notice 
+  @notice
   The project's stored funding cycle that hasn't yet started and should be used next, if one exists.
 
   @dev
@@ -94,7 +94,7 @@ function _standbyOf(uint256 _projectId) private view returns (uint256 configurat
 
   @dev
   Assumes the project has a latest configuration.
-  
+
   @param _projectId The ID of a project to look through for a standby cycle.
 
   @return configuration The configuration of the standby funding cycle if one exists, or 0 if one doesn't exist.

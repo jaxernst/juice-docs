@@ -71,7 +71,7 @@ function _pay(
         JBTokenAmount memory _bundledAmount = JBTokenAmount(token, _amount, decimals, currency);
         ```
 
-    3.  Record the payment, and get a reference to the funding cycle during which the payment was made, the number of project tokens that should be minted as a result, a delegate to callback to, and an updated memo. 
+    3.  Record the payment, and get a reference to the funding cycle during which the payment was made, the number of project tokens that should be minted as a result, a delegate to callback to, and an updated memo.
 
         ```
         // Record the payment.

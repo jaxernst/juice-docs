@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## Infura gate postmortem by Peri and Filipv
@@ -29,7 +29,7 @@ And he also introduced that after the proposal is submitted, a discussion thread
 
 ## JokeDAO Update by Seanmc
 
-Seanmc came to our town hall to demo their 2nd milestone implementation for the grants in the proposal of [JBP-211-Sponsor Development of JokeDAO V2](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xecb6ba5ca205acb63cb430d6e94cb48e8b0ff8f1e83a0d1478d35f729ab1532f). As their 1st milestone was finished and demonstrated on the Aug. 16 JuiceboxDAO town hall,  this 2nd milestone has taken a bit longer to implement than previously expected.  
+Seanmc came to our town hall to demo their 2nd milestone implementation for the grants in the proposal of [JBP-211-Sponsor Development of JokeDAO V2](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xecb6ba5ca205acb63cb430d6e94cb48e8b0ff8f1e83a0d1478d35f729ab1532f). As their 1st milestone was finished and demonstrated on the Aug. 16 JuiceboxDAO town hall,  this 2nd milestone has taken a bit longer to implement than previously expected.
 
 In this 2nd milestone, they  are trying to develop a rewards module, which can be used to reward different ranks with proportionate amounts in a contest. All funds will be sent to the contest and split by a rewards module, which is basically a contract attached to the contest and does everything onchain.
 
@@ -49,7 +49,7 @@ The correct answer is **Matthewbrooks**.
 
 ## Forming Update with Darbytrash
 
-On last Sunday, the ALLSTARZ collab. with Forming was held at the [Juicebox headquarter in Cryptovoxels](http://juicebox.lexicondevils.xyz/). 
+On last Sunday, the ALLSTARZ collab. with Forming was held at the [Juicebox headquarter in Cryptovoxels](http://juicebox.lexicondevils.xyz/).
 
 ![Forming x ALLSTARZ](FormingXALLSTARZ.gif)
 
@@ -60,7 +60,7 @@ Lexicon Devils published the [performance content on Youtube](https://www.youtub
 Also Lexicon Devils have planned a few Forming collabs with other communities later:
 
 - Collab with [Songcamp](https://twitter.com/songcamp_), a very cool NFT community.
-- Collab with [LowEffortPunk](https://twitter.com/LowEffortPunks). 
+- Collab with [LowEffortPunk](https://twitter.com/LowEffortPunks).
 
 
 

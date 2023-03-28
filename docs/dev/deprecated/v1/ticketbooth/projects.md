@@ -3,7 +3,7 @@
 ### Constructor
 
 ```javascript
-/** 
+/**
   @param _operatorStore A contract storing operator assignments.
 */
 constructor(IOperatorStore _operatorStore)
@@ -14,8 +14,8 @@ constructor(IOperatorStore _operatorStore)
 ### Read
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Whether the specified project exists.
 
   @param _projectId The project to check the existence of.
@@ -29,10 +29,10 @@ function exists(uint256 _projectId) external view override returns (bool)
 
 ```javascript
 /**
-    @notice 
+    @notice
     Create a new project.
 
-    @dev 
+    @dev
     Anyone can create a project on an owner's behalf.
 
     @param _owner The owner of the project.
@@ -47,15 +47,15 @@ function create(
     bytes32 _handle,
     string calldata _uri,
     ITerminal _terminal
-) external override returns (uint256) 
+) external override returns (uint256)
 ```
 
 ```javascript
 /**
-  @notice 
+  @notice
   Allows a project owner to set the project's handle.
 
-  @dev 
+  @dev
   Only a project's owner or operator can set its handle.
 
   @param _projectId The ID of the project.
@@ -69,10 +69,10 @@ function setHandle(uint256 _projectId, bytes32 _handle)
 
 ```javascript
 /**
-  @notice 
+  @notice
   Allows a project owner to set the project's uri.
 
-  @dev 
+  @dev
   Only a project's owner or operator can set its uri.
 
   @param _projectId The ID of the project.
@@ -86,10 +86,10 @@ function setUri(uint256 _projectId, string calldata _uri)
 
 ```javascript
 /**
-  @notice 
+  @notice
   Allows a project owner to transfer its handle to another address.
 
-  @dev 
+  @dev
   Only a project's owner or operator can transfer its handle.
 
   @param _projectId The ID of the project to transfer the handle from.
@@ -109,10 +109,10 @@ function transferHandle(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Allows an address to claim and handle that has been transferred to them and apply it to a project of theirs.
 
-  @dev 
+  @dev
   Only a project's owner or operator can claim a handle onto it.
 
   @param _handle The handle being claimed.
@@ -139,7 +139,7 @@ function claimHandle(
 ```
 
 ```javascript
-/** 
+/**
   @notice
   Allows anyone to challenge a project's handle. After one year, the handle can be claimed by the public if the challenge isn't answered by the handle's project.
   This can be used to make sure a handle belonging to an unattended to project isn't lost forever.
@@ -150,11 +150,11 @@ function challengeHandle(bytes32 _handle) external
 ```
 
 ```javascript
-/** 
+/**
   @notice
   Allows a project to renew its handle so it can't be claimed until a year after its challenged again.
 
-  @dev 
+  @dev
   Only a project's owner or operator can renew its handle.
 
   @param _projectId The ID of the project that current has the handle being renewed.

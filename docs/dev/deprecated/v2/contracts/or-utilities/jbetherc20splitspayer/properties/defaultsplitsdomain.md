@@ -11,7 +11,7 @@ Interface: [`IJBSplitsPayer`](/dev/deprecated/v2/interfaces/ijbsplitspayer.md)
 ```
 /**
   @notice
-  The domain within which the default splits are stored. 
+  The domain within which the default splits are stored.
 */
 uint256 public override defaultSplitsDomain;
 ```

@@ -59,11 +59,11 @@ function _namehash(string[] memory _ensNameParts) internal pure returns (bytes32
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Returns a namehash for an ENS name.
 
-  @dev 
+  @dev
   See https://eips.ethereum.org/EIPS/eip-137.
 
   @param _ensNameParts The parts of an ENS name to hash.

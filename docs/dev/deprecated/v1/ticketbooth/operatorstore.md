@@ -5,8 +5,8 @@
 ### Read
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Whether or not an operator has the permission to take a certain action pertaining to the specified domain.
 
   @param _operator The operator to check.
@@ -25,8 +25,8 @@ function hasPermission(
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Whether or not an operator has the permission to take certain actions pertaining to the specified domain.
 
   @param _operator The operator to check.
@@ -47,8 +47,8 @@ function hasPermissions(
 ### Write
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Sets permissions for an operator.
 
   @param _operator The operator to give permission to.
@@ -63,8 +63,8 @@ function setOperator(
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Sets permissions for many operators.
 
   @param _operators The operators to give permission to.

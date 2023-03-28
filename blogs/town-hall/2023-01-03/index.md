@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -23,20 +23,20 @@ Highlights of some projects:
 
 - [The EmpireDAO 2023 Membership Drive](https://juicebox.money/v2/p/380)
 
-    EmpireDAO is a co-working space in New York and they are now having a bit problem with their lease. This project is fundraising to help them stay in their current space and avoid personal bankrupt of the founder. 
-    
+    EmpireDAO is a co-working space in New York and they are now having a bit problem with their lease. This project is fundraising to help them stay in their current space and avoid personal bankrupt of the founder.
+
     ![empireDAO project](empiredao_project.webp)
 
 - [Lenster](https://juicebox.money/@lensterapp)
 
     Lenster is one of the front ends for the Lens protocol. This might be a project they're using to experiment with Juicebox.
-    
+
     ![Lenster project](lenster_project.webp)
 
 - [Twitter DAO Energy Gauge](https://juicebox.money/v2/p/379)
 
     This is a project created by Jango. The idea came from recent discussions around whether Twitter should tend towards more Dao-ish, so Jango created a treasury where people can safely deposit their funds in and get the funds back any time they want easily.
-    
+
     ![twitter dao energy gauge](twitterdaogauge_project.webp)
 
 
@@ -53,13 +53,13 @@ The Juicebox DAO foundation document can be found [here](https://www.notion.so/j
 
 Jango though that now we have a cool opportunity to reflect on the commitments that we ratified a long time ago, and he was planning to put up a proposal in the upcoming governance cycle to update this document.
 
-Jango has started to write and share some of his train of thoughts since the past month, and ultimately got to a few pieces that outline where we are with the [many little pockets of opportunities](https://jango.eth.limo/A7C5927A-08F1-425F-B440-8DF4BCF00DEE/). 
+Jango has started to write and share some of his train of thoughts since the past month, and ultimately got to a few pieces that outline where we are with the [many little pockets of opportunities](https://jango.eth.limo/A7C5927A-08F1-425F-B440-8DF4BCF00DEE/).
 
 Obviously everything all unfolds and it's a reflection of what's happening in the Discord and commitment we've been making in the proposals up until now. So this refelction is nothing new or far reaching, it's more just a way to find the right metaphors that can easily encapsulate what people are getting themselves into when they are thinking about launching projects, allocating money to projects or contributing to the DAO in various ways.
 
 ### Mission statement
 
-What we currently set out to do is to "helps people confidently run programmable and community funded treasuries from startup to scale, openly on Ethereum". 
+What we currently set out to do is to "helps people confidently run programmable and community funded treasuries from startup to scale, openly on Ethereum".
 
 There have been a lot of stress on the protocol evolution and security to make sure that it gets deployed and adjusted, and takes into account the risks that people are exposed to in interacting with these contracts.
 
@@ -113,13 +113,13 @@ Darby urged us to do the RSVP on [Forming homepage](https://forming.lexicondevil
 
 Also, as [Forming project](https://juicebox.money/@forming) has migrated to our V3 protocol, they have deployed the Forming official Juicebox unlockable NFTs. All the funds raised throught these NFTs are going to be allocated to the artists selected for this Forming X Songcamp performance. For each Forming event, all performers will be set as distribution beneficiaries on the Forming project, so that when the event ends, they will all be automatically distributed proportionatly with the funds raised in that period of time.
 
-Darby was so excited about the NFT functionality of Juicebox that he wanted to give hats-off to the devs and everyone who made that possible, as he felt this could be a game changer in this world. 
+Darby was so excited about the NFT functionality of Juicebox that he wanted to give hats-off to the devs and everyone who made that possible, as he felt this could be a game changer in this world.
 
 Jango suggested that we put up the tutorial video made by Matthew and Brileigh about [how to create NFT on Juicebox](https://youtu.be/pgpK3LofDSU) in our lounge in the Voxels, so that folks attending the Forming events can learn how to set up their own NFTs on Juicebox also.
 
 Darby also announced that Lexicon Devils had the plan to hold a live Forming event in New York for the NFTNYC this year, they are willing to discuss with folks in the Juicebox community to brainstorm the details on making this real.
 
-Matthew and Brileigh has also released [a new episode of Juicecast featuring Darbytrash](https://podcasts.apple.com/ca/podcast/ep-19-darbytrash-from-forming/id1623504302?i=1000592726192), covering how Forming got started and its past and future events. 
+Matthew and Brileigh has also released [a new episode of Juicecast featuring Darbytrash](https://podcasts.apple.com/ca/podcast/ep-19-darbytrash-from-forming/id1623504302?i=1000592726192), covering how Forming got started and its past and future events.
 
 ![Juicecast episode of Forming](juicecast_forming.webp)
 
@@ -135,7 +135,7 @@ Jango thought it would be great idea to make the length of the week more accessi
 
 ## Defifa NFL Update by Jango
 
-The first version of Defifa has finished successfully, which is super exciting. 
+The first version of Defifa has finished successfully, which is super exciting.
 
 We are going to bring along with a few folks contributed to the first round and some new folks interested in going forward, to do another iteation of Defifa on the upcoming NFL playoffs.
 

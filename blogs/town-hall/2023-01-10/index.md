@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -33,7 +33,7 @@ He went over and introduced all the items on the dashboard, which covers things 
 
 ## Qwestive Referral Program Demo with JZ
 
-[JZ](https://twitter.com/jasonzhou1993) used to be a contributor in JuiceboxDAO, and he is now working in a team called [Qwestive](https://www.qwestive.io/) which is a dedicated referral platform in Web3. He came to our town hall with the thoughts that a referral system might be useful for Juicebox ecosystem and he wanted to give some explanations to that by doing a demo in the town hall. 
+[JZ](https://twitter.com/jasonzhou1993) used to be a contributor in JuiceboxDAO, and he is now working in a team called [Qwestive](https://www.qwestive.io/) which is a dedicated referral platform in Web3. He came to our town hall with the thoughts that a referral system might be useful for Juicebox ecosystem and he wanted to give some explanations to that by doing a demo in the town hall.
 
 ### Why referral?
 
@@ -59,13 +59,13 @@ As a choice, we can let anyone create their referral links, or if we choose to, 
 
 And the reward structure can be pretty flexible, either by a fixed amount reward in ETH, JBX or NFT, or by a tier-based with different reward amounts for various referral outcome, or even by a dynamic standard where the referer can get a certain percentage of fees that Juciebox collects from projects created.
 
-And also the program can be defined to allocate rewards to the referee, people who click the referral link and create a project in this case. 
+And also the program can be defined to allocate rewards to the referee, people who click the referral link and create a project in this case.
 
 ### Discussion in town hall
 
-Filipv thought a referral progam would be a great way to encourage more people to get involved with onboarding, and also a good way to align incentives with people who are working on content creation, visibility and project onboarding, etc. 
+Filipv thought a referral progam would be a great way to encourage more people to get involved with onboarding, and also a good way to align incentives with people who are working on content creation, visibility and project onboarding, etc.
 
-For Jango's question of whether the events tracked are on-chain ones or just website activities, JZ explained that they actually tracked the on-chain data by capturing the wallet addresses of people who click on the referral link and create a project. 
+For Jango's question of whether the events tracked are on-chain ones or just website activities, JZ explained that they actually tracked the on-chain data by capturing the wallet addresses of people who click on the referral link and create a project.
 
 Nicholas agreed that this referral program makes a lot of sense, especially for project creation. Also we could set up a different referral program or maybe a tool that can be offered to project creators for use in their own projects.
 
@@ -97,13 +97,13 @@ Jango also mentioned that the team is planning to do the Defifa for March Madnes
 
 ## Blunt Finance by Jango
 
-[Blunt Finance](https://blunt.finance/) is another project [supported by JuiceboxDAO](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0x3346171415210d0523079ccde7af7e4f417e45ec7daabb9f037bbaba0c69a550), and it has seen some really fascinating evolution in the past several weeks. [Jacopo](https://twitter.com/jj_ranalli) has been the main dev both in the front end and contracts for this product. 
+[Blunt Finance](https://blunt.finance/) is another project [supported by JuiceboxDAO](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0x3346171415210d0523079ccde7af7e4f417e45ec7daabb9f037bbaba0c69a550), and it has seen some really fascinating evolution in the past several weeks. [Jacopo](https://twitter.com/jj_ranalli) has been the main dev both in the front end and contracts for this product.
 
 We've simplified it quite a bit to really narrow in on a specific use case, which is to set the target of fundraising ahead of time at the stage of creating a funding round.
 
 ![blunt advanced parameters](blunt_parameters.webp)
 
-A project creator, blunt round creator in this case, can set the fundraise parameters such as fundraise duration, funding target, hard cap and project owner, etc. If the funding duration ends and the fundrasing reaches its target, the project ownership will be passed to the preset project owner and runs just like a normal Juicebox project thereafter. If the target is not met when the campaign is over, the contracts will automatically schedule a funding cycle #2 with refunds to donors. 
+A project creator, blunt round creator in this case, can set the fundraise parameters such as fundraise duration, funding target, hard cap and project owner, etc. If the funding duration ends and the fundrasing reaches its target, the project ownership will be passed to the preset project owner and runs just like a normal Juicebox project thereafter. If the target is not met when the campaign is over, the contracts will automatically schedule a funding cycle #2 with refunds to donors.
 
 It's lower risk in onboarding when it's way more simpler with just one prompt. Hopefull we will see a lot more projects spinning up and trying to meet a goal. Folks can contribute to these project with less risk, without having to worry about changes around here and there.
 
@@ -115,13 +115,13 @@ Nicholas was pretty excited about the blunt mechanic, especially this stripped d
 
 In Jango's point of view, if you get a contract that owns the first funding cycle, you can then pass ownership, in the case of successful fundraise, to a contract that will manage how a second funding cycle goes. You can then create this chain of passing along projects to acutally fulfill a life cycle and maybe even have a conclusion, without any individual or multisig or on-chain governance contract ever really touching them, which is basically what Defifa does. He hoped that it opened up our minds to other opportunities and definitely wanted to encourage everyone to play with those ideas.
 
-Jango really liked the idea of smaller chunks of responsibility that run smaller codebases to try things out, so that as they bubble up to place where people are, the risk is at least known a little bit better. 
+Jango really liked the idea of smaller chunks of responsibility that run smaller codebases to try things out, so that as they bubble up to place where people are, the risk is at least known a little bit better.
 
 ## NFT Tokenomics by Nicholas
 
-NFTs have dropped with great success on Juicebox, and we have many interesting projects coming into existence. But so far we haven't really seen very hot NFTs, or any obvious secondary market activity for any NFTs originating from Juicebox ecosystem. 
+NFTs have dropped with great success on Juicebox, and we have many interesting projects coming into existence. But so far we haven't really seen very hot NFTs, or any obvious secondary market activity for any NFTs originating from Juicebox ecosystem.
 
-For this reason, Nicholas had the idea of helping projects create mechanisms around their tokens. He thought that for the majority of projects, membership tokens or other kinds of tokens that they can sell directly inside of Juicebox ecosystem are with huge opportunity and under exploited. So far, we haven't yet witnessed any mechanism that has really taken off in a wild way, like for instance an NFT collection born on Juicebox getting really popular outside of Juicebox ecosystem. Nicholas has been talking with folks about other models for doing more than just popping up a JPEG and hoping that people will contribute for it. 
+For this reason, Nicholas had the idea of helping projects create mechanisms around their tokens. He thought that for the majority of projects, membership tokens or other kinds of tokens that they can sell directly inside of Juicebox ecosystem are with huge opportunity and under exploited. So far, we haven't yet witnessed any mechanism that has really taken off in a wild way, like for instance an NFT collection born on Juicebox getting really popular outside of Juicebox ecosystem. Nicholas has been talking with folks about other models for doing more than just popping up a JPEG and hoping that people will contribute for it.
 
 One idea that Nicholas has benn thinking about for the past couple of weeks, is that low cost NFTs can have a single use voting purpose. NFTs that are really cheap or at least affordable give everyone who purchases them an opportunity to vote in a single proposal round to decide how to distribute some or all of the funds,  while a subsequent round starts with similar mechanics and entirely new NFTs which will be used to vote in this new round.
 

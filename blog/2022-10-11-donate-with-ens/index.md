@@ -8,7 +8,7 @@ tags: [guide]
 
 # Receive Juicebox donations at a .eth address
 
-Sending ETH to an ENS address is one of the simplest ways for donors to interact with a Juicebox project. For example, sending ETH to `auditfund.eth` pays that ETH directly into the [Audit Fund Juicebox project](https://juicebox.money/@auditfund), and issues the corresponding tokens to the sender, all from within their wallet of choice! 
+Sending ETH to an ENS address is one of the simplest ways for donors to interact with a Juicebox project. For example, sending ETH to `auditfund.eth` pays that ETH directly into the [Audit Fund Juicebox project](https://juicebox.money/@auditfund), and issues the corresponding tokens to the sender, all from within their wallet of choice!
 
 In this tutorial, I'll show you how to configure an ENS address to forward ETH to a Juicebox project.
 
@@ -22,12 +22,12 @@ You can also watch the video walkthrough by JBDAO contributors [Matthew](https:/
 Before you can receive donations, you'll need a Juicebox Project. Learn how to [Make Your Juicebox Project](/user).
 
 ### Have an ENS Domain
-You'll need to own or be the controller of an ENS address (such as yourname.eth) to follow the rest of this tutorial. Register an address at [ENS Domains](https://app.ens.domains). 
+You'll need to own or be the controller of an ENS address (such as yourname.eth) to follow the rest of this tutorial. Register an address at [ENS Domains](https://app.ens.domains).
 
 ### Optional: Set up your Juicebox Project Handle
 It's not necessary to complete this tutorial, but it's also a good idea to set up your project handle. Project handles gives your project a vanity url like `juicebox.money/@auditfund`, rather than the default `juicebox.money/v2/p/256`, and will make your project appear in the site's search. They're free and only cost a little gas for the setup transactions.
 
-To set up a project handle, go to the project's page on juicebox.money, connect wallet with the project owner's wallet, click the cog icon to access the Project Settings, then select `Project handle` in the menu and follow the instructions on that page. 
+To set up a project handle, go to the project's page on juicebox.money, connect wallet with the project owner's wallet, click the cog icon to access the Project Settings, then select `Project handle` in the menu and follow the instructions on that page.
 
 ![](0.webp)
 
@@ -37,7 +37,7 @@ A payment address forwards ETH it receives to a given project. Anyone can create
 On the project page, click the tools button.
 ![](1.webp)
 
-Click `Create Payment Address` and follow the instructions on the page. 
+Click `Create Payment Address` and follow the instructions on the page.
 
 ![](2.webp)
 

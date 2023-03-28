@@ -9,10 +9,10 @@ Interface: [`IJBProjectHandles`](/dev/api/interfaces/ijbprojecthandles.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Mints ERC-721's that represent project ownership and transfers.
-*/ 
+*/
 IJBProjects public immutable override projects;
 ```
 

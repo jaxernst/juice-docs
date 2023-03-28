@@ -11,7 +11,7 @@ ConstitutionDAO has reached some sort of a coordination moment. There are decisi
 
 Meanwhile us builders have another opportunity to evaluate and extend our current tooling to best support moments like this for people into the future.
 
-Things we care about when considering refund design: speed, safety, cost, flexibility, convenience, (...?). 
+Things we care about when considering refund design: speed, safety, cost, flexibility, convenience, (...?).
 
 In the case of ConstitutionDAO, the refund could be handled in a few different ways (there are definitely others that I don't know of or am less familiar with):
 
@@ -22,9 +22,9 @@ Steps:
 1. Inject the $40+ million back into the Juicebox contract.
 2. Multisig sends a tx reconfiguring ConstitutionDAO's funding cycle target to 0, allowing all tokens to be redeemable for a proportional share of all funds in the treasury.
 3. Everyone who wants to redeem their PEOPLE tokens can do so. All who wish to stay in and build out ConstitutionDAO can instead keep their PEOPLE tokens and leave their funds committed to the group.
-4. The DAO eventually reassess what it wants out of itself, and who will serve on the multisig to continuing operating the treasury on the community's behalf. DAO can also reassess if it wishes to open up to new members and contributions, etc. In other words, DAO continues to do DAO shit. 
+4. The DAO eventually reassess what it wants out of itself, and who will serve on the multisig to continuing operating the treasury on the community's behalf. DAO can also reassess if it wishes to open up to new members and contributions, etc. In other words, DAO continues to do DAO shit.
 
-Notes: 
+Notes:
 
 - -- I'd prefer if the Juicebox contracts were looked through by several more people before sticking $40+ mil in them. I personally trust them, but we need community trust and acknowledgement that this is risky experimental stuff. I would love to have the community's confidence in this decision. I'd love to do workshops over the next few days toward this end.
 - -- Every person claiming would have a gas fee to pay that would cost about the same as it costed them to contribute: $30-$60 bucks worth of ETH. This sucks especially for folks who contributed amounts around the same order of magnitude as the fee.
@@ -39,11 +39,11 @@ Notes:
 Steps:
 
 1. DAO reserves around $2 mil to pay for refund gas.
-2. Take a snapshot. Everyone who had a balance of PEOPLE tokens at a particular block number would be eligible to request a refund at a rate of 1 ETH per 1,000,000 tokens. 
+2. Take a snapshot. Everyone who had a balance of PEOPLE tokens at a particular block number would be eligible to request a refund at a rate of 1 ETH per 1,000,000 tokens.
 3. The multisig would send tx's to fulfill these requests, covering the gas using the amount reserved.
 4. The remaining DAO has to reassess how it manages its tokens if it wants to continue to do DAO shit since PEOPLE tokens are no longer backed by ETH.
 
-Notes: 
+Notes:
 
 - -- multisig would have to coordinate around potentially thousands of payments.
 - -- it could take a bit for people to signal their request for a refund. The multisig would have a lot of double-checking and button-clicking to do upfront, and be on standby for a while.
@@ -68,9 +68,9 @@ Notes:
 
 - -- This approach will still cost refunders a similar amount of gas to redeeming via Juicebox.
 - -- The PEOPLE tokens can no longer be used as a claim on the treasury, because people could then double-dip. PEOPLE tokens no longer function as normal Juicebox project tokens.
-- ++ The primary advantages of the airdrop approach is that it can use all or mostly audited code, increasing security as compared to Juicebox's unaudited redemption mechanism. 
+- ++ The primary advantages of the airdrop approach is that it can use all or mostly audited code, increasing security as compared to Juicebox's unaudited redemption mechanism.
 - ++ This approach reduces gas costs for the DAO (i.e., the people who do not want refunds) as compared to multisig paying gas to send all refunds directly.
-- ++ The airdrop could be configured to allow redemptions on an L2, though this adds complexity. 
+- ++ The airdrop could be configured to allow redemptions on an L2, though this adds complexity.
 - ++ Allows contributors to retain their PEOPLE token but receive a refund.
 
 *... (pitch other ideas by listing steps and tradeoffs)*

@@ -9,7 +9,7 @@ Interface: [`IJBProjectHandles`](/dev/deprecated/v2/interfaces/ijbprojecthandles
 #### Definition
 
 ```
-/** 
+/**
   @notice
   The key of the ENS text record.
 */

@@ -15,10 +15,10 @@ _Permissions are stored in a packed `uint256`. Each 256 bits represents the on/o
 #### Definition
 
 ```
-/** 
+/**
   @notice
   The permissions that an operator has been given to operate on a specific domain.
-  
+
   @dev
   An account can give an operator permissions that only pertain to a specific domain namespace.
   There is no domain with a value of 0 – accounts can use the 0 domain to give an operator

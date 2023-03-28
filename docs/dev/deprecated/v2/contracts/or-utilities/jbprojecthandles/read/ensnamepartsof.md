@@ -36,14 +36,14 @@ function ensNamePartsOf(uint256 _projectId) external view override returns (stri
     _Internal references:_
 
     * [`_ensNamePartsOf`](/dev/deprecated/v2/contracts/or-utilities/jbprojecthandles/properties/-_ensnamepartsof.md)
-      
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The parts of the stored ENS name of a project.
 
   @param _projectId The ID of the project to get the ENS name of.

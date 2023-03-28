@@ -9,8 +9,8 @@ Interface: [`IJBReconfigurationBufferBallot`](/dev/deprecated/v2/contracts/inter
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The contract storing all funding cycle configurations.
 */
 IJBFundingCycleStore public immutable override fundingCycleStore;

@@ -90,8 +90,8 @@ function _mockFundingCycleBasedOn(JBFundingCycle memory _baseFundingCycle, bool 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   A view of the funding cycle that would be created based on the provided one if the project doesn't make a reconfiguration.
 
   @dev

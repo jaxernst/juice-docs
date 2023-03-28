@@ -9,10 +9,10 @@ Interface: [`IJBNFTRewardDelegate`](/dev/deprecated/v2/interfaces/ijbnftrewardde
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The directory of terminals and controllers for projects.
-*/ 
+*/
 IJBDirectory public immutable override directory;
 ```
 

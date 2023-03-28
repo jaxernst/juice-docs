@@ -20,7 +20,7 @@ function _isApproved(uint256 _projectId, JBFundingCycle memory _fundingCycle)
 ```
 
 * Arguments:
-  * `_projectId` is the ID of the project to which the funding cycle belongs. 
+  * `_projectId` is the ID of the project to which the funding cycle belongs.
   * `_fundingCycle` is the [`JBFundingCycle`](/dev/api/data-structures/jbfundingcycle.md) to get an approval flag for.
 * The view function is private to this contract.
 * The view function does not alter state on the blockchain.
@@ -54,11 +54,11 @@ function _isApproved(uint256 _projectId, JBFundingCycle memory _fundingCycle)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Checks to see if the provided funding cycle is approved according to the correct ballot.
 
-  @param _projectId The ID of the project to which the funding cycle belongs. 
+  @param _projectId The ID of the project to which the funding cycle belongs.
   @param _fundingCycle The funding cycle to get an approval flag for.
 
   @return The approval flag.

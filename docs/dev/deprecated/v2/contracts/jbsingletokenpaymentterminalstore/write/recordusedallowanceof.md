@@ -30,7 +30,7 @@ function recordUsedAllowanceOf(
 
 * Arguments:
   * `_projectId` is the ID of the project to use the allowance of.
-  * `_amount` is the amount to use from the allowance, as a fixed point number. 
+  * `_amount` is the amount to use from the allowance, as a fixed point number.
   * `_currency` is the currency of the `_amount`. Must match the currency of the overflow allowance.
 * The resulting function overrides a function definition from the [`JBSingleTokenPaymentTerminalStore`](/dev/deprecated/v2/interfaces/ijbsingletokenpaymentterminalstore.md) interface.
 * The function returns:
@@ -119,7 +119,7 @@ function recordUsedAllowanceOf(
     * [`controllerOf`](/dev/deprecated/v2/contracts/jbdirectory/properties/controllerof.md)
     * [`distributionLimitOf`](/dev/deprecated/v2/contracts/or-controllers/jbcontroller/read/distributionlimitof.md)
 
-8.  Calculate how much of the balance will be used. If the currency of the allowance and the balance are the same, no price conversion is necessary. Otherwise, convert the allowance currency to that of the balance. 
+8.  Calculate how much of the balance will be used. If the currency of the allowance and the balance are the same, no price conversion is necessary. Otherwise, convert the allowance currency to that of the balance.
 
     ```
     // Convert the amount to this store's terminal's token.
@@ -199,10 +199,10 @@ function recordUsedAllowanceOf(
   Records newly used allowance funds of a project.
 
   @dev
-  The msg.sender must be an IJBSingleTokenPaymentTerminal. 
+  The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
   @param _projectId The ID of the project to use the allowance of.
-  @param _amount The amount to use from the allowance, as a fixed point number. 
+  @param _amount The amount to use from the allowance, as a fixed point number.
   @param _currency The currency of the `_amount`. Must match the currency of the overflow allowance.
   @param _balanceCurrency The currency that the balance is expected to be in terms of.
 

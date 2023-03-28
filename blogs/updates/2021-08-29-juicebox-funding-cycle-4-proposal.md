@@ -11,19 +11,19 @@ Only a few minor changes are needed for Funding Cycle #4. All of the focus areas
 
 As a DAO, we should continue focusing on the following areas:
 
-### Risk mitigation 
+### Risk mitigation
 
 *Goal: Make sure things don't go to zero. *
 
 *Current team: jango (lead), exekias*
 
-Updates: 
+Updates:
 
 - One low severity bug was discovered, an explanation of what happened can be found [here](/blog/juicebox-postmortem-of-low-severity-bug-discovered-8-18-2021/), and a postmortem is available [here](https://github.com/jbx-protocol/juice-security/blob/main/incidents/08-18-2021.md).
 - We're underway with a baseline audit being performed by DeFiYield.
 - We still need to outline a bug bounty program with associated rewards for discovered vulnerabilities of varying severities.
 
-### UX improvements 
+### UX improvements
 
 *Goal: Improve and make templates for project onboarding and the project dashboard.*
 
@@ -48,7 +48,7 @@ Updates:
 - Several conversations with projects that are interested in building their treasury using Juicebox. Actively workshopping solutions for [ScribeDAO](https://twitter.com/scribedao) and [Phlote](https://phlote.xyz/), with [FingerprintsDAO](https://twitter.com/FingerprintsDAO), $Loot, and a project by [NiftyTable](https://twitter.com/NiftyTabIe) also on the radar.
 - No significant updates on tech or process documentation. We need to make progress here as we continue to understand the materials that projects and contributors need to be successful.
 
-### Analytics 
+### Analytics
 
 *Goal: Give projects rich insights into their community treasury.*
 
@@ -68,7 +68,7 @@ Updates:
 
 Updates:
 
-- SharkDAO's SHARK token has been pooled with ETH on Sushiswap, you can see the analytics [here](https://analytics.sushi.com/tokens/0x232afce9f1b3aae7cb408e482e847250843db931). SharkDAO's Juicebox page was closed during this transition, with plans to reopen in the coming days. 
+- SharkDAO's SHARK token has been pooled with ETH on Sushiswap, you can see the analytics [here](https://analytics.sushi.com/tokens/0x232afce9f1b3aae7cb408e482e847250843db931). SharkDAO's Juicebox page was closed during this transition, with plans to reopen in the coming days.
 - Research is underway to provide a staking contract to projects where LP rewards can be distributed.
 
 ### Marketplace
@@ -114,15 +114,15 @@ Updates:
 **Ballot:** 3 day delay (changed from 7 day)
 A reconfiguration proposal must be submitted 3 days before the end of the current funding cycle. Reconfiguration decisions are feelings a little rushed. Changing the ballot delay from 7-days to 3-days gives us a bit more time than what we currently have for evaluating proposals and conveying changes on-chain.
 
-**Discount rate:** 10% 
+**Discount rate:** 10%
 The discount rate should continue to compound at 10% to reward contributors who continue to fund the JuiceboxDAO treasury at this risky stage.
 
 **Bonding curve:** 60% (+-0%)
 No need to change this. Still arbitrary, but there's no demand to redeem right now, so might as well keep it this tight as we adjust the discount rate.
 
-**Payouts: **$33.5k total 
+**Payouts: **$33.5k total
 
-I propose we pay exekias, nicholas, nati, and buradorii slightly more. 
+I propose we pay exekias, nicholas, nati, and buradorii slightly more.
 
 **Core contributors**
 

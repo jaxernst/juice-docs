@@ -9,8 +9,8 @@ Interface: [`IJBPrices`](/dev/deprecated/v2/interfaces/ijbprices.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The available price feeds.
 
   @dev

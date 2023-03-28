@@ -104,7 +104,7 @@ constructor( // payable constructor save the gas used to check msg.value==0
 | [**`SetFeelessAddress`**](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/events/setfeelessaddress.md) | <ul><li><code>address indexed addrs</code></li><li><code>bool indexed flag</code></li><li><code>address caller</code></li></ul> |
 
 
-#### Modifiers 
+#### Modifiers
 
 | Function                                                                  | Definition                                                                                                                                                                                                                                                               |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

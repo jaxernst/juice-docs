@@ -9,7 +9,7 @@ Interface: [`IJBSingleTokenPaymentTerminalStore`](/dev/api/interfaces/ijbsinglet
 #### Definition
 
 ```
-/** 
+/**
   @notice
   The directory of terminals and controllers for projects.
 */

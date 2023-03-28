@@ -107,7 +107,7 @@ function _initFor(
 
 ```
 /**
-  @notice 
+  @notice
   Initializes a funding cycle with the specified properties.
 
   @param _projectId The ID of the project to which the funding cycle being initialized belongs.

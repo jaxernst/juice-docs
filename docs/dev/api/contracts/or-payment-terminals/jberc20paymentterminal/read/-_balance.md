@@ -40,7 +40,7 @@ function _balance() internal view override returns (uint256) { ...}
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Checks the balance of tokens in this contract.
 

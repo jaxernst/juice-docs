@@ -27,10 +27,10 @@ function setDefaultValues(
 
 * Arguments:
   * `_projectId` is the ID of the project whose treasury should be forwarded this contract's received payments.
-  * `_beneficiary` is the address that'll receive the project's tokens. 
-  * `_preferClaimedTokens` is a flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet. 
-  * `_memo` is the memo that'll be used. 
-  * `_metadata` is the metadata that'll be sent. 
+  * `_beneficiary` is the address that'll receive the project's tokens.
+  * `_preferClaimedTokens` is a flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet.
+  * `_memo` is the memo that'll be used.
+  * `_metadata` is the metadata that'll be sent.
   * `_defaultPreferAddToBalance` is a flag indicating if received payments should call the `pay` function or the `addToBalance` function of a project.
 * Through the [`onlyOwner`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable-onlyOwner--) modifier, this function can only be accessed by the address that owns this contract.
 * The function can be overriden by inheriting contracts.
@@ -127,15 +127,15 @@ function setDefaultValues(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Sets the default values that determine how to interact with a protocol treasury when this contract receives ETH directly.
 
   @param _projectId The ID of the project whose treasury should be forwarded this contract's received payments.
-  @param _beneficiary The address that'll receive the project's tokens. 
-  @param _preferClaimedTokens A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet. 
-  @param _memo The memo that'll be used. 
-  @param _metadata The metadata that'll be sent. 
+  @param _beneficiary The address that'll receive the project's tokens.
+  @param _preferClaimedTokens A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet.
+  @param _memo The memo that'll be used.
+  @param _metadata The metadata that'll be sent.
   @param _defaultPreferAddToBalance A flag indicating if received payments should call the `pay` function or the `addToBalance` function of a project.
 */
 function setDefaultValues(

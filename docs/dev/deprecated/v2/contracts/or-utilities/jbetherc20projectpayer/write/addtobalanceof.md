@@ -59,7 +59,7 @@ function addToBalanceOf(
 
     * [`JBTokens`](/dev/deprecated/v2/libraries/jbtokens.md)
       * `.ETH`
-      
+
     _External references:_
 
     * [`transferFrom`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-transferFrom-address-address-uint256-)
@@ -72,14 +72,14 @@ function addToBalanceOf(
     _Internal references:_
 
     * [`_addToBalanceOf`](/dev/deprecated/v2/contracts/or-utilities/jbetherc20projectpayer/write/-_addtobalanceof.md)
-    
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Add to the balance of the specified project.
 
   @param _projectId The ID of the project that is being paid.

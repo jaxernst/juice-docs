@@ -86,7 +86,7 @@ function _ballotStateOf(
 
 ```
 /**
-  @notice 
+  @notice
   A project's latest funding cycle configuration approval status.
 
   @param _projectId The ID of the project to which the funding cycle belongs.

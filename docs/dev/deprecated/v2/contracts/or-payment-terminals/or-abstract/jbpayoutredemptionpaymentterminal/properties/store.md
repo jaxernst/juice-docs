@@ -10,7 +10,7 @@ Interface: [`IJBPayoutRedemptionPaymentTerminal`](/dev/deprecated/v2/interfaces/
 
 ```
 /**
-  @notice 
+  @notice
   The contract that stores and manages the terminal's data.
 */
 JBSingleTokenPaymentTerminalStore public immutable store;

@@ -35,4 +35,4 @@ mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(addr
   * `_configuration` is the configuration during which the packed distribution limit data applies.
   * `_terminal` is the [`IJBPaymentTerminal`](/dev/api/interfaces/ijbpaymentterminal.md) from which distributions are being limited.
   * `_token` is the token for which distributions are being limited.
-* The resulting function is internal to this contract and its inheriters. 
+* The resulting function is internal to this contract and its inheriters.

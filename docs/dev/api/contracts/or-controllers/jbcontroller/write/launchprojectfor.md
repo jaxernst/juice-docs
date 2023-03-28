@@ -105,7 +105,7 @@ function launchProjectFor(
     // Add the provided terminals to the list of terminals.
     if (_terminals.length > 0) _directory.setTerminalsOf(projectId, _terminals);
     ```
-    
+
     _External references:_
 
     * [`setTerminalsOf`](/dev/api/contracts/jbdirectory/write/setterminalsof.md)

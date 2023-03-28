@@ -41,7 +41,7 @@ This repo relies on Mainnet forking for its tests. This approach allows tests to
 
 ### Run all tests
 
-Run `forge test -v --ffi` to run all test. 
+Run `forge test -v --ffi` to run all test.
 
 ### Test _only_ the default SVG output
 
@@ -62,13 +62,13 @@ Deploy only the DefaultTokenUriResolver to Mainnet: `forge script script/Mainnet
 ## Design
 
 ### TokenUriResolver.sol
-[JBProjects](https://docs.juicebox.money/dev/api/contracts/jbprojects/)'s `tokenURI(uint256 _projectId)` function will call this contract's `getUri(uint256 _projectId)` function. TokenUriResolver will check if the given project has a custom resolver set. If so, it will call `getUri(uint256 _projectId)` on that contract. If not, or if that call to the custom resolver fails, it will call the `getUri` function on the DefaultUriResovler. 
+[JBProjects](https://docs.juicebox.money/dev/api/contracts/jbprojects/)'s `tokenURI(uint256 _projectId)` function will call this contract's `getUri(uint256 _projectId)` function. TokenUriResolver will check if the given project has a custom resolver set. If so, it will call `getUri(uint256 _projectId)` on that contract. If not, or if that call to the custom resolver fails, it will call the `getUri` function on the DefaultUriResovler.
 
 ### DefaultUriResolver.sol
 
-This resolver generates metadata including an onchain SVG for each JBProject using the [JBDirectory](https://docs.juicebox.money/dev/api/contracts/jbdirectory/) v3 based on values returned form its primary ETH terminal. This Default resolver allows project owners to customize the color of their project's NFT metadata with three theme colors. 
+This resolver generates metadata including an onchain SVG for each JBProject using the [JBDirectory](https://docs.juicebox.money/dev/api/contracts/jbdirectory/) v3 based on values returned form its primary ETH terminal. This Default resolver allows project owners to customize the color of their project's NFT metadata with three theme colors.
 
-For projects that are not configured to use this directory, the resolver will return a basic metadata description informing the project owner that they can get rich realtime metadata by upgrading to JBDirectory V3. 
+For projects that are not configured to use this directory, the resolver will return a basic metadata description informing the project owner that they can get rich realtime metadata by upgrading to JBDirectory V3.
 
 #### Layout
 Each row of the output SVG is 30 characters long. The Capsules typeface is monospaced, so as long as each row is composed of 30 characters, it will fit the image perfectly. Each row begins and ends with two space characters for visual symmetry.

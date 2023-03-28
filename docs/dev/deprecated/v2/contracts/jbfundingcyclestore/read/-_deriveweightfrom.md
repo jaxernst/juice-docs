@@ -89,15 +89,15 @@ function _deriveWeightFrom(JBFundingCycle memory _baseFundingCycle, uint256 _sta
     * [`PRBMath`](https://github.com/hifi-finance/prb-math/blob/main/contracts/PRBMath.sol)
       * `.mulDiv(...)`
     * [`JBConstants`](/dev/deprecated/v2/libraries/jbconstants.md)
-      * `.MAX_DISCOUNT_RATE` 
+      * `.MAX_DISCOUNT_RATE`
 
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The accumulated weight change since the specified funding cycle.
 
   @param _baseFundingCycle The funding cycle to base the calculation on.

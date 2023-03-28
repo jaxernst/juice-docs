@@ -63,19 +63,19 @@ Here are some examples, starting with the simplest version:
       reservedRate: 0,
       redemptionRate: 0,
       ballotRedemptionRate: 0,
-      pausePay: false, 
-      pauseDistributions: false, 
-      pauseRedeem: false, 
-      pauseBurn: false, 
-      allowMinting: false, 
-      allowTerminalMigration: false, 
-      allowControllerMigration: false, 
-      holdFees: false, 
+      pausePay: false,
+      pauseDistributions: false,
+      pauseRedeem: false,
+      pauseBurn: false,
+      allowMinting: false,
+      allowTerminalMigration: false,
+      allowControllerMigration: false,
+      holdFees: false,
       preferClaimedTokenOverride: false,
       useTotalOverflowForRedemptions: false,
-      useDataSourceForPay: false, 
-      useDataSourceForRedeem: false, 
-      dataSource: 0x0000000000000000000000000000000000000000, 
+      useDataSourceForPay: false,
+      useDataSourceForRedeem: false,
+      dataSource: 0x0000000000000000000000000000000000000000,
       metadata: 0
     }
     ```
@@ -139,7 +139,7 @@ Here's what happens when using an overflow allowance instead:
 * Rolled-over funding cycles (i.e. cycles with the same configuration) do not refresh the allowance.
 * An overflow allowance is a free allowance the project can use without additional pre-programmed stipulations.
 
-The `_distributionLimit` and `_overflowAllowance` parameters must fit in a `uint232`. 
+The `_distributionLimit` and `_overflowAllowance` parameters must fit in a `uint232`.
 
 #### Grouped splits
 

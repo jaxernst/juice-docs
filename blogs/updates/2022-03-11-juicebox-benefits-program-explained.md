@@ -15,19 +15,19 @@ tags: [update, dao]
 
 One of the most direct methods for improving decentralization is the airdrop. Several airdrop proposals were made to this effect in FC#15, all of which were rejected.
 
-- 
+-
 [JBP-103 - Distribute JBX to JBX Holders](https://snapshot.org/#/jbdao.eth/proposal/0xa6c744ee55ffb564382f1e2fc557bbf028d90c9680ae5a0518ce406d447baa65)
 
-- 
+-
 [JBP-102 - Distribute JBX to Juicebox Projects](https://snapshot.org/#/jbdao.eth/proposal/0x76fee1735d40cc653e3b1a252dd9971771276c4c422950e9af144ff703845698)
 
-- 
+-
 [JBP-101 - Distribute JBX to v1.1 Party Attendees](https://snapshot.org/#/jbdao.eth/proposal/0x58f7dceac28094185b90169a480abba8fff48dfeb8c93e32594ea508a2bbe038)
 
-- 
+-
 [JBP-100 - Distribute JBX to Nicholas’ List](https://snapshot.org/#/jbdao.eth/proposal/0x292a00cd53b98fcd991ca82c989fdeb45593f7d0c68e1b61e53b4e08052e0a6f)
 
-- 
+-
 [JBP-99 - Distribute JBX to Extended Community](https://snapshot.org/#/jbdao.eth/proposal/0x7e0e11843eff0851aa856fcdbbd73194da3c6f9287b91392b7ec0c7697899047)
 
 As part of a new airdrop proposal, ARCx has crafted a *Juicebox Benefits Score* which identifies Juicebox community members based on their token holding behaviour and governance participation.
@@ -84,7 +84,7 @@ If you have ideas or suggestions, share them in the [ARCx Discord](https://disco
     Airdrop contract: 0x518e3CdBcda4f0735399c9F1e03A7aBC7562632f
     Merkle root: 0xba0ccda021dd3008d51728ccd530dfe42d6bba07f8118d8a796e26d80e305009
     Sweeper: 0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e
-    
+
 
 [Main Repository](https://github.com/arcxmoney/juicebox-distribution)
 

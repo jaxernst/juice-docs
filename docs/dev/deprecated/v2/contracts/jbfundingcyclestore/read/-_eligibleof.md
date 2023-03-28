@@ -17,7 +17,7 @@ _Assumes the project has a latest configuration._
 #### Definition
 
 ```
-function _eligibleOf(uint256 _projectId) private view returns (uint256 configuration) { ... } 
+function _eligibleOf(uint256 _projectId) private view returns (uint256 configuration) { ... }
 ```
 
 * Arguments:
@@ -96,9 +96,9 @@ function _eligibleOf(uint256 _projectId) private view returns (uint256 configura
 
 ```
 /**
-  @notice 
+  @notice
   The project's stored funding cycle that has started and hasn't yet expired.
-  
+
   @dev
   A value of 0 is returned if no funding cycle was found.
 

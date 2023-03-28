@@ -9,8 +9,8 @@ Interface: [`IJBTokenStore`](/dev/api/interfaces/ijbtokenstore.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The contract storing all funding cycle configurations.
 */
 IJBFundingCycleStore public immutable fundingCycleStore;

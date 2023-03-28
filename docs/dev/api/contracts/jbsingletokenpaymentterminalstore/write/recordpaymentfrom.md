@@ -131,21 +131,21 @@ function recordPaymentFrom(
     _External references:_
 
     * [`payParams`](/dev/api/interfaces/ijbfundingcycledatasource.md)
-6.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error. 
+6.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error.
 
     ```
     // Scoped section prevents stack too deep. `_balanceDiff` only used within scope.
     { ... }
     ```
-    
-    1.  Keep a reference the amount difference to apply to the balance. Initially this is the full value. 
+
+    1.  Keep a reference the amount difference to apply to the balance. Initially this is the full value.
 
         ```
         // Keep a reference to the amount that should be added to the project's balance.
         uint256 _balanceDiff = _amount.value;
         ```
 
-    2.  If delegate allocations were returned by the data source, make sure their sum does not exceed the amount paid. Decrement each delegated allocation from the amount that will get subtracted from the project's balance.  
+    2.  If delegate allocations were returned by the data source, make sure their sum does not exceed the amount paid. Decrement each delegated allocation from the amount that will get subtracted from the project's balance.
 
         ```
         // Validate all delegated amounts. This needs to be done before returning the delegate allocations to ensure valid delegated amounts.
@@ -169,14 +169,14 @@ function recordPaymentFrom(
           }
         }
         ```
-  
+
     3.  If there is no amount being recorded, there's nothing left to do so the current validated values can be returned.
 
         ```
         // If there's no amount being recorded, there's nothing left to do.
         if (_amount.value == 0) return (fundingCycle, 0, delegateAllocations, memo);
-        ``` 
-    
+        ```
+
     4.  Add the appropriate amount to the stored balance.
 
         ```

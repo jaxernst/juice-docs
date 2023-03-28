@@ -63,12 +63,12 @@ Using these params, the data source's `payParams(...)` function is responsible f
 * `memo` is a string emitted within the [`Pay`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/events/pay.md) event and sent along to any `delegate` that this function also returns. By default, the protocol will use the `memo` directly passed in by the payer, which is provided to this data source function in `JBPayParamsData.memo`. Return the `JBPayParamsData.memo` value if no altered functionality is desired.
 * `delegate` is the address of a contract that adheres to [`IJBPayDelegate`](/dev/api/interfaces/ijbpaydelegate.md) whose `didPay(...)` function will be called once the protocol finishes its standard payment routine. Check out [how to build a pay delegate](/dev/build/treasury-extensions/pay-delegate.md) for more details. If the same contract is being used as the data source and the pay delegate, return `address(this)`. Return the zero address if no additional functionality is desired.
 
-The `payParams(...)` function can also revert if it's presented with any conditions it does not want to accept payments under. 
+The `payParams(...)` function can also revert if it's presented with any conditions it does not want to accept payments under.
 
 The `payParams(...)` function has implicit permission to [`JBController3_1.mintTokensOf(...)`](/dev/api/contracts/or-controllers/jbcontroller3_1/#minttokensof) for the project.
 
 ##### Redeem
- 
+
 When extending redeem functionality with a data source, the protocol will pass a [`JBRedeemParamsData`](/dev/api/data-structures/jbredeemparamsdata.md) to the `redeemParams(...)` function:
 
 ```
@@ -95,7 +95,7 @@ Using these params, the data source's `redeemParams(...)` function is responsibl
 * `memo` is a string emitted within the [`RedeemTokens`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/events/redeemtokens.md) event and sent along to any `delegate` that this function also returns. By default, the protocol will use the `memo` passed in directly by the redeemer, which is provided to this data source function in `JBRedeemParamsData.memo`. Return the `JBRedeemParamsData.memo` value if no altered functionality is desired.
 * `delegate` is the address of a contract that adheres to [`IJBRedemptionDelegate`](/dev/api/interfaces/ijbredemptiondelegate.md) whose `didRedeem(...)` function will be called once the protocol finishes its standard redemption routine (but before the reclaimed amount is sent to the beneficiary). Check out [how to build a redemption delegate](/dev/build/treasury-extensions/redemption-delegate.md) for more details. If the same contract is being used as the data source and the redemption delegate, return `address(this)`. Return the zero address if no additional functionality is desired.
 
-The `redeemParams(...)` function can also revert if it's presented with any conditions it does not want to accept redemptions under. 
+The `redeemParams(...)` function can also revert if it's presented with any conditions it does not want to accept redemptions under.
 
 #### Attaching
 
@@ -128,7 +128,7 @@ contract AllowlistDataSource is IJBFundingCycleDataSource {
     // Forward the recieved weight and memo, and use no delegate.
     return (_data.weight, _data.memo, IJBPayDelegate(address(0)));
   }
-  
+
   // This is unused but needs to be included to fulfill IJBFundingCycleDataSource.
   function redeemParams(JBRedeemParamsData calldata _data)
     external

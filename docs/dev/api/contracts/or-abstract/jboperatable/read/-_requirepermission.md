@@ -29,7 +29,7 @@ function _requirePermission(
 
 #### Body
 
-1.  Make sure the message sender is the specified account, an operator of the account within the specified domain, or an operator of the account within the wildcard domain. 
+1.  Make sure the message sender is the specified account, an operator of the account within the specified domain, or an operator of the account within the wildcard domain.
 
     ```
     if (
@@ -52,7 +52,7 @@ function _requirePermission(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Require the message sender is either the account or has the specified permission.
 

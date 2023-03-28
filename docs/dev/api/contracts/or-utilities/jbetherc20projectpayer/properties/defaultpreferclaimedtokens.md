@@ -9,8 +9,8 @@ Interface: [`IJBProjectPayer`](/dev/api/interfaces/ijbprojectpayer.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet. Leaving tokens unclaimed saves gas.
 */
 bool public override defaultPreferClaimedTokens;

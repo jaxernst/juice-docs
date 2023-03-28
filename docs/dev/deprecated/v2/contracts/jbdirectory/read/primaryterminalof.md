@@ -75,7 +75,7 @@ function primaryTerminalOf(uint256 _projectId, address _token)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   The primary terminal that is managing funds for a project for a specified token.
 

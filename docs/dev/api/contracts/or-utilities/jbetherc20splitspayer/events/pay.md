@@ -23,12 +23,12 @@ event Pay(
 ```
 
 * `projectId` is the ID of the project who received any leftover funds after splits were paid out.
-* `beneficiary` is the address that received the project's tokens, or recieved the leftover funds if there was no project ID. 
+* `beneficiary` is the address that received the project's tokens, or recieved the leftover funds if there was no project ID.
 * `token` is the token that was paid.
 * `amount` is the amount that was paid, as a fixed point number.
 * `decimals` is the amount of decimals in the amount.
-* `leftoverAmount` is the amount leftover after all splits were paid. 
-* `minReturnedTokens` is the minimum amount of project tokens expected when paying the project any leftover amount. 
+* `leftoverAmount` is the amount leftover after all splits were paid.
+* `minReturnedTokens` is the minimum amount of project tokens expected when paying the project any leftover amount.
 * `preferClaimedTokens` is a flag indicating if the project tokens resulting from paying the project with leftover funds should be claimed into the beneficiary's wallet.
 * `memo` is the memo that was forwarded with the payment.
 * `metadata` is the metadata that was forwarded with the payment.

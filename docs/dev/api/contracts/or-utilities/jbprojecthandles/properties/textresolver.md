@@ -9,10 +9,10 @@ Interface: [`IJBProjectHandles`](/dev/api/interfaces/ijbprojecthandles.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The ENS text resolver contract address.
-*/ 
+*/
 ITextResolver public immutable override textResolver;
 ```
 

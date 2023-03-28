@@ -20,7 +20,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/abstract/
 #### Constructor
 
 ```
-/** 
+/**
   @param _operatorStore A contract storing operator assignments.
 */
 constructor(IJBOperatorStore _operatorStore) {

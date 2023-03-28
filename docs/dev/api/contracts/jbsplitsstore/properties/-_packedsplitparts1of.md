@@ -7,7 +7,7 @@ Contract: [`JBSplitsStore`](/dev/api/contracts/jbsplitsstore/README.md)​‌
 #### Definition
 
 ```
-/** 
+/**
   @notice
   Packed data of splits for each project ID's configurations.
 

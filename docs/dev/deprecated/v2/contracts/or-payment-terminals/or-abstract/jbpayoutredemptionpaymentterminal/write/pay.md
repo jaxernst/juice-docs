@@ -35,7 +35,7 @@ function pay(
   * `_minReturnedTokens` is the minimum number of project tokens expected in return, as a fixed point number with the same amount of decimals as this terminal.
   * `_preferClaimedTokens` is a flag indicating whether the request prefers to mint project tokens into the beneficiaries wallet rather than leaving them unclaimed. This is only possible if the project has an attached token contract. Leaving them unclaimed saves gas.
   * `_memo` is memo to pass along to the emitted event, and passed along the the funding cycle's data source and delegate. A data source can alter the memo before emitting in the event and forwarding to the delegate.
-  * `_metadata` are bytes to send along to the data source, delegate, and emitted event, if provided. 
+  * `_metadata` are bytes to send along to the data source, delegate, and emitted event, if provided.
 * The function can be accessed externally by anyone.
 * The function can be overriden by inheriting contracts.
 * Through the [`isTerminalOf`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/modifiers/isterminalof.md) modifier, this transaction reverts if this terminal is not one of the project's terminals.
@@ -99,7 +99,7 @@ function pay(
 
   @param _projectId The ID of the project being paid.
   @param _amount The amount of terminal tokens being received, as a fixed point number with the same amount of decimals as this terminal. If this terminal's token is ETH, this is ignored and msg.value is used in its place.
-  @param _token The token being paid. This terminal ignores this property since it only manages one token. 
+  @param _token The token being paid. This terminal ignores this property since it only manages one token.
   @param _beneficiary The address to mint tokens for and pass along to the funding cycle's data source and delegate.
   @param _minReturnedTokens The minimum number of project tokens expected in return, as a fixed point number with the same amount of decimals as this terminal.
   @param _preferClaimedTokens A flag indicating whether the request prefers to mint project tokens into the beneficiaries wallet rather than leaving them unclaimed. This is only possible if the project has an attached token contract. Leaving them unclaimed saves gas.
@@ -111,7 +111,7 @@ function pay(
 function pay(
   uint256 _projectId,
   uint256 _amount,
-  address _token, 
+  address _token,
   address _beneficiary,
   uint256 _minReturnedTokens,
   bool _preferClaimedTokens,

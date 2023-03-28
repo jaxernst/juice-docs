@@ -18,7 +18,7 @@ JuiceboxDAO's second funding cycle will have the following goals:
 I propose the following reconfiguration:
 
 **Duration:** 14 days
-Let's experiment with a shorter cycle to see what happens. It gives us scope for one solid sprint with the goal of involving more of the community in the next reconfiguration decision. 
+Let's experiment with a shorter cycle to see what happens. It gives us scope for one solid sprint with the goal of involving more of the community in the next reconfiguration decision.
 
 As the project matures, I expect more planned out, longer cycles instead of these shorter ones.
 
@@ -28,7 +28,7 @@ A reconfiguration proposal must be submitted 3 days before the end of the fundin
 **Discount rate:** 16% (-4%)
 The discount rate should be reduced by 4%. This continues to give those who commit funds during FC#2 a good discounted rate to adjust for the risk of being early, but begins the process of tapering the rate off.
 
-The goal is to reduce the rate over time to make a contribution during FC#1 valued around 2X the same contribution made 6 months later. 
+The goal is to reduce the rate over time to make a contribution during FC#1 valued around 2X the same contribution made 6 months later.
 
 It pays to be early and to take the risk sooner rather than later.
 
@@ -43,7 +43,7 @@ Project lead.
 Front end lead.
 - **zeugh:** $1K
 Organize and lead community.
-- **WAGMI Studios:** $1.25k 
+- **WAGMI Studios:** $1.25k
 Educational content and art.
 - **Figma**, **Infura**, **Gitbook**, & **Fleek** subscriptions cost around $500 monthly.
 - **exekias: **$750

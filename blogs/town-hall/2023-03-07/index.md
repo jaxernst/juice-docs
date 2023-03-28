@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 ## Brand Refresh Representation by Strath
 
@@ -22,13 +22,13 @@ The No.1 thing that we want to be is trustworthy because people are exchanging a
 
 #### Vision
 
-Strath put toger a mood board, collaborating with WAGMI Studios on creating illustrations and really bringing out the Juicebox vibe. 
+Strath put toger a mood board, collaborating with WAGMI Studios on creating illustrations and really bringing out the Juicebox vibe.
 
 ![vision of brand refresh](vision_brandrefresh.png)
 
  #### Logo
 
-For the logo, we are giving Juice a fresh, clean and unique feel while keeping true to our roots. 
+For the logo, we are giving Juice a fresh, clean and unique feel while keeping true to our roots.
 
 Thanks to Sage, the current logo has been serving us really really well. And the refreshed logo is quite similar to the old one, basically just taking what we had and making it able to be scaled, able to be used on different color backgrounds, pair a little bit better with different fonts, etc. We're just tidying it up a little so that we can use it across a broader range of use cases.
 
@@ -58,7 +58,7 @@ Agrandir is a contemporary sans serif that celebrates the beauty of being imperf
 
 #### Iconography
 
-Another thing that will obviously get refreshed as we go into the brand refresh. Our icons need to be fun, playful and modern, bringing the interface to life for informing the users. It's a fairly easy switch, but definitely makes a difference. 
+Another thing that will obviously get refreshed as we go into the brand refresh. Our icons need to be fun, playful and modern, bringing the interface to life for informing the users. It's a fairly easy switch, but definitely makes a difference.
 
 In a lot of the user interviews that Strath has done, people said they'd love to see more visual representations, because there're quite many reading and complex terms.  He thought that we can use the illustrations to pair with the iconography to really bring some of that to life and make it easier to use.
 
@@ -76,7 +76,7 @@ This is where we create the super unique identity that nobody can copy.
 
 This is probably a question that everyone is having. What will it be looking like when we are refreshing the interface?
 
-What we really need to move into is, making the experience a  lot more fun and playful, but still really drawing the user into some of those main call-to-actions. 
+What we really need to move into is, making the experience a  lot more fun and playful, but still really drawing the user into some of those main call-to-actions.
 
 ![sample of new UI 1](new_ui.png)
 
@@ -100,7 +100,7 @@ Also big shoutouts to Tjl for some of insight into where we're heading and how w
 
 I think the last piece of feedback I have for the broader group is that the current juicebox.money in some sense rides this line somewhat awkwardly, between the more dev-oriented aesthetic with mono font and maybe data forward, and the fun aesthetic that this version pulls more heavily towards.
 
-It's kind of an awkward pilgrim to seeing that you will go and bring JBM in this direction. I think it's necessary to really explore in earnest what this means and there will be a massive audience that feels home and comfortable here. But it will leave that opportunity for the other client or other kind of aesthetic to maybe find some foothold within more of a developer community or something like that. That's totally ok. 
+It's kind of an awkward pilgrim to seeing that you will go and bring JBM in this direction. I think it's necessary to really explore in earnest what this means and there will be a massive audience that feels home and comfortable here. But it will leave that opportunity for the other client or other kind of aesthetic to maybe find some foothold within more of a developer community or something like that. That's totally ok.
 
 I think both of the things can, and maybe even should, exist at the same time, but it's just awkward to try to do them both at the same time in the same interface. So we are going to double down here and give this our go.
 
@@ -108,7 +108,7 @@ But I also want to acknowledge that the alternative side, which is more computer
 
 **Strath**: For sure. There could be the more developer-esque side of things, but I think as we move more into growth, having something that both sets of users can use and enjoy in going to be really crucial for that.
 
-**Peri**: Thanks, Strath. There has been a ton of work into this and it's looking great. Thanks for such a thorough presentation and a breakdown of everything. Echoing Jango's sentiment here, I think it definitely makes sense right now to be optimizing for what we try to improve. I think everyting that you've done is going to make the site look a lot more approachable to people who come to the current site and feel that it's a little overwhelming or not meant for them for one reason or another. This is going to serve those people really well. 
+**Peri**: Thanks, Strath. There has been a ton of work into this and it's looking great. Thanks for such a thorough presentation and a breakdown of everything. Echoing Jango's sentiment here, I think it definitely makes sense right now to be optimizing for what we try to improve. I think everyting that you've done is going to make the site look a lot more approachable to people who come to the current site and feel that it's a little overwhelming or not meant for them for one reason or another. This is going to serve those people really well.
 
 If there's a future version of the UI that is much more dev-oriented, I could totally see a home for that. But I like where our priorities are right now, and I think we are making good progress towards it.
 
@@ -118,7 +118,7 @@ Matthew and Brileigh just released a new episode of Juicecast about the Ticke to
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OWt_zWWoFz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-MoonDAO last year held a contest of randomly drawing a winner of its Ticket to Space free mint NFTs, the winner will be sent to space on a Blue Origin flight. A MoonDAO member from Beijing won this contest and is going to be sent into space. There will be a documentary made about the journey of this winner, and the film is going to be made via StudioDAO. 
+MoonDAO last year held a contest of randomly drawing a winner of its Ticket to Space free mint NFTs, the winner will be sent to space on a Blue Origin flight. A MoonDAO member from Beijing won this contest and is going to be sent into space. There will be a documentary made about the journey of this winner, and the film is going to be made via StudioDAO.
 
 Matthew and Brileigh recently had a conversation with Kenny and Rachel from StudioDAO, and the two filmmakers, Susie and Fernando, as well as Pablo, one of the founders of MoonDAO. They had a roundtable discussion about this Ticket to Space documentary, which will be the first one ever being made about a DAO.
 
@@ -132,9 +132,9 @@ The [Krause House 50pt Game Charity Bounty](https://juicebox.money/v2/p/436) is 
 
 Nicholas is very interested in the overall mechanics and he thinks there are couple of takeaways that are worth thinking about for future projects.
 
-First of all, it's a bounty. People are fundraising for a bounty, with an explicit goal stated upfront and its mechanics made clear in the project description. Nicholas thinks that it will be more interesting for people building projects or helping people build projects to take a little more inspiration from what works for traditional fundraisings in Kickstarter. 
+First of all, it's a bounty. People are fundraising for a bounty, with an explicit goal stated upfront and its mechanics made clear in the project description. Nicholas thinks that it will be more interesting for people building projects or helping people build projects to take a little more inspiration from what works for traditional fundraisings in Kickstarter.
 
-But even more than that, when the project reaches certain goals of fundraising, it will unlock other things such as raffling off an NFT randomly to a lucky contributor. This is getting closer to what really works for Kickstarter, which is the benefits for donors. 
+But even more than that, when the project reaches certain goals of fundraising, it will unlock other things such as raffling off an NFT randomly to a lucky contributor. This is getting closer to what really works for Kickstarter, which is the benefits for donors.
 
 And Nicholas thinks that cumulative sum of the treasury unlocking other features or actions can also be motivating to get people to donate and participate. In the case of this project, a fandom is collecting their funds until they have enough money to attract the attention of somebody more influential and has more reach on social media.
 
@@ -146,7 +146,7 @@ Tjl presented a roadmap for Peel and juicebox.money last week on our town hall.
 
 He thinks Peel is making quite an effort to move towards our goal in a project-based working style, while giving clarity of where they are along the way, just like they did in the brand refresh presentation today.
 
-The roadmap they build now lives in Linear, anyone who wants to keep track of the project management can apply for an invitation.  This will help a few folks, like WAGMI team, Brileigh and Matthew to work in coordination to make some marketing materials so that we can have a deeper connection and relationship with end users and our community members by giving them updates about the progress of this roadmap. 
+The roadmap they build now lives in Linear, anyone who wants to keep track of the project management can apply for an invitation.  This will help a few folks, like WAGMI team, Brileigh and Matthew to work in coordination to make some marketing materials so that we can have a deeper connection and relationship with end users and our community members by giving them updates about the progress of this roadmap.
 
 
 

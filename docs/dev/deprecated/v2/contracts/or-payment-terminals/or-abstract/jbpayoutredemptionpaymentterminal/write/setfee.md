@@ -48,7 +48,7 @@ function setFee(uint256 _fee) external onlyOwner { ... }
     _Internal references:_
 
     * [`fee`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/properties/fee.md)
-    
+
 3.  Emit a `SetFee` event with the relevant parameters.
 
     ```

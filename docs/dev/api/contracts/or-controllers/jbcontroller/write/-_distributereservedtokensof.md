@@ -19,7 +19,7 @@ function _distributeReservedTokensOf(uint256 _projectId, string memory _memo)
 * Arguments:
   * `_projectId` is the ID of the project to which the reserved tokens belong.
   * `_memo` is a memo to pass along to the emitted event.
-* The resulting function is internal to this contract and its inheriters. 
+* The resulting function is internal to this contract and its inheriters.
 * The function returns the amount of reserved tokens that were minted.
 
 #### Body
@@ -134,7 +134,7 @@ function _distributeReservedTokensOf(uint256 _projectId, string memory _memo)
 
     ```
     // Mint any leftover tokens to the project owner.
-    if (_leftoverTokenCount > 0) 
+    if (_leftoverTokenCount > 0)
       _tokenStore.mintFor(_owner, _projectId, _leftoverTokenCount, false);
     ```
 
@@ -212,7 +212,7 @@ function _distributeReservedTokensOf(uint256 _projectId, string memory _memo)
       );
 
   // Mint any leftover tokens to the project owner.
-  if (_leftoverTokenCount > 0) 
+  if (_leftoverTokenCount > 0)
     _tokenStore.mintFor(_owner, _projectId, _leftoverTokenCount, false);
 
   emit DistributeReservedTokens(

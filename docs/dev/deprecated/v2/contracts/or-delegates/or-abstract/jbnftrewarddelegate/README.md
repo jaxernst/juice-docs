@@ -32,13 +32,13 @@ Ethereum mainnet: _Not yet deployed_
 
 ```
 /**
-  @param _projectId The ID of the project for which this NFT should be minted in response to payments made. 
+  @param _projectId The ID of the project for which this NFT should be minted in response to payments made.
   @param _directory The directory of terminals and controllers for projects.
   @param _name The name of the token.
   @param _symbol The symbol that the token should be represented by.
   @param _tokenUriResolver A contract responsible for resolving the token URI for each token ID.
-  @param _baseUri The token's base URI, to be used if a URI resolver is not provided. 
-  @param _contractUri A URI where contract metadata can be found. 
+  @param _baseUri The token's base URI, to be used if a URI resolver is not provided.
+  @param _contractUri A URI where contract metadata can be found.
   @param __expectedCaller The address that should be calling the data source.
   @param _owner The address that will own this contract.
 */
@@ -65,13 +65,13 @@ constructor(
 }
 ```
 
-* `_projectId` is the ID of the project for which this NFT should be minted in response to payments made. 
+* `_projectId` is the ID of the project for which this NFT should be minted in response to payments made.
 * `_directory` is the directory of terminals and controllers for projects.
 * `_name` is the name of the token.
 * `_symbol` is the symbol that the token should be represented by.
 * `_tokenUriResolver` is a contract responsible for resolving the token URI for each token ID.
-* `_baseUri` is the token's base URI, to be used if a URI resolver is not provided. 
-* `_contractUri` is a URI where contract metadata can be found. 
+* `_baseUri` is the token's base URI, to be used if a URI resolver is not provided.
+* `_contractUri` is a URI where contract metadata can be found.
 * `__expectedCaller` is the address that should be calling the data source.
 * `_owner` is the address that will own this contract.
 

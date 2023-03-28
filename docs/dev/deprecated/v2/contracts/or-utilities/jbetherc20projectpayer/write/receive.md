@@ -59,7 +59,7 @@ receive() external payable virtual override { ... }
 
     * [`JBTokens`](/dev/deprecated/v2/libraries/jbtokens.md)
       * `.ETH`
-      
+
     _Internal references:_
 
     * [`defaultPreferClaimedTokens`](/dev/deprecated/v2/contracts/or-utilities/jbetherc20projectpayer/properties/defaultpreferclaimedtokens.md)
@@ -73,7 +73,7 @@ receive() external payable virtual override { ... }
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Received funds are paid to the default project ID using the stored default properties.
 

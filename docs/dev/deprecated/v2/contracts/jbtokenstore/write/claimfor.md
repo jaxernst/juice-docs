@@ -28,7 +28,7 @@ function claimFor(
   * `_holder` is the owner of the tokens being claimed.
   * `_projectId` is the ID of the project whose tokens are being claimed.
   * `_amount` is the amount of tokens to claim.
-* Through the [`requirePermission`](/dev/deprecated/v2/contracts/or-abstract/jboperatable/modifiers/requirepermission.md) modifier, the function is only accessible by the token holder, or from an operator that has been given the [`JBOperations.CLAIM`](/dev/deprecated/v2/libraries/jboperations.md) permission by the token holder. 
+* Through the [`requirePermission`](/dev/deprecated/v2/contracts/or-abstract/jboperatable/modifiers/requirepermission.md) modifier, the function is only accessible by the token holder, or from an operator that has been given the [`JBOperations.CLAIM`](/dev/deprecated/v2/libraries/jboperations.md) permission by the token holder.
 * The function overrides a function definition from the [`IJBTokenStore`](/dev/deprecated/v2/interfaces/ijbtokenstore.md) interface.
 * The function does't return anything.
 

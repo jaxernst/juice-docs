@@ -21,7 +21,7 @@ modifier requirePermission(
 ```
 
 * Arguments:
-  * `_projectId` is the ID of the project. 
+  * `_projectId` is the ID of the project.
 * The modifier function can be used by any internal function.
 
 #### Body
@@ -47,13 +47,13 @@ modifier requirePermission(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
-  Only allows the speficied account or an operator of the account to proceed. 
+  Only allows the speficied account or an operator of the account to proceed.
 
   @param _account The account to check for.
-  @param _domain The domain namespace to look for an operator within. 
-  @param _permissionIndex The index of the permission to check for. 
+  @param _domain The domain namespace to look for an operator within.
+  @param _permissionIndex The index of the permission to check for.
 */
 modifier requirePermission(
   address _account,

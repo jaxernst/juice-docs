@@ -37,7 +37,7 @@ function set(
 * Arguments:
   * `_projectId` is the ID of the project for which splits are being added.
   * `_domain` is an identifier within which the splits should be considered active.
-  * `_groupedSplits` An array of splits to set for any number of groups. 
+  * `_groupedSplits` An array of splits to set for any number of groups.
 * Through the [`requirePermissionAllowingOverride`](/dev/api/contracts/or-abstract/jboperatable/modifiers/requirepermissionallowingoverride.md) modifier, the function is only accessible by the project's owner, from an operator that has been given the [`JBOperations.SET_SPLITS`](/dev/api/libraries/jboperations.md) permission by the project owner for the provided `_projectId` , or from the current controller of the `_projectId` of the specified.
 * The function overrides a function definition from the [`IJBSplitsStore`](/dev/api/interfaces/ijbsplitsstore.md) interface.
 * The function doesn't return anything.
@@ -73,8 +73,8 @@ function set(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Sets a project's splits.
 
   @dev
@@ -85,7 +85,7 @@ function set(
 
   @param _projectId The ID of the project for which splits are being added.
   @param _domain An identifier within which the splits should be considered active.
-  @param _groupedSplits An array of splits to set for any number of groups. 
+  @param _groupedSplits An array of splits to set for any number of groups.
 */
 function set(
   uint256 _projectId,

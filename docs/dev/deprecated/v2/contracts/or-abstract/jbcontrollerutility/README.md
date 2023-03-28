@@ -6,7 +6,7 @@ _Provides tools for contracts with functionality that can only be accessed by a 
 
 `abstract`
 
-#### Code 
+#### Code
 
 https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/abstract/JBControllerUtility.sol
 
@@ -19,7 +19,7 @@ https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/abstract/
 #### Constructor
 
 ```
-/** 
+/**
   @param _directory A contract storing directories of terminals and controllers for each project.
 */
 constructor(IJBDirectory _directory) {

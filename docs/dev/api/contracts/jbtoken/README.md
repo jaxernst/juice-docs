@@ -23,7 +23,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/JBToken.s
 #### Constructor
 
 ```
-/** 
+/**
   @param _name The name of the token.
   @param _symbol The symbol that the token should be represented by.
   @param _projectId The ID of the project that this token should be exclusively used for. Send 0 to support any project.

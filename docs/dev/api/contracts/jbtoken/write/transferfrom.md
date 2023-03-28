@@ -26,7 +26,7 @@ function transferFrom(
 ```
 
 * Arguments:
-  * `_projectId` is the ID of the project to which the token belongs. This is ignored. 
+  * `_projectId` is the ID of the project to which the token belongs. This is ignored.
   * `_from` is the originating address.
   * `_to` is the destination address.
   * `_amount` is the amount of the transfer, as a fixed point number with 18 decimals.
@@ -36,7 +36,7 @@ function transferFrom(
 #### Body
 
 1.  Make sure the project IDs match, or this contract's project ID is 0.
-    
+
     ```
     // Can't transfer for a wrong project.
     if (projectId != 0 && _projectId != projectId) revert BAD_PROJECT();
@@ -61,7 +61,7 @@ function transferFrom(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Transfer tokens between accounts.
 

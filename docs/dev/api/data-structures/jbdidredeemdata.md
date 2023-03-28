@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/** 
+/**
   @member holder The holder of the tokens being redeemed.
   @member projectId The ID of the project with which the redeemed tokens are associated.
   @member currentFundingCycleConfiguration The configuration of the funding cycle during which the redemption is being made.

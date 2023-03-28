@@ -7,8 +7,8 @@ Contract: [`JBChainlinkV3PriceFeed`](/dev/deprecated/v2/contracts/or-price-feeds
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The feed that prices are reported from.
 */
 AggregatorV3Interface public feed;

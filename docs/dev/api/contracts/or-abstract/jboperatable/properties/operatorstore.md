@@ -8,10 +8,10 @@ Interface: [`IJBOperatable`](/dev/api/interfaces/ijboperatable.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   A contract storing operator assignments.
-*/ 
+*/
 IJBOperatorStore public immutable override operatorStore;
 ```
 

@@ -39,7 +39,7 @@ function releaseV1TokensOf(uint256 _v1ProjectId, address _beneficiary) external 
     * [`ticketBooth`](/dev/api/contracts/or-payment-terminals/jbv1tokenpaymentterminal/properties/ticketbooth.md)
 
     _External references:_
-    
+
     * [`ownerOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#IERC721-ownerOf-uint256-)
     * [`projects`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L71)
 
@@ -66,7 +66,7 @@ function releaseV1TokensOf(uint256 _v1ProjectId, address _beneficiary) external 
     * [`ticketBooth`](/dev/api/contracts/or-payment-terminals/jbv1tokenpaymentterminal/properties/ticketbooth.md)
 
     _External references:_
-    
+
     * [`ticketsOf`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L69)
 
 4.  Get a reference to the v1 unclaimed token balance currently being held by this contract.
@@ -81,7 +81,7 @@ function releaseV1TokensOf(uint256 _v1ProjectId, address _beneficiary) external 
     * [`ticketBooth`](/dev/api/contracts/or-payment-terminals/jbv1tokenpaymentterminal/properties/ticketbooth.md)
 
     _External references:_
-  
+
     * [`stakedBalanceOf`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L84)
 
 5.  Get a reference to the v1 ERC20 token balance currently being held by this contract.
@@ -94,7 +94,7 @@ function releaseV1TokensOf(uint256 _v1ProjectId, address _beneficiary) external 
     ```
 
     _External references:_
-  
+
     * [`balanceOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#IERC20-balanceOf-address-)
 
 6.  Mark this v1 project as finalized so that this terminal no longer accepts this v1 token in exchange for any v2 token.
@@ -152,7 +152,7 @@ function releaseV1TokensOf(uint256 _v1ProjectId, address _beneficiary) external 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Allows a project owner to gain custody of all the v1 tokens that have been paid, after they have finalized the ability for v1 token holders to convert to v2 tokens via this contract.
 

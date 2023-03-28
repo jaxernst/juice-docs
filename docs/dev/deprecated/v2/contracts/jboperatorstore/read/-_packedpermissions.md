@@ -50,8 +50,8 @@ function _packedPermissions(uint256[] calldata _indexes) private pure returns (u
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Converts an array of permission indexes to a packed `uint256`.
 
   @param _indexes The indexes of the permissions to pack.

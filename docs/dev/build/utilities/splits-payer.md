@@ -91,22 +91,22 @@ contract NFTSplitsPayer is ERC721, JBETHERC20SplitsPayer {
   constructor(JBSplits[] memory _splits, IJBDirectory _directory, address _owner) JBETHERC20ProjectPayer(0, address(0), false, "", bytes(0), false, _directory, _owner) {
     splits = _splits;
   },
-  
+
   // Minting an NFT routes funds to a group of splits, and mints project tokens for msg.sender for splits that route to project treasuries.
   function mint(uint256 _tokenId,) external payable override {
     _mint(msg.sender, _tokenId);
 
-    uint256 _numSplits = splits.length; 
+    uint256 _numSplits = splits.length;
 
     JBSplits[] memory _splitsWithBeneficiary;
 
     // Set the msg.sender to be the beneficiary of all project tokens resulting from splits that route to project treasuries.
     for (uint256 _i; _i < _numSplits; _i++)  {
       JBSplit _split = _splits[_i];
-      if (_split.projectId != 0) _split.beneficiary = msg.sender;     
+      if (_split.projectId != 0) _split.beneficiary = msg.sender;
       _splitsWithBeneficiary.push(_split);
     }
-    
+
     _payTo(_splitsWithBeneficiary, JBTokens.ETH, msg.value, 18, msg.sender);
   }
 }

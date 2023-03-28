@@ -15,10 +15,10 @@ Interface: [`IJBToken`](/dev/deprecated/v2/interfaces/ijbtoken.md)
 #### Definition
 
 ```
-function balanceOf(address _account, uint256 _projectId) 
-  external 
-  view 
-  override 
+function balanceOf(address _account, uint256 _projectId)
+  external
+  view
+  override
   returns (uint256) { ... }
 ```
 
@@ -47,7 +47,7 @@ function balanceOf(address _account, uint256 _projectId)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   An account's balance of this ERC20.
 
@@ -56,11 +56,11 @@ function balanceOf(address _account, uint256 _projectId)
 
   @return The balance of the `_account` of this ERC20, as a fixed point number with 18 decimals.
 */
-function balanceOf(address _account, uint256 _projectId) 
-  external 
-  view 
-  override 
-  returns (uint256) 
+function balanceOf(address _account, uint256 _projectId)
+  external
+  view
+  override
+  returns (uint256)
 {
   _projectId; // Prevents unused var compiler and natspec complaints.
 

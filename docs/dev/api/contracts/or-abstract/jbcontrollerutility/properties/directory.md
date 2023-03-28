@@ -9,10 +9,10 @@ Interface: [`IJBControllerUtility`](/dev/api/interfaces/ijbcontrollerutility.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The directory of terminals and controllers for projects.
-*/ 
+*/
 IJBDirectory public immutable override directory;
 ```
 

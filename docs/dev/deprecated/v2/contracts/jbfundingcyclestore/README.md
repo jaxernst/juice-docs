@@ -28,7 +28,7 @@ Ethereum rinkeby: [`0x8b3e0af1f7ee6C5a3fab969b5cAdD9347B009F1a`](https://rinkeby
 #### Constructor
 
 ```
-/** 
+/**
   @param _directory A contract storing directories of terminals and controllers for each project.
 */
 constructor(IJBDirectory _directory) JBControllerUtility(_directory) {}

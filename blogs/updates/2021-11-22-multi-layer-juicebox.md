@@ -15,8 +15,8 @@ JuiceboxDAO runs on the juicebox protocol itself, if we do nothing at the protoc
 
 An effective solution will take into consideration that:
 
-- **projects do not want to fragment its community and governance across chains.** All members should be cheering for funds to come in from wherever people care to contribute from, and the project's distributed tokens in turn should provide the opportunity to govern its cumulative funds regardless of what chain they're on. 
-- **the issuance rate of the project's tokens should be synchronizable across all available environments over time.** As funding cycles roll over, it's often the case that the weight of token distribution changes. Unless it is by design, there shouldn't be arbitrage opportunities across chains. 
+- **projects do not want to fragment its community and governance across chains.** All members should be cheering for funds to come in from wherever people care to contribute from, and the project's distributed tokens in turn should provide the opportunity to govern its cumulative funds regardless of what chain they're on.
+- **the issuance rate of the project's tokens should be synchronizable across all available environments over time.** As funding cycles roll over, it's often the case that the weight of token distribution changes. Unless it is by design, there shouldn't be arbitrage opportunities across chains.
 - **funding cycle reconfigurations should either be approved or fail across all environments.** If a project proposes to reconfigure its funding parameters in one environment but the ballot to do so ends up failing, the change should also fail to take effect in all other environments. On the flip side, successful funding cycle reconfigurations should be reflected across chains.
 
 ---

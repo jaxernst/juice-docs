@@ -30,7 +30,7 @@ function _set(
   * `_domain` is an identifier within which the splits should be considered active.
   * `_group` is an identifier between of splits being set. All splits within this `_group` must add up to within 100%.
   * `_splits` are the [`JBSplit`](/dev/api/data-structures/jbsplit.md)s to set.
-* The resulting function is internal to this contract and its inheriters. 
+* The resulting function is internal to this contract and its inheriters.
 * The function doesn't return anything.
 
 #### Body
@@ -89,7 +89,7 @@ function _set(
     ```
 
 5.  Keep a reference to the number of splits being set.
-    
+
     ```
     // Keep a reference to the number of splits.
     uint256 _splitsLength = _splits.length;
@@ -135,7 +135,7 @@ function _set(
         ```
         // Pack the first split part properties.
         uint256 _packedSplitParts1;
-        
+
         // prefer claimed in bit 0.
         if (_splits[_i].preferClaimed) _packedSplitParts1 = 1;
         // prefer add to balance in bit 1.
@@ -187,9 +187,9 @@ function _set(
         _Event references:_
 
         * [`SetSplit`](/dev/api/contracts/jbsplitsstore/events/setsplit.md)
-      
+
     8.  Increment the loop counter.
-        
+
         ```
         unchecked {
           ++_i;
@@ -212,8 +212,8 @@ function _set(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Sets a project's splits.
 
   @dev

@@ -49,7 +49,7 @@ function splitsOf(
 
 ```
 /**
-  @notice 
+  @notice
   Get all splits for the specified project ID, within the specified domain, for the specified group.
 
   @param _projectId The ID of the project to get splits for.

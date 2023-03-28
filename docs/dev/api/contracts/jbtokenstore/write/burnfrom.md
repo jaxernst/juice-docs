@@ -68,7 +68,7 @@ function burnFrom(
     _External references:_
 
     * [`balanceOf`](/dev/api/contracts/jbtoken/read/balanceof.md)
-4.  Make sure the holder has enough tokens to burn. 
+4.  Make sure the holder has enough tokens to burn.
 
     ```
     // There must be adequate tokens to burn across the holder's claimed and unclaimed balance.
@@ -103,7 +103,7 @@ function burnFrom(
     }
     ```
 
-7.  If there are claimed tokens to burn, get a reference to the quantity. 
+7.  If there are claimed tokens to burn, get a reference to the quantity.
 
     ```
     // Subtract the tokens from the unclaimed balance and total supply.

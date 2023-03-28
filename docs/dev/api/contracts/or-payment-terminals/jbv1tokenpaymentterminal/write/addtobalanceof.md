@@ -51,7 +51,7 @@ function addToBalanceOf(
   @notice
   Receives funds belonging to the specified project.
 
-  @dev 
+  @dev
   This terminal does not allow adding directly to a project's balance.
 
   @param _projectId The ID of the project to which the funds received belong. This is ignored since this terminal doesn't allow this function.

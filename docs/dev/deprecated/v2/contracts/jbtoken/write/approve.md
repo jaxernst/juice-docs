@@ -46,7 +46,7 @@ function approve(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   Approves an account to spend tokens on the `msg.sender`s behalf.
 

@@ -21,7 +21,7 @@ Ethereum rinkeby: [`0x59F6aEE20d746708539B4f2E75CA50F9dDCFdC70`](https://rinkeby
 #### Constructor
 
 ```
-/** 
+/**
   @param _feed The feed to report prices from.
 */
 constructor(AggregatorV3Interface _feed) {

@@ -65,7 +65,7 @@ function burnTokensOf(
     _Internal references:_
 
     * [`fundingCycleStore`](/dev/api/contracts/or-controllers/jbcontroller/properties/fundingcyclestore.md)
-    
+
     _External references:_
 
     * [`currentOf`](/dev/api/contracts/jbfundingcyclestore/read/currentof.md)

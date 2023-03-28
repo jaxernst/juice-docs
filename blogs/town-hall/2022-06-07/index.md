@@ -23,7 +23,7 @@ So we're now minting this thing through the website which is cool. The stuff is 
 
 **jango**: I've also been on the contract side of things that @Viraz has been doing a great job, asking for reviews over the tests. The tests he's writing and adding more fuzzing tests to the suite. So hopefully at this point, it's throwing a lot of use cases at the cocept. And i suppose it'll make way on to the actual final details to complete the workflow.
 
-**Jmill**: The big thing next is to read the onchain data and get the use of NFT, and then allow them to extend their locked positions on a particular NFT. All of those are related to fetching data, about multiple tokens. We're talking about this in Peel's Discord, and right now it's implemented as ERC-721 Enumerable, but it'll probably be easier if it were structured similiar with Juicebox projects where you have a directory structure and subgraph, to look that information up without recursive calls to open by index. So that's probably what we need to start thinking about how we index these information for the purpose of front end to grab it and work with the data. 
+**Jmill**: The big thing next is to read the onchain data and get the use of NFT, and then allow them to extend their locked positions on a particular NFT. All of those are related to fetching data, about multiple tokens. We're talking about this in Peel's Discord, and right now it's implemented as ERC-721 Enumerable, but it'll probably be easier if it were structured similiar with Juicebox projects where you have a directory structure and subgraph, to look that information up without recursive calls to open by index. So that's probably what we need to start thinking about how we index these information for the purpose of front end to grab it and work with the data.
 
 **jango**: Yeah, that makes sense. Also from a juiceboxDAO or Juicebox perspective in Juicebox.money, we'll possibly first have to deploy their staking contract and specify the lock duration they want etc. It isn't going to be there for everyone first, they have to specify those things, so that that initial transaction to deploy a staking contract will go through a contract that somewhat serve as a directory or at least it'll file an event that's indexable to service a directory. If Peel and Juicebox.money feel it a decent thing to offer all projects over time and they should be able to interact with that same depolyer contract to get their own version of this.
 
@@ -49,9 +49,9 @@ Those are some of the configurations that we think we should do. That could be s
 
 That's what I call the product prospective. We have a very good protocol perspective here that is building something really robust and can do lots of things. In the end looking at product level, maybe not all the users will need all of these things and having an easy way to launch might be something interesting.
 
-**jango**: I think there's a lot of to keep improving the onboarding stuff and especially we just came out of V2 trying to start with parity where V1 was. The name of the game now is just constant improving based on our own interest with onboarding as well as pulling together other people's perspective. It's hard to be certain that it's one thing or another thing from my point of view, but without question we're going to hinge towards better alternatives to prototypes that are massively useful. Shout out to JohnnyD and Aeolian and all the people in Peel who are eager and quick to make prototypes and start discord threads so that we can discuss the improvements. And then match this with a occasional AHA moment that a few different ideas come together that make sense to a lot of folks and somehow we unlock a lot more fluidity to the onboarding process. 
+**jango**: I think there's a lot of to keep improving the onboarding stuff and especially we just came out of V2 trying to start with parity where V1 was. The name of the game now is just constant improving based on our own interest with onboarding as well as pulling together other people's perspective. It's hard to be certain that it's one thing or another thing from my point of view, but without question we're going to hinge towards better alternatives to prototypes that are massively useful. Shout out to JohnnyD and Aeolian and all the people in Peel who are eager and quick to make prototypes and start discord threads so that we can discuss the improvements. And then match this with a occasional AHA moment that a few different ideas come together that make sense to a lot of folks and somehow we unlock a lot more fluidity to the onboarding process.
 
-I'm certainly with you that we have a lot of work to do with explaining what people are getting into, like starting with giving everyone all the information upfront and make all risks as clear as possible. Overtime we can start to reel back into some managable shortcuts. 
+I'm certainly with you that we have a lot of work to do with explaining what people are getting into, like starting with giving everyone all the information upfront and make all risks as clear as possible. Overtime we can start to reel back into some managable shortcuts.
 
 I think now we're definitely buckling for more long term investments both from a building perspective and the relationship perspective with other communities. I'm eager to see how that project chart changes over time. I think from my personal perspective and talking to projects, the recent lows haven't been very encouraging for projects to launch. But now that V2 is out, we're going to see a lot more of that.
 
@@ -67,7 +67,7 @@ Another thing I want to talk about is what we're discussing a lot in the chat ab
 
 ## Govenance discussion
 
-**@filipv**: I want to open up some discussion on the recent governance cycle, both in itself and some of the proposals. 
+**@filipv**: I want to open up some discussion on the recent governance cycle, both in itself and some of the proposals.
 
 One thing I want to bring up first is the possibility of changing the governance cycle in order to allow for longer temperature checks because I definitely feel the temp check are too short. But there's also balance if you lengthen the temp check, it makes it harder to get things through the governance process and it takes longer to get things done. We did a poll and people are really into the weekday idea.
 
@@ -77,17 +77,17 @@ One thing I want to bring up first is the possibility of changing the governance
 
 **jango**: For me personally, it's nice to end on weekend because I can do a lot more meeting oriented and dev oriented stuff during the week, and in the weekend, I can read the proposals and think about those. There's not much weekend breaktime.
 
-**nicholas**: How specified should proposals be? I made a suggestion that is three points if you add them to the proposals, 
+**nicholas**: How specified should proposals be? I made a suggestion that is three points if you add them to the proposals,
 ![](GbRQJsd.webp)
-maybe they will enable more delegation, because a lot of the burden getting the proposal through can be like knowing exactly what steps should be taken, when it's not always necessary DAO knows every single steps if DAO is willing to accept the risks, the implementation risk of someone delegating it to the person who's the author or someone specified in the proposal. I think it's a decent choice if it's a better financial allocation and also adding a risk in risk section which is like "Look, we're not specifying the address the money got set to, we don't think that's a super important detail for the DAO to be voting on", but that's a risk we can screw up sending it to a wrong address because it wasn't specified in the proposal. It allow the proposal to move forward before all those details are sorted out. Some proposal do deserve to have hyper detailed specifications and it's important for the DAO to vote on it, others delegation will be more appropriate. I think that might be a interesting format for making governance more manageable. 
+maybe they will enable more delegation, because a lot of the burden getting the proposal through can be like knowing exactly what steps should be taken, when it's not always necessary DAO knows every single steps if DAO is willing to accept the risks, the implementation risk of someone delegating it to the person who's the author or someone specified in the proposal. I think it's a decent choice if it's a better financial allocation and also adding a risk in risk section which is like "Look, we're not specifying the address the money got set to, we don't think that's a super important detail for the DAO to be voting on", but that's a risk we can screw up sending it to a wrong address because it wasn't specified in the proposal. It allow the proposal to move forward before all those details are sorted out. Some proposal do deserve to have hyper detailed specifications and it's important for the DAO to vote on it, others delegation will be more appropriate. I think that might be a interesting format for making governance more manageable.
 
 **filipv**: I'm definitely onboard with that. I think that thing need to be weighted very carefully just because it's not like we are going through a hierachy and people are revising it in every step. It's kind of like every proposal goest to the multisig like the one source of truth. It's like something running close to the middel very powerful and very dangerous. I think we need to be careful about specifications and and we don't want to lead to some DAO crisis when people are disagreeing on an interpretation of the proposal after the fact.
 
 First of all it waste a bunch of time, also people are gonna get upset and may lead to conflicts. So I am generally more of a stickler that we should have very specific proposals just because how dangerous it is. I wonder if there is a way to incentivize people to submit a bunch of proposals earlier so they can be spread out ever a greater period of time. We really see most proposal submitted close to the end of temp check. It's not an easy question to solve.
 
-**nicholas**: Part of the challenge is the 14days cycle, if you would like to submit a proposal for something and temp check submission just opened, that means you  can no longer submit a proposal and you could be waiting for 20+ days till the next opportunity to vote. It may be worthwhile, for instance the bug bounty, I can see both sides on it, maybe a longer process allow us to consider, but at the same time, the protocol needs the bounty pretty badly. 
+**nicholas**: Part of the challenge is the 14days cycle, if you would like to submit a proposal for something and temp check submission just opened, that means you  can no longer submit a proposal and you could be waiting for 20+ days till the next opportunity to vote. It may be worthwhile, for instance the bug bounty, I can see both sides on it, maybe a longer process allow us to consider, but at the same time, the protocol needs the bounty pretty badly.
 
-I think it would be of some value not entirely in the direction of everything being specified because the reality is that just making through all of that governance and having opinions on it is stretching the limits of the bandwidth of even the most dedicated members of the DAO. It also becomes less decentralized the more because people are just voting along with other people who have already voted. There's also some needs to us to recognize that actually the DAO doesn't need to vote on every single details of everything, and some amount of delegation is probably gonna be necessary over the medium term. 
+I think it would be of some value not entirely in the direction of everything being specified because the reality is that just making through all of that governance and having opinions on it is stretching the limits of the bandwidth of even the most dedicated members of the DAO. It also becomes less decentralized the more because people are just voting along with other people who have already voted. There's also some needs to us to recognize that actually the DAO doesn't need to vote on every single details of everything, and some amount of delegation is probably gonna be necessary over the medium term.
 
 **filipv**: Two thoughts on that.
 
@@ -105,7 +105,7 @@ Second thought is that jango has be mentioning lately the idea of possibly pursu
 
 **jango**: I feel that kind of work is really important when a project is starting out, that's still the case now and will likely still be months into the future. There's a lot happening and everyone is contributing to whatever the next person needs. So people are just shouting "hey I got this dope thing in progress, it'd be sweet if I could have this ounce of help" and luckily there's a lot of people around who are eager and feeling supportive to do that work. So the individual payouts feel appropriate in that world.
 
-I think that would set the expectation that there's a lot of stuff that we've building isn't just onging forever, we're not hired by JuiceboxDAO to be here comfortably and feel valued imbued and viewed by our relationship to one another and to the concept of the projects. Once those projects play themselves out, I think it's healthy to reassess what our purpose is amongst current state of the projects and how we can prepare ourselves for future state of uncertainty which are always upon us. That's the thing we can almost guarantee. 
+I think that would set the expectation that there's a lot of stuff that we've building isn't just onging forever, we're not hired by JuiceboxDAO to be here comfortably and feel valued imbued and viewed by our relationship to one another and to the concept of the projects. Once those projects play themselves out, I think it's healthy to reassess what our purpose is amongst current state of the projects and how we can prepare ourselves for future state of uncertainty which are always upon us. That's the thing we can almost guarantee.
 
 **felixander**: Would that be the same way like Peel, WAGMI and Canu, the idea that people would branch off like Peel now is under a budget to do front end? You could imagine people who are doing docs would branch out and have a budget, and people who are doing translation would also branch off and have a budget.
 
@@ -125,24 +125,24 @@ I still think it's instrutive not only from accounting perspective but also from
 
 ## Project highlights
 
-**gogo**: I'm very glad to be able to discover the future of ComicsDAO and strategy of what we're gonna do there. We had a super contribution from JuiceboxDAO from the beginning which is pretty amazing. 
+**gogo**: I'm very glad to be able to discover the future of ComicsDAO and strategy of what we're gonna do there. We had a super contribution from JuiceboxDAO from the beginning which is pretty amazing.
 
-I would like to share what we just thought. So we basically are doing a full story and the beginning starts with [this post here](https://twitter.com/ComicsDAO/status/1533991837865746432). 
-![](5MGlSvX.webp) 
-What I would like to propose is that this is our heroes Banny and they're travelling throught the DAO galaxy to DAOs. We would like to know where JuiceboxDAO would like the ship to go to the next DAO, so that we can keep on building covers to next DAO. Let's create a poll here and vote on the DAO that JuiceboxDAO decides what ComicsDAO is gonna do next. 
+I would like to share what we just thought. So we basically are doing a full story and the beginning starts with [this post here](https://twitter.com/ComicsDAO/status/1533991837865746432).
+![](5MGlSvX.webp)
+What I would like to propose is that this is our heroes Banny and they're travelling throught the DAO galaxy to DAOs. We would like to know where JuiceboxDAO would like the ship to go to the next DAO, so that we can keep on building covers to next DAO. Let's create a poll here and vote on the DAO that JuiceboxDAO decides what ComicsDAO is gonna do next.
 
 Another thing is that, we had a big player, this guy is amazing and helps us a lot.
 ![](IY9Sqof.jpeg)
 
-We are having fun creating next cover for other DAO, and we are going to make some jokes for JokeDAO and get partnership to work with them. 
+We are having fun creating next cover for other DAO, and we are going to make some jokes for JokeDAO and get partnership to work with them.
 
 **jango**: That's the coolest part of ComicsDAO. I love the treasury management, a part of which is to buy rare comics and hold thme, but the day to day potential of being the storytelling branch of differnt DAOs, which is immensely powerful. And so far you are all playing really well, well done.
 
-**nicholas**: There're a bunch of really cool projects this week. JokeDAO just launched a super sick governance experimentation project. 
+**nicholas**: There're a bunch of really cool projects this week. JokeDAO just launched a super sick governance experimentation project.
 
-Austin Griffith's BuildGuild got launched this week and there's a proposal to fund a hackathon for them to transform scaffold-eth into something compatible with Juicebox or to build the hackathon projects using scaffold-eth with juicebox involved in the picture. And as jango mentioned in  his twitter that Juicebox front end is based on scaffold-eth. 
+Austin Griffith's BuildGuild got launched this week and there's a proposal to fund a hackathon for them to transform scaffold-eth into something compatible with Juicebox or to build the hackathon projects using scaffold-eth with juicebox involved in the picture. And as jango mentioned in  his twitter that Juicebox front end is based on scaffold-eth.
 
-So it's very cool to see comfort circle, and hopefully we will be able to fund a modest hackathon to get the treasury kickstarted with funds, hopefully getting that brew of hackers into the ecosystem. 
+So it's very cool to see comfort circle, and hopefully we will be able to fund a modest hackathon to get the treasury kickstarted with funds, hopefully getting that brew of hackers into the ecosystem.
 
 @twodam's has posted a twitter about this week's projects [here](https://twitter.com/twodam_eth/status/1534200052511518720).
 ![](zGAeIDq.webp)
@@ -157,6 +157,6 @@ Oh man, this episode definitely needs a PG rating for sure. I won't compile it s
 
 And the answer is........
 
- **Sage** 
+ **Sage**
 
 

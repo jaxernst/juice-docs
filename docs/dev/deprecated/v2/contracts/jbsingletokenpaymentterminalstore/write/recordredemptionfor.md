@@ -73,13 +73,13 @@ function recordRedemptionFor(
 
     * [`JBFundingCycleMetadataResolver`](/dev/deprecated/v2/libraries/jbfundingcyclemetadataresolver.md)
       * `.redeemPaused(...)`
-3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error. 
+3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error.
 
     ```
     // Scoped section prevents stack too deep. `_reclaimedTokenAmount`, `_currentOverflow`, and `_totalSupply` only used within scope.
     { ... }
     ```
-    
+
     1.  Keep a reference to the reclaimed token amount, current overflow amount, and total supply variables to use outside of the subsequent scoped block
 
         ```
@@ -89,7 +89,7 @@ function recordRedemptionFor(
         uint256 _totalSupply;
         ```
 
-    2.  The following other scoped block uses the same hack to prevent a "Stack too deep" error. 
+    2.  The following other scoped block uses the same hack to prevent a "Stack too deep" error.
 
         ```
         // Another scoped section prevents stack too deep. `_token`, `_decimals`, and `_currency` only used within scope.
@@ -115,7 +115,7 @@ function recordRedemptionFor(
             * [`decimals`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/properties/decimals.md)
             * [`currency`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/properties/currency.md)
 
-        2.  Get a reference to the amount of overflow the project has. Either the project's total overflow or the overflow local to the msg.sender's balance will be used depending on how the project's funding cycle is configured. 
+        2.  Get a reference to the amount of overflow the project has. Either the project's total overflow or the overflow local to the msg.sender's balance will be used depending on how the project's funding cycle is configured.
 
             ```
             // Get the amount of current overflow.
@@ -169,7 +169,7 @@ function recordRedemptionFor(
             if (_tokenCount > _totalSupply) revert INSUFFICIENT_TOKENS();
             ```
 
-        5.  Get a reference to the reclaimable overflow if there is overflow. 
+        5.  Get a reference to the reclaimable overflow if there is overflow.
 
             ```
             if (_currentOverflow > 0)
@@ -268,7 +268,7 @@ function recordRedemptionFor(
   Redeems the project's tokens according to values provided by a configured data source. If no data source is configured, redeems tokens along a redemption bonding curve that is a function of the number of tokens being burned.
 
   @dev
-  The msg.sender must be an IJBSingleTokenPaymentTerminal. 
+  The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
   @param _holder The account that is having its tokens redeemed.
   @param _projectId The ID of the project to which the tokens being redeemed belong.

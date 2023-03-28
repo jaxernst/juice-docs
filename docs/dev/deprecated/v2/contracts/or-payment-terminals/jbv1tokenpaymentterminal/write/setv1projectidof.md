@@ -27,7 +27,7 @@ function setV1ProjectId(uint256 _projectId, uint256 _v1ProjectId) external overr
 
 #### Body
 
-1.  Make sure the v1 project and v2 project have the same owner. 
+1.  Make sure the v1 project and v2 project have the same owner.
 
     ```
     // Can't set the v1 project ID if it isn't owned by the same address who owns the v2 project.
@@ -43,11 +43,11 @@ function setV1ProjectId(uint256 _projectId, uint256 _v1ProjectId) external overr
     * [`ticketBooth`](/dev/deprecated/v2/contracts/or-payment-terminals/jbv1tokenpaymentterminal/properties/ticketbooth.md)
 
     _External references:_
-    
+
     * [`ownerOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#IERC721-ownerOf-uint256-)
     * [`projects`](https://github.com/jbx-protocol/juice-contracts-v1/blob/a91b55e8d264267c338b089aa9a45b29fd8e8f13/contracts/interfaces/ITicketBooth.sol#L71)
 
-2.  Set the v1 project ID. 
+2.  Set the v1 project ID.
 
     ```
     // Store the mapping.
@@ -74,8 +74,8 @@ function setV1ProjectId(uint256 _projectId, uint256 _v1ProjectId) external overr
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Allows a project owner to initialize the acceptance of a v1 project's tokens in exchange for its v2 project token.
 
   @dev

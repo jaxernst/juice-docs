@@ -76,7 +76,7 @@ function _packAndStoreIntrinsicPropertiesOf(
 
 ```
 /**
-  @notice 
+  @notice
   Efficiently stores a funding cycle's provided intrinsic properties.
 
   @param _configuration The configuration of the funding cycle to pack and store.

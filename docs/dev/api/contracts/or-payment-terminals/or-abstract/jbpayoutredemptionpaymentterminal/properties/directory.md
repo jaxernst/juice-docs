@@ -9,7 +9,7 @@ Interface: [`IJBPayoutRedemptionPaymentTerminal`](/dev/api/interfaces/ijbpayoutr
 #### Definition
 
 ```
-/** 
+/**
   @notice
   The directory of terminals and controllers for projects.
 */

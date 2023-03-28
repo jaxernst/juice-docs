@@ -3,7 +3,7 @@
 ### Constructor
 
 ```javascript
-/** 
+/**
   @param _projects The contract storing project information
   @param _operatorStore A contract storing operator assignments.
   @param _terminalDirectory A directory of a project's current Juicebox terminal to receive payments in.
@@ -19,7 +19,7 @@ constructor(
 
 ```javascript
 /**
-  @notice 
+  @notice
   Get all payout mods for the specified project ID.
 
   @param _projectId The ID of the project to get mods for.
@@ -36,7 +36,7 @@ function payoutModsOf(uint256 _projectId, uint256 _configuration)
 
 ```javascript
 /**
-  @notice 
+  @notice
   Get all ticket mods for the specified project ID.
 
   @param _projectId The ID of the project to get mods for.
@@ -54,8 +54,8 @@ function ticketModsOf(uint256 _projectId, uint256 _configuration)
 ### Write
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Adds a mod to the payout mods list.
 
   @dev
@@ -81,8 +81,8 @@ function setPayoutMods(
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Adds a mod to the ticket mods list.
 
   @dev

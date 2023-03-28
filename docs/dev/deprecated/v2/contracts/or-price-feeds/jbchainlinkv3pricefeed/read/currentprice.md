@@ -72,8 +72,8 @@ function currentPrice(uint256 _decimals) external view override returns (uint256
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Gets the current price from the feed, normalized to the specified number of decimals.
 
   @param _decimals The number of decimals the returned fixed point price should include.

@@ -4,7 +4,7 @@ _Sends ETH or ERC20's to a project treasury as it receives direct payments or ha
 
 _Inherit from this contract or borrow from its logic to forward ETH or ERC20's to project treasuries from within other contracts._
 
-#### Code 
+#### Code
 
 https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/JBETHERC20ProjectPayer.sol
 
@@ -28,10 +28,10 @@ _There can be several instances of this contract deployed._
 #### Constructor
 
 ```
-/** 
+/**
   @param _defaultProjectId The ID of the project whose treasury should be forwarded this contract's received payments.
-  @param _defaultBeneficiary The address that'll receive the project's tokens. 
-  @param _defaultPreferClaimedTokens A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet. 
+  @param _defaultBeneficiary The address that'll receive the project's tokens.
+  @param _defaultPreferClaimedTokens A flag indicating whether issued tokens should be automatically claimed into the beneficiary's wallet.
   @param _defaultMemo A memo to pass along to the emitted event, and passed along the the funding cycle's data source and delegate.  A data source can alter the memo before emitting in the event and forwarding to the delegate.
   @param _defaultMetadata Bytes to send along to the project's data source and delegate, if provided.
   @param _defaultPreferAddToBalance A flag indicating if received payments should call the `pay` function or the `addToBalance` function of a project.

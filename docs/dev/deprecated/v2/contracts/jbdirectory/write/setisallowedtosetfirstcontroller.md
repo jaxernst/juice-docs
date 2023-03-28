@@ -12,7 +12,7 @@ Interface: [`IJBDirectory`](/dev/deprecated/v2/interfaces/ijbdirectory.md)
 
 **Set a contract to the list of trusted addresses that can set a controller for any project.**
 
-_The owner can add addresses which are allowed to change projects' first controllers._ 
+_The owner can add addresses which are allowed to change projects' first controllers._
 _These addresses are known and vetted controllers as well as contracts designed to launch new projects._ _A project can set its own controller without it being on the allow list._
 
 _If you would like an address/contract allowlisted, please reach out to the contract owner._
@@ -60,13 +60,13 @@ function setIsAllowedToSetFirstController(address _address, bool _flag)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice	
-  Set or revoke a contract to the list of trusted addresses that can set a first controller for any project.	
+/**
+  @notice
+  Set or revoke a contract to the list of trusted addresses that can set a first controller for any project.
 
   @dev
-  The owner can add addresses which are allowed to change projects' first controllers. 
-  These addresses are known and vetted controllers as well as contracts designed to launch new projects. 
+  The owner can add addresses which are allowed to change projects' first controllers.
+  These addresses are known and vetted controllers as well as contracts designed to launch new projects.
   A project can set its own controller without it being on the allow list.
 
   @dev

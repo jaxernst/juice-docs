@@ -9,8 +9,8 @@ Interface: [`IJBDirectory`](/dev/deprecated/v2/interfaces/ijbdirectory.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   For each project ID, the controller that manages how terminals interact with tokens and funding cycles.
 
   _projectId The ID of the project to get the controller of.

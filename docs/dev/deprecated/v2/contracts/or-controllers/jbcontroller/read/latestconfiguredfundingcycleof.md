@@ -61,13 +61,13 @@ function latestConfiguredFundingCycleOf(uint256 _projectId)
 
     * [`JBFundingCycleMetadataResolver`](/dev/deprecated/v2/libraries/jbfundingcyclemetadataresolver.md)<br/>
       * `.expandMetadata(...)`
-      
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   A project's latest configured funding cycle along with its metadata and the ballot state of the configuration.
 

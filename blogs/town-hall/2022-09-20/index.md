@@ -12,7 +12,7 @@ Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## Capsules project with peri
 
-The [Capsules](https://cpsls.app/) is peri's latest project of on-chain typeface that he launched just one day before this town hall. 
+The [Capsules](https://cpsls.app/) is peri's latest project of on-chain typeface that he launched just one day before this town hall.
 ![](F5YDE5e.webp)
 
 This project of on-chain typeface introduces a standard to make it easy to store fonts on-chain. There're a lot of projects that use text in on-chain rendered SVGs these days, but if they want to use a custom font in an on-chain rendered SVG, they need to find a way to store that font on-chain. Also storing fonts on-chain is expensive and complicated, and there isn't a standard way to do it. For this reason, Capsules project introduces a new typeface contract interface in order to standardize storing fonts and make it easier to access.
@@ -23,24 +23,24 @@ People can also download the typeface [here](https://cpsls.app/#/typeface) for f
 
 The typeface contract allows you to define the typefaces even when you deploy a contract without storing all the data for them, which means anybody else can just come and store the data, provided it matches what you define in the first place.
 
-For this project, there are 7 special pure color NFTs that goes to people who store the 7 fonts 100 to 700. Folks from around the Juicebox ecosystem got news of this launch and stored all of them in just couple of minutes, which is a very decentralized effort to get some new infrasturcture onto the blockchain. 
+For this project, there are 7 special pure color NFTs that goes to people who store the 7 fonts 100 to 700. Folks from around the Juicebox ecosystem got news of this launch and stored all of them in just couple of minutes, which is a very decentralized effort to get some new infrasturcture onto the blockchain.
 ![](cosc0mW.webp)
 
 Definitely follow [peri on Twitter](https://twitter.com/peripheralist) to get more first hand info and all his genius ideas!
 
 Nicholas also managed to make a prototype using the Capsules typeface to render some active data of a Juicebox project.![](1PfC1pp.jpeg)
 
-And filipv downloaded the Capsules fonts and set his terminal font to them, which is super super cool. 
+And filipv downloaded the Capsules fonts and set his terminal font to them, which is super super cool.
 ![](SvdMNyS.webp)
 
 
 ## Versioning update with jango
 
-Jango and his team launched the V3 contracts in the morning of this town hall. 
+Jango and his team launched the V3 contracts in the morning of this town hall.
 
 In the past week, we had another Code4rena audit contest of mitigation review over the updated V3 contracts. After this contest, the team deployed all the contracts again except for the `JBProjects` and `JBOperatorStotre`, which means projects currently have their project NFTs will keep their project IDs and they can choose whether or not to deploy a V3 funding cycle and token that syncs to their V2 versions, while all new projects will be built on V3 contracts.
 
-Dr.Gorilla and 0xBA5ED have done a lot of work for testing and solving some very complicated problems along the way. 
+Dr.Gorilla and 0xBA5ED have done a lot of work for testing and solving some very complicated problems along the way.
 
 V3 contracts are essentially a mitigation of a few bugs discovered in the previous Code4rena audit contest in V2 contracts. The most impactful one of these bugs was that project owners can set a start time of their funding cycle in a certain way to overflow the storage of that piece of data, essentially allowing them to create a funding cycle at arbitrary points of time and mess up the schedule of things. With the assumption that community relies on project owner to be honest, we try to create as many levers as possible to at least give project owners the ability to lock themselves into things, but this bug would in a sense allow some unforseen reconfigurations if for some reason project owner and the community were no longer aligned in interest.
 
@@ -88,7 +88,7 @@ They also made a video interview with [David Phelps](https://twitter.com/divine_
 
 ### Work Plans
 
-- Another video interview with Robin from [Defiant](https://www.youtube.com/c/TheDefiant) about creator economy. 
+- Another video interview with Robin from [Defiant](https://www.youtube.com/c/TheDefiant) about creator economy.
 - A retrospective deepdive on [ConstitutionDAO](https://juicebox.money/p/constitutiondao).
 
 They also have the plan of making a series of podcast featuring some famous/symbolic projects of Juicebox such as ConstitutionDAO or MoonDAO, coupled with some long articles that go through the history of them, as well as some config articles about how these projects were set up which will certainly be reference points for new project creators.
@@ -104,13 +104,13 @@ They feel there will be no better community to talk to about these topics than J
 
 sunnndayyy also introduced that this APP is still in a closed beta version, so if people want to download it to try using it, they have to go to their website to sign up for early access.
 
-## G-Play updates with Sayid 
+## G-Play updates with Sayid
 
 G-Play is a [Juicebox project](https://juicebox.money/v2/p/153) of P2E gaming platform where users can stake $Matics to play with each other on Polygon.
 
 Recently they started their beta testing and onboarded their first users to the platform.
 
-One of the new features they have, is a statistics page that shows how much the users have unclaimed $Matic they can withdraw. 
+One of the new features they have, is a statistics page that shows how much the users have unclaimed $Matic they can withdraw.
 
 Sayid and Mieos played a game to demostrate how the game goes on the town hall.
 
@@ -126,7 +126,7 @@ The correct answer is ... Viraz.
 
 ## Forming event Vol III with darbytrash
 
-Lexicon Devils are going to host a new [Forming](http://forming.lexicondevils.xyz/) Vol. III event, FLOPPY x FORMING, on Sept. 24th 3pm PST, which will have 3 musical performaces and a [FLOPPY](https://twitter.com/FloppyDigital) walkthrough, at the [Juicebox HQ](juicebox.lexicondevils.xyz) in VOXELS. 
+Lexicon Devils are going to host a new [Forming](http://forming.lexicondevils.xyz/) Vol. III event, FLOPPY x FORMING, on Sept. 24th 3pm PST, which will have 3 musical performaces and a [FLOPPY](https://twitter.com/FloppyDigital) walkthrough, at the [Juicebox HQ](juicebox.lexicondevils.xyz) in VOXELS.
 
 The stage is set, welcome to join us then!
 ![](KK9n4F5.jpeg)

@@ -68,7 +68,7 @@ function burnFrom(
     _External references:_
 
     * [`balanceOf`](/dev/deprecated/v2/contracts/jbtoken/read/balanceof.md)
-4.  Make sure the holder has enough tokens to burn. 
+4.  Make sure the holder has enough tokens to burn.
 
     ```
     // There must be adequate tokens to burn across the holder's claimed and unclaimed balance.

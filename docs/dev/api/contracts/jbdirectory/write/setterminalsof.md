@@ -122,12 +122,12 @@ function setTerminalsOf(uint256 _projectId, IJBPaymentTerminal[] calldata _termi
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Set a project's terminals.
 
   @dev
-  Only a project owner, an operator, or its controller can set its terminals. 
+  Only a project owner, an operator, or its controller can set its terminals.
 
   @param _projectId The ID of the project having terminals set.
   @param _terminals The terminal to set.

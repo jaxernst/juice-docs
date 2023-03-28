@@ -34,7 +34,7 @@ function prepForMigrationOf(uint256 _projectId, address _from) external virtual 
 
     ```
     // This controller must not be the project's current controller.
-    if (directory.controllerOf(_projectId) == address(this)) 
+    if (directory.controllerOf(_projectId) == address(this))
       revert CANT_MIGRATE_TO_CURRENT_CONTROLLER();
     ```
 
@@ -93,7 +93,7 @@ function prepForMigrationOf(uint256 _projectId, address _from) external virtual 
 */
 function prepForMigrationOf(uint256 _projectId, address _from) external virtual override {
   // This controller must not be the project's current controller.
-  if (directory.controllerOf(_projectId) == address(this)) 
+  if (directory.controllerOf(_projectId) == address(this))
     revert CANT_MIGRATE_TO_CURRENT_CONTROLLER();
 
   // Set the tracker as the total supply.

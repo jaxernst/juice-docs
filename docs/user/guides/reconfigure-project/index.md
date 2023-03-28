@@ -12,9 +12,9 @@ Before you get started, you'll need to have:
 
 - A Juicebox project for which you are the owner
 
-Head over to [juicebox.money](http://juicebox.money) and connect your wallet. You can hover over your wallet address in the top right corner and click “My Projects” to find your project. 
+Head over to [juicebox.money](http://juicebox.money) and connect your wallet. You can hover over your wallet address in the top right corner and click “My Projects” to find your project.
 
-For this tutorial, I made a quick project on Goerli called [The Bone Zone](https://goerli.juicebox.money/v2/p/443), which is a community and educational resource for dog lovers. We have some tiered NFTs that have utilities such as dog-safe treat recipes, breed-specific playtime activities for dogs, and a few limited 1-on-1 virtual dog coaching sessions.  
+For this tutorial, I made a quick project on Goerli called [The Bone Zone](https://goerli.juicebox.money/v2/p/443), which is a community and educational resource for dog lovers. We have some tiered NFTs that have utilities such as dog-safe treat recipes, breed-specific playtime activities for dogs, and a few limited 1-on-1 virtual dog coaching sessions.
 
 ## Getting started
 
@@ -22,7 +22,7 @@ On your project page scroll down to `Funding cycle` and you’ll see a button th
 
 ![Reconfigure upcoming funding cycle](reconfig-upcoming-1.webp)
 
-Click that and you’ll be brought to the `Reconfigure Funding Cycle` page that lets you review and change many of your project settings. Keep in mind that any changes made won’t take place until the next Funding Cycle. So, depending on how long your funding cycle is (ours is set to 14 days), your changes may not take effect for a number of days. Another thing to keep in mind is the `Reconfiguration Rules` that you have set, specifically the Delay Period which by default is 3 days. A 3-day delay means that reconfiguring an upcoming funding cycle **must** be done at least **3 days** before it starts. 
+Click that and you’ll be brought to the `Reconfigure Funding Cycle` page that lets you review and change many of your project settings. Keep in mind that any changes made won’t take place until the next Funding Cycle. So, depending on how long your funding cycle is (ours is set to 14 days), your changes may not take effect for a number of days. Another thing to keep in mind is the `Reconfiguration Rules` that you have set, specifically the Delay Period which by default is 3 days. A 3-day delay means that reconfiguring an upcoming funding cycle **must** be done at least **3 days** before it starts.
 
 ![bone-zone-overview.webp](bone-zone-overview.webp)
 
@@ -30,7 +30,7 @@ At the top of the `Reconfigure Funding Cycle` page, you’ll see a countdown tha
 
 ![Time remaining to submit reconfiguration](time-remaining.webp)
 
-For this example, I’m going to add a payout for my project. 
+For this example, I’m going to add a payout for my project.
 
 ## Step 1: Reconfigure Funding
 
@@ -72,7 +72,7 @@ Last but not least, you can configure your project’s NFTs. You can edit existi
 
 ## Step 5: On-chain memo and start time
 
-Before submitting our reconfiguration, we can add an on-chain `Memo` to let supporters know why changes were made or just to leave a note. I’ll add a memo that says “Welcoming Matthew to the team!” and I’ll attach a Banny sticker with hearts. 
+Before submitting our reconfiguration, we can add an on-chain `Memo` to let supporters know why changes were made or just to leave a note. I’ll add a memo that says “Welcoming Matthew to the team!” and I’ll attach a Banny sticker with hearts.
 
 ![reconfig-nfts.webp](reconfig-nfts.webp)
 

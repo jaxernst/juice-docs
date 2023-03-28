@@ -22,7 +22,7 @@ You can deploy a Snapshot space for your project on [snapshot.org](https://snaps
 
 1. Visit your project's page on [juicebox.money](https://juicebox.money).
 2. Open your project settings by clicking the gear in the upper right-hand corner.
-3. Selecting `Governance` in the left-hand sidebar. 
+3. Selecting `Governance` in the left-hand sidebar.
 
 Both of these options will require you to have an ENS address (this is a short name ending with `.eth` that refers to your wallet). If you don't have an ENS, visit [app.ens.domains](https://app.ens.domains).
 

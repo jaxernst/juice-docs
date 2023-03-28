@@ -50,7 +50,7 @@ With the advent of the scanning technology, ComicsDAO also hopes to be able to o
 
 ### And we haven’t even mentioned the partnerships.
 
-Beyond all that, ComicsDAO has also been creating partnerships with other DAOs in unique and fun ways. Two such examples (pictured below) are their cover-series, where they create comic-style covers for noteworthy DAOs. In the case of ComicsDAO, this has led to a partnership with NounsDAO that is poised to culminate in the creation of a paperback comic book to be distributed nationwide. 
+Beyond all that, ComicsDAO has also been creating partnerships with other DAOs in unique and fun ways. Two such examples (pictured below) are their cover-series, where they create comic-style covers for noteworthy DAOs. In the case of ComicsDAO, this has led to a partnership with NounsDAO that is poised to culminate in the creation of a paperback comic book to be distributed nationwide.
 
 ![Studio_Dao_S.jpg](Studio_Dao_S.jpg)
 

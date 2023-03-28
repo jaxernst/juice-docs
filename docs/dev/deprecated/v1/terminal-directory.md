@@ -25,10 +25,10 @@ Projects can deploy contracts that will forward a direct payment to the Terminal
 ### Events
 
 ```
-event DeployAddress( 
-    uint256 indexed projectId, 
-    string memo, 
-    address indexed caller 
+event DeployAddress(
+    uint256 indexed projectId,
+    string memo,
+    address indexed caller
 )
 ```
 
@@ -51,7 +51,7 @@ event SetPayerPreferences(
 ### Constructor
 
 ```javascript
-/** 
+/**
   @param _projects A Projects contract which mints ERC-721's that represent project ownership and transfers.
   @param _operatorStore A contract storing operator assignments.
 */
@@ -84,8 +84,8 @@ function unstakedTicketsPreferenceOf(address _account)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   A list of all direct payment addresses for the specified project ID.
 
   @param _projectId The ID of the project to get direct payment addresses for.
@@ -105,8 +105,8 @@ function addressesOf(uint256 _projectId)
 ## Write
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Allows anyone to deploy a new direct payment address for a project.
 
   @param _projectId The ID of the project to deploy a direct payment address for.
@@ -117,8 +117,8 @@ function deployAddress(uint256 _projectId, string calldata _memo)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Update the juicebox terminal that payments to direct payment addresses will be forwarded for the specified project ID.
 
   @param _projectId The ID of the project to set a new terminal for.
@@ -129,8 +129,8 @@ function setTerminal(uint256 _projectId, ITerminal _terminal)
 ```
 
 ```javascript
-/** 
-  @notice 
+/**
+  @notice
   Allows any address to pre set the beneficiary of their payments to any direct payment address,
   and to pre set whether to prefer to unstake tickets into ERC20's when making a payment.
 

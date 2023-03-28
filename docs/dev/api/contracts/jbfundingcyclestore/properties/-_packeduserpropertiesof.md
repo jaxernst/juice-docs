@@ -7,7 +7,7 @@ Contract: [`JBFundingCycleStore`](/dev/api/contracts/jbfundingcyclestore/README.
 #### Definition
 
 ```
-/** 
+/**
   @notice
   Stores the user defined properties of each funding cycle, packed into one storage slot.
 

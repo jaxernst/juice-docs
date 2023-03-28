@@ -7,7 +7,7 @@ Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-te
 #### Definition
 
 ```
-/** 
+/**
   @notice
   Logic to be triggered before transferring tokens from this terminal.
 

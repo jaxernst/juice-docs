@@ -7,8 +7,8 @@ Contract: [`JBFundingCycleStore`](/dev/deprecated/v2/contracts/jbfundingcyclesto
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The latest funding cycle configuration for each project.
 
   _projectId The ID of the project to get the latest funding cycle configuration of.

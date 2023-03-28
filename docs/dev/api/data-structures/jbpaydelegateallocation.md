@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v3/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/** 
+/**
  @member delegate A delegate contract to use for subsequent calls.
  @member amount The amount to send to the delegate.
 */

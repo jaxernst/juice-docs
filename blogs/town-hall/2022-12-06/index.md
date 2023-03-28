@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## Tending towards zero by Jango
@@ -47,21 +47,21 @@ Also, he made a dashboard to summarize the metrics relevant to Snapshot voting, 
 
 [Chris Blec](https://twitter.com/chrisblec) introduced himself to be a analyst in the DEFI space, and he spent a lot of time on Twitter poking around in DEFI projects and decentralization, trying to strengthen the space through critique by picking out spots that he feels users should. be aware of concerning trust issues and centralization issues, etc.
 
-Recently he has launched a website [blec.report](https://blec.report/) to post his opinions about DEFI and crypto. 
+Recently he has launched a website [blec.report](https://blec.report/) to post his opinions about DEFI and crypto.
 
 ![blec.report website](blec_report_website.webp)
 
 And after figuring out the mechanisms of Juicebox through the help of Jango, he also created a Juicebox project called [Blec Report](https://juicebox.money/@blecreport), in order to get some support to work on it full time.
 
-![blec report Juicebox project](blec_report_project.webp) 
+![blec report Juicebox project](blec_report_project.webp)
 
-And Chris Blec shared his experience and some obstacles in getting to understand Juicebox, which was very helpful in our understanding how we should communicate with potential users. He also expressed his willingness to play a role in clarifying to the community how Juicebox works, and hopefully acquiring more users to Juicebox, because he thinks Juicebox is a very useful tool and will be a great alternative to other sources of crowdfunding. 
+And Chris Blec shared his experience and some obstacles in getting to understand Juicebox, which was very helpful in our understanding how we should communicate with potential users. He also expressed his willingness to play a role in clarifying to the community how Juicebox works, and hopefully acquiring more users to Juicebox, because he thinks Juicebox is a very useful tool and will be a great alternative to other sources of crowdfunding.
 
 ## JokeDAO Rewards Module Demo by Seanmc
 
 Last week Seanmc came to our town hall and gave a preview of their rewards module, which was shipped with the grant from JuiceboxDAO as the Milestone II of it. Now that they had this rewards module in production, they came to the town hall again and tried to do a contest to show the way this product actually works.
 
-Seanmc set up [the contest](https://www.jokedao.io/contest/polygon/0x177D12eFe658CCADAacf4F735aa14F18d4Df3645/rules) with a prompt of "If Juicebox had a conference, where should it take place and why?".  People can submit proposals according to this prompt or vote on the submitted proposals with a dedicated voting toke. And the winners will get paid out proportionately according to the rules set with funds sent in the rewards module. In this case, Rank 1 gets 50%, Rank 2 gets 33% and Rank 3 gets 16% respectively. 
+Seanmc set up [the contest](https://www.jokedao.io/contest/polygon/0x177D12eFe658CCADAacf4F735aa14F18d4Df3645/rules) with a prompt of "If Juicebox had a conference, where should it take place and why?".  People can submit proposals according to this prompt or vote on the submitted proposals with a dedicated voting toke. And the winners will get paid out proportionately according to the rules set with funds sent in the rewards module. In this case, Rank 1 gets 50%, Rank 2 gets 33% and Rank 3 gets 16% respectively.
 
 ![Jokedao rewards module contest](jokedao_contest.webp)
 
@@ -85,7 +85,7 @@ Planet is an open source App, its repo can be found [here]( https://github.com/P
 
 ## TokenURI Resolver Demo by Nichoas
 
-The ownership of Juicebox projects is represented by NFTs, which allows whoever holding those NFTs to change the funding cycle configurations of relevant Juicebox projects. Currently the project NFTs on both V1 and V2 protocol have no metadata, so Nicholas has been working on a tokenURI resolver, which is like an extra contract to deploy, to make some of the project details visible on the NFT. JuiceboxDAO has given the permisson to do so until the end of December in [this proposal](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0x44ca6ed9c0ea0bcaac4a6cc96127de3185e2eac2cf1a8b47c2f026680a6c6c4c). 
+The ownership of Juicebox projects is represented by NFTs, which allows whoever holding those NFTs to change the funding cycle configurations of relevant Juicebox projects. Currently the project NFTs on both V1 and V2 protocol have no metadata, so Nicholas has been working on a tokenURI resolver, which is like an extra contract to deploy, to make some of the project details visible on the NFT. JuiceboxDAO has given the permisson to do so until the end of December in [this proposal](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0x44ca6ed9c0ea0bcaac4a6cc96127de3185e2eac2cf1a8b47c2f026680a6c6c4c).
 
 Nicholas shared some of the images on the town hall, which are generated entirely onchain with orange as the default color.
 ![tokenURI resolver](tokenURI_resolver.webp)

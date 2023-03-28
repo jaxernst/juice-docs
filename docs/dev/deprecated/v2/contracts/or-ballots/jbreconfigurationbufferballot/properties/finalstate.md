@@ -12,7 +12,7 @@ _If `Active`, the ballot for the provided configuration can still be finalized w
 
 ```
 /**
-  @notice 
+  @notice
   The finalized state.
 
   @dev

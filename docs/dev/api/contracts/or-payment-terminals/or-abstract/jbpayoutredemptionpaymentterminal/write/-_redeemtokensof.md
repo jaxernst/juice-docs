@@ -52,14 +52,14 @@ function _redeemTokensOf(
     // Keep a reference to the funding cycle during which the redemption is being made.
     JBFundingCycle memory _fundingCycle;
     ```
-3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error. 
+3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error.
 
     ```
     // Scoped section prevents stack too deep. `_delegateAllocations` only used within scope.
     { ... }
     ```
 
-    1.  Get a reference to the redemption delegate that. 
+    1.  Get a reference to the redemption delegate that.
 
         ```
         JBRedemptionDelegateAllocation[] memory _delegateAllocations;

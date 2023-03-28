@@ -57,13 +57,13 @@ function queuedFundingCycleOf(uint256 _projectId)
 
     * [`JBFundingCycleMetadataResolver`](/dev/api/libraries/jbfundingcyclemetadataresolver.md)<br/>
       * `.expandMetadata(...)`
-      
+
 </TabItem>
 
 <TabItem value="Code" label="Code">
 
 ```
-/** 
+/**
   @notice
   A project's queued funding cycle along with its metadata.
 

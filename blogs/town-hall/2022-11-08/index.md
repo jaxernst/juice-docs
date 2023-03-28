@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](/img/townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
@@ -26,13 +26,13 @@ But so far so good, it has been a good process, we're  excited to see this exper
 
 ## V3 Frontend Update by Aeolian
 
-V3 protocol has been enabled on Juicebox.money right now. 
+V3 protocol has been enabled on Juicebox.money right now.
 
-- For new project creators.   
+- For new project creators.
 
-  If project creators are creating a new project on juicebox.money right now using the new create flow, it will be launched with the Juicebox V3 contracts.    
+  If project creators are creating a new project on juicebox.money right now using the new create flow, it will be launched with the Juicebox V3 contracts.
 
-- For existing project owner.   
+- For existing project owner.
 
   We will be releasing tools and probably some documentation on how to upgrade the existing projects to V3 protocol. That's totally optional. The existing V2 projects will be working as normal, and we're definitely planning on maintaining backwards compatibility.
 
@@ -94,11 +94,11 @@ And periodic active projects on the protocol are on a down trend.
 
 ## Alien to Me Demo by Connor & Kenbot
 
- [Alien to Me](https://twitter.com/Alien_to_Me) is a show that is going to launch on either [StudioDAO](https://www.studiodao.xyz/) and Juicebox. As the creator of this show, Connor came to the town hall and introduced what they've been doing on StudioDAO. He shared his screen to reveal the page they are working on by introducing all the items on that page. He also explained specifically what their super ticket options or NFT Rewards tiers would be. 
+ [Alien to Me](https://twitter.com/Alien_to_Me) is a show that is going to launch on either [StudioDAO](https://www.studiodao.xyz/) and Juicebox. As the creator of this show, Connor came to the town hall and introduced what they've been doing on StudioDAO. He shared his screen to reveal the page they are working on by introducing all the items on that page. He also explained specifically what their super ticket options or NFT Rewards tiers would be.
 
 And [here](https://www.youtube.com/watch?v=SOE7Uw7y8H4) is the trailer video of Alien to Me. Enjoy!
 
-Kenbot praised Connor for his great job pulling this together and they are going to make this show a real project on StudioDAO. And the whole point is to create a context for more creators to launch Juicebox projects that can become a part of the network. As people are looking for ways to incubate and help new artists get started, Kenbot thought they will get the platform operational very soon so that they can open up the funnel to onboard more creators, which is definitely a critical part of building the StudioDAO network. 
+Kenbot praised Connor for his great job pulling this together and they are going to make this show a real project on StudioDAO. And the whole point is to create a context for more creators to launch Juicebox projects that can become a part of the network. As people are looking for ways to incubate and help new artists get started, Kenbot thought they will get the platform operational very soon so that they can open up the funnel to onboard more creators, which is definitely a critical part of building the StudioDAO network.
 
 Kenbot also said that StudioDAO is going to launch their Greenlight Treasury first and open up the DAO for early membership, before going into a phase of establishing the governance, launching the first lot of projects and opening up a way for people to pitch to the StudioDAO for projects to get admitted.
 
@@ -106,7 +106,7 @@ Kenbot also said that StudioDAO is going to launch their Greenlight Treasury fir
 
 ## University Blockchain Club Initiative by 0xSTVG
 
-0xSTVG has recently been working very hard to connect with some university blockchain clubs.  Jango, Nicholas and 0xSTVG presented a technical overview for Stanford blockchain club earlier last month. 
+0xSTVG has recently been working very hard to connect with some university blockchain clubs.  Jango, Nicholas and 0xSTVG presented a technical overview for Stanford blockchain club earlier last month.
 
 Today he was going to meet with cryto club of University of Michigan, which is one of the most crypto friendly universities in the world, together with Nicholas and Filipe, to give a general overview of Juicebox, and then they are going to have a Q&A session with the members of the student body.
 

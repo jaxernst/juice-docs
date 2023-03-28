@@ -70,8 +70,8 @@ function hasPermissions(
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Whether or not an operator has the permission to take certain actions pertaining to the specified domain.
 
   @param _operator The operator to check.

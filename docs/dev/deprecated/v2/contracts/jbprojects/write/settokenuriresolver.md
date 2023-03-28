@@ -52,7 +52,7 @@ function setTokenUriResolver(IJBTokenUriResolver _newResolver) external override
 
 ```
 /**
-  @notice 
+  @notice
   Sets the address of the resolver used to retrieve the tokenURI of projects.
 
   @param _newResolver The address of the new resolver.

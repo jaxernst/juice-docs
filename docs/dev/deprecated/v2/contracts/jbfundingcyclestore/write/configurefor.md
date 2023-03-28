@@ -144,7 +144,7 @@ function configureFor(
 
 ```
 /**
-  @notice 
+  @notice
   Configures the next eligible funding cycle for the specified project.
 
   @dev

@@ -7,7 +7,7 @@ https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/structs/J
 #### Definition
 
 ```
-/** 
+/**
   @member payer The address from which the payment originated.
   @member projectId The ID of the project for which the payment was made.
   @member currentFundingCycleConfiguration The configuration of the funding cycle during which the payment is being made.

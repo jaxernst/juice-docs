@@ -42,7 +42,7 @@ function setEnsNamePartsFor(uint256 _projectId, string[] memory _parts)
     uint256 _partsLength = _parts.length;
     ```
 
-2.  Make sure there are at least some parts that make up the ENS name. 
+2.  Make sure there are at least some parts that make up the ENS name.
 
     ```
     // Make sure there are ens name parts.
@@ -71,7 +71,7 @@ function setEnsNamePartsFor(uint256 _projectId, string[] memory _parts)
     _Internal references:_
 
     * [`_ensNamePartsOf`](/dev/api/contracts/or-utilities/jbprojecthandles/properties/-_ensnamepartsof.md)
-    
+
 3.  Emit a `SetEnsNameParts` event with the relevant parameters.
 
     ```
@@ -88,8 +88,8 @@ function setEnsNamePartsFor(uint256 _projectId, string[] memory _parts)
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   Associate an ENS name with a project.
 
   @dev

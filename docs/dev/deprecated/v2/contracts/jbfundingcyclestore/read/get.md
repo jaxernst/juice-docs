@@ -48,7 +48,7 @@ function get(uint256 _projectId, uint256 _configuration)
 
 ```
 /**
-  @notice 
+  @notice
   Get the funding cycle with the given configuration for the specified project.
 
   @param _projectId The ID of the project to which the funding cycle belongs.

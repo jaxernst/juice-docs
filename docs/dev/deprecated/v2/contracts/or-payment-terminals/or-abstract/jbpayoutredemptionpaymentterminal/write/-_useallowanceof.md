@@ -63,7 +63,7 @@ function _useAllowanceOf(
     if (_distributedAmount < _minReturnedTokens) revert INADEQUATE_DISTRIBUTION_AMOUNT();
     ```
 
-3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error. 
+3.  The following scoped block is a bit of a hack to prevent a "Stack too deep" error.
 
     ```
     // Scoped section prevents stack too deep. `_fee`, `_projectOwner`, `_feeDiscount`, and `_netAmount` only used within scope.
@@ -92,7 +92,7 @@ function _useAllowanceOf(
 
         * [`ownerOf`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#IERC721-ownerOf-uint256-)
 
-    3.  Get a reference to the discount that'll be used when applying the fee. If the fee is 0, set the discount to be 100% to simplify subsequent calculations. No fee is the same as a full discount. 
+    3.  Get a reference to the discount that'll be used when applying the fee. If the fee is 0, set the discount to be 100% to simplify subsequent calculations. No fee is the same as a full discount.
 
         ```
         // Get the amount of discount that should be applied to any fees taken.
@@ -139,7 +139,7 @@ function _useAllowanceOf(
         }
 
         // Transfer any remaining balance to the beneficiary.
-        if (netDistributedAmount > 0) 
+        if (netDistributedAmount > 0)
           _transferFrom(address(this), _beneficiary, _netAmount);
         ```
 
@@ -178,7 +178,7 @@ function _useAllowanceOf(
 
   @dev
   Only a project's owner or a designated operator can use its allowance.
-  
+
   @dev
   Incurs the protocol fee.
 
@@ -235,7 +235,7 @@ function useAllowanceOf(
     }
 
     // Transfer any remaining balance to the beneficiary.
-    if (netDistributedAmount > 0) 
+    if (netDistributedAmount > 0)
       _transferFrom(address(this), _beneficiary, _netAmount);
   }
 

@@ -46,7 +46,7 @@ function _reclaimableOverflowDuring(
     // If the amount being redeemed is the total supply, return the rest of the overflow.
     if (_tokenCount == _totalSupply) return _overflow;
     ```
-3.  Get a reference to the redemption rate that should be used in the redemption bonding curve formula. If the current funding cycle has an active ballot, use its ballot redemption rate, otherwise use the standard redemption rate. This lets projects configure different bonding curves depending on the state of pending reconfigurations. 
+3.  Get a reference to the redemption rate that should be used in the redemption bonding curve formula. If the current funding cycle has an active ballot, use its ballot redemption rate, otherwise use the standard redemption rate. This lets projects configure different bonding curves depending on the state of pending reconfigurations.
 
     ```
     // Use the ballot redemption rate if the queued cycle is pending approval according to the previous funding cycle's ballot.
@@ -96,7 +96,7 @@ function _reclaimableOverflowDuring(
     ```
     // These conditions are all part of the same curve. Edge conditions are separated because fewer operation are necessary.
     if (_redemptionRate == JBConstants.MAX_REDEMPTION_RATE) return _base;
-    
+
     return
       PRBMath.mulDiv(
         _base,
@@ -126,7 +126,7 @@ function _reclaimableOverflowDuring(
   @notice
   The amount of overflowed tokens from a terminal that can be reclaimed by the specified number of tokens when measured from the specified.
 
-  @dev 
+  @dev
   If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.
 
   @param _projectId The ID of the project to get the reclaimable overflow amount for.

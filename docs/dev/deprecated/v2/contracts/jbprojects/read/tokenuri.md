@@ -55,7 +55,7 @@ function tokenURI(uint256 _projectId) public view override returns (string memor
 
 ```
 /**
-  @notice 
+  @notice
   Returns the URI where the ERC-721 standard JSON of a project is hosted.
 
   @param _projectId The ID of the project to get a URI of.

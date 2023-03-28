@@ -8,7 +8,7 @@ tags: [guide]
 
 # How to Create JokeDAO Contests for Juicebox Projects
 
-In this video, I'll show you how to: 
+In this video, I'll show you how to:
 
 - Create a list of addresses that hold your project's tokens using [Juicebox.money](https://juicebox.money)
 - Create a list of addresses that have voted in your project's [Snapshot](https://docs.snapshot.org/graphql-api)

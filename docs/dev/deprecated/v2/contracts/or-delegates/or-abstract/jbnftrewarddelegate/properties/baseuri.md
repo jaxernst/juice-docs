@@ -13,9 +13,9 @@ _The token ID will be concatenated onto the base URI to form the token URI._
 ```
 /**
   @notice
-  The base URI to use for tokens if a URI resolver isn't provided. 
+  The base URI to use for tokens if a URI resolver isn't provided.
 
-  @dev 
+  @dev
   The token ID will be concatenated onto the base URI to form the token URI.
 */
 string public override baseUri;

@@ -2,7 +2,7 @@
 
 Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/deprecated/v2/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md)​‌
 
-**The protocol project ID is 1, as it should be the first project launched during the deployment process.** 
+**The protocol project ID is 1, as it should be the first project launched during the deployment process.**
 
 #### Definition
 

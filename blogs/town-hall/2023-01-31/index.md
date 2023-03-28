@@ -7,19 +7,19 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## V3 JBX Deployment Bug Postmortem by Jango
 
-Recently we have been going through the current strengths and current fragilities of JBX, meanwhile going through the last stretch of the V3 token migration, which we signed off on last Wednesday. 
+Recently we have been going through the current strengths and current fragilities of JBX, meanwhile going through the last stretch of the V3 token migration, which we signed off on last Wednesday.
 
 A few hours later, when Jango was checking the JuiceboxDAO V3 treasury page, he found that the numbers of reserved tokens were unjustifiably big. Jango immediately recognized that it was an inefficiency with how the V3 token was taking into account the balances from V1 and V2 token supplies. This was a design decision meant to make the redemption process smoother on V3, but it ended up exposing an accounting bug.
 
 This issue was sort of delicate, if someone were to have sent the `distribute reserved token` transaction at that time, the big number of reserved tokens would have been distributed to everyone on the reserved rate list and we would have had a different recourse which would have been a little bit more annoying.
 
-The governance cycle right before this happened, we had just approved an [proposal for emergency strategy of JuiceboxDAO](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xa12e8e5c7ae629548ae984b6a0e3e7454125e339079c65ca0f7eefcf20fddff5). Shoutout to Filipv for doing the research and Dr.Gorilla for helping that effort and everybody for approving it. We made use of it right away. 
+The governance cycle right before this happened, we had just approved an [proposal for emergency strategy of JuiceboxDAO](https://juicetool.xyz/snapshot/jbdao.eth/proposal/0xa12e8e5c7ae629548ae984b6a0e3e7454125e339079c65ca0f7eefcf20fddff5). Shoutout to Filipv for doing the research and Dr.Gorilla for helping that effort and everybody for approving it. We made use of it right away.
 
 As the project owners can change where the reserved tokens are routed to during a funding cycle, we had the multisig set the reserved token splits to be the DAO's address, then distribute that big supple and instantly set a transaction to burn that extra supply. Thanks to the quick response of multisig team members, we managed to pull this off very quickly.
 
@@ -47,7 +47,7 @@ And the reason why we choose the option of migrating the JBController to a new v
 
 ### Lesson learned
 
-Once we have removed it problem from any immediate actions needed, we can assess what we have learned along the way, to prevent this from happening in the future or reduce is probability. We will need a stricter checklist to our GitHub repos, because theoretically V3 JBX migration tests should have been more broadly covered. 
+Once we have removed it problem from any immediate actions needed, we can assess what we have learned along the way, to prevent this from happening in the future or reduce is probability. We will need a stricter checklist to our GitHub repos, because theoretically V3 JBX migration tests should have been more broadly covered.
 
 Also we have to do a better job of assessing ownership over different pieces of codes and projects, and keep aware that there are certain pieces of smaller, more passive codes that are greatly important and need focus and space, despite all the other exciting stuff happening in the surface.
 
@@ -63,7 +63,7 @@ If we all commit a week and a half stitching this together and documenting it as
 
 ## Dripbox Update by Mieos
 
-Mieos launched a Dripbox project recently, which will be in conjunction with some arts by Sage Kellyn. 
+Mieos launched a Dripbox project recently, which will be in conjunction with some arts by Sage Kellyn.
 
 Dripbox will offer some NFTs which are mystery boxes. If people buying those NFTs want to find out what is inside that NFT, they can hop over to [another website of dripbox](https://forms.bueno.art/dripbox) and link their wallet to check their holdings of this NFT, and provide an address to have the mystery box sent to them.
 
@@ -89,7 +89,7 @@ Also STVG and Justin Harder are talking about launching a project on Juicebox fo
 
 ![project molarky](project_molarky.webp)
 
-## Updates by Nicholas 
+## Updates by Nicholas
 
 ### Office Hours Promo
 

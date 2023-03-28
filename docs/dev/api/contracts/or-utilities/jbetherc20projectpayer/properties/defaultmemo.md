@@ -9,8 +9,8 @@ Interface: [`IJBProjectPayer`](/dev/api/interfaces/ijbprojectpayer.md)
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The memo that should be used in the payment made when this contract receives payments.
 */
 string public override defaultMemo;

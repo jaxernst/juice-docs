@@ -9,7 +9,7 @@ Interface: [`IJBV1TokenPaymentTerminal`](/dev/deprecated/v2/interfaces/ijbv1toke
 #### Definition
 
 ```
-/** 
+/**
   @notice
   The directory of terminals and controllers for projects.
 */

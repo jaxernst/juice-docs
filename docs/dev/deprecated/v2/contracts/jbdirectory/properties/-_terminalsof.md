@@ -7,8 +7,8 @@ Contract: [`JBDirectory`](/dev/deprecated/v2/contracts/jbdirectory/README.md)‌
 #### Definition
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   For each project ID, the terminals that are currently managing its funds.
 
   _projectId The ID of the project to get terminals of.

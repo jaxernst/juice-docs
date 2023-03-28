@@ -12,13 +12,13 @@ tags: [highlight]
 ConstitutionDAO was a single purpose acquisition DAO that tried to buy a copy of the U.S. constitution at Sotheby’s on November 18th, 2021. To learn more about the ConstitutionDAO campaign and the surreal events surrounding the auction, tune in to The Juicecast ConstitutionDAO Retrospective Part 1 ([Apple Podcasts](https://podcasts.apple.com/us/podcast/ep-15-constitutiondao-retrospective-pt-1/id1623504302?i=1000586607104), [Spotify](https://open.spotify.com/episode/5Egxvl792OvtYLO6Cw3ADG)), Part 2 ([Apple Podcasts](https://podcasts.apple.com/us/podcast/ep-16-constitutiondao-retrospective-pt-2/id1623504302?i=1000588377648), [Spotify](https://open.spotify.com/episode/4CHE52PyXKInL4QvmdcYgh)), and Part 3 ([Apple Podcasts](https://podcasts.apple.com/us/podcast/ep-17-peopledao-and-the-constitutiondao2-campaign-to/id1623504302?i=1000589496263), [Spotify](https://open.spotify.com/episode/5GkAxq5JC3VIbUwfvAoaNf)). You can also read the ConstitutionDAO deep dive article on the [JB blog](https://docs.juicebox.money/blog/2022-12-13-constitutiondao/).
 :::
 
-In this article, we’ll cover how ConstitutionDAO used Juicebox to fundraise ~ $46 million (11,500+ ETH) in less than a week. 
+In this article, we’ll cover how ConstitutionDAO used Juicebox to fundraise ~ $46 million (11,500+ ETH) in less than a week.
 
 ![Nicolas Cage in National Treasure](nicolas-cage.webp)
 
 <p class="subtitle">Nicolas Cage in National Treasure</p>
 
-The estimated value of the U.S. Constitution prior to the auction was $10-15 million dollars. In order to build trust with the crypto community and the wider public, the core team set up a 9/13 multisig with core team members and well-known figures in web3. They also set up a Juicebox project to fundraise transparently and out in the open with the community. And if they lost the bid, project contributors could get a refund using Juicebox’s overflow mechanism. 
+The estimated value of the U.S. Constitution prior to the auction was $10-15 million dollars. In order to build trust with the crypto community and the wider public, the core team set up a 9/13 multisig with core team members and well-known figures in web3. They also set up a Juicebox project to fundraise transparently and out in the open with the community. And if they lost the bid, project contributors could get a refund using Juicebox’s overflow mechanism.
 
 Spoiler alert: ConstitutionDAO did not win the auction. As a result, the core team enabled refunds and burned the keys to the project. In other words, the core team is no longer associated with or in control of the ConstitutionDAO project or the $PEOPLE token. On the `Funding Cycle` panel on the left, we can look in the `History` tab to see past funding cycle configurations. This article will break down the settings from `Funding cycle #1` to see how they **raised funds** and `Funding cycle #3` to see how they **winded down the project**.
 

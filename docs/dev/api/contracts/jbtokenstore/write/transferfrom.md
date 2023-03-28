@@ -30,14 +30,14 @@ function transferFrom(
   * `_projectId` is the ID of the project whose tokens are being transferred.
   * `_recipient` is thhe recipient of the tokens.
   * `_amount` is the amount of tokens to transfer.
-* Through the [`requirePermission`](/dev/api/contracts/or-abstract/jboperatable/modifiers/requirepermission.md) modifier, the function is only accessible by the token holder, or from an operator that has been given the [`JBOperations.TRANSFER`](/dev/api/libraries/jboperations.md) permission by the token holder. 
+* Through the [`requirePermission`](/dev/api/contracts/or-abstract/jboperatable/modifiers/requirepermission.md) modifier, the function is only accessible by the token holder, or from an operator that has been given the [`JBOperations.TRANSFER`](/dev/api/libraries/jboperations.md) permission by the token holder.
 * The function overrides a function definition from the [`IJBTokenStore`](/dev/api/interfaces/ijbtokenstore.md) interface.
 * The function doesn't return anything.
 
 #### Body
 
 1.  Get a reference to the project's current funding cycle.
-    
+
     ```
     // Get a reference to the current funding cycle for the project.
     JBFundingCycle memory _fundingCycle = fundingCycleStore.currentOf(_projectId);
@@ -83,7 +83,7 @@ function transferFrom(
     // The holder must have enough unclaimed tokens to transfer.
     if (_amount > _unclaimedBalance) revert INSUFFICIENT_UNCLAIMED_TOKENS();
     ```
-6.  Subtract the amount from the holder's unclaimed balance of project tokens. 
+6.  Subtract the amount from the holder's unclaimed balance of project tokens.
 
     ```
     // Subtract from the holder's unclaimed token balance.

@@ -34,7 +34,7 @@ function _deriveNumberFrom(JBFundingCycle memory _baseFundingCycle, uint256 _sta
     // A subsequent cycle to one with a duration of 0 should be the next number.
     if (_baseFundingCycle.duration == 0) return _baseFundingCycle.number + 1;
     ```
-2.  Get a reference to how long after the base funding cycle's start the specified start time is. 
+2.  Get a reference to how long after the base funding cycle's start the specified start time is.
 
     ```
     // The difference between the start of the base funding cycle and the proposed start.
@@ -52,8 +52,8 @@ function _deriveNumberFrom(JBFundingCycle memory _baseFundingCycle, uint256 _sta
 <TabItem value="Code" label="Code">
 
 ```
-/** 
-  @notice 
+/**
+  @notice
   The number of the next funding cycle given the specified funding cycle.
 
   @param _baseFundingCycle The funding cycle to make the calculation using.
