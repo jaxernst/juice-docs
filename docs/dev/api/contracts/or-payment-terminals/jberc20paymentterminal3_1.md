@@ -1,40 +1,38 @@
 # JBERC20PaymentTerminal3_1
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBERC20PaymentTerminal3_1.sol)
 
 Mainnet: Not deployed.
 
 Goerli: Not deployed.
 
-**Inherits:**
-[**`JBPayoutRedemptionPaymentTerminal3_1`**](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal3_1/)
+Inherits: [`JBPayoutRedemptionPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal3_1/)
 
+---
 
 Manages the inflows and outflows of an ERC-20 token.
 
-*
-Inherits from -
-JBPayoutRedemptionPaymentTerminal: Includes convenience functionality for checking a message sender's permissions before executing certain transactions.*
+Inherits from:
 
+- [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal3_1/): Includes convenience functionality for checking a message sender's permissions before executing certain transactions.
 
 ## Functions
+
 ### _balance
 
-
 Checks the balance of tokens in this contract.
-
 
 ```solidity
 function _balance() internal view override returns (uint256);
 ```
+
 **Returns**
 
 |Name|Type|Description|
 |----|----|-----------|
 |`<none>`|`uint256`|The contract's balance, as a fixed point number with the same amount of decimals as this terminal.|
 
-
 ### constructor
-
 
 ```solidity
 constructor(
@@ -65,6 +63,7 @@ constructor(
         _owner
     );
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -81,16 +80,14 @@ constructor(
 |`_store`|`IJBSingleTokenPaymentTerminalStore`|A contract that stores the terminal's data.|
 |`_owner`|`address`|The address that will own this contract.|
 
-
 ### _transferFrom
 
-
 Transfers tokens.
-
 
 ```solidity
 function _transferFrom(address _from, address payable _to, uint256 _amount) internal override;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -99,16 +96,14 @@ function _transferFrom(address _from, address payable _to, uint256 _amount) inte
 |`_to`|`address payable`|The address to which the transfer should go.|
 |`_amount`|`uint256`|The amount of the transfer, as a fixed point number with the same number of decimals as this terminal.|
 
-
 ### _beforeTransferTo
 
-
 Logic to be triggered before transferring tokens from this terminal.
-
 
 ```solidity
 function _beforeTransferTo(address _to, uint256 _amount) internal override;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -116,21 +111,17 @@ function _beforeTransferTo(address _to, uint256 _amount) internal override;
 |`_to`|`address`|The address to which the transfer is going.|
 |`_amount`|`uint256`|The amount of the transfer, as a fixed point number with the same number of decimals as this terminal.|
 
-
 ### _cancelTransferTo
 
-
 Logic to be triggered if a transfer should be undone
-
 
 ```solidity
 function _cancelTransferTo(address _to, uint256 _amount) internal override;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
 |----|----|-----------|
 |`_to`|`address`|The address to which the transfer went.|
 |`_amount`|`uint256`|The amount of the transfer, as a fixed point number with the same number of decimals as this terminal.|
-
-

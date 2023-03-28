@@ -4,13 +4,18 @@ sidebar_position: 10
 
 # JBFundAccessConstraintsStore
 
-Information pertaining to how much funds can be accessed by a project from each payment terminal.
-
----
 
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/49815b2e30771277ff493d21f7c8451159bbbe6a/contracts/JBFundAccessConstraintsStore.sol)
 
+Mainnet: [`0xA4425A1E5b7B28Cb689719B1428e3088C1F89E30`](https://etherscan.io/address/0xA4425A1E5b7B28Cb689719B1428e3088C1F89E30)
+
+Goerli: [`0xbF8b5ea02e50073348767fd9418beDEd30C835D4`](https://goerli.etherscan.io/address/0xbF8b5ea02e50073348767fd9418beDEd30C835D4)
+
 Inherits: [`JBControllerUtility`](/contracts/abstract/JBControllerUtility.sol/abstract.JBControllerUtility.md), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBFundAccessConstraintsStore`](/contracts/interfaces/IJBFundAccessConstraintsStore.sol/interface.IJBFundAccessConstraintsStore.md)
+
+---
+
+Information pertaining to how much funds can be accessed by a project from each payment terminal.
 
 Adheres to:
 - `IJBFundAccessConstraintsStore`: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.

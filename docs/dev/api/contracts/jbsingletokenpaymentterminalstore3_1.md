@@ -3,135 +3,115 @@ sidebar_position: 9
 ---
 
 # JBSingleTokenPaymentTerminalStore3_1
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBSingleTokenPaymentTerminalStore3_1.sol)
 
 Mainnet: [`0x77b0A81AeB61d08C0b23c739969d22c5C9950336`](https://etherscan.io/address/0x77b0A81AeB61d08C0b23c739969d22c5C9950336)
 
 Goerli: [`0x101cA528F6c2E35664529eB8aa0419Ae1f724b49`](https://goerli.etherscan.io/address/0x101cA528F6c2E35664529eB8aa0419Ae1f724b49)
 
-**Inherits:**
-[**`ReentrancyGuard`**](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard), [**`IJBSingleTokenPaymentTerminalStore`**](/dev/api/interfaces/ijbsingletokenpaymentterminalstore/)
+Inherits: [`ReentrancyGuard`](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard), [`IJBSingleTokenPaymentTerminalStore`](/dev/api/interfaces/ijbsingletokenpaymentterminalstore/)
 
+---
 
-Manages all bookkeeping for inflows and outflows of funds from any ISingleTokenPaymentTerminal.
+Manages all bookkeeping for inflows and outflows of funds from any [`IJBSingleTokenPaymentTerminal`](/dev/api/interfaces/ijbsingletokenpaymentterminal/).
 
-*
 Adheres to:
-IJBSingleTokenPaymentTerminalStore: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.*
 
-*
-Inherits from -
-ReentrancyGuard: Contract module that helps prevent reentrant calls to a function.*
+- [`IJBSingleTokenPaymentTerminalStore`](/dev/api/interfaces/ijbsingletokenpaymentterminalstore/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
 
-*
-This Store expects a project's controller to be an IJBController3_1. This is the only difference between this version and the original.*
+Inherits from:
+- [`ReentrancyGuard`](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard): Contract module that helps prevent reentrant calls to a function.
 
+This Store expects a project's controller to be an [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/). This is the only difference between this version and [the original](/dev/api/contracts/jbsingletokenpaymentterminalstore/).
 
 ## State Variables
+
 ### _MAX_FIXED_POINT_FIDELITY
 
 Ensures a maximum number of decimal points of persisted fidelity on mulDiv operations of fixed point numbers.
-
 
 ```solidity
 uint256 private constant _MAX_FIXED_POINT_FIDELITY = 18;
 ```
 
-
 ### directory
 
 The directory of terminals and controllers for projects.
-
 
 ```solidity
 IJBDirectory public immutable override directory;
 ```
 
-
 ### fundingCycleStore
 
 The contract storing all funding cycle configurations.
-
 
 ```solidity
 IJBFundingCycleStore public immutable override fundingCycleStore;
 ```
 
-
 ### prices
 
 The contract that exposes price feeds.
-
 
 ```solidity
 IJBPrices public immutable override prices;
 ```
 
-
 ### balanceOf
 
 The amount of tokens that each project has for each terminal, in terms of the terminal's token.
 
-*
 The used distribution limit is represented as a fixed point number with the same amount of decimals as its relative terminal.
-_terminal The terminal to which the balance applies.
-_projectId The ID of the project to get the balance of.*
-
+- _terminal The terminal to which the balance applies.
+- _projectId The ID of the project to get the balance of.
 
 ```solidity
 mapping(IJBSingleTokenPaymentTerminal => mapping(uint256 => uint256)) public override balanceOf;
 ```
 
-
 ### usedDistributionLimitOf
 
 The amount of funds that a project has distributed from its limit during the current funding cycle for each terminal, in terms of the distribution limit's currency.
 
-*
-Increases as projects use their preconfigured distribution limits.*
+Increases as projects use their preconfigured distribution limits.
 
-*
 The used distribution limit is represented as a fixed point number with the same amount of decimals as its relative terminal.
-_terminal The terminal to which the used distribution limit applies.
-_projectId The ID of the project to get the used distribution limit of.
-_fundingCycleNumber The number of the funding cycle during which the distribution limit was used.*
 
+- _terminal The terminal to which the used distribution limit applies.
+- _projectId The ID of the project to get the used distribution limit of.
+- _fundingCycleNumber The number of the funding cycle during which the distribution limit was used.
 
 ```solidity
 mapping(IJBSingleTokenPaymentTerminal => mapping(uint256 => mapping(uint256 => uint256))) public override
     usedDistributionLimitOf;
 ```
 
-
 ### usedOverflowAllowanceOf
 
 The amount of funds that a project has used from its allowance during the current funding cycle configuration for each terminal, in terms of the overflow allowance's currency.
 
-*
-Increases as projects use their allowance.*
+Increases as projects use their allowance.
 
-*
 The used allowance is represented as a fixed point number with the same amount of decimals as its relative terminal.
-_terminal The terminal to which the overflow allowance applies.
-_projectId The ID of the project to get the used overflow allowance of.
-_configuration The configuration of the during which the allowance was used.*
 
+- _terminal The terminal to which the overflow allowance applies.
+- _projectId The ID of the project to get the used overflow allowance of.
+- _configuration The configuration of the during which the allowance was used.
 
 ```solidity
 mapping(IJBSingleTokenPaymentTerminal => mapping(uint256 => mapping(uint256 => uint256))) public override
     usedOverflowAllowanceOf;
 ```
 
-
 ## Functions
-### currentOverflowOf
 
+### currentOverflowOf
 
 Gets the current overflowed amount in a terminal for a specified project.
 
-*
-The current overflow is represented as a fixed point number with the same amount of decimals as the specified terminal.*
-
+The current overflow is represented as a fixed point number with the same amount of decimals as the specified terminal.
 
 ```solidity
 function currentOverflowOf(IJBSingleTokenPaymentTerminal _terminal, uint256 _projectId)
@@ -140,6 +120,7 @@ function currentOverflowOf(IJBSingleTokenPaymentTerminal _terminal, uint256 _pro
     override
     returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -153,12 +134,9 @@ function currentOverflowOf(IJBSingleTokenPaymentTerminal _terminal, uint256 _pro
 |----|----|-----------|
 |`<none>`|`uint256`|The current amount of overflow that project has in the specified terminal.|
 
-
 ### currentTotalOverflowOf
 
-
 Gets the current overflowed amount for a specified project across all terminals.
-
 
 ```solidity
 function currentTotalOverflowOf(uint256 _projectId, uint256 _decimals, uint256 _currency)
@@ -167,6 +145,7 @@ function currentTotalOverflowOf(uint256 _projectId, uint256 _decimals, uint256 _
     override
     returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -181,21 +160,15 @@ function currentTotalOverflowOf(uint256 _projectId, uint256 _decimals, uint256 _
 |----|----|-----------|
 |`<none>`|`uint256`|The current total amount of overflow that project has across all terminals.|
 
-
 ### currentReclaimableOverflowOf
-
 
 The current amount of overflowed tokens from a terminal that can be reclaimed by the specified number of tokens, using the total token supply and overflow in the ecosystem.
 
-*
-If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.*
+If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.
 
-*
-The current reclaimable overflow is returned in terms of the specified terminal's currency.*
+The current reclaimable overflow is returned in terms of the specified terminal's currency.
 
-*
-The reclaimable overflow is represented as a fixed point number with the same amount of decimals as the specified terminal.*
-
+The reclaimable overflow is represented as a fixed point number with the same amount of decimals as the specified terminal.
 
 ```solidity
 function currentReclaimableOverflowOf(
@@ -205,6 +178,7 @@ function currentReclaimableOverflowOf(
     bool _useTotalOverflow
 ) external view override returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -223,12 +197,9 @@ function currentReclaimableOverflowOf(
 
 ### currentReclaimableOverflowOf
 
-
 The current amount of overflowed tokens from a terminal that can be reclaimed by the specified number of tokens, using the specified total token supply and overflow amounts.
 
-*
-If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.*
-
+If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.
 
 ```solidity
 function currentReclaimableOverflowOf(uint256 _projectId, uint256 _tokenCount, uint256 _totalSupply, uint256 _overflow)
@@ -237,6 +208,7 @@ function currentReclaimableOverflowOf(uint256 _projectId, uint256 _tokenCount, u
     override
     returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -252,13 +224,12 @@ function currentReclaimableOverflowOf(uint256 _projectId, uint256 _tokenCount, u
 |----|----|-----------|
 |`<none>`|`uint256`|The amount of overflowed tokens that can be reclaimed, as a fixed point number with the same number of decimals as the provided `_overflow`.|
 
-
 ### constructor
-
 
 ```solidity
 constructor(IJBDirectory _directory, IJBFundingCycleStore _fundingCycleStore, IJBPrices _prices);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -267,18 +238,13 @@ constructor(IJBDirectory _directory, IJBFundingCycleStore _fundingCycleStore, IJ
 |`_fundingCycleStore`|`IJBFundingCycleStore`|A contract storing all funding cycle configurations.|
 |`_prices`|`IJBPrices`|A contract that exposes price feeds.|
 
-
 ### recordPaymentFrom
-
 
 Records newly contributed tokens to a project.
 
-*
-Mints the project's tokens according to values provided by a configured data source. If no data source is configured, mints tokens proportional to the amount of the contribution.*
+Mints the project's tokens according to values provided by a configured data source. If no data source is configured, mints tokens proportional to the amount of the contribution.
 
-*
-The msg.sender must be an IJBSingleTokenPaymentTerminal. The amount specified in the params is in terms of the msg.sender's tokens.*
-
+The msg.sender must be an IJBSingleTokenPaymentTerminal. The amount specified in the params is in terms of the msg.sender's tokens.
 
 ```solidity
 function recordPaymentFrom(
@@ -300,6 +266,7 @@ function recordPaymentFrom(
         string memory memo
     );
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -321,18 +288,13 @@ function recordPaymentFrom(
 |`delegateAllocations`|`JBPayDelegateAllocation[]`|The amount to send to delegates instead of adding to the local balance.|
 |`memo`|`string`|A memo that should be passed along to the emitted event.|
 
-
 ### recordRedemptionFor
-
 
 Records newly redeemed tokens of a project.
 
-*
-Redeems the project's tokens according to values provided by a configured data source. If no data source is configured, redeems tokens along a redemption bonding curve that is a function of the number of tokens being burned.*
+Redeems the project's tokens according to values provided by a configured data source. If no data source is configured, redeems tokens along a redemption bonding curve that is a function of the number of tokens being burned.
 
-*
-The msg.sender must be an IJBSingleTokenPaymentTerminal. The amount specified in the params is in terms of the msg.senders tokens.*
-
+The msg.sender must be an IJBSingleTokenPaymentTerminal. The amount specified in the params is in terms of the msg.senders tokens.
 
 ```solidity
 function recordRedemptionFor(
@@ -352,6 +314,7 @@ function recordRedemptionFor(
         string memory memo
     );
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -371,15 +334,11 @@ function recordRedemptionFor(
 |`delegateAllocations`|`JBRedemptionDelegateAllocation[]`|The amount to send to delegates instead of sending to the beneficiary.|
 |`memo`|`string`|A memo that should be passed along to the emitted event.|
 
-
 ### recordDistributionFor
-
 
 Records newly distributed funds for a project.
 
-*
-The msg.sender must be an IJBSingleTokenPaymentTerminal.*
-
+The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
 ```solidity
 function recordDistributionFor(uint256 _projectId, uint256 _amount, uint256 _currency)
@@ -388,6 +347,7 @@ function recordDistributionFor(uint256 _projectId, uint256 _amount, uint256 _cur
     nonReentrant
     returns (JBFundingCycle memory fundingCycle, uint256 distributedAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -403,15 +363,11 @@ function recordDistributionFor(uint256 _projectId, uint256 _amount, uint256 _cur
 |`fundingCycle`|`JBFundingCycle`|The funding cycle during which the distribution was made.|
 |`distributedAmount`|`uint256`|The amount of terminal tokens distributed, as a fixed point number with the same amount of decimals as its relative terminal.|
 
-
 ### recordUsedAllowanceOf
-
 
 Records newly used allowance funds of a project.
 
-*
-The msg.sender must be an IJBSingleTokenPaymentTerminal.*
-
+The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
 ```solidity
 function recordUsedAllowanceOf(uint256 _projectId, uint256 _amount, uint256 _currency)
@@ -420,6 +376,7 @@ function recordUsedAllowanceOf(uint256 _projectId, uint256 _amount, uint256 _cur
     nonReentrant
     returns (JBFundingCycle memory fundingCycle, uint256 usedAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -435,19 +392,16 @@ function recordUsedAllowanceOf(uint256 _projectId, uint256 _amount, uint256 _cur
 |`fundingCycle`|`JBFundingCycle`|The funding cycle during which the overflow allowance is being used.|
 |`usedAmount`|`uint256`|The amount of terminal tokens used, as a fixed point number with the same amount of decimals as its relative terminal.|
 
-
 ### recordAddedBalanceFor
-
 
 Records newly added funds for the project.
 
-*
-The msg.sender must be an IJBSingleTokenPaymentTerminal.*
-
+The msg.sender must be an IJBSingleTokenPaymentTerminal.
 
 ```solidity
 function recordAddedBalanceFor(uint256 _projectId, uint256 _amount) external override;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -455,19 +409,16 @@ function recordAddedBalanceFor(uint256 _projectId, uint256 _amount) external ove
 |`_projectId`|`uint256`|The ID of the project to which the funds being added belong.|
 |`_amount`|`uint256`|The amount of terminal tokens added, as a fixed point number with the same amount of decimals as its relative terminal.|
 
-
 ### recordMigration
-
 
 Records the migration of funds from this store.
 
-*
-The msg.sender must be an IJBSingleTokenPaymentTerminal. The amount returned is in terms of the msg.senders tokens.*
-
+The msg.sender must be an IJBSingleTokenPaymentTerminal. The amount returned is in terms of the msg.senders tokens.
 
 ```solidity
 function recordMigration(uint256 _projectId) external override nonReentrant returns (uint256 balance);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -480,15 +431,11 @@ function recordMigration(uint256 _projectId) external override nonReentrant retu
 |----|----|-----------|
 |`balance`|`uint256`|The project's migrated balance, as a fixed point number with the same amount of decimals as its relative terminal.|
 
-
 ### _reclaimableOverflowDuring
-
 
 The amount of overflowed tokens from a terminal that can be reclaimed by the specified number of tokens when measured from the specified.
 
-*
-If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.*
-
+If the project has an active funding cycle reconfiguration ballot, the project's ballot redemption rate is used.
 
 ```solidity
 function _reclaimableOverflowDuring(
@@ -499,6 +446,7 @@ function _reclaimableOverflowDuring(
     uint256 _overflow
 ) private view returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -515,15 +463,11 @@ function _reclaimableOverflowDuring(
 |----|----|-----------|
 |`<none>`|`uint256`|The amount of overflowed tokens that can be reclaimed.|
 
-
 ### _overflowDuring
-
 
 Gets the amount that is overflowing when measured from the specified funding cycle.
 
-*
-This amount changes as the value of the balance changes in relation to the currency being used to measure the distribution limit.*
-
+This amount changes as the value of the balance changes in relation to the currency being used to measure the distribution limit.
 
 ```solidity
 function _overflowDuring(
@@ -533,6 +477,7 @@ function _overflowDuring(
     uint256 _balanceCurrency
 ) private view returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -548,15 +493,11 @@ function _overflowDuring(
 |----|----|-----------|
 |`<none>`|`uint256`|overflow The overflow of funds, as a fixed point number with 18 decimals.|
 
-
 ### _currentTotalOverflowOf
-
 
 Gets the amount that is currently overflowing across all of a project's terminals.
 
-*
-This amount changes as the value of the balances changes in relation to the currency being used to measure the project's distribution limits.*
-
+This amount changes as the value of the balances changes in relation to the currency being used to measure the project's distribution limits.
 
 ```solidity
 function _currentTotalOverflowOf(uint256 _projectId, uint256 _decimals, uint256 _currency)
@@ -564,6 +505,7 @@ function _currentTotalOverflowOf(uint256 _projectId, uint256 _decimals, uint256 
     view
     returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -578,8 +520,8 @@ function _currentTotalOverflowOf(uint256 _projectId, uint256 _decimals, uint256 
 |----|----|-----------|
 |`<none>`|`uint256`|overflow The total overflow of a project's funds.|
 
-
 ## Errors
+
 ### INVALID_AMOUNT_TO_SEND_DELEGATE
 
 ```solidity
@@ -645,4 +587,3 @@ error INVALID_FUNDING_CYCLE();
 ```solidity
 error PAYMENT_TERMINAL_MIGRATION_NOT_ALLOWED();
 ```
-

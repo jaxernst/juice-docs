@@ -1,177 +1,148 @@
 # JBPayoutRedemptionPaymentTerminal3_1
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/abstract/JBPayoutRedemptionPaymentTerminal3_1.sol)
 
-**Inherits:**
-[**`JBSingleTokenPaymentTerminal`**](/dev/api/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/), [**`JBOperatable`**](/dev/api/contracts/or-abstract/jboperatable/), [**`Ownable`**](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable), [**`IJBPayoutRedemptionPaymentTerminal3_1`**](/dev/api/interfaces/ijbpayoutredemptionpaymentterminal3_1/)
+Inherits: [`JBSingleTokenPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/), [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`Ownable`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable), [`IJBPayoutRedemptionPaymentTerminal3_1`](/dev/api/interfaces/ijbpayoutredemptionpaymentterminal3_1/)
 
+---
 
 Generic terminal managing all inflows and outflows of funds into the protocol ecosystem.
 
-*
-A project can transfer its funds, along with the power to reconfigure and mint/burn their tokens, from this contract to another allowed terminal of the same token type contract at any time.*
+A project can transfer its funds, along with the power to reconfigure and mint/burn their tokens, from this contract to another allowed terminal of the same token type contract at any time.
 
-*
-Adheres to -
-IJBPayoutRedemptionPaymentTerminal3_1: General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.*
+Adheres to:
 
-*
-Inherits from -
-JBSingleTokenPaymentTerminal: Generic terminal managing all inflows of funds into the protocol ecosystem for one token.
-JBOperatable: Includes convenience functionality for checking a message sender's permissions before executing certain transactions.
-Ownable: Includes convenience functionality for checking a message sender's permissions before executing certain transactions.*
+- [`IJBPayoutRedemptionPaymentTerminal3_1`](/dev/api/interfaces/ijbpayoutredemptionpaymentterminal3_1/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
 
+Inherits from:
+
+- [`JBSingleTokenPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/): Generic terminal managing all inflows of funds into the protocol ecosystem for one token.
+- [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/): Includes convenience functionality for checking a message sender's permissions before executing certain transactions.
+- [`Ownable`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable): Includes convenience functionality for checking a message sender's permissions before executing certain transactions.*
 
 ## State Variables
+
 ### _FEE_CAP
 
 Maximum fee that can be set for a funding cycle configuration.
 
-*
-Out of MAX_FEE (50_000_000 / 1_000_000_000).*
-
+Out of MAX_FEE (50_000_000 / 1_000_000_000).
 
 ```solidity
 uint256 internal constant _FEE_CAP = 50_000_000;
 ```
 
-
 ### _FEE_BENEFICIARY_PROJECT_ID
 
 The fee beneficiary project ID is 1, as it should be the first project launched during the deployment process.
-
 
 ```solidity
 uint256 internal constant _FEE_BENEFICIARY_PROJECT_ID = 1;
 ```
 
-
 ### _heldFeesOf
 
 Fees that are being held to be processed later.
-_projectId The ID of the project for which fees are being held.
 
+- _projectId The ID of the project for which fees are being held.
 
 ```solidity
 mapping(uint256 => JBFee[]) internal _heldFeesOf;
 ```
 
-
 ### projects
 
 Mints ERC-721's that represent project ownership and transfers.
-
 
 ```solidity
 IJBProjects public immutable override projects;
 ```
 
-
 ### directory
 
 The directory of terminals and controllers for projects.
-
 
 ```solidity
 IJBDirectory public immutable override directory;
 ```
 
-
 ### splitsStore
 
 The contract that stores splits for each project.
-
 
 ```solidity
 IJBSplitsStore public immutable override splitsStore;
 ```
 
-
 ### prices
 
 The contract that exposes price feeds.
-
 
 ```solidity
 IJBPrices public immutable override prices;
 ```
 
-
 ### store
 
 The contract that stores and manages the terminal's data.
-
 
 ```solidity
 IJBSingleTokenPaymentTerminalStore public immutable override store;
 ```
 
-
 ### baseWeightCurrency
 
 The currency to base token issuance on.
 
-*
-If this differs from `currency`, there must be a price feed available to convert `currency` to `baseWeightCurrency`.*
-
+If this differs from `currency`, there must be a price feed available to convert `currency` to `baseWeightCurrency`.
 
 ```solidity
 uint256 public immutable override baseWeightCurrency;
 ```
 
-
 ### payoutSplitsGroup
 
 The group that payout splits coming from this terminal are identified by.
-
 
 ```solidity
 uint256 public immutable override payoutSplitsGroup;
 ```
 
-
 ### fee
 
 The platform fee percent.
 
-*
-Out of MAX_FEE (25_000_000 / 1_000_000_000)*
-
+Out of MAX_FEE (25_000_000 / 1_000_000_000)
 
 ```solidity
 uint256 public override fee = 25_000_000;
 ```
 
-
 ### feeGauge
 
 The data source that returns a discount to apply to a project's fee.
-
 
 ```solidity
 IJBFeeGauge public override feeGauge;
 ```
 
-
 ### isFeelessAddress
 
 Addresses that can be paid towards from this terminal without incurring a fee.
 
-*
 Only addresses that are considered to be contained within the ecosystem can be feeless. Funds sent outside the ecosystem may incur fees despite being stored as feeless.
-_address The address that can be paid toward.*
 
+- _address The address that can be paid toward.
 
 ```solidity
 mapping(address => bool) public override isFeelessAddress;
 ```
 
-
 ## Functions
+
 ### isTerminalOf
 
-
 A modifier that verifies this terminal is a terminal of provided project ID.
-
 
 ```solidity
 modifier isTerminalOf(uint256 _projectId);
@@ -179,16 +150,14 @@ modifier isTerminalOf(uint256 _projectId);
 
 ### currentEthOverflowOf
 
-
 Gets the current overflowed amount in this terminal for a specified project, in terms of ETH.
 
-*
-The current overflow is represented as a fixed point number with 18 decimals.*
-
+The current overflow is represented as a fixed point number with 18 decimals.
 
 ```solidity
 function currentEthOverflowOf(uint256 _projectId) external view virtual override returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -201,16 +170,14 @@ function currentEthOverflowOf(uint256 _projectId) external view virtual override
 |----|----|-----------|
 |`<none>`|`uint256`|The current amount of ETH overflow that project has in this terminal, as a fixed point number with 18 decimals.|
 
-
 ### heldFeesOf
 
-
 The fees that are currently being held to be processed later for each project.
-
 
 ```solidity
 function heldFeesOf(uint256 _projectId) external view override returns (JBFee[] memory);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -223,15 +190,11 @@ function heldFeesOf(uint256 _projectId) external view override returns (JBFee[] 
 |----|----|-----------|
 |`<none>`|`JBFee[]`|An array of fees that are being held.|
 
-
 ### supportsInterface
-
 
 Indicates if this contract adheres to the specified interface.
 
-*
-See {IERC165-supportsInterface}.*
-
+See [`IERC165-supportsInterface`](https://docs.openzeppelin.com/contracts/2.x/api/introspection#IERC165-supportsInterface-bytes4-).
 
 ```solidity
 function supportsInterface(bytes4 _interfaceId)
@@ -241,18 +204,16 @@ function supportsInterface(bytes4 _interfaceId)
     override(JBSingleTokenPaymentTerminal, IERC165)
     returns (bool);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
 |----|----|-----------|
 |`_interfaceId`|`bytes4`|The ID of the interface to check for adherance to.|
 
-
 ### _balance
 
-
 Checks the balance of tokens in this contract.
-
 
 ```solidity
 function _balance() internal view virtual returns (uint256);
@@ -263,9 +224,7 @@ function _balance() internal view virtual returns (uint256);
 |----|----|-----------|
 |`<none>`|`uint256`|The contract's balance.|
 
-
 ### constructor
-
 
 ```solidity
 constructor(
@@ -283,6 +242,7 @@ constructor(
     address _owner
 ) payable JBSingleTokenPaymentTerminal(_token, _decimals, _currency) JBOperatable(_operatorStore);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -300,12 +260,9 @@ constructor(
 |`_store`|`IJBSingleTokenPaymentTerminalStore`|A contract that stores the terminal's data.|
 |`_owner`|`address`|The address that will own this contract.|
 
-
 ### pay
 
-
 Contribute tokens to a project.
-
 
 ```solidity
 function pay(
@@ -319,6 +276,7 @@ function pay(
     bytes calldata _metadata
 ) external payable virtual override isTerminalOf(_projectId) returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -338,15 +296,11 @@ function pay(
 |----|----|-----------|
 |`<none>`|`uint256`|The number of tokens minted for the beneficiary, as a fixed point number with 18 decimals.|
 
-
 ### redeemTokensOf
-
 
 Holders can redeem their tokens to claim the project's overflowed tokens, or to trigger rules determined by the project's current funding cycle's data source.
 
-*
-Only a token holder or a designated operator can redeem its tokens.*
-
+Only a token holder or a designated operator can redeem its tokens.
 
 ```solidity
 function redeemTokensOf(
@@ -365,6 +319,7 @@ function redeemTokensOf(
     requirePermission(_holder, _projectId, JBOperations.REDEEM)
     returns (uint256 reclaimAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -384,21 +339,15 @@ function redeemTokensOf(
 |----|----|-----------|
 |`reclaimAmount`|`uint256`|The amount of terminal tokens that the project tokens were redeemed for, as a fixed point number with 18 decimals.|
 
-
 ### distributePayoutsOf
-
 
 Distributes payouts for a project with the distribution limit of its current funding cycle.
 
-*
-Payouts are sent to the preprogrammed splits. Any leftover is sent to the project's owner.*
+Payouts are sent to the preprogrammed splits. Any leftover is sent to the project's owner.
 
-*
-Anyone can distribute payouts on a project's behalf. The project can preconfigure a wildcard split that is used to send funds to msg.sender. This can be used to incentivize calling this function.*
+Anyone can distribute payouts on a project's behalf. The project can preconfigure a wildcard split that is used to send funds to msg.sender. This can be used to incentivize calling this function.
 
-*
-All funds distributed outside of this contract or any feeless terminals incure the protocol fee.*
-
+All funds distributed outside of this contract or any feeless terminals incure the protocol fee.
 
 ```solidity
 function distributePayoutsOf(
@@ -410,6 +359,7 @@ function distributePayoutsOf(
     bytes calldata _metadata
 ) external virtual override returns (uint256 netLeftoverDistributionAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -427,18 +377,13 @@ function distributePayoutsOf(
 |----|----|-----------|
 |`netLeftoverDistributionAmount`|`uint256`|The amount that was sent to the project owner, as a fixed point number with the same amount of decimals as this terminal.|
 
-
 ### useAllowanceOf
-
 
 Allows a project to send funds from its overflow up to the preconfigured allowance.
 
-*
 Only a project's owner or a designated operator can use its allowance.*
 
-*
-Incurs the protocol fee.*
-
+Incurs the protocol fee.
 
 ```solidity
 function useAllowanceOf(
@@ -457,6 +402,7 @@ function useAllowanceOf(
     requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.USE_ALLOWANCE)
     returns (uint256 netDistributedAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -476,15 +422,11 @@ function useAllowanceOf(
 |----|----|-----------|
 |`netDistributedAmount`|`uint256`|The amount of tokens that was distributed to the beneficiary, as a fixed point number with the same amount of decimals as the terminal.|
 
-
 ### migrate
-
 
 Allows a project owner to migrate its funds and operations to a new terminal that accepts the same token type.
 
-*
-Only a project's owner or a designated operator can migrate it.*
-
+Only a project's owner or a designated operator can migrate it.
 
 ```solidity
 function migrate(uint256 _projectId, IJBPaymentTerminal _to)
@@ -494,6 +436,7 @@ function migrate(uint256 _projectId, IJBPaymentTerminal _to)
     requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.MIGRATE_TERMINAL)
     returns (uint256 balance);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -507,12 +450,9 @@ function migrate(uint256 _projectId, IJBPaymentTerminal _to)
 |----|----|-----------|
 |`balance`|`uint256`|The amount of funds that were migrated, as a fixed point number with the same amount of decimals as this terminal.|
 
-
 ### addToBalanceOf
 
-
 Receives funds belonging to the specified project.
-
 
 ```solidity
 function addToBalanceOf(
@@ -523,6 +463,7 @@ function addToBalanceOf(
     bytes calldata _metadata
 ) external payable virtual override isTerminalOf(_projectId);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -533,15 +474,11 @@ function addToBalanceOf(
 |`_memo`|`string`|A memo to pass along to the emitted event.|
 |`_metadata`|`bytes`|Extra data to pass along to the emitted event.|
 
-
 ### processFees
-
 
 Process any fees that are being held for the project.
 
-*
-Only a project owner, an operator, or the contract's owner can process held fees.*
-
+Only a project owner, an operator, or the contract's owner can process held fees.
 
 ```solidity
 function processFees(uint256 _projectId)
@@ -555,63 +492,55 @@ function processFees(uint256 _projectId)
         msg.sender == owner()
     );
 ```
+
 **Parameters**
 
 |Name|Type|Description|
 |----|----|-----------|
 |`_projectId`|`uint256`|The ID of the project whos held fees should be processed.|
 
-
 ### setFee
-
 
 Allows the fee to be updated.
 
-*
-Only the owner of this contract can change the fee.*
-
+Only the owner of this contract can change the fee.
 
 ```solidity
 function setFee(uint256 _fee) external virtual override onlyOwner;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
 |----|----|-----------|
 |`_fee`|`uint256`|The new fee, out of MAX_FEE.|
 
-
 ### setFeeGauge
-
 
 Allows the fee gauge to be updated.
 
-*
-Only the owner of this contract can change the fee gauge.*
-
+Only the owner of this contract can change the fee gauge.
 
 ```solidity
 function setFeeGauge(IJBFeeGauge _feeGauge) external virtual override onlyOwner;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
 |----|----|-----------|
 |`_feeGauge`|`IJBFeeGauge`|The new fee gauge.|
 
-
 ### setFeelessAddress
-
 
 Sets whether projects operating on this terminal can pay towards the specified address without incurring a fee.
 
-*
-Only the owner of this contract can set addresses as feeless.*
-
+Only the owner of this contract can set addresses as feeless.
 
 ```solidity
 function setFeelessAddress(address _address, bool _flag) external virtual override onlyOwner;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -619,12 +548,9 @@ function setFeelessAddress(address _address, bool _flag) external virtual overri
 |`_address`|`address`|The address that can be paid towards while still bypassing fees.|
 |`_flag`|`bool`|A flag indicating whether the terminal should be feeless or not.|
 
-
 ### addToBalanceOf
 
-
 Receives funds belonging to the specified project.
-
 
 ```solidity
 function addToBalanceOf(
@@ -636,6 +562,7 @@ function addToBalanceOf(
     bytes calldata _metadata
 ) public payable virtual override isTerminalOf(_projectId);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -647,12 +574,9 @@ function addToBalanceOf(
 |`_memo`|`string`|A memo to pass along to the emitted event.|
 |`_metadata`|`bytes`|Extra data to pass along to the emitted event.|
 
-
 ### _transferFrom
 
-
 Transfers tokens.
-
 
 ```solidity
 function _transferFrom(address _from, address payable _to, uint256 _amount) internal virtual;
@@ -665,16 +589,14 @@ function _transferFrom(address _from, address payable _to, uint256 _amount) inte
 |`_to`|`address payable`|The address to which the transfer should go.|
 |`_amount`|`uint256`|The amount of the transfer, as a fixed point number with the same number of decimals as this terminal.|
 
-
 ### _beforeTransferTo
 
-
 Logic to be triggered before transferring tokens from this terminal.
-
 
 ```solidity
 function _beforeTransferTo(address _to, uint256 _amount) internal virtual;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -682,16 +604,14 @@ function _beforeTransferTo(address _to, uint256 _amount) internal virtual;
 |`_to`|`address`|The address to which the transfer is going.|
 |`_amount`|`uint256`|The amount of the transfer, as a fixed point number with the same number of decimals as this terminal.|
 
-
 ### _cancelTransferTo
 
-
 Logic to be triggered if a transfer should be undone
-
 
 ```solidity
 function _cancelTransferTo(address _to, uint256 _amount) internal virtual;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -699,15 +619,11 @@ function _cancelTransferTo(address _to, uint256 _amount) internal virtual;
 |`_to`|`address`|The address to which the transfer went.|
 |`_amount`|`uint256`|The amount of the transfer, as a fixed point number with the same number of decimals as this terminal.|
 
-
 ### _redeemTokensOf
-
 
 Holders can redeem their tokens to claim the project's overflowed tokens, or to trigger rules determined by the project's current funding cycle's data source.
 
-*
-Only a token holder or a designated operator can redeem its tokens.*
-
+Only a token holder or a designated operator can redeem its tokens.
 
 ```solidity
 function _redeemTokensOf(
@@ -720,6 +636,7 @@ function _redeemTokensOf(
     bytes memory _metadata
 ) internal returns (uint256 reclaimAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -738,21 +655,15 @@ function _redeemTokensOf(
 |----|----|-----------|
 |`reclaimAmount`|`uint256`|The amount of terminal tokens that the project tokens were redeemed for, as a fixed point number with 18 decimals.|
 
-
 ### _distributePayoutsOf
-
 
 Distributes payouts for a project with the distribution limit of its current funding cycle.
 
-*
-Payouts are sent to the preprogrammed splits. Any leftover is sent to the project's owner.*
+Payouts are sent to the preprogrammed splits. Any leftover is sent to the project's owner.
 
-*
-Anyone can distribute payouts on a project's behalf. The project can preconfigure a wildcard split that is used to send funds to msg.sender. This can be used to incentivize calling this function.*
+Anyone can distribute payouts on a project's behalf. The project can preconfigure a wildcard split that is used to send funds to msg.sender. This can be used to incentivize calling this function.
 
-*
-All funds distributed outside of this contract or any feeless terminals incure the protocol fee.*
-
+All funds distributed outside of this contract or any feeless terminals incure the protocol fee.
 
 ```solidity
 function _distributePayoutsOf(
@@ -763,6 +674,7 @@ function _distributePayoutsOf(
     bytes calldata _metadata
 ) internal returns (uint256 netLeftoverDistributionAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -779,18 +691,13 @@ function _distributePayoutsOf(
 |----|----|-----------|
 |`netLeftoverDistributionAmount`|`uint256`|The amount that was sent to the project owner, as a fixed point number with the same amount of decimals as this terminal.|
 
-
 ### _useAllowanceOf
-
 
 Allows a project to send funds from its overflow up to the preconfigured allowance.
 
-*
-Only a project's owner or a designated operator can use its allowance.*
+Only a project's owner or a designated operator can use its allowance.
 
-*
-Incurs the protocol fee.*
-
+Incurs the protocol fee.
 
 ```solidity
 function _useAllowanceOf(
@@ -803,6 +710,7 @@ function _useAllowanceOf(
     bytes calldata _metadata
 ) internal returns (uint256 netDistributedAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -821,12 +729,9 @@ function _useAllowanceOf(
 |----|----|-----------|
 |`netDistributedAmount`|`uint256`|The amount of tokens that was distributed to the beneficiary, as a fixed point number with the same amount of decimals as the terminal.|
 
-
 ### _distributeToPayoutSplitsOf
 
-
 Pays out splits for a project's funding cycle configuration.
-
 
 ```solidity
 function _distributeToPayoutSplitsOf(
@@ -837,6 +742,7 @@ function _distributeToPayoutSplitsOf(
     uint256 _feeDiscount
 ) internal returns (uint256 leftoverAmount, uint256 feeEligibleDistributionAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -854,12 +760,9 @@ function _distributeToPayoutSplitsOf(
 |`leftoverAmount`|`uint256`|If the leftover amount if the splits don't add up to 100%.|
 |`feeEligibleDistributionAmount`|`uint256`|The total amount of distributions that are eligible to have fees taken from.|
 
-
 ### _distributeToPayoutSplit
 
-
 Pays out a split for a project's funding cycle configuration.
-
 
 ```solidity
 function _distributeToPayoutSplit(
@@ -870,6 +773,7 @@ function _distributeToPayoutSplit(
     uint256 _feeDiscount
 ) internal returns (uint256 netPayoutAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -886,12 +790,9 @@ function _distributeToPayoutSplit(
 |----|----|-----------|
 |`netPayoutAmount`|`uint256`|The amount sent to the split after subtracting fees.|
 
-
 ### _takeFeeFrom
 
-
-Takes a fee into the platform's project, which has an id of _FEE_BENEFICIARY_PROJECT_ID.
-
+Takes a fee into the platform's project, which has an id of `_FEE_BENEFICIARY_PROJECT_ID`.
 
 ```solidity
 function _takeFeeFrom(
@@ -902,6 +803,7 @@ function _takeFeeFrom(
     uint256 _feeDiscount
 ) internal returns (uint256 feeAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -918,16 +820,14 @@ function _takeFeeFrom(
 |----|----|-----------|
 |`feeAmount`|`uint256`|The amount of the fee taken.|
 
-
 ### _processFee
 
-
 Process a fee of the specified amount.
-
 
 ```solidity
 function _processFee(uint256 _amount, address _beneficiary, uint256 _from) internal;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -936,12 +836,9 @@ function _processFee(uint256 _amount, address _beneficiary, uint256 _from) inter
 |`_beneficiary`|`address`|The address to mint the platform's tokens for.|
 |`_from`|`uint256`|The project ID the fee is being paid from.|
 
-
 ### _pay
 
-
 Contribute tokens to a project.
-
 
 ```solidity
 function _pay(
@@ -955,6 +852,7 @@ function _pay(
     bytes memory _metadata
 ) internal returns (uint256 beneficiaryTokenCount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -974,12 +872,9 @@ function _pay(
 |----|----|-----------|
 |`beneficiaryTokenCount`|`uint256`|The number of tokens minted for the beneficiary, as a fixed point number with 18 decimals.|
 
-
 ### _addToBalanceOf
 
-
 Receives funds belonging to the specified project.
-
 
 ```solidity
 function _addToBalanceOf(
@@ -990,6 +885,7 @@ function _addToBalanceOf(
     bytes memory _metadata
 ) internal;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -1000,16 +896,14 @@ function _addToBalanceOf(
 |`_memo`|`string`|A memo to pass along to the emitted event.|
 |`_metadata`|`bytes`|Extra data to pass along to the emitted event.|
 
-
 ### _refundHeldFees
 
-
 Refund fees based on the specified amount.
-
 
 ```solidity
 function _refundHeldFees(uint256 _projectId, uint256 _amount) internal returns (uint256 refundedFees);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -1023,16 +917,14 @@ function _refundHeldFees(uint256 _projectId, uint256 _amount) internal returns (
 |----|----|-----------|
 |`refundedFees`|`uint256`|How much fees were refunded, as a fixed point number with the same number of decimals as this terminal|
 
-
 ### _feeAmount
 
-
 Returns the fee amount based on the provided amount for the specified project.
-
 
 ```solidity
 function _feeAmount(uint256 _amount, uint256 _fee, uint256 _feeDiscount) internal pure returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -1047,16 +939,14 @@ function _feeAmount(uint256 _amount, uint256 _fee, uint256 _feeDiscount) interna
 |----|----|-----------|
 |`<none>`|`uint256`|The amount of the fee, as a fixed point number with the same amount of decimals as this terminal.|
 
-
 ### _currentFeeDiscount
 
-
 Get the fee discount from the fee gauge for the specified project.
-
 
 ```solidity
 function _currentFeeDiscount(uint256 _projectId) internal view returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -1069,8 +959,8 @@ function _currentFeeDiscount(uint256 _projectId) internal view returns (uint256)
 |----|----|-----------|
 |`<none>`|`uint256`|feeDiscount The fee discount, which should be interpreted as a percentage out MAX_FEE_DISCOUNT.|
 
-
 ## Errors
+
 ### FEE_TOO_HIGH
 
 ```solidity
@@ -1130,4 +1020,3 @@ error TERMINAL_IN_SPLIT_ZERO_ADDRESS();
 ```solidity
 error TERMINAL_TOKENS_INCOMPATIBLE();
 ```
-

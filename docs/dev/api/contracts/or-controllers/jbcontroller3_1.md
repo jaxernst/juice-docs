@@ -1,30 +1,31 @@
 # JBController3_1
 
-Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
-
----
-
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBController3_1.sol)
 
 Mainnet: [`0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b`](https://etherscan.io/address/0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b)
 
 Goerli: [`0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6`](https://goerli.etherscan.io/address/0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6)
 
-**Inherits:**
-[`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/), [`IJBMigratable`](/dev/api/interfaces/ijbmigratable/)
+Inherits: [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/), [`IJBMigratable`](/dev/api/interfaces/ijbmigratable/)
+
+---
+
+Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
 
 Adheres to:
-- IJBController3_1: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
-- IJBMigratable: Allows migrating to this contract, with a hook called to prepare for the migration.*
+
+- [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/): General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
+- [`IJBMigratable`](/dev/api/interfaces/ijbmigratable/): Allows migrating to this contract, with a hook called to prepare for the migration.
 
 Inherits from:
-- JBOperatable: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
-- ERC165: Introspection on interface adherance.
 
-This Controller has the same functionality as JBController3_1, except it is not backwards compatible with the original IJBController view methods.
+- [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/): Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
+- [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165): Introspection on interface adherance.
 
+This Controller has the same functionality as [`JBController3_1`](/dev/api/contracts/or-controllers/jbcontroller3_0_1/), except it is not backwards compatible with the original IJBController view methods.
 
 ## State Variables
+
 ### _packedDistributionLimitDataOf
 
 Data regarding the distribution limit of a project during a configuration.
@@ -73,16 +74,13 @@ Mints ERC-721's that represent project ownership.
 IJBProjects public immutable override projects;
 ```
 
-
 ### fundingCycleStore
 
 The contract storing all funding cycle configurations.
 
-
 ```solidity
 IJBFundingCycleStore public immutable override fundingCycleStore;
 ```
-
 
 ### tokenStore
 
@@ -93,54 +91,44 @@ The contract that manages token minting and burning.
 IJBTokenStore public immutable override tokenStore;
 ```
 
-
 ### splitsStore
 
 The contract that stores splits for each project.
-
 
 ```solidity
 IJBSplitsStore public immutable override splitsStore;
 ```
 
-
 ### fundAccessConstraintsStore
 
 A contract that stores fund access constraints for each project.
-
 
 ```solidity
 IJBFundAccessConstraintsStore public immutable override fundAccessConstraintsStore;
 ```
 
-
 ### directory
 
 The directory of terminals and controllers for projects.
 
-
 ```solidity
 IJBDirectory public immutable override directory;
 ```
-
 
 ### reservedTokenBalanceOf
 
 The current undistributed reserved token balance of.
 _projectId The ID of the project to get a reserved token balance of.
 
-
 ```solidity
 mapping(uint256 => uint256) public override reservedTokenBalanceOf;
 ```
 
-
 ## Functions
+
 ### getFundingCycleOf
 
-
 A project's funding cycle for the specified configuration along with its metadata.
-
 
 ```solidity
 function getFundingCycleOf(uint256 _projectId, uint256 _configuration)
@@ -149,6 +137,7 @@ function getFundingCycleOf(uint256 _projectId, uint256 _configuration)
     override
     returns (JBFundingCycle memory fundingCycle, JBFundingCycleMetadata memory metadata);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -163,12 +152,9 @@ function getFundingCycleOf(uint256 _projectId, uint256 _configuration)
 |`fundingCycle`|`JBFundingCycle`|The funding cycle.|
 |`metadata`|`JBFundingCycleMetadata`|The funding cycle's metadata.|
 
-
 ### latestConfiguredFundingCycleOf
 
-
 A project's latest configured funding cycle along with its metadata and the ballot state of the configuration.
-
 
 ```solidity
 function latestConfiguredFundingCycleOf(uint256 _projectId)
@@ -177,6 +163,7 @@ function latestConfiguredFundingCycleOf(uint256 _projectId)
     override
     returns (JBFundingCycle memory fundingCycle, JBFundingCycleMetadata memory metadata, JBBallotState ballotState);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -191,12 +178,9 @@ function latestConfiguredFundingCycleOf(uint256 _projectId)
 |`metadata`|`JBFundingCycleMetadata`|The latest configured funding cycle's metadata.|
 |`ballotState`|`JBBallotState`|The state of the configuration.|
 
-
 ### currentFundingCycleOf
 
-
 A project's current funding cycle along with its metadata.
-
 
 ```solidity
 function currentFundingCycleOf(uint256 _projectId)
@@ -205,6 +189,7 @@ function currentFundingCycleOf(uint256 _projectId)
     override
     returns (JBFundingCycle memory fundingCycle, JBFundingCycleMetadata memory metadata);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -218,12 +203,9 @@ function currentFundingCycleOf(uint256 _projectId)
 |`fundingCycle`|`JBFundingCycle`|The current funding cycle.|
 |`metadata`|`JBFundingCycleMetadata`|The current funding cycle's metadata.|
 
-
 ### queuedFundingCycleOf
 
-
 A project's queued funding cycle along with its metadata.
-
 
 ```solidity
 function queuedFundingCycleOf(uint256 _projectId)
@@ -232,6 +214,7 @@ function queuedFundingCycleOf(uint256 _projectId)
     override
     returns (JBFundingCycle memory fundingCycle, JBFundingCycleMetadata memory metadata);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -245,16 +228,14 @@ function queuedFundingCycleOf(uint256 _projectId)
 |`fundingCycle`|`JBFundingCycle`|The queued funding cycle.|
 |`metadata`|`JBFundingCycleMetadata`|The queued funding cycle's metadata.|
 
-
 ### totalOutstandingTokensOf
 
-
 Gets the current total amount of outstanding tokens for a project.
-
 
 ```solidity
 function totalOutstandingTokensOf(uint256 _projectId) public view override returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -276,6 +257,7 @@ See [`IERC165` - `supportsInterface`](https://github.com/OpenZeppelin/openzeppel
 ```solidity
 function supportsInterface(bytes4 _interfaceId) public view virtual override(ERC165, IERC165) returns (bool);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -295,6 +277,7 @@ constructor(
     IJBFundAccessConstraintsStore _fundAccessConstraintsStore
 ) JBOperatable(_operatorStore);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -307,9 +290,7 @@ constructor(
 |`_splitsStore`|`IJBSplitsStore`|A contract that stores splits for each project.|
 |`_fundAccessConstraintsStore`|`IJBFundAccessConstraintsStore`|A contract that stores fund access constraints for each project.|
 
-
 ### launchProjectFor
-
 
 Creates a project. This will mint an ERC-721 into the specified owner's account, configure a first funding cycle, and set up any splits.
 
@@ -330,6 +311,7 @@ function launchProjectFor(
     string memory _memo
 ) external virtual override returns (uint256 projectId);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -350,16 +332,13 @@ function launchProjectFor(
 |----|----|-----------|
 |`projectId`|`uint256`|The ID of the project.|
 
-
 ### launchFundingCyclesFor
-
 
 Creates a funding cycle for an already existing project ERC-721.
 
 Each operation within this transaction can be done in sequence separately.
 
 Only a project owner or operator can launch its funding cycles.
-
 
 ```solidity
 function launchFundingCyclesFor(
@@ -378,6 +357,7 @@ function launchFundingCyclesFor(
     requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.RECONFIGURE)
     returns (uint256 configuration);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -397,9 +377,7 @@ function launchFundingCyclesFor(
 |----|----|-----------|
 |`configuration`|`uint256`|The configuration of the funding cycle that was successfully created.|
 
-
 ### reconfigureFundingCyclesOf
-
 
 Proposes a configuration of a subsequent funding cycle that will take effect once the current one expires if it is approved by the current funding cycle's ballot.
 
@@ -421,6 +399,7 @@ function reconfigureFundingCyclesOf(
     requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.RECONFIGURE)
     returns (uint256 configuration);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -439,14 +418,11 @@ function reconfigureFundingCyclesOf(
 |----|----|-----------|
 |`configuration`|`uint256`|The configuration of the funding cycle that was successfully reconfigured.|
 
-
 ### mintTokensOf
-
 
 Mint new token supply into an account, and optionally reserve a supply to be distributed according to the project's current funding cycle configuration.
 
 Only a project's owner, a designated operator, one of its terminals, or the current data source can mint its tokens.
-
 
 ```solidity
 function mintTokensOf(
@@ -458,6 +434,7 @@ function mintTokensOf(
     bool _useReservedRate
 ) external virtual override returns (uint256 beneficiaryTokenCount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -475,14 +452,11 @@ function mintTokensOf(
 |----|----|-----------|
 |`beneficiaryTokenCount`|`uint256`|The amount of tokens minted for the beneficiary.|
 
-
 ### burnTokensOf
-
 
 Burns a token holder's supply.
 
 Only a token's holder, a designated operator, or a project's terminal can burn it.
-
 
 ```solidity
 function burnTokensOf(
@@ -502,6 +476,7 @@ function burnTokensOf(
         directory.isTerminalOf(_projectId, IJBPaymentTerminal(msg.sender))
     );
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -512,12 +487,9 @@ function burnTokensOf(
 |`_memo`|`string`|A memo to pass along to the emitted event.|
 |`_preferClaimedTokens`|`bool`|A flag indicating whether a project's attached token contract should be burned first if they have been issued.|
 
-
 ### distributeReservedTokensOf
 
-
 Distributes all outstanding reserved tokens for a project.
-
 
 ```solidity
 function distributeReservedTokensOf(uint256 _projectId, string calldata _memo)
@@ -526,6 +498,7 @@ function distributeReservedTokensOf(uint256 _projectId, string calldata _memo)
     override
     returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -539,18 +512,16 @@ function distributeReservedTokensOf(uint256 _projectId, string calldata _memo)
 |----|----|-----------|
 |`<none>`|`uint256`|The amount of minted reserved tokens.|
 
-
 ### prepForMigrationOf
-
 
 Allows other controllers to signal to this one that a migration is expected for the specified project.
 
 This controller should not yet be the project's controller.
 
-
 ```solidity
 function prepForMigrationOf(uint256 _projectId, address _from) external virtual override;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -558,14 +529,11 @@ function prepForMigrationOf(uint256 _projectId, address _from) external virtual 
 |`_projectId`|`uint256`|The ID of the project that will be migrated to this controller.|
 |`_from`|`address`|The controller being migrated from.|
 
-
 ### migrate
-
 
 Allows a project to migrate from this controller to another.
 
 Only a project's owner or a designated operator can migrate it.
-
 
 ```solidity
 function migrate(uint256 _projectId, IJBMigratable _to)
@@ -574,6 +542,7 @@ function migrate(uint256 _projectId, IJBMigratable _to)
     override
     requirePermission(projects.ownerOf(_projectId), _projectId, JBOperations.MIGRATE_CONTROLLER);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -581,16 +550,14 @@ function migrate(uint256 _projectId, IJBMigratable _to)
 |`_projectId`|`uint256`|The ID of the project that will be migrated from this controller.|
 |`_to`|`IJBMigratable`|The controller to which the project is migrating.|
 
-
 ### _distributeReservedTokensOf
 
-
 Distributes all outstanding reserved tokens for a project.
-
 
 ```solidity
 function _distributeReservedTokensOf(uint256 _projectId, string memory _memo) internal returns (uint256 tokenCount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -604,18 +571,16 @@ function _distributeReservedTokensOf(uint256 _projectId, string memory _memo) in
 |----|----|-----------|
 |`tokenCount`|`uint256`|The amount of minted reserved tokens.|
 
-
 ### _distributeToReservedTokenSplitsOf
 
-
 Distribute tokens to the splits according to the specified funding cycle configuration.
-
 
 ```solidity
 function _distributeToReservedTokenSplitsOf(uint256 _projectId, uint256 _domain, uint256 _group, uint256 _amount)
     internal
     returns (uint256 leftoverAmount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -631,12 +596,9 @@ function _distributeToReservedTokenSplitsOf(uint256 _projectId, uint256 _domain,
 |----|----|-----------|
 |`leftoverAmount`|`uint256`|If the splits percents dont add up to 100%, the leftover amount is returned.|
 
-
 ### _configure
 
-
 Configures a funding cycle and stores information pertinent to the configuration.
-
 
 ```solidity
 function _configure(
@@ -648,6 +610,7 @@ function _configure(
     JBFundAccessConstraints[] memory _fundAccessConstraints
 ) internal returns (uint256);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -665,8 +628,8 @@ function _configure(
 |----|----|-----------|
 |`<none>`|`uint256`|configuration The configuration of the funding cycle that was successfully reconfigured.|
 
-
 ## Errors
+
 ### BURN_PAUSED_AND_SENDER_NOT_VALID_TERMINAL_DELEGATE
 
 ```solidity
