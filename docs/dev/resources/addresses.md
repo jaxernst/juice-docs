@@ -54,6 +54,8 @@ JBSplitsStore: [`0x0D25194ABE95185Db8e4B0294F5669E21C534785`](https://etherscan.
 
 JBTokenStore: [`0x6FA996581D7edaABE62C15eaE19fEeD4F1DdDfE7`](https://etherscan.io/address/0x6FA996581D7edaABE62C15eaE19fEeD4F1DdDfE7)
 
+JBProjectHandles: [`0xD75d2EeF7Fe65Bf9f46D7ef0b21EdED98cB0a3A4`](https://etherscan.io/address/0xD75d2EeF7Fe65Bf9f46D7ef0b21EdED98cB0a3A4)
+
 ### Goerli
 
 JBChainlinkV3PriceFeed: [`0x47C6072ccDb899C016ED07ae8aEb7b2cfFe3C82e`](https://goerli.etherscan.io/address/0x47C6072ccDb899C016ED07ae8aEb7b2cfFe3C82e)
@@ -97,6 +99,8 @@ JBSingleTokenPaymentTerminalStore3_1: [`0x101cA528F6c2E35664529eB8aa0419Ae1f724b
 JBSplitsStore: [`0xce2Ce2F37fE5B2C2Dd047908B2F61c9c3f707272`](https://goerli.etherscan.io/address/0xce2Ce2F37fE5B2C2Dd047908B2F61c9c3f707272)
 
 JBTokenStore: [`0x1246a50e3aDaF684Ac566f0c40816fF738F309B3`](https://goerli.etherscan.io/address/0x1246a50e3aDaF684Ac566f0c40816fF738F309B3)
+
+JBProjectHandles: [`0xAD6F7c8052F806F83AD5F51b33cE4E547CC00f3d`](https://goerli.etherscan.io/address/0xad6f7c8052f806f83ad5f51b33ce4e547cc00f3d)
 
 ## Juicebox DAO
 
