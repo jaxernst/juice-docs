@@ -131,6 +131,11 @@ Ownership of each project on the Juicebox protocol belongs to the address posses
      🔴 <strong>Used maliciously</strong> this can be used to cut off a community of token holders from their treasury, create arbitrary unwanted and extractive behavior, or introduce smart contract bugs.<br/><br/>
 
 #### Undistributed reserved rate risk
+
+:::info
+This risk only applies to projects which have not yet upgraded to [`JBController3_1`](/dev/api/contracts/or-controllers/jbcontroller3_1/). Newly deployed projects don't have this risk.
+:::
+
 If a project enters a funding cycle with a different reserved rate than the preceding cycle while still having outstanding reserved tokens to distribute, the quantity of distributable tokens will change to reflect the new reserved rate.
  
    For example, if in FC#1 a project has a reserved rate of 10% and 9,000 tokens are minted, 1,000 tokens (10% of the total) are reserved to be distributed to the configured reserved token receivers. If FC#2 with a reserved rate of 50% begins without the reserved tokens having been distributed, there will now be 9,000 tokens (50% of the total) reserved to be distributed to the configured reserved token receivers. 
