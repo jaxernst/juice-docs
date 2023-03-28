@@ -1,6 +1,3 @@
----
-title: juice-721-delegate
----
 # Juicebox 721 Distribution Mechanism
 
 ## Motivation
