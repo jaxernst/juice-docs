@@ -1,4 +1,4 @@
-# Juicebox 721 Distribution Mechanism
+# ERC-721 Distribution Mechanism
 
 ## Motivation
 

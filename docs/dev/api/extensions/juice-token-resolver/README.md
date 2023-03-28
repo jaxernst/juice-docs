@@ -1,4 +1,4 @@
-# Juicebox Token Resolver
+# Owner NFT Token Resolver
 
 :::info
 This is the README from the `juice-token-resolver` [GitHub Repository](https://github.com/jbx-protocol/juice-token-resolver).
