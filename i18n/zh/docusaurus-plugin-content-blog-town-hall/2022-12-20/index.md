@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 

@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp)  
+![Town Hall banner by Sage Kellyn](townhall.webp)
 主题图片作者： [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
@@ -62,21 +62,21 @@ Jango 提交的[关于这个活动的提案](https://juicetool.xyz/snapshot/jbda
 
 - Our ability to pull multi-disciplinary passionate people together was key to unlocking new creative avenues. Ahead of time, I was less sold on the need for a videographer as a value add to the experience. Turns out the budget wasn't just spent on getting a videographer there, they were spent on a Fernando. Same goes for Juanda, everyone who brought +1's, and everyone folks invited to our space for deliberate design/learning sessions and casual moments. Next time we need to double down on this. It's all about the people, the work orders are just an excuse.
 
-- Having a few focused scheduled moments around food and ceremony were grounding and set a perfect tone. It wasn't a greasy hacker house, it was a welcoming space where we could be caring, curious, and warm towards one another. 
+- Having a few focused scheduled moments around food and ceremony were grounding and set a perfect tone. It wasn't a greasy hacker house, it was a welcoming space where we could be caring, curious, and warm towards one another.
 
 - It would be nice to have a few more optional excursions planned for people to take part if their schedules allowed, though it seemed most people were happy sitting around the house with laptops out together, exchanging ideas out loud and on notebooks.
 
 - It was great having an extra house in Guasca. Though we didn't use it to its full capacity each day and had some trouble accessing it at times (dirt roads, annoying hosts), the times we did use it were monumental. The dinner we threw with our friends from Mochi was epic, and it was great to have extra bedrooms for folks who wanted more space for themselves.
 
-- Epic having Pablo, Alejandro, Thomas, Mark, Steve, Juanda, Fernando and Bruxa there alongside more day-to-day JuiceboxDAO contributors. It was a focused enough group of people where I felt I could build relationships with everyone. I'm more of an intimate 1-on-1, small group, few real friends kind of person, the cadence of this event catered well towards that. Epic group of big-brain big-heart people. 
+- Epic having Pablo, Alejandro, Thomas, Mark, Steve, Juanda, Fernando and Bruxa there alongside more day-to-day JuiceboxDAO contributors. It was a focused enough group of people where I felt I could build relationships with everyone. I'm more of an intimate 1-on-1, small group, few real friends kind of person, the cadence of this event catered well towards that. Epic group of big-brain big-heart people.
 
-- Despite spending loads of time online together, getting time to hang and bullshit with peri, zeugh, nicholas, filip, and jmill was necessary to gluing new ideas together. The whole week was high-bandwidth communication with a bias towards doing. big love to the family. 
+- Despite spending loads of time online together, getting time to hang and bullshit with peri, zeugh, nicholas, filip, and jmill was necessary to gluing new ideas together. The whole week was high-bandwidth communication with a bias towards doing. big love to the family.
 
 - One of our super powers is empowering creative and passionate people to pronounce their creative muscle through their own projects, in the way they feel most comfortable, encouraging them to push against discomforts their curious to explore, while helping make connections within our expanding ecosystem of builders who might offer support and specialization to round out a project's needs. It'll be difficult to measure this event's immediate value add to the broader JuiceboxDAO community, but seeds were sown and I look forward to referencing this Bogota week as an origin story for many projects/partnerships that may sprout over the next several months.
 
-- We need to be aware of people's financial circumstances when inviting multi-disciplinary friends. We did a good job in helping Fernando, Juanda, Bruxa, and Zacharias (didn't make it but we did what we could) arrive by compensating their airline fees, while all others were responsible for sourcing flights themselves. We each have our own accesses and constraints, we have to be comfortable talking about them so we can help one another make stuff happen and leverage what each of us can bring to the table. This is tricky to scale, but important to get right. 
+- We need to be aware of people's financial circumstances when inviting multi-disciplinary friends. We did a good job in helping Fernando, Juanda, Bruxa, and Zacharias (didn't make it but we did what we could) arrive by compensating their airline fees, while all others were responsible for sourcing flights themselves. We each have our own accesses and constraints, we have to be comfortable talking about them so we can help one another make stuff happen and leverage what each of us can bring to the table. This is tricky to scale, but important to get right.
 
-- We could've used more help sourcing ingredients and planning foods. We had this in place with Zacharias, fell apart last minute. Stoked with how we all came together and made it work, but we all spent a grain too much time throughout the offsite week planning meals. 
+- We could've used more help sourcing ingredients and planning foods. We had this in place with Zacharias, fell apart last minute. Stoked with how we all came together and made it work, but we all spent a grain too much time throughout the offsite week planning meals.
 
 - I liked over-indexing on supporting Thirsty Thirsty. It allowed us all to problem solve with confidence as the weeks went on. I'm excited to see how we can continue working together to help them raise and sustain funds used to power land-and-people-based experiences, and how they can help JuiceboxDAO bring it's community together around earnest moments alongside neighboring communities.
 
@@ -137,7 +137,7 @@ Felixander 事前让三个人用自己的话描述一下 “ Banny 最疯狂之�
 
 还要多谢 Tankbottoms 上周帮忙把这些图像文件打包到元数据并推送到 IFPS，以便我们接下来生成 NFT 的时候使用。
 
-下周我们将会有所有元素打包到 Goerli 测试网，虽然 Jango 还没有决定要不要在测试网上测试 NFT 的铸造，所有的组成部分都已经成型，而且都感觉良好。 
+下周我们将会有所有元素打包到 Goerli 测试网，虽然 Jango 还没有决定要不要在测试网上测试 NFT 的铸造，所有的组成部分都已经成型，而且都感觉良好。
 
 这个游戏结束之后，我们将计划把它的框架和界面扩展为一个能用化的版本，这样其他人也能利用它来实现自己的玩法。
 

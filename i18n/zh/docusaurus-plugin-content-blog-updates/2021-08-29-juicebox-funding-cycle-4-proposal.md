@@ -129,7 +129,7 @@ tags: [governance, dao]
 - **peripheralist** | *开发 : $10k (没有变化)*
 - **CanuDAO** | *沟通：$2.5k（没有变化）*
 - **WAGMI Studios** | *艺术、动画和教育内容：$2.5k（没有变化）*
-- **exekias** | *开发: $4k (+ $1k)* 
+- **exekias** | *开发: $4k (+ $1k)*
 Exekias 对代码的所有方面都亲力亲为。越来越成为核心开发人员不可或缺的一员。
 
 **实验性贡献者**

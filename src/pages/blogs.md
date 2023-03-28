@@ -7,19 +7,19 @@ hide_table_of_contents: true
 <style>{`
 .card {
   border: solid 1px var(--ifm-color-primary);
-} 
+}
 
 img {
   width: 100%;
 }
 
 @media screen and (max-width: 996px) and (min-width: 505px) {
-  img { 
+  img {
     display: none !important;
   }
 }
 
-h4 { 
+h4 {
   color: var(--ifm-font-color-base);
 }
 `}</style>

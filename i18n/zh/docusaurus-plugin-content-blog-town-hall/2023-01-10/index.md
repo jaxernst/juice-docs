@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 

@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## 协议及 JuiceboxDAO 趋零构思 by Jango
@@ -49,7 +49,7 @@ Towdam 打造了一个新的 [Dune 数据面板](https://dune.com/twodam/juicebo
 
 [Chris Blec](https://twitter.com/chrisblec) 在会上自我介绍，他是一个 DEFI 生态的分析师，花费很多时间在推特上调查 DEFI 项目及去中化，试图找出用户们需要注意的与信任及中心化等相关的一些问题，通过批判来加强这个生态的健康度。
 
-Recently he has launched a website [blec.report](https://blec.report/) to post his opinions about DEFI and crypto. 
+Recently he has launched a website [blec.report](https://blec.report/) to post his opinions about DEFI and crypto.
 
 最近他搭建了 [blec.report](https://blec.report/) 来发表自己关于 DEFI 和加密货币的看法。
 
@@ -57,7 +57,7 @@ Recently he has launched a website [blec.report](https://blec.report/) to post h
 
 在 Jango 的帮助下明白 Juicebox 的一些机制后，他同时还创建了一个叫 [Blec Report](https://juicebox.money/@blecreport) 的项目，来支持自己全职投入这方面的工作。
 
-![blec report Juicebox project](blec_report_project.webp) 
+![blec report Juicebox project](blec_report_project.webp)
 
 会上，Chris Blec 分享了他认识了解 Juicebox 的经验和一些认知的障碍，对我们提高与潜在用户的沟通很有帮助。他还表示愿意参与向社区解释 Juicebox 协议机制的工作，希望能帮助 Juicebox 吸引更多用户，因为他觉得 Juicebox 是一个非常有用的工具，将会是其他众筹平台非常好的替代选择。
 

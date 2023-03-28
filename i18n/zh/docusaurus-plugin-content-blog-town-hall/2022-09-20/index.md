@@ -7,8 +7,8 @@ tags: [dao, town hall, news]
 ---
 
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/assets/images/townhall-fa970c078e21123c4e80993400e638db.webp)  
-图片制作：[Sage Kellyn](https://twitter.com/SageKellyn) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/assets/images/townhall-fa970c078e21123c4e80993400e638db.webp)
+图片制作：[Sage Kellyn](https://twitter.com/SageKellyn)
 
 
 ## Capsules 项目 by peri

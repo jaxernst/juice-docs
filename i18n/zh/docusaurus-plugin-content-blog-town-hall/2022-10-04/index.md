@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp)  
+![Town Hall banner by Sage Kellyn](townhall.webp)
 配图作者 [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
@@ -107,7 +107,7 @@ Code4rena 的人早前跟我们联系，表示他们有意向在 Juicebox 协议
 
 达到验证的法定票数之后，项目金库会解除锁定，所有人都可以按最后确定的记分卡的内容来赎回自己持有的 NFT 来从金库领取相应数量的ETH。金库的资金不会主动进行分发，分配的形式是每组 NFT 按照其代表的参赛队伍的成绩获得不同份额的金库资产支撑，再按每组的总发行量进行均摊，最后得到每一个 NFT 的金库资产价值。
 
-*** 
+***
 
 最有意思的是，你可以分叉这个游戏来运行你自己版本的玩法，可以把这个用于任何锦标赛赛事或者其他，你只需要 mint 一定数量的代币来让游聚集足够的资产，同时把 mint 出来的这些代币用作游戏结果的一个参数。
 

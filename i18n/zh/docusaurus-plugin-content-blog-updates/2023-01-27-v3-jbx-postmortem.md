@@ -5,7 +5,7 @@ authors: [jango]
 tags: [protocol, update]
 ---
 
-最后更新于北京时间 2023 年 1 月 28 日 3:33 AM。 
+最后更新于北京时间 2023 年 1 月 28 日 3:33 AM。
 
 V3 JBX 代币部署出现了一个 bug, 导致了保留代币的超额发行。这个 bug 在发现之前并没有被恶意利用，已经按照 [JBX 紧急程序](https://docs.juicebox.money/dao/security/emergency/)得到妥善处理。
 

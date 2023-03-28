@@ -8,7 +8,7 @@ tags: [observations]
 
 
 *JuiceboxDAO 在 Juicebox 协议上运行其社区金库。它所使用的工具也是向公众开放的。点击[这里](https://docs.juicebox.money/blog/juicebox-protocol-tokenomics/)了解协议的代币经济工具箱。*
- 
+
 *JBX 是 JuiceboxDAO 的成员代币。 它的作用是对各项提案进行投票，以决定 DAO 随着时间的推移应该如何发展。关于在 Juicebox 协议里面每个项目的代币可以通过编程获得的用例，点击[这里](https://docs.juicebox.money/user/project/token)进行了解。*
 
 *感谢 Nicholas、Zom_Bae、Zeugh 和 Aeolian 的编辑及反馈。*
@@ -21,7 +21,7 @@ JuiceboxDAO 目前按 **208,920 JBX** / ETH 的比例向任何给金库捐款的
 
 目前 Uniswap 上 JBX / ETH 的价格为每 1 ETH 兑换 **446,380** 个 JBX。
 
-JuiceboxDAO 目前的代币保留率是 35%，也就是说每捐赠一个 ETH 给金库，除了分发给捐款人的部分以外，还有112,495个 JBX 被保留起来了。其中的30%分配给 DAO（dao.jbx.eth)、24%分配给 jango.eth、7% 给 peri.eth、 7% 给 nnnnicholas.eth、 7% exekias.eth、 4% CanuDAO、 4% 给WAGMI Studios。 
+JuiceboxDAO 目前的代币保留率是 35%，也就是说每捐赠一个 ETH 给金库，除了分发给捐款人的部分以外，还有112,495个 JBX 被保留起来了。其中的30%分配给 DAO（dao.jbx.eth)、24%分配给 jango.eth、7% 给 peri.eth、 7% 给 nnnnicholas.eth、 7% exekias.eth、 4% CanuDAO、 4% 给WAGMI Studios。
 
 ### 观察
 

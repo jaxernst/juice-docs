@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -80,7 +80,7 @@ Jango 认为现在是从大局角度来反思 JBX 有什么成功之处、有什
   - 锁定 JBX 一个特定的时间来铸造代表这部分锁定 JBX 的NFT。JBX 从钱包、市场或者其他地址提取出来，锁定到这个合约里，相应地锁定人获得这个 NFT。在我们的原型化产品里，我们用一个非常棒的 Banny 系列来实现这些 NFT 的视觉化。
   - 这个 NFT 及其底层的 JBX 仍可以用于随时按当前赎回比率来赎回金库内的资产。
   - NFT 是可交易的。
-  
+
 - 理由
 
   - 我们想要的状态是关于金库的决策主要由那些持有的资产与网络的长期财务及文化价值相一致的人，而不是更注重短期原因的人群。

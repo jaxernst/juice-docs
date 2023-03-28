@@ -58,7 +58,7 @@ hide_table_of_contents: true
         </div>
         <div class="card__body">
           <p>
-            How to fund your thing with Juicebox. Join 
+            How to fund your thing with Juicebox. Join
             the <a href="https://discord.gg/juicebox">Discord</a> for more help!
           </p>
         </div>

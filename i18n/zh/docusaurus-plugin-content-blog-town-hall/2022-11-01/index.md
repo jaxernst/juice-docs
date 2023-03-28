@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
@@ -43,7 +43,7 @@ Jango 本周有事未能出席会议，在会议议题频道留了几条简短�
 - Defifa 项目进入收尾阶段。各方面已经就绪，就差最后的整合工作。
 - 请多签成员复核及签署交易。
 
-## 前端关于 NFT 创建流程及版本控制部署的时间计划 by JohnnyD 
+## 前端关于 NFT 创建流程及版本控制部署的时间计划 by JohnnyD
 
 如果是创建新的 NFT 项目的话，前端目前已经有效覆盖了。部署工作基本上就是打开某个标记的事情，目前他们正在等待合约部署完成的消息就可以着手部署。完成之后，就可以在主网上创建带 NFT 奖励的新项目了。
 

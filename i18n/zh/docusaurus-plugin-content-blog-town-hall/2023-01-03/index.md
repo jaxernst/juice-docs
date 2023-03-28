@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -36,7 +36,7 @@ Juicebox 历史现金流：
 - [Twitter DAO Energy Gauge](https://juicebox.money/v2/p/379)
 
     本项目由 Jango 创建。想法源于最近关于推特是否应该更 DAO 化的一些讨论，Jango 创建了一个项目金库，以便有需要的人可以安全地把他们的资金保管起来，并可以随时取走。
-    
+
     ![twitter dao energy gauge](twitterdaogauge_project.webp)
 
 

@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -25,7 +25,7 @@ Jango 也表示，我们过去一年半接触到的大多是以筹款为目标�
 
 Nicholas 还为他的 Twitter Space 播客 [Web3 Galzxy Brain](https://juicebox.money/@web3galaxybrain) 创建了一个 Juicebox 项目，在项目中 mint 一个 NFT 即可获得他节目里 5 秒的广告时间。这也是其中一个试验，希望寻找一些有趣的用例让人们在以后在他们的项目里使用。
 
-![Web3 Galaxy Brain](web3_galaxy_brain.webp) 
+![Web3 Galaxy Brain](web3_galaxy_brain.webp)
 
 ## 商品销售演示 STVG
 

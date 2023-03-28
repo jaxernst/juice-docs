@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 插图作者： [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
@@ -54,7 +54,7 @@ tags: [dao, town hall, news]
 
 ##### 审计 veNFT
 
-待 veNFT 开发完成后，我们应该对这个新的会计工具进行审计。感谢Viraz 及 0xBA5ED 在开发这个项目上的工作。但在迎合项目需求之前，我们应该对它进行一次审计。 
+待 veNFT 开发完成后，我们应该对这个新的会计工具进行审计。感谢Viraz 及 0xBA5ED 在开发这个项目上的工作。但在迎合项目需求之前，我们应该对它进行一次审计。
 
 ##### 回购委托
 

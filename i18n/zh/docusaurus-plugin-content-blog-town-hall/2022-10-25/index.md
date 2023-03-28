@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp)  
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 
@@ -62,7 +62,7 @@ Strath 先前在 9 月 14 日的周会上曾对这个工作做过初步的介绍
 
 -  新流程整合了全新的 NFT 奖励合约，项目方在奖励支持者的时候有了更多的选择，但由于该合约涵括面比较广，还需要进行多次迭代把更多功能整合进来。
 
-This product is not yet finished and might need some iterations to improve it a little bit more. Try it out, and if you have feed back, please come to share with us in the [Project Creation Feedback](https://discord.com/channels/775859454780244028/1034595089374257192) thread under the Frontend channel of JuiceboxDAO Discord. 
+This product is not yet finished and might need some iterations to improve it a little bit more. Try it out, and if you have feed back, please come to share with us in the [Project Creation Feedback](https://discord.com/channels/775859454780244028/1034595089374257192) thread under the Frontend channel of JuiceboxDAO Discord.
 
 这一产品仍未最后完成，需要迭代进一步地完善。大家可以试用一下，如果有任何反馈，可以到 JuiceboxDAO Discord 的前端频道的 [Project Creation Feedback](https://discord.com/channels/775859454780244028/1034595089374257192) 讨论组提出。
 
@@ -102,7 +102,7 @@ Banny 漫画第二期即将推出，下图是侦探 Banny 故事的预告图。
 
 ## 堕落的字谜  Felixander
 
-在会上，Felixander 请大家用一个词或一个物品来形容一下 Banny 的狂野周末。然后他请大家在 skribble.io 网站上玩一个画图猜字的游戏。 
+在会上，Felixander 请大家用一个词或一个物品来形容一下 Banny 的狂野周末。然后他请大家在 skribble.io 网站上玩一个画图猜字的游戏。
 
 ![image-20221029184407155](image-20221029184407155.webp)
 

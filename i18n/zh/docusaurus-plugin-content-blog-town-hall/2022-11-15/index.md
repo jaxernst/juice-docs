@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## 前端工作报告 Peel 团队
@@ -73,19 +73,19 @@ Filipv 制作了一个 [Dune 数据面板](https://dune.com/filipv/juiceboard)�
 
 ### Discussion about Juicebox fees 关于平台费用的讨论
 
-**Filipv**: 
+**Filipv**:
 平台费用只有在项目向协议外付款时才会产生，要么把资金转移到其他地方，要么向贡献者支持报酬。我们越能够追踪各个 DAO 实际运营情况，平台费用增长方面就越好。
 
 **Nicholas**:
 项目在 Juicebox 协议内相互付款不用交纳平台费用，我很喜欢这个做法。在某种程度上项目们会争取在 Juicebox 生态内向他们的服务提供方支付费用，这很酷。
 
-**Jango**: 
+**Jango**:
 追踪这些不同的指标很有用。但现在真的很难说哪些指标更加重要，尤其是我们目前正在探索怎么设计一些有用的玩法并把它们传播出去。我举个最极端的例子，假如所有项目都在 Juicebox 内运营金库，并在协议内互相支付款项。这种情况下就完全不会有平台费用产生，只是在生态内产生潜在的能量，就好像平台的价值都锁定到合约里一样。说到底，协议是否收取费用并不是最重要的，生态内发生各种积极的活动才是最好的。人们在协议内交易不用支付费用，就有点像在协议内累积一些未来的现金流，我觉得这种情况更让人兴奋。我们可以从不同的角度来看待什么才算是成功。
 
 **Filipv**:
 不同指标有些相关度很高，有些则不然，很有意思。创建项目数和付款数似乎有很强的正相关性。但平台费用则没有太高的相关度，看来资金分配跟以上两个指标的正相关性并不是太强，收款高于 1 ETH 项目数量也同样关系不大。很多时候，每当付款量飙升，就会有很多人跟风创建大量的项目，但并不是所有项目都能培育出来可持续的社区。所以值得注意，类似创建项目数量这样的指标并不一定是正面的，因为这个指标高未必意味着真正建设的项目就非常多。
 
-**jango**: 
+**jango**:
 我觉得我们要时时提醒自己，平台费用的意义并不是让我们去延长和增加我们的报酬。它产生的能量要用于帮助推动很多将来的项目。我觉得我们应该从一个极端长期的角度回答什么样的费用架构和费率才是最合适的这个问题。从个人观点来说，我非常肯定我们的目标不是为了积累资产并一直支付报酬，收取平台费用在某种意义并不是为了允许我们扩张开支。一切都是为了积累 JBX 能量然后为将来的筹款活动服务。
 
 
@@ -124,9 +124,9 @@ Felixander talked to three of our community members, Jigglyjam, Gogo and Viraz, 
 
 三个人的回答如下，次序不分先后：
 
-- "he would disguise himself as shit, hide himself in SBF's toilet, then when SBF is taking a shit he will get inside of SBF though his anus... so you could say banny would fuck him up, then travel to SBF's cerebellum and take over his actions. He will then get in his account and get back his accounts and people that liked the this tweet. oh and he would share their private keys."  
+- "he would disguise himself as shit, hide himself in SBF's toilet, then when SBF is taking a shit he will get inside of SBF though his anus... so you could say banny would fuck him up, then travel to SBF's cerebellum and take over his actions. He will then get in his account and get back his accounts and people that liked the this tweet. oh and he would share their private keys."
 
-- "Setup a thrinder (tinder for thirds) account and go on a date with Sam and Caroline. He finds SBFs private key storage safe, cracks it and send everyone their money back" 
+- "Setup a thrinder (tinder for thirds) account and go on a date with Sam and Caroline. He finds SBFs private key storage safe, cracks it and send everyone their money back"
 
 - "funds are gone ser."
 

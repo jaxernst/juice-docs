@@ -7,7 +7,7 @@ tags: [town-hall]
 ---
 
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
@@ -29,7 +29,7 @@ Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 新的项目将会使用新的控制器来创建。我们可能下周能够把 Juicebox.money 上的用户界面组件做好，Aeolian 本周正在做这个工作。很感谢 Aeolian 及 Peel 团队与项目方一起来确保这些前端组件能够符合项目的要求。同时我们会通过技术文档及其他贡献者制作教程的形式来跟进这些界面的使用指引。
 
-谢谢大家的快速反应，感觉似乎因此我们所处的状态会更好些。尽管在 V3 迁移的过程中，我们自给自足的方案带来了一些小问题，让我们进行了一些反省并在这一过程中吸取教训，Jango 觉得解决之后，我们的情况应该会更好。 
+谢谢大家的快速反应，感觉似乎因此我们所处的状态会更好些。尽管在 V3 迁移的过程中，我们自给自足的方案带来了一些小问题，让我们进行了一些反省并在这一过程中吸取教训，Jango 觉得解决之后，我们的情况应该会更好。
 
 ## Banny 情人节 Matthew and Brileigh
 
@@ -45,7 +45,7 @@ Matthew 和 Brileigh 创建了一个名为 [Banny 情人节](https://juicebox.mo
 
 ![a tutorial on how to reconfigure a project](tutorial_reconfig.webp)
 
- 
+
 
 ## Juicecast 的 Ticket to Space 节目 Kenbot@StudioDAO
 

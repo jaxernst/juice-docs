@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 
 ## Peel 工作报告 by Tjl

@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp) 
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## 协议数据分析 by Filipv
@@ -43,7 +43,7 @@ Jango 在战略频道列出了 V1、V2 社区安全启动 V3 版本还需要采�
 
 - veNFT。这是一个锁定项目代币铸造的 NFT 代币，可以作为一个新的财务或者治理途径。很明显我们将会用 V3 来进行锁定，所以继续推进之前，我们要完成一部分以上提到的版本控制工作。
 
-    
+
 
 ##  Lexicon Devils 工作报告
 
@@ -88,9 +88,9 @@ Blunt 筹款轮结束之后，会创建一个 Slicer （Jacopo 编写的另一�
 一个 blunt 筹款轮实质上就是一个设置了某些特殊规则的筹款周期，它可以分成两个阶段：
 
 1. 第一个阶段是筹款阶段，跟捐款给普通 Juicebox 项目差不多一样。不同之处在于 blunt 轮同时有筹款目标及筹款硬顶，这两点普通 Juicebox 项目是没有的。
-   
+
 1.  捐款达到筹款目标或者最终达到筹款硬顶的时候，项目发起人就可以结束这一轮筹款，让所有捐款人来领取自己在这个 slicer 里的 slice 份额，然后项目就会变成一个典型的 Juicebox 项目。
-   
+
 
 另一方面，如果这个筹款轮没有成功结束，也就是说筹款没有达到筹款目标，那么项目方就不能接收这个 Juicebox 项目的所有权，筹款活动结束，捐款人可以收回所有的捐款。
 

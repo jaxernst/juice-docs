@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [dao, town hall, news]
 ---
 
-![Town Hall banner by Sage Kellyn](townhall.webp)  
+![Town Hall banner by Sage Kellyn](townhall.webp)
 Art by [Sage Kellyn](https://twitter.com/SageKellyn)
 
 ## 版本控制 (versioning) jango
@@ -131,7 +131,7 @@ MTOTM 这个概念源自我们与一些早期的 DAO 及其创始人的讨论，
 
 关键是这个价格的数据。终端收到某些资产的时候，项目代币应按什么样的价格铸造出去呢？这个铸造比率与其他的支付终端又是怎么样的相关关系呢？我们该怎样编写多代币支付终端来实现通用化，让每个希望使用这个终端的项目都不用单独启动一个支付终端呢？我们不会说 SHARK、 PEOPLE 或 JBX 都来启动一个 DAI 支付终端，可以创建一个通用化版本。这也是个有趣的问题。
 
-**nicholas**: 
+**nicholas**:
 打个比方说，你有一个能接收 SHARK、 PEEL、 CANU 或 WAGMI 的多代币终端，并创建了一个 Juicebox 生态的指数基金，这个指数基金的代币相对不同的其他项目代币的价格不应该是静态的，而应该视各个项目代币价值不同有不同的价格变量，对吗？
 
 **michaelmaher**：
@@ -140,7 +140,7 @@ MTOTM 这个概念源自我们与一些早期的 DAO 及其创始人的讨论，
 **nicholas**:
 这么说的话，这个项目发展路线图的第一步就是建立一个多代币支付终端来实现我们谈到的这些想法吧？
 
-**jango**: 
+**jango**:
 我觉得多代币终端是为了把手动创建的很多运行成本自动化。我认为第一步应该是每个项目代币创建一个支付终端来手动创建指数，并把价格数据等信息内嵌进去，从而形成预期和进行各种测试。然后下一步才是把这些运行成本自动化。
 
 **michaelmaher**：

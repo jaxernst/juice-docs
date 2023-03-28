@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 ## 路线图介绍  Tjl
 
@@ -95,7 +95,7 @@ Tjl 在周会上做了一个路线图的介绍，这是 Peel 最近拟定的一�
 
 1. 封面图。项目目前可以在他们的项目页面顶端加入一个封面图片，如下图。
 
-![cover image of project Banny Valentines](coverimage_bannyvalentines.webp) 
+![cover image of project Banny Valentines](coverimage_bannyvalentines.webp)
 
    这是一个 Matthew 和 Brileigh 做的添加页面封面图片的教程：
 

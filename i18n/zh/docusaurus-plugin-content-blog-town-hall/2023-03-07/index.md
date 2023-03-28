@@ -6,7 +6,7 @@ image: https://docs.juicebox.money/img/townhall.webp
 tags: [town-hall]
 ---
 
-![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp) 
+![Town Hall banner by Sage Kellyn](https://docs.juicebox.money/img/townhall.webp)
 
 ## 品牌重塑报告 Strath
 
