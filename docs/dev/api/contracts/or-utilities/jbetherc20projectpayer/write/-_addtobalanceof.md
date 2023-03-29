@@ -105,7 +105,7 @@ function _addToBalanceOf(
 
     _External references:_
 
-    * [`addToBalanceOf`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/addtobalanceof.md)
+    * [`addToBalanceOf`](/dev/deprecated/v3/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/addtobalanceof.md)
 
 </TabItem>
 

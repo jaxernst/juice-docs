@@ -83,7 +83,7 @@ The protocol charges a <a href="#jbx-membership-fee">JBX membership fee</a> on f
 
 ##### Weight
 <p>
-  A number used to determine how many project tokens should be minted and transferred when payments are received during the funding cycle. In other words, weight is the exchange rate between the project token and a currency (defined by a <a href="/dev/api/contracts/jbpayoutredemptionpaymentterminal">JBPayoutRedemptionPaymentTerminal</a>) during that funding cycle. Project owners can configure this directly, or allow it to be derived automatically from the previous funding cycle's weight and discount rate.
+  A number used to determine how many project tokens should be minted and transferred when payments are received during the funding cycle. In other words, weight is the exchange rate between the project token and a currency (defined by a <a href="/dev/api/contracts/jbpayoutredemptionpaymentterminal3_1">JBPayoutRedemptionPaymentTerminal3_1</a>) during that funding cycle. Project owners can configure this directly, or allow it to be derived automatically from the previous funding cycle's weight and discount rate.
 </p>
 
 <!---->

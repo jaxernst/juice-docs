@@ -120,7 +120,7 @@ function _pay(
 
     _External references:_
 
-    * [`pay`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/pay.md)
+    * [`pay`](/dev/deprecated/v3/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/write/pay.md)
 
 </TabItem>
 

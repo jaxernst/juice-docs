@@ -3,7 +3,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md)​‌
+Contract: [`JBPayoutRedemptionPaymentTerminal`](/dev/deprecated/v3/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal/README.md)​‌
 
 <Tabs>
 <TabItem value="Step by step" label="Step by step">
@@ -191,7 +191,7 @@ function _pay(
     _External references:_
 
     * [`controllerOf`](/dev/api/contracts/jbdirectory/properties/controllerof.md)
-    * [`mintTokensOf`](/dev/api/contracts/or-controllers/jbcontroller/write/minttokensof.md)
+    * [`mintTokensOf`](/dev/api/contracts/or-controllers/jbcontroller3_1/#minttokensof)
 
 8.  Make sure the beneficiary is getting the same amount of v2 tokens as v1 tokens were exchanged, and that the amount is at least as much as expected.
 
