@@ -1,10 +1,12 @@
 ---
 slug: jbx-v3-migration-guide
 title: JBX V3 Migration Guide
-description: How to migrate your V1/V2 JBX tokens to V3
+description: How to migrate your V1 or V2 JBX tokens to V3
 authors: [aeolian]
-tags: [update]
+tags: [protocol, jbx, update]
 ---
+
+<style>{` img { max-width: 500px; } `}</style>
 
 # JBX V3 migration guide
 
@@ -12,9 +14,9 @@ Got JBX? This guide is for you!
 
 Juicebox V3.1 contracts are now live and the V3 JBX token has been deployed to mainnet. If you hold [V1 JBX](https://etherscan.io/token/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66) or have unclaimed tokens from the Juicebox V2 project, you can now migrate to the [V3 JBX token](https://etherscan.io/token/0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2).
 
-V1 JBX token address: `0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66`
-<br>
-V3 JBX token address: `0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2`
+V1 JBX token address: [`0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66`](https://etherscan.io/address/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66)
+
+V3 JBX token address: [`0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2`](https://etherscan.io/address/0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2)
 
 ## Before you start
 
