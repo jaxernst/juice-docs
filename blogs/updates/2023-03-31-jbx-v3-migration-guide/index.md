@@ -12,16 +12,16 @@ Before you start, be aware of the following:
 - This process can take 15 minutes or longer.
 - You can migrate your tokens over time.
 
+The following steps assumes the following:
+
+- you have V1 JBX and Juicebox V2 tokens.
+- you use Metamask
+
+Your steps may be different depending on your situation.
+
 ## Migrate your JBX
 
-> The following steps assumes the following:
->
-> - you have V1 JBX and Juicebox V2 tokens.
-> - you use Metamask
->
-> Your steps may be different depending on your situation.
-
-Take the following steps to migrate your JBX to JBX V3.
+Take the following steps to migrate your JBX to JBX V3:
 
 1. Connect your wallet.
 1. Navigate to the JuiceboxDAO project: https://juicebox.money/@juicebox.
