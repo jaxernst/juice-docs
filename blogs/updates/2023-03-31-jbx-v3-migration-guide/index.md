@@ -1,72 +1,89 @@
+---
+slug: jbx-v3-migration-guide
+title: JBX V3 Migration Guide
+description: How to migrate your V1/V2 JBX tokens to V3
+authors: [aeolian]
+tags: [update]
+---
+
 # JBX V3 migration guide
 
 Got JBX? This guide is for you!
 
-JuiceboxDAO has
+Juicebox V3.1 contracts are now live and the V3 JBX token has been deployed to mainnet. If you hold [V1 JBX](https://etherscan.io/token/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66) or have unclaimed tokens from the Juicebox V2 project, you can now migrate to the [V3 JBX token](https://etherscan.io/token/0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2).
+
+V1 JBX token address: `0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66`
+<br>
+V3 JBX token address: `0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2`
 
 ## Before you start
 
-Before you start, be aware of the following:
+Here are a couple things to keep in mind before starting:
 
-- This process will ask you to submit 3 or 4 transactions.
-- This process can take 15 minutes or longer.
-- You can migrate your tokens over time.
+- The migration process will ask you to submit 3 or 4 transactions
+- This process can take 15 minutes or longer
+- You can migrate your tokens over time
 
-The following steps assumes the following:
+The following guide assumes the following:
 
-- you have V1 JBX and Juicebox V2 tokens.
-- you use Metamask
+- you have V1 JBX and/or unclaimed Juicebox V2 tokens
+- you use Metamask as your browser wallet
 
-Your steps may be different depending on your situation.
+Your steps may vary depending on your situation. If you have questions, please visit the Support channel in [Juicebox Discord](https://discord.gg/juicebox).
 
-## Migrate your JBX
+## Step 1: Navigate to the JuiceboxDAO project
 
-Take the following steps to migrate your JBX to JBX V3:
+Connect your wallet and navigate to the JuiceboxDAO project: [https://juicebox.money/@juicebox](https://juicebox.money/@juicebox).
 
-1. Connect your wallet.
-1. Navigate to the JuiceboxDAO project: https://juicebox.money/@juicebox.
-1. Select the **Tokens** tab.
-1. Observe the **Legacy tokens** section. If you have JBX from JuiceboxDAO's V1 or V2 project, you should have legacy tokens.
-1. Select **Migrate tokens**.
+## Step 2: Tokens tab
 
-    <img src="./tokens-0.png" style="max-width: 500px;" alt="Tokens section" />
+Select the **Tokens** tab and refer to the **Legacy tokens** section. If you have JBX from JuiceboxDAO's V1 or V2 project, you should have legacy tokens. Click `Migrate tokens`.
 
-1. Select **Grant Permission** for your V1 JBX.
+![Tokens section](tokens-0.png)
 
-   > This transaction grants the V3 JBX contract permission to transfer your JBX on your behalf. If you have JBX, this step is required for migration.
+## Step 3: Grant permission for V1 tokens
 
-    <img src="./grant-v1.png" style="max-width: 500px;" alt="Grant V1 permission" />
+Click `Grant permission` for your V1 JBX and confirm the transaction in your browser wallet.
 
-1. Select **Grant Permission** for your Juicebox V2 tokens.
+This transaction grants the V3 JBX contract permission to transfer your JBX on your behalf. If you have V1 JBX, this step is required for migration.
 
-   > This transaction grants the V3 JBX contract permission to transfer your Juicebox V2 tokens on your behalf. If you have Juicebox V2 tokens, this step is required for migration.
+![Grant V1 permission](grant-v1.png)
 
-    <img src="./grant-v2.png" style="max-width: 500px;" alt="Grant V2 permission" />
+## Step 4: Grant permission for V2 tokens
 
-1. Select **Approve**.
+Click `Grant permission` for your V2 JBX and confirm the transaction in your browser wallet.
 
-   > This transaction approves the V3 JBX contract to spend your V1 JBX on your behalf. If you have JBX, this step is required for migration.
+This transaction grants the V3 JBX contract permission to transfer your Juicebox V2 tokens on your behalf. If you have Juicebox V2 tokens, this step is required for migration.
 
-    <img src="./approve.png" style="max-width: 500px;" alt="Approve token spend" />
+![Grant V2 permission](grant-v2.png)
 
-1. In Metamask, select **Default**. This will approve the spend of your total claimed V1 JBX balance.
+## Step 5: Approve migration and set spending cap
 
-    <img src="./metamask-0.png" style="max-width: 250px;" alt="Migration final step" />
+This transaction approves the V3 JBX contract to spend your V1 JBX on your behalf. If you have V1 JBX, this step is required for migration.
 
-1. Select **Next**.
-1. Select **Approve**.
+![Approve token spend](approve.png)
 
-   <img src="./metamask-1.png" style="max-width: 250px;" alt="Migration final step" />
+Click `Approve` and in Metamask select **Use Default**. This will approve the spend of your total claimed V1 JBX balance.
 
-1. On the Juicebox website, select **Migrate all approved tokens**.
+![Metamask set spending cap part 1](metamask-0.png)
 
-   > This transaction migrates all approved JBX and Juicebox V2 tokens to JBX V3.
+Click **Next** to proceed and then **Approve** to confirm the transaction.
 
-   <img src="./migrate-final.png" style="max-width: 500px;" alt="Migration final step" />
+![Metamask set spending cap part 2](metamask-1.png)
 
-1. Refresh the page and revist the **Tokens** tab. Verify the following:
+## Step 6: Migrate all approved tokens
 
-- **Your balance**: should be greater than zero.
-- **Legacy balance**: should be zero.
+Click `Migrate all approved tokens` and confirm the transaction in your browser wallet.
 
-That's it!
+This transaction migrates all approved V1 JBX and unclaimed Juicebox V2 tokens to JBX V3.
+
+![Migration final step](migrate-final.png)
+
+## Step 7: Success!
+
+Refresh the page and revisit the **Tokens** tab. Be sure to verify the following:
+
+- **Your balance**: should be greater than zero
+- **Legacy balance**: should be zero
+
+That's it! If you have questions, please visit the Support channel in [Juicebox Discord](https://discord.gg/juicebox).
