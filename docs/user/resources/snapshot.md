@@ -1,6 +1,6 @@
 ---
 title: Snapshot Strategies
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Using Snapshot With Juicebox
