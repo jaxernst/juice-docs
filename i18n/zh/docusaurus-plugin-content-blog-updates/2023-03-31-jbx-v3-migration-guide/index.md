@@ -1,6 +1,7 @@
 ---
 slug: jbx-v3-migration-guide
 title: JBX 代币迁移流程
+description: How to migrate your V1 or V2 JBX tokens to V3
 authors: [zhape]
 tags: [protocol, jbx, update]
 ---
