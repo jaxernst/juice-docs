@@ -21,6 +21,7 @@ Check if typeface includes a glyph for a specific character code point.
 ```solidity
 function supportsCodePoint(bytes3 codePoint) external view returns (bool);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -60,6 +61,7 @@ Checks if source data has been stored for font.
 ```solidity
 function hasSource(Font memory font) external view returns (bool);
 ```
+
 **Parameters**
 
 |Name|Type|Description|

@@ -4,6 +4,7 @@ sidebar_position: 10
 
 # JBFundAccessConstraintsStore
 
+Information pertaining to how much funds can be accessed by a project from each payment terminal.
 
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/49815b2e30771277ff493d21f7c8451159bbbe6a/contracts/JBFundAccessConstraintsStore.sol)
 
@@ -13,16 +14,14 @@ Goerli: [`0xbF8b5ea02e50073348767fd9418beDEd30C835D4`](https://goerli.etherscan.
 
 Inherits: [`JBControllerUtility`](/dev/api/contracts/or-abstract/jbcontrollerutility/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBFundAccessConstraintsStore`](/dev/api/interfaces/ijbfundaccessconstraintsstore/)
 
----
-
-Information pertaining to how much funds can be accessed by a project from each payment terminal.
-
 Adheres to:
-- `IJBFundAccessConstraintsStore`: General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
+
+- [`IJBFundAccessConstraintsStore`](/dev/api/interfaces/ijbfundaccessconstraintsstore/): General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
 
 Inherits from:
-- `JBControllerUtility`: Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
-- `ERC165`: Introspection on interface adherance.
+
+- [`JBControllerUtility`](/dev/api/contracts/or-abstract/jbcontrollerutility/): Several functions in this contract can only be accessed by a project owner, or an address that has been preconfifigured to be an operator of the project.
+- [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165): Introspection on interface adherance.
 
 ## State Variables
 
@@ -101,7 +100,6 @@ The amount of overflow that a project is allowed to tap into on-demand throughou
 
 The number of decimals in the returned fixed point amount is the same as that of the specified terminal.
 
-
 ```solidity
 function overflowAllowanceOf(
     uint256 _projectId,
@@ -128,7 +126,6 @@ function overflowAllowanceOf(
 |`<none>`|`uint256`|The currency of the overflow allowance.|
 
 ### constructor
-
 
 ```solidity
 constructor(IJBDirectory _directory) JBControllerUtility(_directory);

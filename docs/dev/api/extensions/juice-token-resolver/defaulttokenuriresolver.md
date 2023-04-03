@@ -80,6 +80,7 @@ Gets the Theme for a given id in the private themes mapping.
 ```solidity
 function getTheme(uint256 id) external view returns (Theme memory);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -353,7 +354,6 @@ function getPartTwo(
 ### getPartThree
 
 Get SVG part three
-
 
 ```solidity
 function getPartThree(bytes memory _base, uint256 _projectId) internal view returns (bytes memory);

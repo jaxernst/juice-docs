@@ -16,8 +16,7 @@ Next up we have the project token deployer for v1 & v2 project token holders to 
 
 After the token is deployed token holders can call `migrate` to send their v1/v2 claimed & unclaimed token balances & get the appropriate v3 tokens minted to them.
 
-Another interesting thing is since the migration logic lies in the v3 token contract in order to make sure that v3 redemptions are smooth we calculate the `totalSupply` by `
-total supply of v3 tokens + (v1 total supply - v1 token balance in v3 contract i.e the balances that have been already migrated) + (v2 total supply - v2 token balance in v3 contract i.e the balances that have been already migrated)`
+Another interesting thing is since the migration logic lies in the v3 token contract in order to make sure that v3 redemptions are smooth we calculate the `totalSupply` by `total supply of v3 tokens + (v1 total supply - v1 token balance in v3 contract i.e the balances that have been already migrated) + (v2 total supply - v2 token balance in v3 contract i.e the balances that have been already migrated)`
 
 ## Architecture
 

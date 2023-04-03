@@ -13,6 +13,7 @@ Abbreviates a string.
 ```solidity
 function slice(string calldata _str, uint256 _start, uint256 _end) external pure returns (string memory);
 ```
+
 **Parameters**
 
 |Name|Type|Description|

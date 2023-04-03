@@ -1,12 +1,10 @@
 # JBPayoutRedemptionPaymentTerminal3_1
 
+Generic terminal managing all inflows and outflows of funds into the protocol ecosystem.
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/abstract/JBPayoutRedemptionPaymentTerminal3_1.sol)
 
 Inherits: [`JBSingleTokenPaymentTerminal`](/dev/api/contracts/or-payment-terminals/or-abstract/jbsingletokenpaymentterminal/), [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`Ownable`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable), [`IJBPayoutRedemptionPaymentTerminal3_1`](/dev/api/interfaces/ijbpayoutredemptionpaymentterminal3_1/)
-
----
-
-Generic terminal managing all inflows and outflows of funds into the protocol ecosystem.
 
 A project can transfer its funds, along with the power to reconfigure and mint/burn their tokens, from this contract to another allowed terminal of the same token type contract at any time.
 
@@ -218,6 +216,7 @@ Checks the balance of tokens in this contract.
 ```solidity
 function _balance() internal view virtual returns (uint256);
 ```
+
 **Returns**
 
 |Name|Type|Description|
@@ -581,6 +580,7 @@ Transfers tokens.
 ```solidity
 function _transferFrom(address _from, address payable _to, uint256 _amount) internal virtual;
 ```
+
 **Parameters**
 
 |Name|Type|Description|

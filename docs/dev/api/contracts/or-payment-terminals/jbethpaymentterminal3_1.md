@@ -1,5 +1,7 @@
 # JBETHPaymentTerminal3_1
 
+Manages all inflows and outflows of ETH funds into the protocol ecosystem.
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBETHPaymentTerminal3_1.sol)
 
 Mainnet: [`0xFA391De95Fcbcd3157268B91d8c7af083E607A5C`](https://etherscan.io/address/0xFA391De95Fcbcd3157268B91d8c7af083E607A5C)
@@ -7,10 +9,6 @@ Mainnet: [`0xFA391De95Fcbcd3157268B91d8c7af083E607A5C`](https://etherscan.io/add
 Goerli: [`0x0baCb87Cf7DbDdde2299D92673A938E067a9eb29`](https://goerli.etherscan.io/address/0x0baCb87Cf7DbDdde2299D92673A938E067a9eb29)
 
 Inherits: [`JBPayoutRedemptionPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal3_1/)
-
----
-
-Manages all inflows and outflows of ETH funds into the protocol ecosystem.
 
 Inherits from:
 

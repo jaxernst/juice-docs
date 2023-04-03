@@ -1,5 +1,7 @@
 # JBController3_1
 
+Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBController3_1.sol)
 
 Mainnet: [`0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b`](https://etherscan.io/address/0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b)
@@ -7,10 +9,6 @@ Mainnet: [`0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b`](https://etherscan.io/add
 Goerli: [`0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6`](https://goerli.etherscan.io/address/0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6)
 
 Inherits: [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/), [`IJBMigratable`](/dev/api/interfaces/ijbmigratable/)
-
----
-
-Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
 
 Adheres to:
 
@@ -49,7 +47,6 @@ mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(addr
 
 Data regarding the overflow allowance of a project during a configuration.
 
-
 - bits 0-231: The amount of overflow that a project is allowed to tap into on-demand throughout the configuration.
 - bits 232-255: The currency of the amount of overflow that a project is allowed to tap.
 
@@ -69,7 +66,6 @@ mapping(uint256 => mapping(uint256 => mapping(IJBPaymentTerminal => mapping(addr
 
 Mints ERC-721's that represent project ownership.
 
-
 ```solidity
 IJBProjects public immutable override projects;
 ```
@@ -85,7 +81,6 @@ IJBFundingCycleStore public immutable override fundingCycleStore;
 ### tokenStore
 
 The contract that manages token minting and burning.
-
 
 ```solidity
 IJBTokenStore public immutable override tokenStore;
@@ -118,7 +113,7 @@ IJBDirectory public immutable override directory;
 ### reservedTokenBalanceOf
 
 The current undistributed reserved token balance of.
-_projectId The ID of the project to get a reserved token balance of.
+- _projectId The ID of the project to get a reserved token balance of.
 
 ```solidity
 mapping(uint256 => uint256) public override reservedTokenBalanceOf;

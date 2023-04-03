@@ -1,5 +1,7 @@
 # JBERC20PaymentTerminal3_1
 
+Manages the inflows and outflows of an ERC-20 token.
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBERC20PaymentTerminal3_1.sol)
 
 Mainnet: Not deployed.
@@ -7,10 +9,6 @@ Mainnet: Not deployed.
 Goerli: Not deployed.
 
 Inherits: [`JBPayoutRedemptionPaymentTerminal3_1`](/dev/api/contracts/or-payment-terminals/or-abstract/jbpayoutredemptionpaymentterminal3_1/)
-
----
-
-Manages the inflows and outflows of an ERC-20 token.
 
 Inherits from:
 

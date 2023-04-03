@@ -4,6 +4,8 @@ sidebar_position: 9
 
 # JBSingleTokenPaymentTerminalStore3_1
 
+Manages all bookkeeping for inflows and outflows of funds from any [`IJBSingleTokenPaymentTerminal`](/dev/api/interfaces/ijbsingletokenpaymentterminal/).
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBSingleTokenPaymentTerminalStore3_1.sol)
 
 Mainnet: [`0x77b0A81AeB61d08C0b23c739969d22c5C9950336`](https://etherscan.io/address/0x77b0A81AeB61d08C0b23c739969d22c5C9950336)
@@ -12,15 +14,12 @@ Goerli: [`0x101cA528F6c2E35664529eB8aa0419Ae1f724b49`](https://goerli.etherscan.
 
 Inherits: [`ReentrancyGuard`](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard), [`IJBSingleTokenPaymentTerminalStore`](/dev/api/interfaces/ijbsingletokenpaymentterminalstore/)
 
----
-
-Manages all bookkeeping for inflows and outflows of funds from any [`IJBSingleTokenPaymentTerminal`](/dev/api/interfaces/ijbsingletokenpaymentterminal/).
-
 Adheres to:
 
 - [`IJBSingleTokenPaymentTerminalStore`](/dev/api/interfaces/ijbsingletokenpaymentterminalstore/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
 
 Inherits from:
+
 - [`ReentrancyGuard`](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard): Contract module that helps prevent reentrant calls to a function.
 
 This Store expects a project's controller to be an [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/). This is the only difference between this version and [the original](/dev/api/contracts/jbsingletokenpaymentterminalstore/).
@@ -193,7 +192,6 @@ function currentReclaimableOverflowOf(
 |Name|Type|Description|
 |----|----|-----------|
 |`<none>`|`uint256`|The amount of overflowed tokens that can be reclaimed, as a fixed point number with the same number of decimals as the provided `_terminal`.|
-
 
 ### currentReclaimableOverflowOf
 
