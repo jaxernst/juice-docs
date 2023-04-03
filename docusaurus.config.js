@@ -27,6 +27,7 @@ const config = {
         editUrl: "https://github.com/jbx-protocol/juice-docs/blob/main",
         blogSidebarTitle: "Town Halls",
         blogSidebarCount: "ALL",
+        authorsMapPath: "../../blog/authors.yml"
       },
     ],
     [
@@ -39,6 +40,7 @@ const config = {
         editUrl: "https://github.com/jbx-protocol/juice-docs/blob/main",
         blogSidebarTitle: "Updates",
         blogSidebarCount: "ALL",
+        authorsMapPath: "../../blog/authors.yml"
       },
     ],
     [
@@ -51,6 +53,7 @@ const config = {
         editUrl: "https://github.com/jbx-protocol/juice-docs/blob/main",
         blogSidebarTitle: "Articles",
         blogSidebarCount: "ALL",
+        authorsMapPath: "../../blog/authors.yml"
       },
     ],
   ],
