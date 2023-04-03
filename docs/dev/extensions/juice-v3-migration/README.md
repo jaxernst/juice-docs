@@ -1,4 +1,4 @@
-# Juice V3 Migration
+# V3 Migration
 
 :::info
 This is the README from the `juice-v3-migration` [GitHub Repository](https://github.com/jbx-protocol/juice-v3-migration).

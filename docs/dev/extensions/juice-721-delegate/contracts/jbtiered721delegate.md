@@ -4,17 +4,17 @@ Delegate that offers project contributors NFTs with tiered price floors upon pay
 
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JBTiered721Delegate.sol)
 
-Inherits: [`JB721Delegate`](/dev/api/extensions/juice-721-delegate/contracts/abstract/jb721delegate/), [`Ownable`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable), [`IJBTiered721Delegate`](/dev/api/extensions/juice-721-delegate/interfaces/ijbtiered721delegate/), [`IERC2981`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/interfaces/IERC2981.sol)
+Inherits: [`JB721Delegate`](/dev/extensions/juice-721-delegate/contracts/abstract/jb721delegate/), [`Ownable`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable), [`IJBTiered721Delegate`](/dev/extensions/juice-721-delegate/interfaces/ijbtiered721delegate/), [`IERC2981`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/interfaces/IERC2981.sol)
 
 Adheres to:
 
-- [`IJBTiered721Delegate`](/dev/api/extensions/juice-721-delegate/interfaces/ijbtiered721delegate/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
+- [`IJBTiered721Delegate`](/dev/extensions/juice-721-delegate/interfaces/ijbtiered721delegate/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
 - [`IERC2981`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/interfaces/IERC2981.sol): Royalty standard.
 
 Inherits from:
 
-- [`JB721Delegate`](/dev/api/extensions/juice-721-delegate/contracts/abstract/jb721delegate/): A generic NFT delegate.
-- [`Votes`](/dev/api/extensions/juice-721-delegate/contracts/abstract/votes/): A helper for voting balance snapshots.
+- [`JB721Delegate`](/dev/extensions/juice-721-delegate/contracts/abstract/jb721delegate/): A generic NFT delegate.
+- [`Votes`](/dev/extensions/juice-721-delegate/contracts/abstract/votes/): A helper for voting balance snapshots.
 - [`Ownable`](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable): Includes convenience functionality for checking a message sender's permissions before executing certain transactions.
 
 ## State Variables

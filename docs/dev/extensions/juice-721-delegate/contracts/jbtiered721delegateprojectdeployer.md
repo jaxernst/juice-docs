@@ -4,11 +4,11 @@ Deploys a project with a tiered tier delegate.
 
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/JBTiered721DelegateProjectDeployer.sol)
 
-Inherits: [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`IJBTiered721DelegateProjectDeployer`](/dev/api/extensions/juice-721-delegate/interfaces/ijbtiered721delegateprojectdeployer/)
+Inherits: [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`IJBTiered721DelegateProjectDeployer`](/dev/extensions/juice-721-delegate/interfaces/ijbtiered721delegateprojectdeployer/)
 
 Adheres to:
 
-- [`IJBTiered721DelegateProjectDeployer`](/dev/api/extensions/juice-721-delegate/interfaces/ijbtiered721delegateprojectdeployer/): General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
+- [`IJBTiered721DelegateProjectDeployer`](/dev/extensions/juice-721-delegate/interfaces/ijbtiered721delegateprojectdeployer/): General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the protocol's rules.
 
 Inherits from:
 

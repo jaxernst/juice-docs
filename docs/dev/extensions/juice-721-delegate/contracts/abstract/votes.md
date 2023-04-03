@@ -4,7 +4,7 @@ This is a base abstract contract that tracks voting units, which are a measure o
 
 The full history of delegate votes is tracked on-chain so that governance protocols can consider votes as distributed at a particular block number to protect against flash loans and double voting. The opt-in delegate system makes the cost of this history tracking optional.
 
-When using this module the derived contract must implement [`_getVotingUnits`](#_getvotingunits) (for example, make it return [`ERC721-balanceOf`](/dev/api/extensions/juice-721-delegate/contracts/abstract/ERC721/#balanceof)), and can use [`_transferVotingUnits`](#_transfervotingunits) to track a change in the distribution of those units (in the previous example, it would be included in [`ERC721-_beforeTokenTransfer`](/dev/api/extensions/juice-721-delegate/contracts/abstract/ERC721/#_beforetokentransfer)). *Available since v4.5.*
+When using this module the derived contract must implement [`_getVotingUnits`](#_getvotingunits) (for example, make it return [`ERC721-balanceOf`](/dev/extensions/juice-721-delegate/contracts/abstract/ERC721/#balanceof)), and can use [`_transferVotingUnits`](#_transfervotingunits) to track a change in the distribution of those units (in the previous example, it would be included in [`ERC721-_beforeTokenTransfer`](/dev/extensions/juice-721-delegate/contracts/abstract/ERC721/#_beforetokentransfer)). *Available since v4.5.*
 
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/abstract/Votes.sol)
 

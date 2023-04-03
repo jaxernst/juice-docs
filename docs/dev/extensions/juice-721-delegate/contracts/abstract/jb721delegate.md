@@ -4,18 +4,18 @@ Delegate that offers project contributors NFTs upon payment and the ability to r
 
 [Git Source](https://github.com/jbx-protocol/juice-721-delegate/blob/24c33179caef17b169ec5b6eb95923f5da66bf32/contracts/abstract/JB721Delegate.sol)
 
-Inherits: [`IJB721Delegate`](/dev/api/extensions/juice-721-delegate/interfaces/ijb721delegate/), [`IJBFundingCycleDataSource`](/dev/api/interfaces/ijbfundingcycledatasource/), [`IJBPayDelegate`](/dev/api/interfaces/ijbpaydelegate/), [`IJBRedemptionDelegate`](/dev/api/interfaces/ijbredemptiondelegate/), [`ERC721`](/dev/api/extensions/juice-721-delegate/contracts/abstract/erc721/)
+Inherits: [`IJB721Delegate`](/dev/extensions/juice-721-delegate/interfaces/ijb721delegate/), [`IJBFundingCycleDataSource`](/dev/api/interfaces/ijbfundingcycledatasource/), [`IJBPayDelegate`](/dev/api/interfaces/ijbpaydelegate/), [`IJBRedemptionDelegate`](/dev/api/interfaces/ijbredemptiondelegate/), [`ERC721`](/dev/extensions/juice-721-delegate/contracts/abstract/erc721/)
 
 Adheres to:
 
-- [`IJB721Delegate`](/dev/api/extensions/juice-721-delegate/interfaces/ijb721delegate/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
+- [`IJB721Delegate`](/dev/extensions/juice-721-delegate/interfaces/ijb721delegate/): General interface for the methods in this contract that interact with the blockchain's state according to the protocol's rules.
 - [`IJBFundingCycleDataSource`](/dev/api/interfaces/ijbfundingcycledatasource/): Allows this contract to be attached to a funding cycle to have its methods called during regular protocol operations.
 - [`IJBPayDelegate`](/dev/api/interfaces/ijbpaydelegate/): Allows this contract to receive callbacks when a project receives a payment.
 - [`IJBRedemptionDelegate`](/dev/api/interfaces/ijbredemptiondelegate/): Allows this contract to receive callbacks when a token holder redeems.
 
 Inherits from:
 
-- [`ERC721`](/dev/api/extensions/juice-721-delegate/contracts/abstract/erc721/): A standard definition for non-fungible tokens (NFTs).
+- [`ERC721`](/dev/extensions/juice-721-delegate/contracts/abstract/erc721/): A standard definition for non-fungible tokens (NFTs).
 
 ## State Variables
 

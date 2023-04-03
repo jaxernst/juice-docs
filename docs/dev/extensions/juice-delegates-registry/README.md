@@ -1,4 +1,4 @@
-# Juice Delegates Registry
+# Delegate Registry
 
 :::info
 This is the README from the `juice-delegates-registry` [GitHub Repository](https://github.com/jbx-protocol/juice-delegates-registry).
