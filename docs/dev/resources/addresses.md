@@ -22,6 +22,8 @@ JBController3_1: [`0x97a5b9D9F0F7cD676B69f584F29048D0Ef4BB59b`](https://ethersca
 
 JBCurrencies: [`0xFf3959118dF1a391F77841346c6857Eb37A55A50`](https://etherscan.io/address/0xFf3959118dF1a391F77841346c6857Eb37A55A50)
 
+JBDelegatesRegistry: [`0x7A53cAA1dC4d752CAD283d039501c0Ee45719FaC`](https://etherscan.io/address/0x7A53cAA1dC4d752CAD283d039501c0Ee45719FaC)
+
 JBDirectory: [`0x65572FB928b46f9aDB7cfe5A4c41226F636161ea`](https://etherscan.io/address/0x65572FB928b46f9aDB7cfe5A4c41226F636161ea)
 
 JBETHERC20ProjectPayerDeployer: [`0x144F5F5Fdbe0fC8d4A758f33Bf14F68bdFe6feBD`](https://etherscan.io/address/0x144F5F5Fdbe0fC8d4A758f33Bf14F68bdFe6feBD)
@@ -70,6 +72,8 @@ JBController3_1: [`0x1d260DE91233e650F136Bf35f8A4ea1F2b68aDB6`](https://goerli.e
 
 JBCurrencies: [`0x1ABea264425cD8e65315e34A50F9C83bC3A43a50`](https://goerli.etherscan.io/address/0x1ABea264425cD8e65315e34A50F9C83bC3A43a50)
 
+JBDelegatesRegistry: [`0xCe3Ebe8A7339D1f7703bAF363d26cD2b15D23C23`](https://goerli.etherscan.io/address/0xCe3Ebe8A7339D1f7703bAF363d26cD2b15D23C23)
+
 JBDirectory: [`0x8E05bcD2812E1449f0EC3aE24E2C395F533d9A99`](https://goerli.etherscan.io/address/0x8E05bcD2812E1449f0EC3aE24E2C395F533d9A99)
 
 JBETHERC20ProjectPayerDeployer: [`0x981c8ECD009E3E84eE1fF99266BF1461a12e5c68`](https://goerli.etherscan.io/address/0x981c8ECD009E3E84eE1fF99266BF1461a12e5c68)
@@ -110,7 +114,9 @@ JBProjectHandles: [`0xAD6F7c8052F806F83AD5F51b33cE4E547CC00f3d`](https://goerli.
 
 ### $JBX
 
-Mainnet ERC-20 Token: [0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66](https://etherscan.io/token/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66)
+v1 JBX ERC-20: [`0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66`](https://etherscan.io/token/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66)
+
+JBV3Token: [`0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2`](https://etherscan.io/address/0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2)
 
 :::note
 To reduce gas fees, newly issued $JBX tokens are stored in the Juicebox [TicketBooth](../dev/deprecated/v1/ticketbooth/) contract by default ("staked"). $JBX holders can call the `unstake` function on the TicketBooth contract to mint $JBX ERC-20 tokens to their wallets. In the frontend, this is called `Claim` and can be found under the `Manage` button.
