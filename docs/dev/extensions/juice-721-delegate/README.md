@@ -1,5 +1,9 @@
 # ERC-721 Distribution Mechanism
 
+:::info
+This is the README from the `juice-721-delegate` [GitHub Repository](https://github.com/jbx-protocol/juice-721-delegate).
+:::
+
 ## Motivation
 
 If added to an existing project via a funding cycle, NFTs can provide utility or incentive for contributors to participate in funding of a project.

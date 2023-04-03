@@ -95,3 +95,7 @@ article iframe {
     content: url(/static/img/logo/icon-logo-white.svg);
   }
 }
+
+details {
+  --ifm-alert-background-color: transparent !important;
+}

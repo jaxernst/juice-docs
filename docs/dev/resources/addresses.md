@@ -112,30 +112,18 @@ JBProjectHandles: [`0xAD6F7c8052F806F83AD5F51b33cE4E547CC00f3d`](https://goerli.
 
 ## Juicebox DAO
 
-### $JBX
+### JBX ERC-20
 
-v1 JBX ERC-20: [`0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66`](https://etherscan.io/token/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66)
+[`Tickets`](/dev/deprecated/v1/ticketbooth/tickets/) v1 JBX: [`0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66`](https://etherscan.io/token/0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66)
 
-JBV3Token: [`0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2`](https://etherscan.io/address/0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2)
+[`JBV3Token`](/dev/extensions/juice-v3-migration/jbv3token/) v3 JBX: [`0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2`](https://etherscan.io/address/0x4554CC10898f92D45378b98D6D6c2dD54c687Fb2)
 
-:::note
-To reduce gas fees, newly issued $JBX tokens are stored in the Juicebox [TicketBooth](../dev/deprecated/v1/ticketbooth/) contract by default ("staked"). $JBX holders can call the `unstake` function on the TicketBooth contract to mint $JBX ERC-20 tokens to their wallets. In the frontend, this is called `Claim` and can be found under the `Manage` button.
-
-The above ERC-20 contract reflects the total supply of minted ERC-20 $JBX tokens.
-
-To ascertain the total supply of claimed (ERC-20) and unclaimed ("staked") $JBX tokens, call the `totalSupplyOf()` function on the TicketBooth contract above, passing project id `1` as the argument.
+:::info
+JBX holders but are not required to claim their JBX as the ERC-20 tokens above. For accurate balances, see the relevant [`JBTokenStore`](/dev/api/contracts/jbtokenstore/) or [`TicketBooth`](/dev/deprecated/v1/ticketbooth/) contract.
 :::
 
-### Gnosis Multisig
+### Gnosis Safe
 
-#### Mainnet
+Mainnet: [`0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e`](https://etherscan.io/address/0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e)
 
-Etherscan: [https://etherscan.io/address/0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e](https://etherscan.io/address/0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e)
-
-Gnosis Safe: [https://gnosis-safe.io/app/eth:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e/balances](https://gnosis-safe.io/app/eth:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e/balances)
-
-#### **Rinkeby**
-
-Etherscan: [https://rinkeby.etherscan.io/address/0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e](https://rinkeby.etherscan.io/address/0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e)
-
-Gnosis Safe: [https://gnosis-safe.io/app/rin:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e/balances](https://gnosis-safe.io/app/rin:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e/balances)
+Safe App: https://app.safe.global/eth:0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e
