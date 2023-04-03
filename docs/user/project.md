@@ -3,7 +3,7 @@ title: Setting Up Your Project
 sidebar_position: 2
 ---
 
-:::tip
+:::info
 We also have a [video tutorial](https://www.youtube.com/watch?v=2s2OyxG_rvo). If you need help, [contact onboarding](https://juicebox.money/contact).
 :::
 
@@ -51,7 +51,7 @@ This is where your payouts are sent. By default, payouts go to your wallet (the 
 
 You can define payouts by percentage (50% of funds go to `vitalik.eth`) or by amount (3 ETH goes to the `@peel` project, or $2,500 worth of ETH goes to `jango.eth`). You can use these payouts to manage your organization's entire payroll — JuiceboxDAO does.
 
-:::tip
+:::info
 Payouts to wallets (like `vitalik.eth`) will incur a 2.5% fee, which is paid to JuiceboxDAO. In exchange, your project will receive JuiceboxDAO's project token ($JBX), allowing you to govern the protocol. You can also redeem these tokens to reclaim some of the fees. Payouts to Juicebox projects don't incur any fees. To learn more, read [JBX & Fees](/dao/reference/jbx/).
 :::
 
@@ -65,7 +65,7 @@ For example: with a 3-day edit deadline, edits must be made at least 3 days befo
 
 ## Token
 
-:::tip
+:::info
 Project tokens are not ERC-20 tokens by default. Once you deploy your project, you can issue an ERC-20 for your supporters to claim, making them compatible with tools like Uniswap. This is optional.
 :::
 
@@ -113,7 +113,7 @@ Juicebox also lets you reward your supporters with one or more custom NFT tiers:
 
 You can use NFTs for off-chain governance with a tool like [Snapshot](/user/resources/snapshot/), or for on-chain governance with Governor Contracts — Juicebox NFTs adhere to the [`ERC721Votes`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Votes) standard. [*Learn more about on-chain governance.*](#on-chain-governance)
 
-:::tip
+:::info
 These NFTs are a great way to create an NFT collection for your artwork — some projects use Juicebox for this alone, turning off tokens entirely.
 :::
 
@@ -144,7 +144,7 @@ These settings apply to all of your NFTs:
 
 #### On-chain Governance
 
-:::tip
+:::info
 Snapshot strategies can read each NFT's voting power, even if your project is set to `No on-chain governance`. See [*Using Snapshot With Juicebox*](/user/resources/snapshot/).
 :::
 

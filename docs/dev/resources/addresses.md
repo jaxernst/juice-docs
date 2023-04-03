@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Contract Addresses
 
-:::tip
+:::info
 Visit the deprecated section for [v2 contract addresses](/dev/deprecated/v2/addresses) and [v1 contract addresses](/dev/deprecated/v1/resources/contract-addresses).
 :::
 

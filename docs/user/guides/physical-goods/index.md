@@ -50,7 +50,7 @@ Under `Workflows` you'll see a toggle at the bottom for `ERC 721 Token Gating Wo
 
 ![Token Gating on AddressForm](gating-contract-address-5x4.webp)
 
-:::tip
+:::info
 By token gating the form with the contract address, only people that hold NFTs from your Juicebox project will be able to access the form.
 :::
 

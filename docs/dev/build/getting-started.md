@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Getting started
 
+:::info
+You can also use the [`juice-contract-template`](https://github.com/jbx-protocol/juice-contract-template).
+:::
+
 #### Import
 
 Add the protocol files to the project.

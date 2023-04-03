@@ -8,7 +8,7 @@ Every Juicebox project has **Funding Cycles**, which can be used to synchronize 
 
 Juicebox projects have the option to set a _Funding cycle duration_. If a funding cycle duration is set, **project parameters can not be changed during a funding cycle**. Instead, reconfigurations are queued to be executed at the start of the next funding cycle.
 
-:::tip
+:::info
 Projects with no funding cycle duration can make project reconfigurations at any time, which will trigger a new funding cycle.
 :::
 

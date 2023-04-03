@@ -48,7 +48,7 @@ Another way to set-up our payouts is with `Percentages`. If we choose this optio
 
 If I **switch back** to `Amounts`, I’ll be prompted to set a **new** `Distribution Limit`. I’ll set this limit to $6,000 USD, which will be the max that can be withdrawn per 14-day funding cycle. If we withdraw the maximum of $6,000 USD, $2000 will go to Matthew and $4000 to me as the project owner, minus the 2.5% Juicebox membership fee.
 
-:::tip
+:::info
 Juicebox does not currently support stablecoins like USDC or DAI, so all USD values are **ETH denominated in USD.**
 :::
 

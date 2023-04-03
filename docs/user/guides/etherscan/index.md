@@ -10,7 +10,7 @@ title: Use Juicebox via Etherscan
 
 ![](Untitled%203.webp)
 
-:::tip
+:::info
 If you are not already familiar with project parameters, read the [Programmable treasury guide](https://docs.juicebox.money/dev/build/programmable-treasury) and the [`launchProjectFor`](https://docs.juicebox.money/dev/api/contracts/or-controllers/jbcontroller3_1/#launchprojectfor) docs.
 :::
 
@@ -25,7 +25,7 @@ If you are not already familiar with project parameters, read the [Programmable 
 ![](Untitled%206.webp)
 
 
-:::tip
+:::info
 If you are not already familiar with project parameters, read the [Programmable treasury guide](https://docs.juicebox.money/dev/build/programmable-treasury) and the [`reconfigureFundingCyclesOf`](/dev/api/contracts/or-controllers/jbcontroller3_1/#reconfigurefundingcyclesof) docs.
 :::
 

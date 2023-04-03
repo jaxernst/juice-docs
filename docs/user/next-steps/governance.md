@@ -13,7 +13,7 @@ Many projects have no need for formal governance — the project creator or a sm
 
 ## 2. Offchain Governance (Recommended)
 
-:::tip
+:::info
 Most projects ratify a Governance Process to use alongside Snapshot voting. Feel free to use [our process](https://docs.juicebox.money/dao/process/) as a starting point. You can also join the [Juicebox Discord](https://discord.gg/juicebox) and tag `filipv#0001` and `0xSTVG.eth (stevie g)#7744` for help.
 :::
 
@@ -33,7 +33,7 @@ Both of these options will require you to have an ENS address (this is a short n
 
 Once you have your space set up, you can use one of the [pre-written Snapshot strategies for Juicebox projects](/user/resources/snapshot/). If you're looking for something else, tag `filipv#0001` in the [Juicebox Discord](https://discord.gg/juicebox).
 
-:::tip
+:::info
 JuiceboxDAO contributors have built an [alternative Snapshot interface](https://juicetool.xyz/snapshot) with extra features (like search, filtering, and more stats).
 :::
 

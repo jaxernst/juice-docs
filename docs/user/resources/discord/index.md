@@ -8,7 +8,7 @@ If you don't already have an account, create one at [discord.gg](https://discord
 
 ## 1. Templates
 
-:::tip
+:::info
 Need a different template? Ask in the [Juicebox Discord](https://discord.gg/juicebox).
 :::
 

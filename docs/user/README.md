@@ -3,7 +3,7 @@ title: Start Here
 sidebar_position: 1
 ---
 
-:::tip
+:::info
 Can't find what you need? [Contact Onboarding](https://juicebox.money/contact).
 :::
 

@@ -5,7 +5,7 @@ sidebar_position: 5
 
 # Analytics
 
-:::tip
+:::info
 JuiceboxDAO's analytics are [public](/dao/reference/analytics/).
 :::
 
@@ -21,6 +21,6 @@ JuiceboxDAO's analytics are [public](/dao/reference/analytics/).
 
 1. The [Snapshot Dashboard](https://app.flipsidecrypto.com/dashboard/snapshot-plus-data-ueqrnb) provides analytics on proposals, voters, and other trends for a Snapshot space.
 
-:::tip
+:::info
 Looking for some analytics that aren't here? [Contact us](https://discord.gg/juicebox).
 :::

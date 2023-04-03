@@ -35,7 +35,7 @@ A multisig is an extra shield to protect your projects from harmful or faulty re
 
 The most popular multisig for managing Juicebox projects is [Gnosis Safe](https://safe.global/), which comes with a pre-built Juicebox integration: open the `Apps` menu, and open the Juicebox app to use it. You can even deploy your project from a Safe.
 
-:::tip
+:::info
 JuiceboxDAO contributors have also built:
 
 - A juicebox.money x Gnosis Safe integration ([example](https://juicebox.money/@juicebox/safe)).

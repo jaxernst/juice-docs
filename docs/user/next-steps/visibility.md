@@ -5,8 +5,8 @@ sidebar_position: 4
 
 # Visibility
 
-:::tip
-For more tips on growing your community, read [Shopify's guides](https://www.shopify.com/blog/marketing-plan).
+:::info
+For more tips on growing your community, read [Shopify's marketing plan guide](https://www.shopify.com/blog/marketing-plan).
 :::
 
 **How can you help people find your project?** Some popular tools include:
@@ -31,6 +31,6 @@ Writing articles about your project can be a great way to attract online attenti
 
 Having a landing page to explain your project is a great way to bring in traffic! If you're building your own website, you can use the [`juice-widgets`](https://github.com/jbx-protocol/juice-widgets) repo which has prebuilt assets and embeds for Juicebox projects.
 
-:::tip
+:::info
 Several Juicebox projects have massively benefited from traditional media coverage — especially ConstitutionDAO and AssangeDAO. If you are aiming to create a large-scale project, media outreach may be beneficial.
 :::
