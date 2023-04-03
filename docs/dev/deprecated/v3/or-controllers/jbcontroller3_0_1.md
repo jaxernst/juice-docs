@@ -1,5 +1,7 @@
 # JBController3_0_1
 
+Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
+
 [Git Source](https://github.com/jbx-protocol/juice-contracts-v3/blob/48fe7091a30761fa42ce394c68aad2fcf639ea53/contracts/JBController3_0_1.sol)
 
 Mainnet: [`0xA139D37275d1fF7275e6F33821898934Bc8Cb7B6`](https://etherscan.io/address/0xA139D37275d1fF7275e6F33821898934Bc8Cb7B6)
@@ -8,12 +10,9 @@ Goerli: [`0x696f8175E114C5C89248Fb254185Df3Df4cD03f3`](https://goerli.etherscan.
 
 Inherits: [`JBOperatable`](/dev/api/contracts/or-abstract/jboperatable/), [`ERC165`](https://docs.openzeppelin.com/contracts/4.x/api/utils#ERC165), [`IJBController`](/dev/api/interfaces/ijbcontroller/), [`IJBController3_0_1`](/dev/api/interfaces/ijbcontroller3_0_1/), [`IJBMigratable`](/dev/api/interfaces/ijbmigratable/)
 
----
-
 This Controller manages a project's reserved tokens explicitly instead of through a passive tracker property.
-It is backwards compatible with the original [`IJBController`](/dev/api/interfaces/ijbcontroller/), and exposes convenience view methods as part of [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/) for clearer queries.
 
-Stitches together funding cycles and project tokens, making sure all activity is accounted for and correct.
+It is backwards compatible with the original [`IJBController`](/dev/api/interfaces/ijbcontroller/), and exposes convenience view methods as part of [`IJBController3_1`](/dev/api/interfaces/ijbcontroller3_1/) for clearer queries.
 
 Adheres to:
 
@@ -230,7 +229,6 @@ function latestConfiguredFundingCycleOf(uint256 _projectId)
 ### currentFundingCycleOf
 
 A project's current funding cycle along with its metadata.
-
 
 ```solidity
 function currentFundingCycleOf(uint256 _projectId)
@@ -635,6 +633,7 @@ This controller should not yet be the project's controller.
 ```solidity
 function prepForMigrationOf(uint256 _projectId, address _from) external virtual override;
 ```
+
 **Parameters**
 
 |Name|Type|Description|
@@ -670,6 +669,7 @@ Distributes all outstanding reserved tokens for a project.
 ```solidity
 function _distributeReservedTokensOf(uint256 _projectId, string memory _memo) internal returns (uint256 tokenCount);
 ```
+
 **Parameters**
 
 |Name|Type|Description|
